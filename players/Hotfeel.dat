@@ -1,0 +1,10 @@
+desc:^:
+hp:^:(*int)100
+race:^:giant
+version:^:(*int)0
+password:^:hotfeel
+class:^:thief
+max_hp:^:(*int)100
+position:^:(*int)2
+room:^:5700
+name:^:Hotfeel

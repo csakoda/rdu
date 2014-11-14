@@ -1,0 +1,12 @@
+--- START MOBILE ---
+hp:^:(*int)100
+name:^:a complaining teenager
+desc:^:
+version:^:(*int)0
+class:^:
+race:^:
+position:^:(*int)2
+max_hp:^:(*int)100
+vnum:^:1
+keywords:^:complaining teenager
+--- END MOBILE ---

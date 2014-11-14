@@ -1,0 +1,52 @@
+--- START RACE ---
+name:^:troll
+base_str:^:(*int)16
+base_dex:^:(*int)13
+base_int:^:(*int)13
+base_con:^:(*int)14
+base_wis:^:(*int)13
+max_dex:^:(*int)22
+max_str:^:(*int)24
+max_int:^:(*int)21
+max_con:^:(*int)24
+max_wis:^:(*int)22
+--- END RACE ---
+--- START RACE ---
+name:^:elf
+base_str:^:(*int)12
+base_dex:^:(*int)15
+base_int:^:(*int)14
+base_con:^:(*int)11
+base_wis:^:(*int)13
+max_dex:^:(*int)25
+max_str:^:(*int)21
+max_int:^:(*int)24
+max_con:^:(*int)19
+max_wis:^:(*int)23
+--- END RACE ---
+--- START RACE ---
+name:^:dwarf
+base_str:^:(*int)14
+base_dex:^:(*int)11
+base_int:^:(*int)13
+base_con:^:(*int)16
+base_wis:^:(*int)14
+max_dex:^:(*int)20
+max_str:^:(*int)24
+max_int:^:(*int)20
+max_con:^:(*int)25
+max_wis:^:(*int)23
+--- END RACE ---
+--- START RACE ---
+name:^:giant
+base_str:^:(*int)16
+base_dex:^:(*int)12
+base_int:^:(*int)12
+base_con:^:(*int)15
+base_wis:^:(*int)13
+max_dex:^:(*int)21
+max_str:^:(*int)25
+max_int:^:(*int)19
+max_con:^:(*int)25
+max_wis:^:(*int)22
+--- END RACE ---

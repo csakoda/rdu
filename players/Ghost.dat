@@ -1,0 +1,12 @@
+position:^:(*int)2
+password:^:12345
+class:^:cleric
+hp:^:(*int)100
+version:^:(*int)0
+name:^:Ghost
+max_hp:^:(*int)100
+race:^:dwarf
+room:^:5701
+item:^:2
+equipment:^:1:^:11
+equipment:^:3:^:15

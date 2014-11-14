@@ -1,0 +1,30 @@
+--- START CLASS ---
+name:^:runist
+class_stat:^:dex
+skills:^:trip paint
+spells:^:phantom gate
+--- END CLASS ---
+--- START CLASS ---
+name:^:thief
+class_stat:^:dex
+skills:^:dirtkick sap sneak
+spells:^:gate mirror
+--- END CLASS ---
+--- START CLASS ---
+name:^:warrior
+class_stat:^:str
+skills:^:bash berserk thirdattack
+spells:^:gate
+--- END CLASS ---
+--- START CLASS ---
+name:^:cleric
+class_stat:^:wis
+skills:^:none
+spells:^:sanctuary heal curse blind gate
+--- END CLASS ---
+--- START CLASS ---
+name:^:mage
+class_stat:^:int
+skills:^:none
+spells:^:lightning gate mirror blind
+--- END CLASS ---

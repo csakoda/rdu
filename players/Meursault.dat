@@ -1,0 +1,10 @@
+race:^:dwarf
+room:^:5700
+password:^:12345
+max_hp:^:(*int)100
+name:^:Meursault
+version:^:(*int)0
+position:^:(*int)2
+desc:^:
+hp:^:(*int)100
+class:^:cleric

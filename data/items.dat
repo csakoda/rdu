@@ -1,0 +1,38 @@
+--- START ARMOR ---
+vnum:^:1
+keywords:^:woven leather bracelet
+wear_loc:^:(*int)11
+name:^:a woven leather bracelet
+desc:^:A woven leather bracelet lies here.
+weapon_type:^:None
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2
+keywords:^:gigantic war axe
+wear_loc:^:(*int)15
+name:^:a gigantic war axe
+desc:^:A gigantic war axe lies here.
+weapon_type:^:1
+dice_num:^:(*int)8
+dice_sides:^:(*int)5
+noun:^:chop
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3
+keywords:^:axe desolation
+wear_loc:^:(*int)15
+name:^:the axe of desolation
+desc:^:The axe of desolation lies here.
+weapon_type:^:1
+dice_num:^:(*int)5
+dice_sides:^:(*int)8
+noun:^:slice
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:4
+keywords:^:oath vengeance
+wear_loc:^:(*int)7
+name:^:Oath of Vengeance
+desc:^:An Oath of Vengeance lies here.
+weapon_type:^:None
+--- END ITEM ---
