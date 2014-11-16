@@ -433,20 +433,35 @@ def do_stand(char, args):
 
 
 def do_wake(char, args):
-    temp_position = char.player.get_position()
-    if char.player.affected_by(_.affect_list["sap"]):
-        _.send_to_char(char, "You can't wake up!\n\r")
+    import mobile
+    temp_target = char.player
+    if len(args.split()) > 0:
+        temp_target = mobile.get_mobile_in_room(args.split()[0], char.player.get_room())
+    if temp_target is None:
+        _.send_to_char(char, "They aren't here.\n\r")
         return
+    temp_position = temp_target.get_position()
+    if temp_target.affected_by(_.affect_list["sap"]):
+        if temp_target is char.player:
+            _.send_to_char(char, "You can't wake up!\n\r")
+        else:
+            _.send_to_char(char, "They won't wake up!\n\r")
+        return
+    temp_vector = temp_target.get_peer()
     if temp_position == _.POS_SLEEPING:
-        _.send_to_char(char, "You wake and stand up.\n\r")
-        _.send_to_room_except("%s wakes and stands up.\n\r" % char.player.get_name(), char.player.get_room(), [char,])
-        char.player.set_position(_.POS_STANDING)
+        _.send_to_char(temp_vector, "You wake and stand up.\n\r")
+        _.send_to_room_except("%s wakes and stands up.\n\r" % temp_target.get_name(), temp_target.get_room(), [temp_vector,])
+        temp_target.set_position(_.POS_STANDING)
+        do_look(temp_vector, "")
     elif temp_position == _.POS_RESTING:
-        _.send_to_char(char, "You stand up.\n\r")
-        _.send_to_room_except("%s stands up.\n\r" % char.player.get_name(), char.player.get_room(), [char,])
-        char.player.set_position(_.POS_STANDING)
+        _.send_to_char(temp_vector, "You stand up.\n\r")
+        _.send_to_room_except("%s stands up.\n\r" % temp_target.get_name(), temp_target.get_room(), [temp_vector,])
+        temp_target.set_position(_.POS_STANDING)
     else:
-        _.send_to_char(char, "You aren't sleeping.\n\r")
+        if temp_target is char.player:
+            _.send_to_char(char, "You aren't sleeping.\n\r")
+        else:
+            _.send_to_char(char, "They aren't sleeping.\n\r")
 
 
 def do_rest(char, args):
