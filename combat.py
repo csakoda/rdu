@@ -3,6 +3,7 @@ __author__ = 'ohell_000'
 
 import globals as _
 import random
+import skills
 
 
 def get_damage_string(damage, magical):
@@ -94,6 +95,26 @@ def get_damage_string(damage, magical):
             return "", "inflicts UNSPEAKABLE damage to", "!!"
 
 
+def do_elemental(hitter, victim, element):
+    if not victim:
+        return
+    if random.randint(0,10) > 5:
+        return
+    if "fire" in element:
+        _.send_to_char(victim.get_peer(), "You are burned by " + hitter.get_name() + "'s flames.\n\r")
+        _.send_to_char(hitter.get_peer(), victim.get_name() + " is burned by your flames.\n\r")
+        _.send_to_room_except(victim.get_name() + "is burned by " + hitter.get_name() + "'s flames.\n\r",hitter.get_room(),[victim.get_peer(), hitter.get_peer()])
+        victim.damage(2)
+        _.affect_list["blind"].apply_affect(victim,1)
+    if "shocking" in element:
+        _.send_to_char(hitter.get_peer(), "You shock them with your weapon, but it doesn't seem to have any effect.\n\r")
+    if "demon" in element:
+        _.send_to_char(victim.get_peer(), "You are stricken by the damnation of " + hitter.get_name() + ".\n\r")
+        _.send_to_char(hitter.get_peer(), victim.get_name() + " is struck down by hellfire.\n\r")
+        _.send_to_room_except(victim.get_name() + "is struck down by the damnation of " + hitter.get_name() + ".\n\r",hitter.get_room(),[victim.get_peer(), hitter.get_peer()])
+        victim.damage(2)
+        _.affect_list["curse"].apply_affect(victim,1)
+
 def start_combat(hitter, victim):
     try:
         victim.remove_affect("sap")
@@ -134,8 +155,9 @@ def do_one_hit(mob):
         mob.get_peer().nervous_count = _.NERVOUS_TIMER
     if victim.has_peer():
         victim.get_peer().nervous_count = _.NERVOUS_TIMER
-    temp_damage, temp_noun = mob.get_damage()
+    temp_damage, temp_noun, element = mob.get_damage()
     do_damage(mob, victim, temp_damage, temp_noun, False)
+    do_elemental(mob, mob.fighting, element)
 
 
 def do_one_round(mob):

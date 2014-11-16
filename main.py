@@ -9,7 +9,7 @@ import peer
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-s.bind(('', 51234))
+s.bind(('localhost', 51234))
 s.listen(4)
 
 lock = threading.Lock()

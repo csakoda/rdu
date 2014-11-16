@@ -135,7 +135,7 @@ class Weapon(Item):
         damage = 0
         for i in range(self.stats["dice_num"]):
             damage += random.randint(1, self.stats["dice_sides"])
-        return damage, self.stats["noun"]
+        return damage, self.stats["noun"], self.stats["element"]
 
 class Armor(Item):
     def __init__(self, vnum, keywords, name, desc, wear_loc):

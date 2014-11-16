@@ -48,6 +48,43 @@ def do_dirtkick(char, args, target, success):
     combat.end_combat_block()
 
 
+def get_room_by_vnum(v):
+    for a in _.areas:
+        for r in a.rooms:
+            if r.vnum == v:
+                return r
+
+def do_hunt(char, rgs, target, success):
+    _.send_to_room_except(char.player.get_name() + " sniffs the air.",char.player.get_room(),[char])
+    myroom = char.player.get_room()
+    destroom = target.get_room()
+    if myroom == destroom:
+        _.send_to_char(char, target.get_name() + " is HERE!")
+        return
+    fringe = []
+    for i,j in myroom.exits.items():
+        if not j is None:
+            fringe.append((get_room_by_vnum(j),i))
+    visited = [myroom]
+
+    for room in fringe:
+        if room[0] is None:
+            #print("NONE")
+            pass
+        elif room[0] in visited:
+            #print("VISITED")
+            pass
+        elif room[0] is destroom:
+            #print("DESTINATION FOUND: ", _.get_dir_string(room[1]))
+            _.send_to_char(char, target.get_name() + " is " + _.get_dir_string(room[1]) + " of you.")
+            return
+        else:
+            for i,j in room[0].exits.items():
+                if not j is None and not get_room_by_vnum(j) in visited:
+                    fringe.append((get_room_by_vnum(j),room[1]))
+        visited.append(room[0])
+
+
 def do_berserk(char, args, target, success):
     if success:  # Success
         _.affect_list["berserk"].apply_affect(char.player, 12)
@@ -134,6 +171,15 @@ class Skill():
             except IndexError:
                     _.send_to_char(char, "You must provide a target.\n\r")
                     return
+        elif self.target_state == _.TARGET_TARGET_ANYWHERE:
+            try:
+                target = mobile.get_mobile(args.split()[0])
+                if target == None:
+                    _.send_to_char(char, "You can't find them.\n\r")
+                    return
+            except IndexError:
+                _.send_to_char(char, "You must provide a target.\n\r")
+                return
         else:
             target = None
 
@@ -174,5 +220,6 @@ def initialize_skills():
     _.skill_list["berserk"] = Skill(do_berserk, _.POS_STANDING, 3, 3, False, _.TARGET_SELF_ONLY, True, True, check_berserk)
     _.skill_list["sap"] = Skill(do_sap, _.POS_STANDING, 3, 3, False, _.TARGET_TARGET_ONLY, False, False, check_sap)
     _.skill_list["sneak"] = Skill(None, _.POS_STANDING, 3, 3, True, _.TARGET_TARGET_ONLY, False, False, check_sneak)
+    _.skill_list["hunt"] = Skill(do_hunt, _.POS_STANDING, 1, 1, False, _.TARGET_TARGET_ANYWHERE, False, False, check_bash)
 
     _.skill_list_sorted = sorted(_.skill_list)

@@ -49,7 +49,7 @@ class Player(mobile.Mobile):
 
         temp_weapon = self.equipment[_.WEAR_WEAPON]
         if temp_weapon is None:
-            return random.randint(1,10), "punch"
+            return random.randint(1,10), "punch", "none"
         temp_damage = temp_weapon.get_damage()
         return temp_damage
 

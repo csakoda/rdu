@@ -1,0 +1,10 @@
+desc:^:
+password:^:12345
+name:^:Teal
+room:^:5700
+race:^:giant
+position:^:(*int)2
+version:^:(*int)0
+hp:^:(*int)100
+class:^:thief
+max_hp:^:(*int)100

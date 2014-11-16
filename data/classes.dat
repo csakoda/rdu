@@ -1,7 +1,7 @@
 --- START CLASS ---
 name:^:runist
 class_stat:^:dex
-skills:^:trip paint
+skills:^:trip paint hunt
 spells:^:phantom gate
 --- END CLASS ---
 --- START CLASS ---
@@ -19,7 +19,7 @@ spells:^:gate
 --- START CLASS ---
 name:^:cleric
 class_stat:^:wis
-skills:^:none
+skills:^:hunt sneak sap berserk
 spells:^:sanctuary heal curse blind gate
 --- END CLASS ---
 --- START CLASS ---

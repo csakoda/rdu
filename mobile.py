@@ -3,32 +3,57 @@ __author__ = 'ohell_000'
 
 import globals as _
 import random
-
+import re
 
 def get_mobile_in_room(target, room):
+    #check the number of the mob they are trying to target (if applicable) -> like, 2.bunnicula
+    rx = re.compile("[0-9]+")
+    n = 0
+    if not rx.match(target) is None:
+        n = int(rx.match(target).group()) - 1
+        target = target.split('.')[1]
     for m in _.mobiles:
         for i in m.get_keywords():
             if len(i) >= len(target) and i[:len(target)] == target and m.get_room() == room:
-                return m
+                if n == 0:
+                    return m
+                else:
+                    n -= 1
     else:
         return None
 
 
 def get_mobile_in_room_except(target, room, exceptions):
+    rx = re.compile("[0-9]+")
+    n = 0
+    if not rx.match(target) is None:
+        n = int(rx.match(target).group()) - 1
+        target = target.split('.')[1]
     for m in _.mobiles:
         for i in m.get_keywords():
             if len(i) >= len(target) and i[:len(target)] == target and m.get_room() == room and \
                     m not in exceptions:
-                return m
+                if n == 0:
+                    return m
+                else:
+                    n -= 1
     else:
         return None
 
 
 def get_mobile(target):
+    rx = re.compile("[0-9]+")
+    n = 0
+    if not rx.match(target) is None:
+        n = int(rx.match(target).group()) - 1
+        target = target.split('.')[1]
     for m in _.mobiles:
         for i in m.get_keywords():
             if len(i) >= len(target) and i[:len(target)] == target:
-                return m
+                if n == 0:
+                    return m
+                else:
+                    n -= 1
     else:
         return None
 
@@ -58,7 +83,7 @@ class Mobile():
         self.stats["position"] = position
 
     def get_damage(self):
-        return (0, "punch")
+        return (0, "punch", "none")
 
     def affected_by(self, affect):
         for a in self.affects:
