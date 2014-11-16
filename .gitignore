@@ -1,3 +1,4 @@
 .idea/*
 players/*
 __pycache__/*
+*.pyc
