@@ -22,7 +22,7 @@ def do_sap(char, args, target, success):
 def do_bash(char, args, target, success):
     combat.start_combat_block()
     if success:
-        _.send_to_char(char, "You send %s flying with a powerful bash!\n\r" % target.get_name(char.player))
+        _.send_to_char(char, "You send %s flying with a powerful bash!?!?!?\n\r" % target.get_name(char.player))
         _.send_to_char(target.get_peer(), "%s sends you flying with a powerful bash!\n\r" % char.player.get_name())
         _.send_to_room_except("%s sends %s flying with a powerful bash!\n\r" %
                               (char.player.get_name(), target.get_name()), char.player.get_room(),
