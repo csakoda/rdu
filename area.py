@@ -45,7 +45,8 @@ def initialize_area():
                     temp_room.vnum = temp_value
                 elif temp_key == "exit":
                     try:
-                        temp_vnum = l.split(":^:")[2].strip()
+                        temp_exit_data = l.split(":^:")[2].strip().split(',')
+                        temp_vnum = temp_exit_data[0]
                         temp_room.exits[int(temp_value)] = temp_vnum
                     except IndexError:
                         print("Illegal exit found.")

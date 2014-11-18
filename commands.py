@@ -160,50 +160,58 @@ def do_look(char, args):
         _.send_to_char(char, "You can't see anything!\n\r")
         return
 
-    #  Name and description
-    buf = temp_room.get_name() + "\n\r\n\r"\
-    + temp_room.get_desc() + "\n\r\n\rExits: [ "
+    if not args is None:
+        target = args.split()[0]
 
-    #  Exits
-    noexit = True  # -Rework-
-    for d in [x for x in sorted(temp_room.exits) if temp_room.exits[x] is not None]:
-        buf += _.get_dir_string(d) + " "
-        noexit = False
+        #check mobiles
+        temp_target = 
 
-    if noexit:
-        buf += "none "
 
-    buf += "]\n\r\n\r"
+    else:
+        #  Name and description
+        buf = temp_room.get_name() + "\n\r\n\r"\
+        + temp_room.get_desc() + "\n\r\n\rExits: [ "
 
-    #  Items
+        #  Exits
+        noexit = True  # -Rework-
+        for d in [x for x in sorted(temp_room.exits) if temp_room.exits[x] is not None]:
+            buf += _.get_dir_string(d) + " "
+            noexit = False
 
-    for r in temp_room.items:
-        buf += "%s\n\r" % r.get_desc()
-    if len(temp_room.items) > 0:
-        buf += "\n\r"
+        if noexit:
+            buf += "none "
 
-    #  Characters
+        buf += "]\n\r\n\r"
 
-    other_players = [c.player for c in _.peers if c is not char and c.player.get_room() == char.player.get_room()
-                                           and not c.linkdead and c.state == _.STATE_ONLINE]
-    other_mobs = [m for m in _.mobiles if m.get_peer() is None and m.get_room() == char.player.get_room()]
-    others = other_mobs + other_players
+        #  Items
 
-    for c in others:
-        pos_string = ""
-        pos_tag = ""
-        if c.get_position() == _.POS_FIGHTING:
-            pos_tag = ", fighting %s" % c.fighting.get_name() if c.fighting is not None else "null"
-        elif c.get_position() == _.POS_RESTING:
-            pos_string = "resting "
-        elif c.get_position() == _.POS_SLEEPING:
-            pos_string = "sleeping "
-        buf += "%s%s is %shere%s.\n\r" % ("<LINKDEAD> " if c.get_peer() is not None and c.get_peer().linkdead else "",
-                                          c.stats["name"].capitalize(), pos_string, pos_tag)
-    if len(others) > 0:
-        buf += "\n\r"
+        for r in temp_room.items:
+            buf += "%s\n\r" % r.get_desc()
+        if len(temp_room.items) > 0:
+            buf += "\n\r"
 
-    _.send_to_char(char, buf)
+        #  Characters
+
+        other_players = [c.player for c in _.peers if c is not char and c.player.get_room() == char.player.get_room()
+                                               and not c.linkdead and c.state == _.STATE_ONLINE]
+        other_mobs = [m for m in _.mobiles if m.get_peer() is None and m.get_room() == char.player.get_room()]
+        others = other_mobs + other_players
+
+        for c in others:
+            pos_string = ""
+            pos_tag = ""
+            if c.get_position() == _.POS_FIGHTING:
+                pos_tag = ", fighting %s" % c.fighting.get_name() if c.fighting is not None else "null"
+            elif c.get_position() == _.POS_RESTING:
+                pos_string = "resting "
+            elif c.get_position() == _.POS_SLEEPING:
+                pos_string = "sleeping "
+            buf += "%s%s is %shere%s.\n\r" % ("<LINKDEAD> " if c.get_peer() is not None and c.get_peer().linkdead else "",
+                                              c.stats["name"].capitalize(), pos_string, pos_tag)
+        if len(others) > 0:
+            buf += "\n\r"
+
+        _.send_to_char(char, buf)
 
 
 def do_quit(char, args):  # -Rework- to avoid quitting while nervous
