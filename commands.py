@@ -454,7 +454,7 @@ def do_wake(char, args):
         _.send_to_room_except("%s wakes and stands up.\n\r" % temp_target.get_name(), temp_target.get_room(), [temp_vector,])
         temp_target.set_position(_.POS_STANDING)
         do_look(temp_vector, "")
-    elif temp_position == _.POS_RESTING:
+    elif temp_position == _.POS_RESTING and temp_target is char.player:
         _.send_to_char(temp_vector, "You stand up.\n\r")
         _.send_to_room_except("%s stands up.\n\r" % temp_target.get_name(), temp_target.get_room(), [temp_vector,])
         temp_target.set_position(_.POS_STANDING)
