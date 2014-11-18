@@ -1,0 +1,13 @@
+max_hp:^:(*int)100
+room:^:5717
+desc:^:
+position:^:(*int)2
+race:^:troll
+class:^:runist
+password:^:12345
+version:^:(*int)0
+hp:^:(*int)18
+name:^:Aql
+item:^:3
+equipment:^:4:^:7
+equipment:^:2:^:15
