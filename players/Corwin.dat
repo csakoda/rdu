@@ -1,9 +1,11 @@
-password:^:12345
-race:^:elf
 name:^:Corwin
-class:^:mage
-version:^:(*int)0
 hp:^:(*int)100
-room:^:5700
-position:^:(*int)1
+desc:^:
+longdesc:^:
+password:^:12345
+class:^:mage
+position:^:(*int)2
 max_hp:^:(*int)100
+race:^:elf
+version:^:(*int)0
+room:^:5709
