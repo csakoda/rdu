@@ -38,6 +38,11 @@ def do_update():
             else:
                 a.duration -= 0.25
 
+    for a in _.areas:
+        a.resetTimer -= 0.25
+        if a.resetTimer <= 0:
+            a.resetTimer = 60
+            a.reset()
 
 class UpdateLoop(threading.Thread):
     def __init__(self):
