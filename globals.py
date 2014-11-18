@@ -183,7 +183,7 @@ def send_to_char(char, message, prompt=True, override=False, named=[]):
             #  Color stuff
             message = message.replace("{{", "{~")
             if char.player.get_color() == 1:
-                message = message.replace("{x", "\033[0;37m")
+                message = message.replace("{x", "\033[0;39m")
                 message = message.replace("{r", "\033[0;31m")
                 message = message.replace("{b", "\033[0;34m")
                 message = message.replace("{g", "\033[0;32m")
