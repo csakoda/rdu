@@ -546,6 +546,7 @@ def initialize_commands():
     #  Info
     _.command_list["where"] = Command(do_where, _.POS_RESTING, 0)
     _.command_list["who"] = Command(do_who, _.POS_SLEEPING, 0)
+    _.command_list["wh"] = Command(do_who, _.POS_SLEEPING, 0)
     _.command_list["commands"] = Command(do_commands, _.POS_SLEEPING, 0)
     _.command_list["look"] = Command(do_look, _.POS_RESTING, 0)
     _.command_list["inventory"] = Command(do_inventory, _.POS_SLEEPING, 0)
