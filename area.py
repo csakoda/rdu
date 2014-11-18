@@ -18,11 +18,10 @@ def initialize_area():
     areaFiles = []
     for file in os.listdir("./data/areas"):
         if file.endswith(".are"):
-            #print(file)
             areaFiles.append(file)
     for fn in areaFiles:
         f = open("./data/areas/" + fn)
-        temp_area = Area(fn[:len(fn) - 4])
+        temp_area = Area(fn[:1].capitalize() + fn[1:len(fn) - 4])
         _.areas.append(temp_area)
         lines = f.readlines()
         temp_room = None

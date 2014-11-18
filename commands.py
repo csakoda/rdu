@@ -110,7 +110,8 @@ def do_who(char, args):
 
 def do_where(char, args):
     found = False
-    buf = "Players near you:\n\r"
+    myarea = char.player.get_area()
+    buf = "Area: " + myarea.name + "\n\rPlayers near you:\n\r"
     for c in _.peers:
         buf += "%s  %s\n\r" % (c.player.stats["name"], c.player.get_room().get_name())
         found = True

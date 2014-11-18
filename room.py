@@ -30,7 +30,7 @@ class Room():
 
     def get_area(self):
         for a in _.areas:
-            if a.name == self.stats["area"]:
+            if a == self.stats["area"]:
                 return a
         else:
             return None

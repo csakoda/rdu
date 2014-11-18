@@ -1,8 +1,7 @@
 --- START ROOM ---
 vnum:^:3100
 name:^:Northwest end of Concourse
-desc:^:~
-You are at the concourse, the city wall is just west.  A small promenade 
+desc:^:You are at the concourse, the city wall is just west.  A small promenade 
 goes east, and the bridge is just north of here.  The concourse continues 
 south along the city wall. 
 exit:^:0:^:3051
@@ -12,8 +11,7 @@ exit:^:2:^:3270
 --- START ROOM ---
 vnum:^:3101
 name:^:Promenade
-desc:^:~
-The river gently flows west just north of here.  The promenade continues 
+desc:^:The river gently flows west just north of here.  The promenade continues 
 further east and to the west you see the city wall.  Park Road leads south 
 from here. 
 exit:^:1:^:3102
@@ -23,8 +21,7 @@ exit:^:3:^:3100
 --- START ROOM ---
 vnum:^:3102
 name:^:Promenade
-desc:^:~
-The river gently flows west just north of here.  The promenade continues 
+desc:^:The river gently flows west just north of here.  The promenade continues 
 both east and west.  A rickety bridge crosses the river to the north, towards 
 the city dump (fortunately, the wind is blowing towards the dump today).  
 South of here you see the entrance to the park, and a small building seems 
@@ -38,8 +35,7 @@ exit:^:3:^:3101
 --- START ROOM ---
 vnum:^:3103
 name:^:Austral Square
-desc:^:~
-The Promenade opens here onto Austral Square, on the south bank of the 
+desc:^:The Promenade opens here onto Austral Square, on the south bank of the 
 Midgaard River.  All around you is the bustle of Southern Midgaard-- 
 shopkeepers on break, a town gossip or two prattling away.  You hear the 
 river lapping at the pilings of the dock by Valan's Diner, which is to your 
@@ -53,8 +49,7 @@ exit:^:3:^:3102
 --- START ROOM ---
 vnum:^:3104
 name:^:Northeast end of Concourse
-desc:^:~
-You are at the Concourse.  The city wall is just east and Austral Square, 
+desc:^:You are at the Concourse.  The city wall is just east and Austral Square, 
 home of Valan's Diner, is west.  Looking across the river you see an old   
 warehouse.  A strong stone bridge crosses the river to the north, where the 
 concourse becomes wall road.  The Concourse continues south along the wall. 
@@ -65,8 +60,7 @@ exit:^:3:^:3103
 --- START ROOM ---
 vnum:^:3105
 name:^:Park Entrance
-desc:^:~
-You are standing just inside the small park of Midgaard.  To the north is 
+desc:^:You are standing just inside the small park of Midgaard.  To the north is 
 the promenade and a small path leads south into the park.  To your east is 
 the famous Park Cafe. 
 exit:^:0:^:3102
@@ -76,8 +70,7 @@ exit:^:2:^:3108
 --- START ROOM ---
 vnum:^:3106
 name:^:Park Cafe
-desc:^:~
-You are inside Park Cafe, a very well lighted, cosy place. The cafe 
+desc:^:You are inside Park Cafe, a very well lighted, cosy place. The cafe 
 is built from large logs. Through the windows in the northern wall you 
 see the river, and through the southern window you see many vigorous 
 colorful plants. 
@@ -86,8 +79,7 @@ exit:^:3:^:3105
 --- START ROOM ---
 vnum:^:3107
 name:^:Small path through the park
-desc:^:~
-You are walking along a small path through the park.  The path continues 
+desc:^:You are walking along a small path through the park.  The path continues 
 south and east. 
 exit:^:1:^:3108
 exit:^:2:^:3113
@@ -95,8 +87,7 @@ exit:^:2:^:3113
 --- START ROOM ---
 vnum:^:3108
 name:^:Small path in the park
-desc:^:~
-You are standing on a small path inside the park.  The park entrance is 
+desc:^:You are standing on a small path inside the park.  The park entrance is 
 just north of here, and Park Cafe is just east of the entrance.  The path 
 leads further east and west. 
 exit:^:0:^:3105
@@ -106,8 +97,7 @@ exit:^:3:^:3107
 --- START ROOM ---
 vnum:^:3109
 name:^:Small path in the park
-desc:^:~
-You are on a small path running through the park.  It continues west and 
+desc:^:You are on a small path running through the park.  It continues west and 
 south and just north of here you see the southern wall of Park Cafe. 
 exit:^:2:^:3115
 exit:^:3:^:3108
@@ -115,8 +105,7 @@ exit:^:3:^:3108
 --- START ROOM ---
 vnum:^:3110
 name:^:Cityguard Head Quarters
-desc:^:~
-You are inside a tidy office.  A big desk made from dark wood is standing 
+desc:^:You are inside a tidy office.  A big desk made from dark wood is standing 
 in the centre of the room. 
 exit:^:1:^:3111
 exit:^:3:^:3142
@@ -124,8 +113,7 @@ exit:^:3:^:3142
 --- START ROOM ---
 vnum:^:3111
 name:^:Park Road
-desc:^:~
-The road continues north and south.  A building is just west of here, you 
+desc:^:The road continues north and south.  A building is just west of here, you 
 notice a sign on the door.  The park entrance is to the east. 
 exit:^:0:^:3131
 exit:^:1:^:3112
@@ -135,8 +123,7 @@ exit:^:3:^:3110
 --- START ROOM ---
 vnum:^:3112
 name:^:Western Park Entrance
-desc:^:~
-You are standing at the western end of the park.  A small path leads east 
+desc:^:You are standing at the western end of the park.  A small path leads east 
 into the park and going west through the entrance you will reach Park Road. 
 exit:^:1:^:3113
 exit:^:3:^:3111
@@ -144,8 +131,7 @@ exit:^:3:^:3111
 --- START ROOM ---
 vnum:^:3113
 name:^:A path in the park
-desc:^:~
-You are in the park.  The paths lead north and west.  Westwards is the 
+desc:^:You are in the park.  The paths lead north and west.  Westwards is the 
 park entrance and to the east you see a small pond. 
 exit:^:0:^:3107
 exit:^:1:^:3114
@@ -154,8 +140,7 @@ exit:^:3:^:3112
 --- START ROOM ---
 vnum:^:3114
 name:^:The Pond
-desc:^:~
-You are swimming around in the pond, feeling rather stupid.  You can get 
+desc:^:You are swimming around in the pond, feeling rather stupid.  You can get 
 back on the path from the eastern and western end of the pond. 
 exit:^:1:^:3115
 exit:^:3:^:3113
@@ -163,8 +148,7 @@ exit:^:3:^:3113
 --- START ROOM ---
 vnum:^:3115
 name:^:A path in the park
-desc:^:~
-You are in the park.  The paths lead north and east.  Eastwards is the 
+desc:^:You are in the park.  The paths lead north and east.  Eastwards is the 
 park entrance and to the west you see a small pond. 
 exit:^:0:^:3109
 exit:^:1:^:3116
@@ -173,8 +157,7 @@ exit:^:3:^:3114
 --- START ROOM ---
 vnum:^:3116
 name:^:Eastern Park Entrance
-desc:^:~
-You are standing at the eastern end of the park.  A small path leads west 
+desc:^:You are standing at the eastern end of the park.  A small path leads west 
 into the park.  Going east through the entrance you will reach Emerald 
 Avenue. 
 exit:^:1:^:3117
@@ -183,8 +166,7 @@ exit:^:3:^:3115
 --- START ROOM ---
 vnum:^:3117
 name:^:Emerald Avenue
-desc:^:~
-You are at Emerald Avenue which continues north and south.  To the west is 
+desc:^:You are at Emerald Avenue which continues north and south.  To the west is 
 the park entrance and to the east is the not very big Town Hall of Midgaard. 
 exit:^:0:^:3132
 exit:^:1:^:3137
@@ -194,16 +176,14 @@ exit:^:3:^:3116
 --- START ROOM ---
 vnum:^:3118
 name:^:Park Road
-desc:^:~
-You are on Park Road which leads north and south. 
+desc:^:You are on Park Road which leads north and south. 
 exit:^:0:^:3111
 exit:^:2:^:3135
 ---  END ROOM  ---
 --- START ROOM ---
 vnum:^:3119
 name:^:Emerald Avenue
-desc:^:~
-You are standing at a bend on Emerald Avenue.  The road leads north and west. 
+desc:^:You are standing at a bend on Emerald Avenue.  The road leads north and west. 
 To the east, you see some run-down slums...it looks like the bad part of 
 town. 
 exit:^:0:^:3117
@@ -213,8 +193,7 @@ exit:^:3:^:3133
 --- START ROOM ---
 vnum:^:3120
 name:^:Road Crossing
-desc:^:~
-You are in the middle of the road cross.  Roads lead in all directions. 
+desc:^:You are in the middle of the road cross.  Roads lead in all directions. 
 A huge black iron chain as thick as a tree trunk is fastened into the ground 
 at the centre of the road cross.  Its other end leads directly upwards towards 
 the sky. 
@@ -228,8 +207,7 @@ exit:^:4:^:7914
 --- START ROOM ---
 vnum:^:3121
 name:^:Emerald Avenue
-desc:^:~
-You are standing at a bend on Emerald Avenue.  The road leads south and 
+desc:^:You are standing at a bend on Emerald Avenue.  The road leads south and 
 east. 
 exit:^:1:^:3134
 exit:^:2:^:3125
@@ -237,8 +215,7 @@ exit:^:2:^:3125
 --- START ROOM ---
 vnum:^:3122
 name:^:Park Road
-desc:^:~
-You are on Park Road which leads south and north.  Elm Street is east of 
+desc:^:You are on Park Road which leads south and north.  Elm Street is east of 
 here. 
 exit:^:0:^:3136
 exit:^:1:^:3123
@@ -247,8 +224,7 @@ exit:^:2:^:3126
 --- START ROOM ---
 vnum:^:3123
 name:^:Elm Street
-desc:^:~
-You are on Elm street.  Park Road is to the west and Elm Street continues 
+desc:^:You are on Elm street.  Park Road is to the west and Elm Street continues 
 in eastward direction. 
 exit:^:1:^:3124
 exit:^:3:^:3122
@@ -256,8 +232,7 @@ exit:^:3:^:3122
 --- START ROOM ---
 vnum:^:3124
 name:^:Elm Street
-desc:^:~
-You near the end of Elm Street.  An old elm tree grows here.  A heavy 
+desc:^:You near the end of Elm Street.  An old elm tree grows here.  A heavy 
 iron grating is south, surrounding the city's graveyard.  You can see a sign 
 hanging on the grate.  The concourse joins Elm Street to the east, and the 
 street ends to the north near a run-down neighborhood. 
@@ -269,8 +244,7 @@ exit:^:3:^:3123
 --- START ROOM ---
 vnum:^:3125
 name:^:Emerald Avenue
-desc:^:~
-You are on Emerald Avenue which continues north. 
+desc:^:You are on Emerald Avenue which continues north. 
 The Concourse is south of here. 
 exit:^:0:^:3121
 exit:^:2:^:3128
@@ -278,16 +252,14 @@ exit:^:2:^:3128
 --- START ROOM ---
 vnum:^:3126
 name:^:Park Road
-desc:^:~
-You are on Park Road which continues north.  The Concourse is south of here. 
+desc:^:You are on Park Road which continues north.  The Concourse is south of here. 
 exit:^:0:^:3122
 exit:^:2:^:3129
 ---  END ROOM  ---
 --- START ROOM ---
 vnum:^:3127
 name:^:On the Concourse
-desc:^:~
-You are at the southwest corner of the city wall.  The Concourse leads 
+desc:^:You are at the southwest corner of the city wall.  The Concourse leads 
 both north and east. 
 exit:^:0:^:3271
 exit:^:1:^:3128
@@ -295,8 +267,7 @@ exit:^:1:^:3128
 --- START ROOM ---
 vnum:^:3128
 name:^:On the Concourse
-desc:^:~
-You are walking around the scenic concourse as it continues its path around 
+desc:^:You are walking around the scenic concourse as it continues its path around 
 the city of Midgaard.  The south gate of the city lies to your east, and the 
 southwestern corner of the city wall is west.  Emerald Avenue stretches out 
 to the north. 
@@ -307,8 +278,7 @@ exit:^:3:^:3127
 --- START ROOM ---
 vnum:^:3129
 name:^:On the Concourse
-desc:^:~
-The concourse continues its path around the city.  The southern gates of the 
+desc:^:The concourse continues its path around the city.  The southern gates of the 
 city are west of here, and park road lies north.  The northeastern corner of 
 the city wall is east. 
 exit:^:0:^:3126
@@ -318,8 +288,7 @@ exit:^:3:^:3255
 --- START ROOM ---
 vnum:^:3130
 name:^:On the Concourse
-desc:^:~
-You are at the southeast corner of the city wall.  The Concourse leads 
+desc:^:You are at the southeast corner of the city wall.  The Concourse leads 
 both north and west. 
 exit:^:0:^:3273
 exit:^:3:^:3129
@@ -327,16 +296,14 @@ exit:^:3:^:3129
 --- START ROOM ---
 vnum:^:3131
 name:^:Park Road
-desc:^:~
-You are at Park Road which continues north and south. 
+desc:^:You are at Park Road which continues north and south. 
 exit:^:0:^:3101
 exit:^:2:^:3111
 ---  END ROOM  ---
 --- START ROOM ---
 vnum:^:3132
 name:^:Emerald Avenue
-desc:^:~
-You are standing on the north end of Emerald Avenue.  To the north is  
+desc:^:You are standing on the north end of Emerald Avenue.  To the north is  
 Austral Square and Valan's Diner, to the east is the small street Penny Lane. 
 exit:^:0:^:3103
 exit:^:1:^:3139
@@ -345,8 +312,7 @@ exit:^:2:^:3117
 --- START ROOM ---
 vnum:^:3133
 name:^:Emerald Avenue
-desc:^:~
-You are standing at a bend on Emerald Avenue.  To the east the road goes on 
+desc:^:You are standing at a bend on Emerald Avenue.  To the east the road goes on 
 and to the south is the Road Crossing. 
 exit:^:1:^:3119
 exit:^:2:^:3120
@@ -354,8 +320,7 @@ exit:^:2:^:3120
 --- START ROOM ---
 vnum:^:3134
 name:^:Emerald Avenue
-desc:^:~
-You are standing at a bend on Emerald Avenue.  To the west the road goes on 
+desc:^:You are standing at a bend on Emerald Avenue.  To the west the road goes on 
 and to the north is the Road Crossing. 
 exit:^:0:^:3120
 exit:^:3:^:3121
@@ -363,8 +328,7 @@ exit:^:3:^:3121
 --- START ROOM ---
 vnum:^:3135
 name:^:Park Road
-desc:^:~
-You are at a bend on Park Road.  To the north the road goes on and to the 
+desc:^:You are at a bend on Park Road.  To the north the road goes on and to the 
 east is the Road Crossing.  To the south, the ancient cliffs rise from deep 
 under the ground, forming a wall. 
 exit:^:0:^:3118
@@ -373,8 +337,7 @@ exit:^:1:^:3120
 --- START ROOM ---
 vnum:^:3136
 name:^:Park Road
-desc:^:~
-You are at a bend on Park Road.  To the south the road goes on and to the 
+desc:^:You are at a bend on Park Road.  To the south the road goes on and to the 
 west is the Road Crossing. 
 exit:^:2:^:3122
 exit:^:3:^:3120
@@ -382,8 +345,7 @@ exit:^:3:^:3120
 --- START ROOM ---
 vnum:^:3137
 name:^:The Waiting Room
-desc:^:~
-You are standing in the waiting room at the town hall.  Wooden chairs stand 
+desc:^:You are standing in the waiting room at the town hall.  Wooden chairs stand 
 along the walls and a long desk is placed in the middle of the room. 
 exit:^:1:^:3138
 exit:^:3:^:3117
@@ -391,8 +353,7 @@ exit:^:3:^:3117
 --- START ROOM ---
 vnum:^:3138
 name:^:The Mayor's Office
-desc:^:~
-You are in the not very big office of the Mayor of Midgaard.  A large and 
+desc:^:You are in the not very big office of the Mayor of Midgaard.  A large and 
 polished but completely empty desk is standing in front of an armchair that 
 looks so comfortable that it most of all resembles a bed with the head end 
 raised slightly. 
@@ -401,8 +362,7 @@ exit:^:3:^:3137
 --- START ROOM ---
 vnum:^:3139
 name:^:Penny Lane
-desc:^:~
-You are on Penny Lane.  Emerald Avenue is to the west and Penny Lane 
+desc:^:You are on Penny Lane.  Emerald Avenue is to the west and Penny Lane 
 continues in eastward direction. 
 exit:^:1:^:3140
 exit:^:3:^:3132
@@ -410,8 +370,7 @@ exit:^:3:^:3132
 --- START ROOM ---
 vnum:^:3140
 name:^:Penny Lane
-desc:^:~
-You are on Penny Lane.  The narrow road continues north and west, and 
+desc:^:You are on Penny Lane.  The narrow road continues north and west, and 
 the concourse intersects this street to the east. 
 exit:^:0:^:3141
 exit:^:1:^:3272
@@ -420,15 +379,13 @@ exit:^:3:^:3139
 --- START ROOM ---
 vnum:^:3141
 name:^:The end of Penny Lane
-desc:^:~
-You are at the end of Penny Lane.  The only exit appears to be south. 
+desc:^:You are at the end of Penny Lane.  The only exit appears to be south. 
 exit:^:2:^:3140
 ---  END ROOM  ---
 --- START ROOM ---
 vnum:^:3142
 name:^:Captain's Office
-desc:^:~
-You are in the Office of the Captain of the Guard.  The Midgaard Coat of 
+desc:^:You are in the Office of the Captain of the Guard.  The Midgaard Coat of 
 Arms is hanging on the north wall and a heavy steel door is to the south. 
 exit:^:1:^:3110
 exit:^:2:^:3143
@@ -436,16 +393,14 @@ exit:^:2:^:3143
 --- START ROOM ---
 vnum:^:3143
 name:^:The Jail
-desc:^:~
-You are in a dark and humid jail.  The dark stone walls are hard and cold 
+desc:^:You are in a dark and humid jail.  The dark stone walls are hard and cold 
 to the touch.  A heavy steel door is to the north. 
 exit:^:0:^:3142
 ---  END ROOM  ---
 --- START ROOM ---
 vnum:^:3144
 name:^:The end of Elm Street
-desc:^:~
-Elm street ends here, next to a dangerous-looking run down neighborhood. 
+desc:^:Elm street ends here, next to a dangerous-looking run down neighborhood. 
 You can enter the slums to the east, or head towards the graveyard to the 
 south.  It occurs to you that this isn't the happiest section of town. 
 exit:^:1:^:2160
@@ -454,8 +409,7 @@ exit:^:2:^:3124
 --- START ROOM ---
 vnum:^:3150
 name:^:Valan's Diner
-desc:^:~
-The smells of baking bread and simmering stew lead you dancing through 
+desc:^:The smells of baking bread and simmering stew lead you dancing through 
 the doorway of the diner.  No greasy spoons to be seen here-- the 
 booth walls are covered in casual paisleys; the chairs are carved wood, 
 rescued from garage sales.  Most tables have chess or backgammon boards 
@@ -475,8 +429,7 @@ exit:^:4:^:1219
 --- START ROOM ---
 vnum:^:3160
 name:^:Meghan's Maps
-desc:^:~
-As you walk in, a sudden gust of wind enters the shop and sends several 
+desc:^:As you walk in, a sudden gust of wind enters the shop and sends several 
 scraps of paper fly around the room.  You blink as the dust you've stirred  
 up stings your eyes, and take a look around the shop.  This shop is cluttered  
 with old pieces of parchment, stacks of books, and odd scraps.  A desk with  
@@ -490,8 +443,7 @@ exit:^:2:^:3024
 --- START ROOM ---
 vnum:^:3161
 name:^:Meghan's Room
-desc:^:~
-A faint smell of incense teases your nose as you enter this room.  You  
+desc:^:A faint smell of incense teases your nose as you enter this room.  You  
 step onto a soft bearskin rug and look around.  A simple bed lies against 
 the far wall.  At the foot of it is a sturdy, ironbound chest, most likely 
 full of Meghan's trappings from her adventuring days.  On a small table 
@@ -503,8 +455,7 @@ exit:^:4:^:1219
 --- START ROOM ---
 vnum:^:3170
 name:^:The Temple of Concentration
-desc:^:~
-You have entered a dark smoky room, with long black silk sheets dangling
+desc:^:You have entered a dark smoky room, with long black silk sheets dangling
 down all the sides of the walls. Incense sticks burn in each corner, trying
 to mask some other kind of odour that used to make this room reek. The
 floors are made out of a hard wood, and the roof is constructed of rice
@@ -516,8 +467,7 @@ exit:^:4:^:1219
 --- START ROOM ---
 vnum:^:3200
 name:^:Under the Bridge
-desc:^:~
-The arch under the bridge is covered by seaweed for one foot above the 
+desc:^:The arch under the bridge is covered by seaweed for one foot above the 
 surface of the river.  The water gently flows through an opening in the lower 
 part of the city wall. 
 exit:^:1:^:3201
@@ -526,8 +476,7 @@ exit:^:3:^:9772
 --- START ROOM ---
 vnum:^:3201
 name:^:On the River
-desc:^:~
-North of here you see the miserable buildings of the poor alley.  The 
+desc:^:North of here you see the miserable buildings of the poor alley.  The 
 river flows west towards the bridge.  The riverbanks are too steep to climb. 
 exit:^:1:^:3202
 exit:^:3:^:3200
@@ -535,8 +484,7 @@ exit:^:3:^:3200
 --- START ROOM ---
 vnum:^:3202
 name:^:On the River
-desc:^:~
-North of here you see the dump.  The river flows from east to west.  The 
+desc:^:North of here you see the dump.  The river flows from east to west.  The 
 riverbanks are too steep to climb.  A bridge passes overhead, connecting the 
 dump to the promenade. 
 exit:^:1:^:3203
@@ -545,8 +493,7 @@ exit:^:3:^:3201
 --- START ROOM ---
 vnum:^:3203
 name:^:On the River
-desc:^:~
-The levee is directly north of here, and a small boat landing for Valan's 
+desc:^:The levee is directly north of here, and a small boat landing for Valan's 
 Diner is to the south.  The river flows in an east west direction. 
 exit:^:0:^:3049
 exit:^:1:^:3204
@@ -556,8 +503,7 @@ exit:^:3:^:3202
 --- START ROOM ---
 vnum:^:3204
 name:^:On the River
-desc:^:~
-You see the warehouse on the northern riverbank.  East of here the river 
+desc:^:You see the warehouse on the northern riverbank.  East of here the river 
 passes under the eastern bridge and through the city wall. The banks of the  
 levee are west, in the direction of the current. 
 exit:^:1:^:3205
@@ -566,8 +512,7 @@ exit:^:3:^:3203
 --- START ROOM ---
 vnum:^:3205
 name:^:On the River
-desc:^:~
-The river enters from a hole in the eastern city wall.  The hole has been 
+desc:^:The river enters from a hole in the eastern city wall.  The hole has been 
 blocked by several vertically positioned iron bars set into the wall. Overhead 
 you can see the stone buttresses of the eastern bridge. 
 exit:^:1:^:5001
@@ -576,8 +521,7 @@ exit:^:3:^:3204
 --- START ROOM ---
 vnum:^:3250
 name:^:Wall Road
-desc:^:~
-Wall road extends north and south along the eastern walls of the city. 
+desc:^:Wall road extends north and south along the eastern walls of the city. 
 The east gate is north of you, south is an intersection with a dark alley. You 
 check to make sure you still have your wallet. 
 exit:^:0:^:3041
@@ -586,8 +530,7 @@ exit:^:2:^:3251
 --- START ROOM ---
 vnum:^:3251
 name:^:Wall Road
-desc:^:~
-You are walking along the eastern wall of the city, on the road extending
+desc:^:You are walking along the eastern wall of the city, on the road extending
 between the east gate and a bridge to the south.  A dark, dirty alley lies
 west of here.  You step carefully around a pool of blood, that is left over
 after some brawl that happened here.
@@ -598,8 +541,7 @@ exit:^:3:^:3046
 --- START ROOM ---
 vnum:^:3252
 name:^:Wall Road
-desc:^:~
-The walls of Midgaard tower above you to the east, keeping the city safe 
+desc:^:The walls of Midgaard tower above you to the east, keeping the city safe 
 from its enemies...you hope.  An intersection with a dark alley lies north, 
 and a bridge over the Midgaard river is south.  Beyond the bridge wall road 
 turns in the concourse. 
@@ -609,8 +551,7 @@ exit:^:2:^:3253
 --- START ROOM ---
 vnum:^:3253
 name:^:On the Bridge
-desc:^:~
-You are crossing a strong stone bridge, which spans the Midgaard river. 
+desc:^:You are crossing a strong stone bridge, which spans the Midgaard river. 
 Below you, the river flows into an opening in the city wall, sealed with 
 strong metal bars.  North of you is wall road, south of here the concourse 
 loops around the inside of the city walls. 
@@ -620,8 +561,7 @@ exit:^:2:^:3104
 --- START ROOM ---
 vnum:^:3254
 name:^:The South Bridge
-desc:^:~
-You are standing on a small, rickety bridge leading from the Midgaard 
+desc:^:You are standing on a small, rickety bridge leading from the Midgaard 
 City Dump to the much more attractive promenade of the southern parts of  
 Midgaard.  You can smell the stench of the dump to the north, the fresher 
 air of the promenade seems preferable.  Below you are the swift-moving  
@@ -632,8 +572,7 @@ exit:^:2:^:3102
 --- START ROOM ---
 vnum:^:3255
 name:^:Inside the South Gate of Midgaard
-desc:^:~
-Two strong stone towers surround a heavy wooden gate set into the city wall, 
+desc:^:Two strong stone towers surround a heavy wooden gate set into the city wall, 
 to guard against the goblins that lurk in the southern forests.  You can exit 
 the city to the south, if you dare, or walk down the concourse to the east 
 or west. 
@@ -645,8 +584,7 @@ exit:^:5:^:3018
 --- START ROOM ---
 vnum:^:3256
 name:^:Outside the South Gate of Midgaard
-desc:^:~
-You are standing outside the strong wooden gate on the southern walls of 
+desc:^:You are standing outside the strong wooden gate on the southern walls of 
 Midgaard.  Guards eye you suspiciously from the two towers on either side of 
 the gate, as they stand watch to protect the city from the goblins of this 
 forest.  The trees and goblins of the Miden'nir are south, the gate back to  
@@ -657,8 +595,7 @@ exit:^:2:^:3505
 --- START ROOM ---
 vnum:^:3257
 name:^:Wall Road
-desc:^:~
-You are walking along wall road, just north of the west gate of Midgaard.
+desc:^:You are walking along wall road, just north of the west gate of Midgaard.
 The wall road contines to the south and north.  The ground is covered
 in bone fragments and spilt blood.
 exit:^:0:^:3258
@@ -667,8 +604,7 @@ exit:^:2:^:3040
 --- START ROOM ---
 vnum:^:3258
 name:^:Wall Road
-desc:^:~
-Wall road intersects with a crowded Wary Way here, filled with shops and 
+desc:^:Wall road intersects with a crowded Wary Way here, filled with shops and 
 artisans.  The street stretches off to the east, towards the far wall of the 
 city.  Wall road continues to the north and south. 
 exit:^:0:^:3259
@@ -678,8 +614,7 @@ exit:^:2:^:3257
 --- START ROOM ---
 vnum:^:3259
 name:^:Wall Road
-desc:^:~
-You are walking along the wall road, which extents along the inside of the
+desc:^:You are walking along the wall road, which extents along the inside of the
 western wall of Midgaard.  To the south, you can see the wall road
 continue.
 exit:^:0:^:3260
@@ -688,8 +623,7 @@ exit:^:2:^:3258
 --- START ROOM ---
 vnum:^:3260
 name:^:The Northwest Corner
-desc:^:~
-You are standing beneath the northwestern corner of the city wall, on a turn 
+desc:^:You are standing beneath the northwestern corner of the city wall, on a turn 
 in wall road.  You can head south, towards the west gate, or east, to the  
 north gate. 
 exit:^:1:^:3261
@@ -698,8 +632,7 @@ exit:^:2:^:3259
 --- START ROOM ---
 vnum:^:3261
 name:^:Wall Road
-desc:^:~
-The city walls tower over you as you walk down the road, between the 
+desc:^:The city walls tower over you as you walk down the road, between the 
 northwestern corner of the wall to the west, and the northern gate of
 Midgaard to the east.
 exit:^:1:^:3262
@@ -708,8 +641,7 @@ exit:^:3:^:3260
 --- START ROOM ---
 vnum:^:3262
 name:^:Inside the North Gate of Midgaard
-desc:^:~
-Two small towers surround a strong wooden gate, connected by a small stone 
+desc:^:Two small towers surround a strong wooden gate, connected by a small stone 
 bridge set with murder holes.  This gate is not as heavily guarded as the  
 others, as the plains outside are safe to travel.  You can leave midgaard to 
 the north, or continues along wall road to the west and east.  A teeming clan 
@@ -723,8 +655,7 @@ exit:^:5:^:3017
 --- START ROOM ---
 vnum:^:3263
 name:^:Wall Road
-desc:^:~
-You are walking along wall road, between the northern gate of the city
+desc:^:You are walking along wall road, between the northern gate of the city
 and the northeastern corner of the city walls.  You can see scapes pices
 of bones, teeth, and bloodstains all over the ground.
 exit:^:1:^:3264
@@ -733,8 +664,7 @@ exit:^:3:^:3262
 --- START ROOM ---
 vnum:^:3264
 name:^:The Northeast Corner
-desc:^:~
-Wall road turns the corner here, as you pass by the northeastern edge of the 
+desc:^:Wall road turns the corner here, as you pass by the northeastern edge of the 
 city wall.  The north gate lies to your west, and the road south leads to the 
 eastern gate of Midgaard. 
 exit:^:2:^:3265
@@ -743,8 +673,7 @@ exit:^:3:^:3263
 --- START ROOM ---
 vnum:^:3265
 name:^:Wall Road
-desc:^:~
-Just south of you is an intersection with a crowded clan street.  The  
+desc:^:Just south of you is an intersection with a crowded clan street.  The  
 eastern wall of Midgaard is beside you, and to the north you can see the 
 northeast corner of the city wall. 
 exit:^:0:^:3264
@@ -753,8 +682,7 @@ exit:^:2:^:3266
 --- START ROOM ---
 vnum:^:3266
 name:^:Wall Road
-desc:^:~
-Here, wall road meets up with a busy clan street heading off towards the  
+desc:^:Here, wall road meets up with a busy clan street heading off towards the  
 west, and the far wall of the city.  You can smell spices, perfume, freshly 
 cured hide, and other strange scents, all mingle together in one heady aroma. 
 Wall road continues to the north and south. 
@@ -765,8 +693,7 @@ exit:^:3:^:3316
 --- START ROOM ---
 vnum:^:3267
 name:^:Wall Road
-desc:^:~
-You are near the center of the wall road, just north of the east gate of
+desc:^:You are near the center of the wall road, just north of the east gate of
 the city.  To the north, you can see the road continuning around the wall.
 exit:^:0:^:3266
 exit:^:2:^:3041
@@ -774,8 +701,7 @@ exit:^:2:^:3041
 --- START ROOM ---
 vnum:^:3268
 name:^:Outside the North Gate of Midgaard
-desc:^:~
-You stand outside the north gate of the walled city of Midgaard.  A dusty 
+desc:^:You stand outside the north gate of the walled city of Midgaard.  A dusty 
 trail is visibile to the north, it stretches around the walls of the city.   
 Further north are the wide expanses of the northern plains, leading to the  
 village of Ofcol.  You can return to Midgaard to the south. 
@@ -785,8 +711,7 @@ exit:^:2:^:3262
 --- START ROOM ---
 vnum:^:3270
 name:^:On the Concourse
-desc:^:~
-The strong stone walls of Midgaard rise up to the west, keeping evil at bay. 
+desc:^:The strong stone walls of Midgaard rise up to the west, keeping evil at bay. 
 The concourse heads towards a bridge to the north, and continues south  
 alongside a beautiful park. 
 exit:^:0:^:3100
@@ -795,8 +720,7 @@ exit:^:2:^:3271
 --- START ROOM ---
 vnum:^:3271
 name:^:On the Concourse near the park
-desc:^:~
-You are walking down the Concoruse, along the western wall of Midgaard.  To 
+desc:^:You are walking down the Concoruse, along the western wall of Midgaard.  To 
 the north, the road passes by a beautiful park, to the south, you can see 
 the southwest corner of the city wall. 
 exit:^:0:^:3270
@@ -805,8 +729,7 @@ exit:^:2:^:3127
 --- START ROOM ---
 vnum:^:3272
 name:^:On the Concourse at Penny Lane
-desc:^:~
-You are on a road leading around the inner walls of Midgaard.  To the north, 
+desc:^:You are on a road leading around the inner walls of Midgaard.  To the north, 
 the concourse heads towards a bridge into northern Midgaard.  To the south, 
 you can see an intersection with Elm Street.  The quaint paved streets of 
 Penny Lane lie west. 
@@ -817,8 +740,7 @@ exit:^:3:^:3140
 --- START ROOM ---
 vnum:^:3273
 name:^:On the Concourse at Elm Street
-desc:^:~
-The air grows chill as you pass near the Elm Street graveyard.  The walls of 
+desc:^:The air grows chill as you pass near the Elm Street graveyard.  The walls of 
 Midgaard are to the east, and the concourse continues to the north and south. 
 To your west, you see Elm Street at the graveyard entrance. 
 exit:^:0:^:3272
@@ -828,8 +750,7 @@ exit:^:3:^:3124
 --- START ROOM ---
 vnum:^:3301
 name:^:Wary Way
-desc:^:~
-You are standing on the western end of Wary Way.  The traffic here   
+desc:^:You are standing on the western end of Wary Way.  The traffic here   
 is light.  This is a quieter section of Midgaard.  You can hear the sound of 
 haggling coming from the east. 
 exit:^:0:^:3387
@@ -839,8 +760,7 @@ exit:^:3:^:3258
 --- START ROOM ---
 vnum:^:3302
 name:^:Wary Way
-desc:^:~
-You are walking along Wary Way.  To the south of you is the money changer.   
+desc:^:You are walking along Wary Way.  To the south of you is the money changer.   
 Wary Way continues on to the east and the west.   
 exit:^:1:^:3303
 exit:^:2:^:3334
@@ -849,8 +769,7 @@ exit:^:3:^:3301
 --- START ROOM ---
 vnum:^:3303
 name:^:Wary Way
-desc:^:~
-The shops on this stretch of Wary Way are long-closed and boarded up. 
+desc:^:The shops on this stretch of Wary Way are long-closed and boarded up. 
 Not much traffic passes through this part, as there is nothing to buy.   
 exit:^:1:^:3314
 exit:^:2:^:3364
@@ -859,8 +778,7 @@ exit:^:3:^:3302
 --- START ROOM ---
 vnum:^:3314
 name:^:Wary Way
-desc:^:~
-Noise and light abound on this part of Wary Way.  To the north appears
+desc:^:Noise and light abound on this part of Wary Way.  To the north appears
 some type of park.  Wary Way continues off to the east and west.
 exit:^:0:^:3360
 exit:^:1:^:3315
@@ -869,8 +787,7 @@ exit:^:3:^:3303
 --- START ROOM ---
 vnum:^:3315
 name:^:Wary Way
-desc:^:~
-Wary Way seems to widen here slightly, allowing more traffic to  
+desc:^:Wary Way seems to widen here slightly, allowing more traffic to  
 travel through the area.  To the south is another entrance to the busy 
 pub.  This door is also open wide and spilling forth the sounds of 
 happy patrons.  Wary Way continues to the east and west. 
@@ -881,8 +798,7 @@ exit:^:3:^:3314
 --- START ROOM ---
 vnum:^:3316
 name:^:Wary Way
-desc:^:~
-You are at the eastern end of Wary Way.  To the east of you, the   
+desc:^:You are at the eastern end of Wary Way.  To the east of you, the   
 tall wall around the city looms up before you and casts its shadow on 
 you.  Wary Way continues to the west.   
 exit:^:1:^:3266
@@ -891,8 +807,7 @@ exit:^:3:^:3315
 --- START ROOM ---
 vnum:^:3334
 name:^:A Money Changer's Room
-desc:^:~
-A few strategically placed lanterns keep this place well-lit in the  
+desc:^:A few strategically placed lanterns keep this place well-lit in the  
 absence of any windows.  The room is surprisingly well appointed with   
 tapestries hanging on the walls.  You'd wager your life the moneylender's 
 guards are behind them, as there are none here.  The moneylender himself 
@@ -903,8 +818,7 @@ exit:^:0:^:3302
 --- START ROOM ---
 vnum:^:3352
 name:^:Maugrim's Bar
-desc:^:~
-You walk into the comfortable atmosphere of Maugrim's Bar, at once at
+desc:^:You walk into the comfortable atmosphere of Maugrim's Bar, at once at
 home in the dimly lit pub.  Rows of bottles gleam behind the bar, with
 racks of glasses of all shapes overhead.  Wooden tables and benches are
 the main furnishings, rough hewn but well cared for and polished to a 
@@ -916,8 +830,7 @@ exit:^:2:^:3026
 --- START ROOM ---
 vnum:^:3355
 name:^:Andy's Pub
-desc:^:~
-The busy pub is filled with patrons.  People are laughing and singing. 
+desc:^:The busy pub is filled with patrons.  People are laughing and singing. 
 A minstrel plays his lute in another part of the pub, and a few people 
 are even dancing.  Andy, the pubs owner, wanders around and checks to see 
 that the needs of his customers are met.  The bar is to your south.  East 
@@ -929,8 +842,7 @@ exit:^:2:^:3357
 --- START ROOM ---
 vnum:^:3356
 name:^:A Room in the Pub
-desc:^:~
-This part of the pub is filled with dancing and singing.  A wandering 
+desc:^:This part of the pub is filled with dancing and singing.  A wandering 
 minstrel is on a chair in a corner with his lute.  A busty red headed 
 woman is standing near him and singing a tale of comedic heroism. Drunk 
 men sit laughing at their tables and busy bar maids weave through the 
@@ -946,8 +858,7 @@ exit:^:4:^:3359
 --- START ROOM ---
 vnum:^:3357
 name:^:The Bar
-desc:^:~
-A long mahogany bar is set in the back of the pub.  Mugs line a shelf 
+desc:^:A long mahogany bar is set in the back of the pub.  Mugs line a shelf 
 behind the bar.  Bottles of strong, nasty looking liquids decorate one 
 of the lower shelves.  A large cask rests on a table behind the bar.  A 
 strong but friendly-looking bartender stands next to the cask polishing 
@@ -959,8 +870,7 @@ exit:^:0:^:3355
 --- START ROOM ---
 vnum:^:3358
 name:^:The Bar
-desc:^:~
-A long mahogany bar is set in the back of the pub.  Mugs line a shelf 
+desc:^:A long mahogany bar is set in the back of the pub.  Mugs line a shelf 
 behind the bar.  Bottles of strong, nasty looking liquids decorate one 
 of the lower shelves.  A large cask rests on a table behind the bar.  A 
 strong but friendly looking bartender stands next to the cask polishing 
@@ -971,8 +881,7 @@ exit:^:0:^:3356
 --- START ROOM ---
 vnum:^:3359
 name:^:The Inn
-desc:^:~
-You are standing upstairs from Andy's Pub at Andy's Inn.  A few chairs 
+desc:^:You are standing upstairs from Andy's Pub at Andy's Inn.  A few chairs 
 and a couple of end tables give the room a `homey' atmosphere.  A large 
 stone fireplace burns brightly against one wall and warms the room.  A 
 large oak desk is nestled in one corner of the room.  A small man with 
@@ -984,8 +893,7 @@ exit:^:5:^:3356
 --- START ROOM ---
 vnum:^:3360
 name:^:The Old Venari Square
-desc:^:~
-A flower garden used to be planted in this area.  Years of neglect, however,
+desc:^:A flower garden used to be planted in this area.  Years of neglect, however,
 have turned it into a patch of weeds.  The door to Venari's abandoned outpost
 lies to the north.  Wary Way lies to the south.
 exit:^:0:^:3362
@@ -994,8 +902,7 @@ exit:^:2:^:3314
 --- START ROOM ---
 vnum:^:3361
 name:^:Sianghu's Eastern Wares
-desc:^:~
-The shop is filled with exotic scents from far away lands, and many
+desc:^:The shop is filled with exotic scents from far away lands, and many
 strange looking devices are displayed behind the counter.  You notice a
 heavily reinforced door leads to the south, as well as a view of main street
 outside.  
@@ -1005,16 +912,14 @@ exit:^:2:^:3363
 --- START ROOM ---
 vnum:^:3362
 name:^:The Old Venari Outpost
-desc:^:~
-Clan Venari must have abandoned this outpost several years ago, because
+desc:^:Clan Venari must have abandoned this outpost several years ago, because
 cobwebs and dust cover the floor.  A door lies to the south.
 exit:^:2:^:3360
 ---  END ROOM  ---
 --- START ROOM ---
 vnum:^:3363
 name:^:Yakuza Hideout
-desc:^:~
-This room is decorated opulently with many spoils from the far east. 
+desc:^:This room is decorated opulently with many spoils from the far east. 
 Silk tapestries line the walls as well as a low table of mahogany.  You are
 standing in the center of the local branch of the Yakuza; a group of ninja
 assassins and spies from the far east.  It turns out setting up his shop
@@ -1030,8 +935,7 @@ exit:^:3:^:3368
 --- START ROOM ---
 vnum:^:3364
 name:^:Off of Wary Way
-desc:^:~
-You stand before an abandoned stone building which used to be the
+desc:^:You stand before an abandoned stone building which used to be the
 outpost for Kenshi.  A wooden door lies to the south.  To the
 east is a covered porch.  And to the north is Wary Way.
 exit:^:0:^:3303
@@ -1041,8 +945,7 @@ exit:^:2:^:3366
 --- START ROOM ---
 vnum:^:3365
 name:^:A Covered Porch
-desc:^:~
-This porched used to be where Kenshi members would stand when they 
+desc:^:This porched used to be where Kenshi members would stand when they 
 wanted to some 'druid herbs'.  It now is falling to pieces, with
 weeds and broken stones scattered all around.  The only exit is to 
 the west.
@@ -1051,8 +954,7 @@ exit:^:3:^:3364
 --- START ROOM ---
 vnum:^:3366
 name:^:Within the Fortress
-desc:^:~
-The inside of the stone building is lacking much in the way of 
+desc:^:The inside of the stone building is lacking much in the way of 
 comfort.  Cold stone walls and floors give you a chilly feeling.
 No furniture or decorations soften the interior.
 A door lies to the north.
@@ -1061,14 +963,13 @@ exit:^:0:^:3364
 --- START ROOM ---
 vnum:^:3367
 name:^:Domaru's Yakuza Workshop
-desc:^:~
+desc:^:
 exit:^:3:^:3363
 ---  END ROOM  ---
 --- START ROOM ---
 vnum:^:3368
 name:^:Wan Li's Yakuza Workshop
-desc:^:~
-You hesitate to take any quick movements in this room, as nearly every
+desc:^:You hesitate to take any quick movements in this room, as nearly every
 surface seems to be covered with a razor sharp blade of some kind.  Wan Li
 is the Yakuza Weapon Master, specializing in new and inventive ways of
 dispatching of victims.  She stands at the ready, eyeing you intently.  
@@ -1077,8 +978,7 @@ exit:^:1:^:3363
 --- START ROOM ---
 vnum:^:3387
 name:^:A Crafter's Workshop
-desc:^:~
-You stand in a small room with several wooden work tables
+desc:^:You stand in a small room with several wooden work tables
 bolted to the walls.  Sawdust is piled up on the floor
 and metal shavings litter the corners.  You wonder what
 magical and mystical items were created here.
@@ -1087,8 +987,7 @@ exit:^:2:^:3301
 --- START ROOM ---
 vnum:^:3388
 name:^:A Small Shrine
-desc:^:~
-You have discovered a small and mostly unused shrine.  It appears to be
+desc:^:You have discovered a small and mostly unused shrine.  It appears to be
 in a fairly poor state of repair.  Either due to intentional vandalism or
 extended disuse, the paint is peeling, many floorboards are cracked, and the
 ceiling is in shambles.  One thing seems to still be good condition.  A
@@ -1101,8 +1000,7 @@ exit:^:1:^:3005
 --- START ROOM ---
 vnum:^:3001
 name:^:The Temple Of Bosco
-desc:^:~
-You are in the southern end of the temple hall in the Temple of Bosco. 
+desc:^:You are in the southern end of the temple hall in the Temple of Bosco. 
 The temple has been constructed from giant marble blocks, eternal in 
 appearance, and most of the walls are covered by ancient wall paintings 
 picturing gods, giants and peasants.  Mud school doors are found directly
@@ -1114,8 +1012,7 @@ exit:^:4:^:17179
 --- START ROOM ---
 vnum:^:3002
 name:^:Storm Drain Entrance
-desc:^:~
-After a few minutes of being down here, the stench is almost bearable.  Its a 
+desc:^:After a few minutes of being down here, the stench is almost bearable.  Its a 
 shame Midgaard doesn't have a better drainage system then this, but I guess its 
 something, compared to nothing.  Looking around, there seems to be tunnels 
 every which way. 
@@ -1127,8 +1024,7 @@ exit:^:4:^:3041
 --- START ROOM ---
 vnum:^:3003
 name:^:Drain Junction
-desc:^:~
-The bar is one of the finest in the land, lucky it is members only.  Fine 
+desc:^:The bar is one of the finest in the land, lucky it is members only.  Fine 
 furniture is set all around the room.  A small sign is hanging on the wall. 
 exit:^:0:^:3017
 exit:^:1:^:3002
@@ -1139,8 +1035,7 @@ exit:^:5:^:3027
 --- START ROOM ---
 vnum:^:3004
 name:^:Storm Drain Entrance
-desc:^:~
-After a few minutes of being down here, the stench is almost bearable.  Its a 
+desc:^:After a few minutes of being down here, the stench is almost bearable.  Its a 
 shame Midgaard doesn't have a better drainage system then this, but I guess its 
 something, compared to nothing.  Looking around, there seems to be tunnels 
 every which way. 
@@ -1152,8 +1047,7 @@ exit:^:4:^:3040
 --- START ROOM ---
 vnum:^:3005
 name:^:The Temple Square
-desc:^:~
-You are standing on the temple square.  Huge marble steps lead up to the 
+desc:^:You are standing on the temple square.  Huge marble steps lead up to the 
 temple gate.  The entrance to the old Boar's Head Inn, is to the east. 
 Just south of here you see the market square, the center of Midgaard. 
 exit:^:0:^:3001
@@ -1165,8 +1059,7 @@ exit:^:4:^:3057
 --- START ROOM ---
 vnum:^:3006
 name:^:Entrance to the Boar's Head Inn
-desc:^:~
-You are standing in the entrance hall of the Boar's Head Inn.  The hall 
+desc:^:You are standing in the entrance hall of the Boar's Head Inn.  The hall 
 has been wisely decorated with simple but functional furniture.  A small 
 staircase leads up to the defunct reception room and the bar is to the east. 
 exit:^:1:^:3007
@@ -1176,8 +1069,7 @@ exit:^:4:^:3008
 --- START ROOM ---
 vnum:^:3007
 name:^:The Boar's Head
-desc:^:~
-You are standing in the bar.  The bar is set against the northern wall,
+desc:^:You are standing in the bar.  The bar is set against the northern wall,
 old archaic writing, carvings and symbols cover its top.  A fireplace is
 built into the western wall, and through the southeastern windows you can
 see the temple square.  This place makes you feel like home.  A small sign
@@ -1187,16 +1079,14 @@ exit:^:3:^:3006
 --- START ROOM ---
 vnum:^:3008
 name:^:The Defunct Reception
-desc:^:~
-You are standing in a dusty, defunct reception.  The staircase leads 
+desc:^:You are standing in a dusty, defunct reception.  The staircase leads 
 down to the entrance hall. 
 exit:^:5:^:3006
 ---  END ROOM  ---
 --- START ROOM ---
 vnum:^:3009
 name:^:The Bakery
-desc:^:~
-You are standing inside the small bakery.  A sweet scent of Danish and 
+desc:^:You are standing inside the small bakery.  A sweet scent of Danish and 
 fine bread fills the room.  The bread and Danish are arranged in fine order 
 on the shelves, and seem to be of the finest quality. 
 A small sign is on the counter. 
@@ -1205,8 +1095,7 @@ exit:^:2:^:3013
 --- START ROOM ---
 vnum:^:3010
 name:^:The General Store
-desc:^:~
-You are inside the general store.  All sorts of items are stacked on shelves 
+desc:^:You are inside the general store.  All sorts of items are stacked on shelves 
 behind the counter, safely out of your reach. 
 A small note hangs on the wall. 
 exit:^:2:^:3015
@@ -1214,15 +1103,13 @@ exit:^:2:^:3015
 --- START ROOM ---
 vnum:^:3011
 name:^:The Weapon Shop
-desc:^:~
-You are inside the weapon shop.  There is a small note on the counter. 
+desc:^:You are inside the weapon shop.  There is a small note on the counter. 
 exit:^:2:^:3016
 ---  END ROOM  ---
 --- START ROOM ---
 vnum:^:3012
 name:^:Main Street
-desc:^:~
-You are at the end of the main street of Midgaard.  The street continues east 
+desc:^:You are at the end of the main street of Midgaard.  The street continues east 
 towards the market square.  The magic shop is to the north and to the west 
 is the city gate. 
 exit:^:0:^:3033
@@ -1233,8 +1120,7 @@ exit:^:3:^:3040
 --- START ROOM ---
 vnum:^:3013
 name:^:Main Street
-desc:^:~
-You are on the main street passing through the City of Midgaard.  South of 
+desc:^:You are on the main street passing through the City of Midgaard.  South of 
 here is the entrance to the Armoury, and the bakery is to the north.  East of 
 here is the market square. 
 exit:^:0:^:3009
@@ -1245,8 +1131,7 @@ exit:^:3:^:3012
 --- START ROOM ---
 vnum:^:3014
 name:^:Market Square
-desc:^:~
-You are standing on the market square, the famous Square of Midgaard. 
+desc:^:You are standing on the market square, the famous Square of Midgaard. 
 A large, peculiar looking statue is standing in the middle of the square. 
 Roads lead in every direction, north to the temple square, south to the 
 common square, east and westbound is the main street. 
@@ -1258,8 +1143,7 @@ exit:^:3:^:3013
 --- START ROOM ---
 vnum:^:3015
 name:^:The Main Street
-desc:^:~
-You are on Main Street crossing through town.  To the north is the general 
+desc:^:You are on Main Street crossing through town.  To the north is the general 
 store, and the main street continues east.  To the west you see and hear the 
 market place and to the south is the Jeweller's Shop. 
 exit:^:0:^:3010
@@ -1270,8 +1154,7 @@ exit:^:3:^:3014
 --- START ROOM ---
 vnum:^:3016
 name:^:The Main Street
-desc:^:~
-The main street, to the north is the weapons shop.  To the east you will 
+desc:^:The main street, to the north is the weapons shop.  To the east you will 
 leave town and to the west the street leads to the market square.
 exit:^:0:^:3011
 exit:^:1:^:3041
@@ -1280,8 +1163,7 @@ exit:^:3:^:3015
 --- START ROOM ---
 vnum:^:3017
 name:^:Storm Drain Entrance
-desc:^:~
-After a few minutes of being down here, the stench is almost bearable.  Its a 
+desc:^:After a few minutes of being down here, the stench is almost bearable.  Its a 
 shame Midgaard doesn't have a better drainage system then this, but I guess its 
 something, compared to nothing.  Looking around, there seems to be tunnels 
 every which way. 
@@ -1293,8 +1175,7 @@ exit:^:4:^:3262
 --- START ROOM ---
 vnum:^:3018
 name:^:Storm Drain Entrance
-desc:^:~
-After a few minutes of being down here, the stench is almost bearable.  Its a 
+desc:^:After a few minutes of being down here, the stench is almost bearable.  Its a 
 shame Midgaard doesn't have a better drainage system then this, but I guess its 
 something, compared to nothing.  Looking around, there seems to be tunnels 
 every which way. 
@@ -1306,8 +1187,7 @@ exit:^:4:^:3255
 --- START ROOM ---
 vnum:^:3019
 name:^:South-west Drain
-desc:^:~
-This place seems to only have two ways out.  Once you've figured where you are 
+desc:^:This place seems to only have two ways out.  Once you've figured where you are 
 you might find that it is a lot easier to find your way through here from the 
 last time.  It's a shame no matter where you go, this bottomless stench is 
 going to follow you. 
@@ -1318,8 +1198,7 @@ exit:^:5:^:7017
 --- START ROOM ---
 vnum:^:3020
 name:^:The Armoury
-desc:^:~
-The armoury with all kinds of armours on the walls and in the window.  You 
+desc:^:The armoury with all kinds of armours on the walls and in the window.  You 
 see helmets, shields and chain mails.  To the north is the main street. 
 On the wall is a small note. 
 exit:^:0:^:3013
@@ -1327,8 +1206,7 @@ exit:^:0:^:3013
 --- START ROOM ---
 vnum:^:3021
 name:^:North-west Drain
-desc:^:~
-This place seems to only have two ways out.  Once you've figured where you are 
+desc:^:This place seems to only have two ways out.  Once you've figured where you are 
 you might find that it is a lot easier to find your way through here from the 
 last time.  It's a shame no matter where you go, this bottomless stench is 
 going to follow you. 
@@ -1338,8 +1216,7 @@ exit:^:2:^:3004
 --- START ROOM ---
 vnum:^:3022
 name:^:North-east Drain
-desc:^:~
-This place seems to only have two ways out.  Once you've figured where you are 
+desc:^:This place seems to only have two ways out.  Once you've figured where you are 
 you might find that it is a lot easier to find your way through here from the 
 last time.  It's a shame no matter where you go, this bottomless stench is 
 going to follow you. 
@@ -1349,8 +1226,7 @@ exit:^:3:^:3017
 --- START ROOM ---
 vnum:^:3023
 name:^:South-east Drain
-desc:^:~
-This place seems to only have two ways out.  Once you've figured where you are 
+desc:^:This place seems to only have two ways out.  Once you've figured where you are 
 you might find that it is a lot easier to find your way through here from the 
 last time.  It's a shame no matter where you go, this bottomless stench is 
 going to follow you. 
@@ -1360,8 +1236,7 @@ exit:^:3:^:3018
 --- START ROOM ---
 vnum:^:3024
 name:^:Eastern End of Poor Alley
-desc:^:~
-You are at the poor alley. South of here is the Grubby Inn and to the 
+desc:^:You are at the poor alley. South of here is the Grubby Inn and to the 
 east you see common square. Meghan's map shop is north. The alley continues 
 further west. 
 exit:^:0:^:3160
@@ -1372,8 +1247,7 @@ exit:^:3:^:3044
 --- START ROOM ---
 vnum:^:3025
 name:^:The Common Square
-desc:^:~
-The common square, people pass you, talking to each other.  To the west is 
+desc:^:The common square, people pass you, talking to each other.  To the west is 
 the poor alley and to the east is the dark alley.  To the north, this square 
 is connected to the market square.  From the south you notice a nasty smell. 
 exit:^:0:^:3014
@@ -1384,8 +1258,7 @@ exit:^:3:^:3024
 --- START ROOM ---
 vnum:^:3026
 name:^:The Dark Alley
-desc:^:~
-The dark alley, to the west is the common square.  Maugrim's Bar is to the
+desc:^:The dark alley, to the west is the common square.  Maugrim's Bar is to the
 north, the famous Midgaard dive where everyone talks and drinks.
 exit:^:0:^:3352
 exit:^:1:^:3045
@@ -1394,8 +1267,7 @@ exit:^:3:^:3025
 --- START ROOM ---
 vnum:^:3027
 name:^:Entrance to the Midgaards Sewers
-desc:^:~
-Ick..  The smell has just about become unbearable.  The fumes from the raw 
+desc:^:Ick..  The smell has just about become unbearable.  The fumes from the raw 
 sewage on the floor beneath your feet is giving off something a litle more 
 you would have expected. 
 exit:^:2:^:3028
@@ -1404,8 +1276,7 @@ exit:^:4:^:3003
 --- START ROOM ---
 vnum:^:3028
 name:^:Sewage Tunnel
-desc:^:~
-This is a long tunnel to the sewage system of Midgaard.  It's a not a very far 
+desc:^:This is a long tunnel to the sewage system of Midgaard.  It's a not a very far 
 walk, though with the fumes in here.  It might seem a lot less tolerable. 
 exit:^:0:^:3027
 exit:^:2:^:3029
@@ -1413,8 +1284,7 @@ exit:^:2:^:3029
 --- START ROOM ---
 vnum:^:3029
 name:^:Sewage Tunnel
-desc:^:~
-This is a long tunnel to the sewage system of Midgaard.  It's a not a very far 
+desc:^:This is a long tunnel to the sewage system of Midgaard.  It's a not a very far 
 walk, though with the fumes in here.  It might seem a lot less tolerable. 
 exit:^:0:^:3028
 exit:^:2:^:7030
@@ -1422,8 +1292,7 @@ exit:^:2:^:7030
 --- START ROOM ---
 vnum:^:3030
 name:^:The Dump
-desc:^:~
-The dump, where the people from the city drop their garbage.  Through the 
+desc:^:The dump, where the people from the city drop their garbage.  Through the 
 garbage you can see a large junction of pipes, looks like the entrance to the 
 sewer system.  South of here you see the river and to the north is the common 
 square.  A rickety old bridge leads south to the promenade. 
@@ -1434,23 +1303,20 @@ exit:^:5:^:7030
 --- START ROOM ---
 vnum:^:3031
 name:^:The Pet Shop
-desc:^:~
-The Pet Shop is a small crowded store, full of cages and animals of 
+desc:^:The Pet Shop is a small crowded store, full of cages and animals of 
 various sorts and sizes.  There is a sign on the wall. 
 exit:^:2:^:3045
 ---  END ROOM  ---
 --- START ROOM ---
 vnum:^:3032
 name:^:Pet Shop Store
-desc:^:~
-This is the small dark room in which the Pet Shop Boy keeps his pets. 
+desc:^:This is the small dark room in which the Pet Shop Boy keeps his pets. 
 It is vital that this room be immediately after the pet shop. 
 ---  END ROOM  ---
 --- START ROOM ---
 vnum:^:3033
 name:^:The Magic Shop
-desc:^:~
-You are in a small room that smells of rare chemicals and spices. 
+desc:^:You are in a small room that smells of rare chemicals and spices. 
 Dividing the room in two is a large desk, and on the wall behind it are 
 numerous shelves crammed with jars, bottles, books and scrolls of all 
 sorts and sizes. 
@@ -1459,8 +1325,7 @@ exit:^:2:^:3012
 --- START ROOM ---
 vnum:^:3034
 name:^:The Jeweller's Shop
-desc:^:~
-You are in a small, beautifully furnished room.  The warm light emanating 
+desc:^:You are in a small, beautifully furnished room.  The warm light emanating 
 from the small oil lamps on the walls is reflected in the hard, polished 
 surface of the big mahogany desk that stands in the centre of the room. 
 A small sign with golden letters stands on the desk. 
@@ -1469,8 +1334,7 @@ exit:^:0:^:3015
 --- START ROOM ---
 vnum:^:3035
 name:^:The Leather Shop
-desc:^:~
-An acrid smell fills this large room.  Along the walls are numerous 
+desc:^:An acrid smell fills this large room.  Along the walls are numerous 
 shelves containing all sorts of animal hide and in the crackling fireplace 
 hangs a big iron pot with boiling water.  In the middle of the room is a 
 large oak table. 
@@ -1480,8 +1344,7 @@ exit:^:2:^:3044
 --- START ROOM ---
 vnum:^:3040
 name:^:Inside the West Gate of Midgaard
-desc:^:~
-You are by two small towers that have been built into the city wall and 
+desc:^:You are by two small towers that have been built into the city wall and 
 connected with a footbridge across the heavy wooden gate.  Main Street leads 
 east and Wall Road leads both north and south from here. 
 exit:^:0:^:3257
@@ -1493,8 +1356,7 @@ exit:^:5:^:3004
 --- START ROOM ---
 vnum:^:3041
 name:^:Inside the East Gate of Midgaard
-desc:^:~
-You are by two small towers that have been built into the city wall and 
+desc:^:You are by two small towers that have been built into the city wall and 
 connected with a footbridge across the heavy wooden gate.  Main Street leads 
 west from here.  Wall road crosses the street, heading north and south along 
 the city wall. 
@@ -1507,8 +1369,7 @@ exit:^:5:^:3002
 --- START ROOM ---
 vnum:^:3042
 name:^:Wall Road
-desc:^:~
-You are walking next to the western city wall.  The road continues further 
+desc:^:You are walking next to the western city wall.  The road continues further 
 south and the city gate is just north of here. 
 exit:^:0:^:3040
 exit:^:2:^:3043
@@ -1516,8 +1377,7 @@ exit:^:2:^:3043
 --- START ROOM ---
 vnum:^:3043
 name:^:Wall Road
-desc:^:~
-You are walking next to the western city wall.  Wall Road continues further 
+desc:^:You are walking next to the western city wall.  Wall Road continues further 
 north and south.  A small, poor alley leads east. 
 Some letters have been written on the wall here. 
 exit:^:0:^:3042
@@ -1527,8 +1387,7 @@ exit:^:2:^:3047
 --- START ROOM ---
 vnum:^:3044
 name:^:Poor Alley
-desc:^:~
-You are in a narrow and dirty alley leading east and west.  The leather
+desc:^:You are in a narrow and dirty alley leading east and west.  The leather
 shop is to the north.  
 exit:^:0:^:3035
 exit:^:1:^:3024
@@ -1538,8 +1397,7 @@ exit:^:3:^:3043
 --- START ROOM ---
 vnum:^:3045
 name:^:Alley at Levee
-desc:^:~
-You are standing in the alley which continues east and west.  South of 
+desc:^:You are standing in the alley which continues east and west.  South of 
 here you see the levee.  North is the Pet Shop. 
 exit:^:0:^:3031
 exit:^:1:^:3046
@@ -1549,8 +1407,7 @@ exit:^:3:^:3026
 --- START ROOM ---
 vnum:^:3046
 name:^:Eastern end of Alley
-desc:^:~
-You are standing at the eastern end of the alley,  near the city walls.   
+desc:^:You are standing at the eastern end of the alley,  near the city walls.   
 Wall road loops around the city to your east, and you can see an old  
 three-story warehouse to the south.  The Fountain of Youth Apothecary is  
 north. 
@@ -1562,8 +1419,7 @@ exit:^:3:^:3045
 --- START ROOM ---
 vnum:^:3047
 name:^:Wall Road
-desc:^:~
-You are standing on the road next to the western city wall which 
+desc:^:You are standing on the road next to the western city wall which 
 continues north.  South of here is a bridge across the river.  To the east, 
 you see an odd looking building painted bright orange with purple trim... 
 it must be the Mob Factory! 
@@ -1574,16 +1430,14 @@ exit:^:2:^:3051
 --- START ROOM ---
 vnum:^:3048
 name:^:Grubby Inn
-desc:^:~
-You are inside the old Grubby Inn.  This place has not been cleaned for 
+desc:^:You are inside the old Grubby Inn.  This place has not been cleaned for 
 several decades, vile smells make you dizzy. 
 exit:^:0:^:3024
 ---  END ROOM  ---
 --- START ROOM ---
 vnum:^:3049
 name:^:Levee
-desc:^:~
-You are at the levee.  South of here you see the river gently flowing west. 
+desc:^:You are at the levee.  South of here you see the river gently flowing west. 
 The river bank is very low making it possible to enter the river.  Directly 
 across the river you can see a small boat landing built off of Valan's Diner. 
 exit:^:0:^:3045
@@ -1592,8 +1446,7 @@ exit:^:2:^:3203
 --- START ROOM ---
 vnum:^:3050
 name:^:Abandoned Warehouse
-desc:^:~
-You are inside the only room in the old warehouse.  The place is very dusty 
+desc:^:You are inside the only room in the old warehouse.  The place is very dusty 
 and appears to have been unused for many years.  The skylight spills 
 violet-tinged light. 
 exit:^:0:^:3046
@@ -1602,8 +1455,7 @@ exit:^:4:^:8604
 --- START ROOM ---
 vnum:^:3051
 name:^:On the Bridge
-desc:^:~
-You are standing on the stone bridge crosses the river.  The bridge is 
+desc:^:You are standing on the stone bridge crosses the river.  The bridge is 
 built out from the western city wall and the river flows west through an 
 opening in the wall ten feet below the bridge. 
 exit:^:0:^:3047
@@ -1612,8 +1464,7 @@ exit:^:2:^:3100
 --- START ROOM ---
 vnum:^:3052
 name:^:Outside the West Gate of Midgaard
-desc:^:~
-You are by two small towers that have been built into the city wall and 
+desc:^:You are by two small towers that have been built into the city wall and 
 connected with a footbridge across the heavy wooden gate.  To the west you 
 can see the edge of a big forest. A small dusty trail leads north along the 
 wall. 
@@ -1624,8 +1475,7 @@ exit:^:3:^:6000
 --- START ROOM ---
 vnum:^:3053
 name:^:Outside the East Gate of Midgaard
-desc:^:~
-You are by two small towers that have been built into the city wall and 
+desc:^:You are by two small towers that have been built into the city wall and 
 connected with a footbridge across the heavy wooden gate.  To the east the 
 plains stretch out in the distance. To the north a small dusty trail follow 
 the city wall. 
@@ -1636,8 +1486,7 @@ exit:^:3:^:3041
 --- START ROOM ---
 vnum:^:3054
 name:^:By the Temple Altar
-desc:^:~
-You are by the temple altar in the northern end of the Temple of Bosco. 
+desc:^:You are by the temple altar in the northern end of the Temple of Bosco. 
 A huge altar made from white polished marble is standing in front of you and
 behind it is a ten foot tall sitting statue of Bosco, lord of all the realm.
 The back of the altar opens into a beautiful atrium, above which can be seen
@@ -1649,8 +1498,7 @@ exit:^:4:^:1215
 --- START ROOM ---
 vnum:^:3056
 name:^:The Fountain of Youth Apothecary
-desc:^:~
-An old man putters around behind the counter, making strange love potions 
+desc:^:An old man putters around behind the counter, making strange love potions 
 and curative philtres.  He turns as you enter, and looks on with avarice. 
 Judging from the furnishings, he's been made very wealthy by his trade. 
 exit:^:2:^:3046
@@ -1658,8 +1506,7 @@ exit:^:2:^:3046
 --- START ROOM ---
 vnum:^:3057
 name:^:In the air...
-desc:^:~
-WOW you can fly!  You are floating in the air above Temple Square of Midgaard. 
+desc:^:WOW you can fly!  You are floating in the air above Temple Square of Midgaard. 
 exit:^:4:^:1017
 exit:^:5:^:3005
 ---  END ROOM  ---
