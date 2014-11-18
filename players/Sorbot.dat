@@ -1,0 +1,11 @@
+position:^:(*int)2
+room:^:5717
+class:^:runist
+name:^:Sorbot
+hp:^:(*int)100
+desc:^:
+version:^:(*int)0
+max_hp:^:(*int)100
+password:^:connor
+race:^:elf
+item:^:3

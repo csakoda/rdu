@@ -1,0 +1,10 @@
+password:^:12345
+race:^:elf
+name:^:Nurlam
+class:^:cleric
+version:^:(*int)0
+hp:^:(*int)100
+room:^:5702
+position:^:(*int)2
+max_hp:^:(*int)100
+equipment:^:2:^:15

@@ -462,7 +462,7 @@ def do_wake(char, args):
         _.send_to_room_except("%s wakes and stands up.\n\r" % temp_target.get_name(), temp_target.get_room(), [temp_vector,])
         temp_target.set_position(_.POS_STANDING)
         do_look(temp_vector, "")
-    elif temp_position == _.POS_RESTING:
+    elif temp_position == _.POS_RESTING and temp_target is char.player:
         _.send_to_char(temp_vector, "You stand up.\n\r")
         _.send_to_room_except("%s stands up.\n\r" % temp_target.get_name(), temp_target.get_room(), [temp_vector,])
         temp_target.set_position(_.POS_STANDING)
@@ -554,6 +554,7 @@ def initialize_commands():
     #  Info
     _.command_list["where"] = Command(do_where, _.POS_RESTING, 0)
     _.command_list["who"] = Command(do_who, _.POS_SLEEPING, 0)
+    _.command_list["wh"] = Command(do_who, _.POS_SLEEPING, 0)
     _.command_list["commands"] = Command(do_commands, _.POS_SLEEPING, 0)
     _.command_list["look"] = Command(do_look, _.POS_RESTING, 0)
     _.command_list["inventory"] = Command(do_inventory, _.POS_SLEEPING, 0)

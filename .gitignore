@@ -1,4 +1,4 @@
 .idea/*
-players/*
 __pycache__/*
 *.pyc
+.DS_Store
