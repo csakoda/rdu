@@ -182,7 +182,7 @@ def do_look(char, args):
             elif item.get_item_in_inventory(char, target):
                 _.send_to_char(char, item.get_item_in_inventory(char, target).stats['desc'] + "\n\r")
             else:
-                _.send_to_char("They aren't here.\n\r")
+                _.send_to_char(char, "They aren't here.\n\r")
 
     else:
         #  Name and description

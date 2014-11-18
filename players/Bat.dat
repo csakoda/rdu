@@ -1,0 +1,11 @@
+password:^:12345
+version:^:(*int)0
+max_hp:^:(*int)100
+name:^:Bat
+room:^:5701
+desc:^:
+longdesc:^:
+hp:^:(*int)100
+class:^:thief
+position:^:(*int)2
+race:^:elf
