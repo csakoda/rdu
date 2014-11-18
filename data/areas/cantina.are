@@ -261,7 +261,7 @@ forth across the floor, rotating the stock so that everything is used by the
 date printed in red on the can.  A crashing sound in the distance warns you
 that these piles of cans aren't as stable as they appear, and you make your
 way warily between them.
-mobiles:^:1
+mobiles:^:5700
 exit:^:0:^:5721
 exit:^:2:^:5719
 exit:^:3:^:5724
@@ -285,7 +285,7 @@ up all the way.
 exit:^:0:^:5723
 exit:^:3:^:5725
 exit:^:1:^:5718
-mobiles:^:1 1
+mobiles:^:5700 5700
 ---  END ROOM  ---
 --- START ROOM ---
 vnum:^:5724

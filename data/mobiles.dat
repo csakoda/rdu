@@ -1,12 +1,284 @@
 --- START MOBILE ---
-hp:^:(*int)100
+vnum:^:5700
+keywords:^:Tim Bits Baker
+name:^:Tim Bits, the jolly Baker
+desc:^:Tim Bits the jolly baker stands here with flour all over him.
+longdesc:^:A rather large man, the only thing larger than his girth is his heart. 
+He is known for his generosity to the poor.  
+race:^:human
+max_hp:^:3d9+208
+damage:^:2d6+3
+noun:^:squeeze
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5701
+keywords:^:Alisa woman 
+name:^:Alisa
+desc:^:A woman is here expertly decorating a wedding cake.
+longdesc:^:A lovely woman, the years have been nice to her.  The lines on her face
+can best be described as laugh lines, for it appears that she has always
+been happy.  Her hands are gentle but nimble as they fly across the hundreds
+of pastries she creates each day.  
+race:^:human
+max_hp:^:50d10+6000
+damage:^:6d7+21
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5702
+keywords:^:moonmaeven witch magick
+name:^:Moonmaeven
+desc:^:The witch contemplates you in silence as she prepares an herbal remedy.
+longdesc:^:Purple eyes look up at you from under a cascading mane of silver hair. 
+They seem to smile at you, as if knowing your inner thoughts.  Are you
+really at peace with yourself, they ask?  
+race:^:elf
+max_hp:^:25d10+3000
+damage:^:8d4+16
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5703
+keywords:^:elderly lady woman
+name:^:a lonely old woman
+desc:^:An elderly woman is here carefully dusting her precious antiques.
+longdesc:^:Her hair is unkempt..  Grey with streaks of white.  Her face, lined with
+wrinkles.  Her movements are slow, aided by her cane, which is an
+intricately carved piece of wood.  The symbols are unintelligible to you,
+however they seem to have been painstakingly wrought into the wood.  
+race:^:human
+max_hp:^:2d7+121
+damage:^:2d4+2
+noun:^:thwack
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5704
+keywords:^:mom woman
+name:^:a harried mom
+desc:^:A woman stands here picking at her nails fretfully. 
+longdesc:^:Short hair and an even shorter temper and her pocketbook looks like it
+packs a mean punch.  Do you really want to bother her right now?  
+race:^:human
+max_hp:^:3d9+208
+damage:^:2d6+3
+noun:^:smother
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5705
+keywords:^:baby
+name:^:a screaming baby
+desc:^:A baby is here crying loudly.
+longdesc:^:Of course she's crying, her diaper is soiled so badly that you can smell
+it from where you stand.  You'd be crying too if you had to sit in that!  
+race:^:human
+max_hp:^:2d6+85
+damage:^:1d8+1
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5706
+keywords:^:toddler
+name:^:a running toddler
+desc:^:A toddler is here running over people's feet.
+longdesc:^:A tempestuous child, you can tell by the crooked grin that he has no clue
+that he's actually hurting people, he just wants to play with you.  
+race:^:human
+max_hp:^:2d7+121
+damage:^:2d4+2
+noun:^:chomp
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5707
+keywords:^:teen teenager
 name:^:a complaining teenager
-desc:^:
-version:^:(*int)0
-class:^:
-race:^:
-position:^:(*int)2
-max_hp:^:(*int)100
-vnum:^:1
-keywords:^:complaining teenager
+desc:^:A teenager is here mumbling about the unfairness of it all. 
+longdesc:^:Short and petite, she belongs at cheerleading practice, not out shopping
+with her mom, and from her constant grumbling, you know she agrees.  
+race:^:human
+max_hp:^:2d10+150
+damage:^:1d10+3
+noun:^:scratch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5708
+keywords:^:old lady 
+name:^:an old lady
+desc:^:An old lady is here clipping coupons furiously.
+longdesc:^:The years have not been kind to this woman, and she takes it out on
+everyone around her.  You might want to turn away before you catch her eye. 
+race:^:human
+max_hp:^:2d10+170
+damage:^:2d5+3
+noun:^:skewer
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5709
+keywords:^:business executive man
+name:^:a business executive
+desc:^:A man is here talking on a strange contraption.
+longdesc:^:Crisply ironed clothes, and a large briefcase slung over his shoulder, he
+looks ready for anything.  Except perhaps for the news that he is getting
+from whomever he is talking to.  He does not look happy.  
+race:^:human
+max_hp:^:3d9+208
+damage:^:2d6+3
+noun:^:entangle
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5710
+keywords:^:cashier woman
+name:^:a bored cashier
+desc:^:A woman stands here waiting to take your money.
+longdesc:^:Chewing gum, she flashes her yellowed teeth in a semblance of a smile as
+she waits for you to pay her.  
+race:^:human
+max_hp:^:2d10+150
+damage:^:1d10+3
+noun:^:charge
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5711
+keywords:^:stock boy
+name:^:a stock boy
+desc:^:A boy is here stacking cans on shelves.
+longdesc:^:With a look of sheer determination on his face, this boy concentrates on
+the task at hand...  Stacking the cans on the shelf so that they don't fall
+over.  It would not be a good idea to break his concentration.  
+race:^:human
+max_hp:^:2d7+121
+damage:^:2d4+2
+noun:^:crush
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5712
+keywords:^:bag boy
+name:^:a bag boy
+desc:^:A boy is waiting here to pack your bags for you.
+longdesc:^:With a bored look on his face, you know that this youngster does not have
+your food's best interests in mind.  You watch as he packs the bags with no
+regard for heavy items, putting them on top of eggs and bread in no
+particular order.  
+race:^:human
+max_hp:^:2d7+121
+damage:^:2d4+2
+noun:^:force
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5713
+keywords:^:butcher man
+name:^:the butcher
+desc:^:A grim looking man stands here slicing meat from a bone.
+longdesc:^:His hands are gnarled and covered with scars, most likely from mistakes
+made when cutting meat.  He looks formidable, but the smile on his face
+tells you he is very friendly.  Just don't make him mad.  
+race:^:human
+max_hp:^:3d9+208
+damage:^:2d6+3
+noun:^:gutting
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5714
+keywords:^:bunnicula vampire bunny
+name:^:Bunnicula
+desc:^:A cute, fluffy innocent bunny hops around. Don't let him see you looking at him or he might get scared.
+longdesc:^:Is it just your imagination, or does this bunny have fangs?  
+race:^:rabbit
+max_hp:^:2d7+96
+damage:^:1d7+2
+noun:^:drain
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5715
+keywords:^:big man
+name:^:a jolly big man
+desc:^:A big man is here serving up platters of grease for his customers.
+longdesc:^:A rather large man with an engaging smile, the proprietor
+of this less than elegant establishment is happy with his
+life. His hair is neatly pulled back in a ponytail, and 
+if you look closely you'll see that it is streaked in purple.
+race:^:human
+max_hp:^:50d10+9000
+damage:^:8d6+26
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5716
+keywords:^:Angel
+name:^:Angel
+desc:^:Angel is here quietly humming to herself.
+longdesc:^:Her blue scales are awash with an irridescent light that is almost
+surreal.  The glow illuminates the store and everything around her in a
+gentle blue hue.  
+race:^:blue dragon
+max_hp:^:50d10+9000
+damage:^:8d6+26
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5717
+keywords:^:kitten marmalade orange Shammyra
+name:^:Shammyra
+desc:^:A beautiful flame coloured kitten licks herself contentedly.
+longdesc:^:Fluffy orange and white fur masks a powerful feline form.
+race:^:cat
+max_hp:^:2d6+60
+damage:^:1d6+1
+noun:^:scratch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5718
+keywords:^:dog dogmutt mutt puppy
+name:^:Dogmutt
+desc:^:A rather strange looking dog is here happily chewing on a bone.
+longdesc:^:Everything is so out of place!  My ears are too long, and my nose is too
+short.  My tail knocks things over when I wag it, but I get so darned
+excited I can't help myself!  
+race:^:dog
+max_hp:^:2d7+96
+damage:^:1d7+2
+noun:^:chomp
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5719
+keywords:^:Douve man dragon blue
+name:^:Douve
+desc:^:An old blue dragon has offered to share his wisdom with others.
+longdesc:^:With a smile for everyone but his enemies, this blue dragon can be your
+best friend, or your worst nightmare.  
+race:^:blue dragon
+max_hp:^:2d10+150
+damage:^:1d10+3
+noun:^:wrath
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5720
+keywords:^:Catacomb dragon red man
+name:^:Catacomb
+desc:^:A big red dragon is here daring you to hurt his master.
+longdesc:^:Protector of Innocents, am I.
+race:^:red dragon
+max_hp:^:3d9+208
+damage:^:2d6+3
+noun:^:wrath
+position:^:(*int)1
 --- END MOBILE ---

@@ -160,12 +160,29 @@ def do_look(char, args):
         _.send_to_char(char, "You can't see anything!\n\r")
         return
 
-    if not args is None:
+    #TODO: Look NORTH
+
+    #Look AT something or someone
+    if not args is None and not args is "":
+        import mobile
         target = args.split()[0]
 
         #check mobiles
-        temp_target = 
+        temp_target = mobile.get_mobile_in_room(target, temp_room)
 
+        if temp_target:
+            _.send_to_char(char, temp_target.stats['desc'] + "\n\r")
+
+        else:
+            import item
+            temp_target = item.get_item_in_room(temp_room, target)
+
+            if temp_target:
+                _.send_to_char(char, temp_target.stats['desc'] + "\n\r")
+            elif item.get_item_in_inventory(char, target):
+                _.send_to_char(char, item.get_item_in_inventory(char, target).stats['desc'] + "\n\r")
+            else:
+                _.send_to_char("They aren't here.\n\r")
 
     else:
         #  Name and description

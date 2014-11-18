@@ -83,7 +83,8 @@ class Mobile():
         self.stats["position"] = position
 
     def get_damage(self):
-        return (0, "punch", "none")
+        
+        return (0, self.stats["noun"], "none")
 
     def affected_by(self, affect):
         for a in self.affects:
@@ -268,6 +269,16 @@ def initialize_mobiles():
                 temp_value = int(temp_value[6:])
             elif temp_key == "vnum":
                 temp_mobile.vnum = temp_value
+            elif temp_key == "max_hp":
+                #text stores as 5d6+200 or something similar: this code handles that
+                t = temp_value.split("+")
+                m = int(t[1])
+                dice = int(t[0].split('d')[0])
+                sides = int(t[0].split('d')[1])
+                for i in range(0, dice):
+                    m += random.randint(0, sides)
+                temp_mobile.stats["max_hp"] = m
+                print (m)
             elif temp_key == "keywords":
                 temp_mobile.keywords = temp_value.split()
             else:
