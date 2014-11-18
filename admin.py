@@ -76,6 +76,9 @@ def parse_command(char, input_string):
 
 
 def save_char(char):
+    import os
+    if not os.path.exists('players'):
+        os.makedirs('players')
     f = open("players/" + char.player.stats["name"] + ".dat","w")
     for s in char.player.stats:
         f.write("%s:^:%s%s\n" % (s, "" if type(char.player.stats[s]) is str else "(*int)", char.player.stats[s]))
