@@ -488,7 +488,7 @@ def do_wake(char, args):
         return
     temp_vector = temp_target.get_peer()
     if temp_position == _.POS_SLEEPING:
-        _.send_to_char(temp_vector, "You wake and stand up.\n\r")
+        _.send_to_char(temp_vector, "You wake and stand up.\n\r", False)
         _.send_to_room_except("%s wakes and stands up.\n\r" % temp_target.get_name(), temp_target.get_room(), [temp_vector,])
         temp_target.set_position(_.POS_STANDING)
         do_look(temp_vector, "")
@@ -506,10 +506,11 @@ def do_wake(char, args):
 def do_rest(char, args):
     temp_position = char.player.get_position()
     if temp_position == _.POS_SLEEPING:
-        _.send_to_char(char, "You wake up and start resting.\n\r")
+        _.send_to_char(char, "You wake up and start resting.\n\r", False)
         _.send_to_room_except("%s wakes up and starts resting.\n\r" % char.player.get_name(), char.player.get_room(),
                               [char,])
         char.player.set_position(_.POS_RESTING)
+        do_look(char, "")
     elif temp_position == _.POS_RESTING:
         _.send_to_char(char, "You are already resting.\n\r")
     elif temp_position == _.POS_STANDING:
