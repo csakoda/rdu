@@ -1,0 +1,490 @@
+--- START ROOM ---
+vnum:^:6500
+name:^:Path to Dwarven Village
+desc:^:~
+All around you are the mountains of the southern range, home of dwarves
+and giants.  You can climb back down the mountains to the west and leave
+these realms, or seek riches in the northern mineshafts.  A path to the
+Cantina lies to the east and a dirt road leads south, toward a small
+building.  You can hear crying and shrieking coming from it.
+exit:^:0:^:6501
+exit:^:1:^:5729
+exit:^:2:^:6601
+exit:^:3:^:6562
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6501
+name:^:Path, base of mountain
+desc:^:~
+Now you are at the bottom of a rugged mountain.  The forest around you is
+very dense, and it seems very dark to the north.
+exit:^:0:^:6502
+exit:^:2:^:6500
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6502
+name:^:Path, middle of mountain
+desc:^:~
+Standing on the middle of the mountain, you can easily see the turning
+point to the south, and the top of the mountain is very near to the north.
+exit:^:0:^:6503
+exit:^:2:^:6501
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6503
+name:^:Top of mountain
+desc:^:~
+You are now on the top of the mountain.  To the south you see a path
+leading down the mountain.  To the east and west you see entrances to
+what seems like mines.
+exit:^:1:^:6540
+exit:^:2:^:6502
+exit:^:3:^:6505
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6504
+name:^:Narrow Path
+desc:^:~
+This is a narrow path leading to the Dwarven Kingdom.  It looks less
+travelled than the others, and it is very creepy.  The path opens up
+to the south, and continues to the north.
+exit:^:0:^:6506
+exit:^:2:^:6540
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6505
+name:^:Entrance to Mountain
+desc:^:~
+Here is an entrance to the mountain.  The door looks very well built,
+and you can hear noise coming from within.
+exit:^:1:^:6503
+exit:^:3:^:6513
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6506
+name:^:Bend in Narrow Path
+desc:^:~
+This is a narrow path that bends to the east here.  The trees hang over
+the path, and it is very overgrown.  The narrow path continues to the
+south and to the east.
+exit:^:1:^:6507
+exit:^:2:^:6504
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6507
+name:^:Narrow path
+desc:^:~
+This path is very narrow, and it continues to the north and west.
+exit:^:0:^:6508
+exit:^:3:^:6506
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6508
+name:^:Narrow north-south path
+desc:^:~
+This path leads to the north and south.  To the north you can see a
+door, and to the south the path continues.
+exit:^:0:^:6509
+exit:^:2:^:6507
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6509
+name:^:Door to Kingdom
+desc:^:~
+Here the path turns to the west.  You can see a door in front of you,
+and the path continues to the west and south.
+exit:^:1:^:6510
+exit:^:2:^:6508
+exit:^:3:^:6522
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6510
+name:^:Path to the Castle
+desc:^:~
+You are on a path that will eventually lead to the castle.  It
+continues north to the castle, and there is a door on the western wall.
+exit:^:0:^:6511
+exit:^:3:^:6509
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6511
+name:^:Still on the path to the Castle
+desc:^:~
+You are still on the path to the castle, or back to the
+Dwarven village, whichever way you wish to go.  The path
+continues to the north and south.
+exit:^:0:^:6512
+exit:^:2:^:6510
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6512
+name:^:Door to Castle
+desc:^:~
+Here there is a door to the castle to the east.  The castle
+is elegantly designed, and looks much like a roll of toilet paper
+standing on end.  A sign says:
+
+              ******************************************
+              *  WELCOME TO THE CASTLE OF STRANGELOVE  *
+              *      Here, celibacy is uninvited       *
+              ******************************************
+exit:^:1:^:6525
+exit:^:2:^:6511
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6513
+name:^:Inside the entrance
+desc:^:~
+Everything here is covered in soot and very grimy.  The path continues
+to the east and north, and there is a door to the west.
+exit:^:0:^:6514
+exit:^:1:^:6505
+exit:^:3:^:6526
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6514
+name:^:Path
+desc:^:~
+You are on a path in the dwarven village which leads north to the shops
+and south to the corner of the area.
+exit:^:0:^:6515
+exit:^:2:^:6513
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6515
+name:^:Turn in road
+desc:^:~
+You are on a path that leads to a Hide & Tooth shop to the west, and the
+path continues to the south.
+exit:^:2:^:6514
+exit:^:3:^:6516
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6516
+name:^:Hide & Tooth Shop
+desc:^:~
+You are in the Hide & Tooth shop.  Here you may buy the finest in Dwarven
+weapons and armors. The path continues to the north and east.
+exit:^:0:^:6517
+exit:^:1:^:6515
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6517
+name:^:Path to the north of shop
+desc:^:~
+You are on a path to the north of the Hide & Tooth shop.  The path continues
+to the north, and there is Granite Head's bakery to the west.
+exit:^:0:^:6518
+exit:^:2:^:6516
+exit:^:3:^:6535
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6518
+name:^:North of Shops
+desc:^:~
+Here the path bends to the east towards the barracks. To the
+south you can see the shops.
+exit:^:1:^:6519
+exit:^:2:^:6517
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6519
+name:^:Path by Hospital
+desc:^:~
+Here the path passes by the Hospital to the north.  It continues
+to the east to the barracks, and to the west.
+exit:^:0:^:6534
+exit:^:1:^:6520
+exit:^:3:^:6518
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6520
+name:^:Path next to barracks
+desc:^:~
+Here the path continues west, and east to the barracks.
+exit:^:1:^:6521
+exit:^:3:^:6519
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6521
+name:^:Entrance to barracks
+desc:^:~
+Here there is an entrance to the barracks to the south, and
+the path continues to the west.
+exit:^:2:^:6523
+exit:^:3:^:6520
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6522
+name:^:Guard House
+desc:^:~
+You are in the guard house to the west of the entrance
+to the castle.  There are nude posters covering the walls.
+exit:^:1:^:6509
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6523
+name:^:First Barrack room
+desc:^:~
+Here is the first of two main rooms of barracks.  The
+barracks continue to the south, and you can leave the room
+to the north.
+exit:^:0:^:6521
+exit:^:2:^:6524
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6524
+name:^:Back of Barracks
+desc:^:~
+Here is the back of the dwarven barracks.  There are rows
+of beds here, and there is a stench that is unbearable.
+exit:^:0:^:6523
+exit:^:5:^:2001
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6525
+name:^:Inside of Castle Strangelove
+desc:^:~
+You are just inside the castle.  It is very tubular in shape,
+and it is very featureless.  There is a set of stairs that lead
+up, and the door leads out of the castle to the west.
+exit:^:3:^:6512
+exit:^:4:^:6528
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6526
+name:^:A store room
+desc:^:~
+There is a layer of dust on the floor at least 3 inches thick!  It is
+probable that not many people have been in here for many months.
+exit:^:1:^:6513
+exit:^:5:^:6527
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6527
+name:^:Wine cellar
+desc:^:~
+This room smells like wine, and you can only assume it used to be
+a wine cellar at one time.
+exit:^:4:^:6526
+exit:^:5:^:2065
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6528
+name:^:Stairs in castle
+desc:^:~
+The stairs continue to circle up and down here.
+exit:^:4:^:6529
+exit:^:5:^:6525
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6529
+name:^:Stairs
+desc:^:~
+You are still circling around on the stairs.  You are starting to
+get dizzy from going around and around and around and around and
+around.  The stairs continue up and down.
+exit:^:4:^:6530
+exit:^:5:^:6528
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6530
+name:^:Top of stairs
+desc:^:~
+You are at the top of the stairs in the castle.  There is an exit
+to the east, and the stairs lead down.
+exit:^:1:^:6531
+exit:^:5:^:6529
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6531
+name:^:Queen's waiting room
+desc:^:~
+This is the Queen's waiting room.  Here the men literally
+'wait' for the queen.  You've heard that the queen really likes
+to get to 'know' her people, in the biblical sense.  The queen's
+bedroom is to the north, and you can see stairs to the west.
+exit:^:0:^:6532
+exit:^:3:^:6530
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6532
+name:^:Bedroom
+desc:^:~
+This is the Queen's bedroom.  The bed is all ruffled, and there
+is a stack of dirty sheets piled in the corner.
+
+A note has been scrawled in lipstick on the mirror:
+
+    I'm out looking for my birth control pills.
+    Why don't you slip into something comfortable while you're waiting?
+exit:^:2:^:6531
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6534
+name:^:Hospital
+desc:^:~
+You are inside the Dwarven Hospital.  It smells like rubbing
+alcohol, and there is blood all over the walls.
+exit:^:2:^:6519
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6535
+name:^:Granite Head's Bakery
+desc:^:~
+The aroma coming from this room is sensuous.  You can almost taste
+the pastries dissolving in your mouth.
+exit:^:1:^:6517
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6540
+name:^:Dark path
+desc:^:~
+This path is very well worn, and there is an entrance to the mines to the
+east, while the path continues to the north and west.
+exit:^:0:^:6504
+exit:^:1:^:6541
+exit:^:3:^:6503
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6541
+name:^:Mine entrance
+desc:^:~
+The little path here leads down toward the mines, while the worn path
+continues to the west.
+exit:^:3:^:6540
+exit:^:5:^:6542
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6542
+name:^:Inside the mine
+desc:^:~
+There are holes everywhere from the places that the workers blew
+away the rock to get to whatever they were looking for.  A path leads
+down and up.
+exit:^:4:^:6541
+exit:^:5:^:6554
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6543
+name:^:Path in the mine
+desc:^:~
+You are deep inside the mine, and you feel very uncomfortable.  The
+path continues to the east, and leads to the mineshaft to the west.
+exit:^:1:^:6544
+exit:^:3:^:6554
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6544
+name:^:Mine crossroad
+desc:^:~
+You are at a crossroad in the mine.  There is a door to the north,
+and the path continues to the south, east, and west.
+exit:^:0:^:6546
+exit:^:1:^:6545
+exit:^:2:^:6551
+exit:^:3:^:6543
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6545
+name:^:Coal Room
+desc:^:~
+You are inside the storage area for the raw materials
+that are found down here.  The room is very unsturdy as the
+supports are very rickety.
+exit:^:3:^:6544
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6546
+name:^:Mine Maze
+desc:^:~
+You have entered the maze of the mines.  To the east you
+can see some inscriptions, and you can exit to the south.
+exit:^:1:^:6547
+exit:^:2:^:6544
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6547
+name:^:Maze inscription
+desc:^:~
+You are inside the maze, but not far enough in that you could get lost.
+exit:^:0:^:6548
+exit:^:3:^:6546
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6548
+name:^:Maze
+desc:^:~
+You are in a maze.
+exit:^:0:^:6549
+exit:^:2:^:6547
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6549
+name:^:Maze
+desc:^:~
+You are in a maze.
+exit:^:0:^:6550
+exit:^:3:^:6548
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6550
+name:^:Maze
+desc:^:~
+You are in a maze.
+exit:^:2:^:6549
+exit:^:3:^:6552
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6551
+name:^:Mining equipment room
+desc:^:~
+This is the storage room for equipment used by the
+Dwarven miners.  It is very small, and you can tell that
+not many miners actually use any equipment.
+exit:^:0:^:6544
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6552
+name:^:Solved the Maze.
+desc:^:~
+You have solved the maze.  You can tell by the last few moves
+that there is no way that a dumb worker could have figured that
+out.  It seems pretty desolate here.  To the south is a bleak room.
+To the north, you see the maze.  There is a sign above the south exit:
+
+    Those who enter, plan on a timely death.
+    Especially if you're loyal to the queen.
+exit:^:1:^:6550
+exit:^:3:^:6553
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6553
+name:^:The Mazekeeper's Room
+desc:^:~
+You have entered the Mazekeeper's room.  There are pictures of
+the Queen with darts thrown in it.  Spray-painted on the wall are
+things like 'the queen shall suffer' and 'Catholics Rule'.
+exit:^:1:^:6552
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6554
+name:^:Bottom of mineshaft
+desc:^:~
+You are at the bottom of the mineshaft.  The air here is very sooty, and
+it is very hard to breath.  The mineshaft leads up and east.
+exit:^:1:^:6543
+exit:^:4:^:6542
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:6562
+name:^:The mountains of the dwarven kingdom
+desc:^:~
+You are standing at the foot of the mountains of the dwarven kingdom, where
+dwarves and giants toil endlessly to pry gems and mithril from the mother 
+earth.  Here lies the palace of the dwarven queen, and untold riches.
+But beware, for the mines are said to be haunted by demon and spirit alike.
+The dwarven kingdom lies to the east.
+exit:^:1:^:6500
+exit:^:3:^:4000
+---  END ROOM  ---
