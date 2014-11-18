@@ -1,8 +1,8 @@
 position:^:(*int)2
-room:^:5717
+room:^:5700
 class:^:runist
 name:^:Sorbot
-hp:^:(*int)100
+hp:^:(*int)29
 desc:^:
 version:^:(*int)0
 max_hp:^:(*int)100
