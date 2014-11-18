@@ -437,3 +437,49 @@ The dwarven kingdom lies to the east.
 exit:^:1:^:6500
 exit:^:3:^:4000
 ---  END ROOM  ---
+---START RESETS---
+mobile:^:6501 6501
+mobile:^:6501 6502
+mobile:^:6501 6503
+mobile:^:6500 6505
+mobile:^:6500 6505
+mobile:^:6506 6508
+mobile:^:6500 6509
+mobile:^:6500 6509
+mobile:^:6500 6512
+mobile:^:6500 6512
+mobile:^:6505 6515
+mobile:^:6503 6516
+mobile:^:6505 6520
+mobile:^:6514 6521
+mobile:^:6514 6521
+mobile:^:6500 6521
+mobile:^:6500 6521
+mobile:^:6511 6523
+mobile:^:6511 6523
+mobile:^:6511 6523
+mobile:^:6511 6523
+mobile:^:6511 6524
+mobile:^:6502 6524
+mobile:^:6511 6524
+mobile:^:6502 6527
+mobile:^:6512 6528
+mobile:^:6512 6529
+mobile:^:6513 6529
+mobile:^:6513 6530
+mobile:^:6515 6531
+mobile:^:6515 6531
+mobile:^:6510 6534
+mobile:^:6510 6534
+mobile:^:6509 6534
+mobile:^:6504 6535
+mobile:^:6500 6540
+mobile:^:6500 6540
+mobile:^:6507 6542
+mobile:^:6507 6543
+mobile:^:6507 6543
+mobile:^:6508 6543
+mobile:^:6517 6548
+mobile:^:6517 6549
+mobile:^:6516 6553
+--- END RESETS ---

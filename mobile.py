@@ -63,6 +63,7 @@ class Mobile():
         self.stats = {
             "name": "",
             "desc": "",
+            "longdesc": "",
             "class": "",
             "race": "",
             "version": _.VERSION,
@@ -83,7 +84,18 @@ class Mobile():
         self.stats["position"] = position
 
     def get_damage(self):
-        return (0, "punch", "none")
+        dmg = self.stats["damage"]
+        #Damage string is in the form 5d6+3
+
+        #TODO: Add code to check if MOB is wielding a weapon
+
+        modifier = int(dmg.split('+')[1])
+        dice = int(dmg.split('+')[0].split('d')[0])
+        sides = int(dmg.split('+')[0].split('d')[1])
+        dmg = modifier
+        for i in range(dice):
+            dmg += random.randint(0, sides)
+        return (dmg, self.stats["noun"], "none")
 
     def affected_by(self, affect):
         for a in self.affects:
@@ -268,9 +280,22 @@ def initialize_mobiles():
                 temp_value = int(temp_value[6:])
             elif temp_key == "vnum":
                 temp_mobile.vnum = temp_value
+            elif temp_key == "max_hp":
+                #text stores as 5d6+200 or something similar: this code handles that
+                t = temp_value.split("+")
+                m = int(t[1])
+                dice = int(t[0].split('d')[0])
+                sides = int(t[0].split('d')[1])
+                for i in range(0, dice):
+                    m += random.randint(0, sides)
+                temp_mobile.stats["max_hp"] = m
+                #print (m)
             elif temp_key == "keywords":
                 temp_mobile.keywords = temp_value.split()
             else:
                 temp_mobile.stats[temp_key] = temp_value
         except IndexError:
-            print("Illegal mobile. Skipping.")
+            if ':^:' not in l:
+                temp_mobile.stats["longdesc"] += l.strip() + '\n\r'
+            else:
+                print("Illegal mobile. Skipping.")

@@ -1,12 +1,2003 @@
 --- START MOBILE ---
-hp:^:(*int)100
+vnum:^:5700
+keywords:^:Tim Bits Baker
+name:^:Tim Bits, the jolly Baker
+desc:^:Tim Bits the jolly baker stands here with flour all over him.
+longdesc:^:A rather large man, the only thing larger than his girth is his heart. 
+He is known for his generosity to the poor.  
+race:^:human
+max_hp:^:3d9+208
+damage:^:2d6+3
+noun:^:squeeze
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5701
+keywords:^:Alisa woman 
+name:^:Alisa
+desc:^:A woman is here expertly decorating a wedding cake.
+longdesc:^:A lovely woman, the years have been nice to her.  The lines on her face
+can best be described as laugh lines, for it appears that she has always
+been happy.  Her hands are gentle but nimble as they fly across the hundreds
+of pastries she creates each day.  
+race:^:human
+max_hp:^:50d10+6000
+damage:^:6d7+21
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5702
+keywords:^:moonmaeven witch magick
+name:^:Moonmaeven
+desc:^:The witch contemplates you in silence as she prepares an herbal remedy.
+longdesc:^:Purple eyes look up at you from under a cascading mane of silver hair. 
+They seem to smile at you, as if knowing your inner thoughts.  Are you
+really at peace with yourself, they ask?  
+race:^:elf
+max_hp:^:25d10+3000
+damage:^:8d4+16
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5703
+keywords:^:elderly lady woman
+name:^:a lonely old woman
+desc:^:An elderly woman is here carefully dusting her precious antiques.
+longdesc:^:Her hair is unkempt..  Grey with streaks of white.  Her face, lined with
+wrinkles.  Her movements are slow, aided by her cane, which is an
+intricately carved piece of wood.  The symbols are unintelligible to you,
+however they seem to have been painstakingly wrought into the wood.  
+race:^:human
+max_hp:^:2d7+121
+damage:^:2d4+2
+noun:^:thwack
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5704
+keywords:^:mom woman
+name:^:a harried mom
+desc:^:A woman stands here picking at her nails fretfully. 
+longdesc:^:Short hair and an even shorter temper and her pocketbook looks like it
+packs a mean punch.  Do you really want to bother her right now?  
+race:^:human
+max_hp:^:3d9+208
+damage:^:2d6+3
+noun:^:smother
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5705
+keywords:^:baby
+name:^:a screaming baby
+desc:^:A baby is here crying loudly.
+longdesc:^:Of course she's crying, her diaper is soiled so badly that you can smell
+it from where you stand.  You'd be crying too if you had to sit in that!  
+race:^:human
+max_hp:^:2d6+85
+damage:^:1d8+1
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5706
+keywords:^:toddler
+name:^:a running toddler
+desc:^:A toddler is here running over people's feet.
+longdesc:^:A tempestuous child, you can tell by the crooked grin that he has no clue
+that he's actually hurting people, he just wants to play with you.  
+race:^:human
+max_hp:^:2d7+121
+damage:^:2d4+2
+noun:^:chomp
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5707
+keywords:^:teen teenager
 name:^:a complaining teenager
-desc:^:
-version:^:(*int)0
-class:^:
-race:^:
-position:^:(*int)2
-max_hp:^:(*int)100
-vnum:^:1
-keywords:^:complaining teenager
+desc:^:A teenager is here mumbling about the unfairness of it all. 
+longdesc:^:Short and petite, she belongs at cheerleading practice, not out shopping
+with her mom, and from her constant grumbling, you know she agrees.  
+race:^:human
+max_hp:^:2d10+150
+damage:^:1d10+3
+noun:^:scratch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5708
+keywords:^:old lady 
+name:^:an old lady
+desc:^:An old lady is here clipping coupons furiously.
+longdesc:^:The years have not been kind to this woman, and she takes it out on
+everyone around her.  You might want to turn away before you catch her eye. 
+race:^:human
+max_hp:^:2d10+170
+damage:^:2d5+3
+noun:^:skewer
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5709
+keywords:^:business executive man
+name:^:a business executive
+desc:^:A man is here talking on a strange contraption.
+longdesc:^:Crisply ironed clothes, and a large briefcase slung over his shoulder, he
+looks ready for anything.  Except perhaps for the news that he is getting
+from whomever he is talking to.  He does not look happy.  
+race:^:human
+max_hp:^:3d9+208
+damage:^:2d6+3
+noun:^:entangle
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5710
+keywords:^:cashier woman
+name:^:a bored cashier
+desc:^:A woman stands here waiting to take your money.
+longdesc:^:Chewing gum, she flashes her yellowed teeth in a semblance of a smile as
+she waits for you to pay her.  
+race:^:human
+max_hp:^:2d10+150
+damage:^:1d10+3
+noun:^:charge
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5711
+keywords:^:stock boy
+name:^:a stock boy
+desc:^:A boy is here stacking cans on shelves.
+longdesc:^:With a look of sheer determination on his face, this boy concentrates on
+the task at hand...  Stacking the cans on the shelf so that they don't fall
+over.  It would not be a good idea to break his concentration.  
+race:^:human
+max_hp:^:2d7+121
+damage:^:2d4+2
+noun:^:crush
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5712
+keywords:^:bag boy
+name:^:a bag boy
+desc:^:A boy is waiting here to pack your bags for you.
+longdesc:^:With a bored look on his face, you know that this youngster does not have
+your food's best interests in mind.  You watch as he packs the bags with no
+regard for heavy items, putting them on top of eggs and bread in no
+particular order.  
+race:^:human
+max_hp:^:2d7+121
+damage:^:2d4+2
+noun:^:force
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5713
+keywords:^:butcher man
+name:^:the butcher
+desc:^:A grim looking man stands here slicing meat from a bone.
+longdesc:^:His hands are gnarled and covered with scars, most likely from mistakes
+made when cutting meat.  He looks formidable, but the smile on his face
+tells you he is very friendly.  Just don't make him mad.  
+race:^:human
+max_hp:^:3d9+208
+damage:^:2d6+3
+noun:^:gutting
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5714
+keywords:^:bunnicula vampire bunny
+name:^:Bunnicula
+desc:^:A cute, fluffy innocent bunny hops around. Don't let him see you looking at him or he might get scared.
+longdesc:^:Is it just your imagination, or does this bunny have fangs?  
+race:^:rabbit
+max_hp:^:2d7+96
+damage:^:1d7+2
+noun:^:drain
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5715
+keywords:^:big man
+name:^:a jolly big man
+desc:^:A big man is here serving up platters of grease for his customers.
+longdesc:^:A rather large man with an engaging smile, the proprietor
+of this less than elegant establishment is happy with his
+life. His hair is neatly pulled back in a ponytail, and 
+if you look closely you'll see that it is streaked in purple.
+race:^:human
+max_hp:^:50d10+9000
+damage:^:8d6+26
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5716
+keywords:^:Angel
+name:^:Angel
+desc:^:Angel is here quietly humming to herself.
+longdesc:^:Her blue scales are awash with an irridescent light that is almost
+surreal.  The glow illuminates the store and everything around her in a
+gentle blue hue.  
+race:^:blue dragon
+max_hp:^:50d10+9000
+damage:^:8d6+26
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5717
+keywords:^:kitten marmalade orange Shammyra
+name:^:Shammyra
+desc:^:A beautiful flame coloured kitten licks herself contentedly.
+longdesc:^:Fluffy orange and white fur masks a powerful feline form.
+race:^:cat
+max_hp:^:2d6+60
+damage:^:1d6+1
+noun:^:scratch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5718
+keywords:^:dog dogmutt mutt puppy
+name:^:Dogmutt
+desc:^:A rather strange looking dog is here happily chewing on a bone.
+longdesc:^:Everything is so out of place!  My ears are too long, and my nose is too
+short.  My tail knocks things over when I wag it, but I get so darned
+excited I can't help myself!  
+race:^:dog
+max_hp:^:2d7+96
+damage:^:1d7+2
+noun:^:chomp
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5719
+keywords:^:Douve man dragon blue
+name:^:Douve
+desc:^:An old blue dragon has offered to share his wisdom with others.
+longdesc:^:With a smile for everyone but his enemies, this blue dragon can be your
+best friend, or your worst nightmare.  
+race:^:blue dragon
+max_hp:^:2d10+150
+damage:^:1d10+3
+noun:^:wrath
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:5720
+keywords:^:Catacomb dragon red man
+name:^:Catacomb
+desc:^:A big red dragon is here daring you to hurt his master.
+longdesc:^:Protector of Innocents, am I.
+race:^:red dragon
+max_hp:^:3d9+208
+damage:^:2d6+3
+noun:^:wrath
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3000
+keywords:^:wizard
+name:^:The wizard
+desc:^:A wizard walks around behind the counter, talking to himself. 
+longdesc:^:The wizard looks old and senile, and yet he looks like a very powerful 
+wizard. He is equipped with fine clothing, and is wearing many fine 
+rings and bracelets. 
+race:^:human
+max_hp:^:1d1+999
+damage:^:1d8+32
+noun:^:magic
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3001
+keywords:^:baker
+name:^:The baker
+desc:^:The baker looks at you calmly, wiping flour from his face with one hand. 
+longdesc:^:A fat, nice looking baker. But you can see that he has many scars on his 
+body. 
+race:^:human
+max_hp:^:1d1+999
+damage:^:1d8+20
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3002
+keywords:^:grocer
+name:^:the grocer
+desc:^:A grocer stands at the counter, with a slightly impatient look on his face. 
+longdesc:^:A tall grocer, who moves two 200 pounds bag of flour around on his shoulders. 
+race:^:human
+max_hp:^:1d1+999
+damage:^:1d8+20
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3003
+keywords:^:weaponsmith
+name:^:the weaponsmith
+desc:^:A weaponsmith. 
+longdesc:^:A young weaponsmith, who still has lots to learn. 
+race:^:human
+max_hp:^:1d1+999
+damage:^:1d8+32
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3004
+keywords:^:armourer armorer
+name:^:The armourer
+desc:^:An armourer stands here. 
+longdesc:^:
+race:^:human
+max_hp:^:1d1+999
+damage:^:1d8+32
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3005
+keywords:^:thief
+name:^:the thief
+desc:^:A thief, all dressed in black. 
+longdesc:^:
+race:^:human
+max_hp:^:6d8+80
+damage:^:1d5+1
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3006
+keywords:^:captain
+name:^:the captain
+desc:^:An old man here, selling boats and rafts is here. 
+longdesc:^:This captain has killed more sharks than you have eaten peas. 
+He looks like he has taken a liking to the bottle now that
+he has lost his sea legs so to speak.
+race:^:human
+max_hp:^:1d1+999
+damage:^:1d8+32
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3007
+keywords:^:Wise Man
+name:^:The wise man
+desc:^:The wise man of the 'Temple of Concentration' sits here in meditation.
+longdesc:^:A old wise man is here, waiting for you to tell him what you want to learn
+or train in the arts.  He sits in a meditational stance, and doesn't move
+or flinch at any of the noises around him.
+race:^:human
+max_hp:^:1000d1+50
+damage:^:20d20+20
+noun:^:slice
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3008
+keywords:^:boy
+name:^:The pet shop boy
+desc:^:A pet shop boy is here, humming gently. 
+longdesc:^:He is young and close-cropped and looks quite happy. 
+race:^:human
+max_hp:^:1d1+999
+damage:^:1d8+20
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3009
+keywords:^:jeweller
+name:^:the jeweller
+desc:^:The jeweller is standing behind the desk. 
+longdesc:^:He is fat and has a content although watchful look on his face. 
+race:^:human
+max_hp:^:1d1+999
+damage:^:1d8+22
+noun:^:slap
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3010
+keywords:^:leather worker
+name:^:The leather worker
+desc:^:The leather worker is sitting by the table, sewing a leather cap. 
+longdesc:^:She looks as an honest, hard-working artisan who only just earns enough to 
+keep herself going. 
+race:^:human
+max_hp:^:1d1+999
+damage:^:1d8+20
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3011
+keywords:^:tetragon hassan
+name:^:Tetragon
+desc:^:Tetragon is here, ready to slay all who dare try. 
+longdesc:^:Tetragon is a rather large dragon.  He protects those who need it, and slays 
+those who are criminals.  Do not under estimate him.  He is quick, smart,  
+and hard to scare. 
+race:^:red dragon
+max_hp:^:1d1+3999
+damage:^:5d4+40
+noun:^:crush
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3012
+keywords:^:healer
+name:^:the healer
+desc:^:A healer is here, selling spells. 
+longdesc:^:Although retired from adventuring, the healer still lends a hand. 
+Type 'heal' to see a listing of spells. 
+race:^:human
+max_hp:^:1d1+999
+damage:^:2d4+30
+noun:^:divine
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3013
+keywords:^:Maugrim
+name:^:Maugrim
+desc:^:Maugrim the lazy dragon bartender is here, serving himself a drink.
+longdesc:^:A large black dragon lounges behind the bar, scales slightly faded but
+his eyes still glowing like coals from a fire.  Retired from battling
+and adventuring, the pub life obviously suits him well.
+race:^:human
+max_hp:^:10d100+3000
+damage:^:30d20+2000
+noun:^:slice
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3014
+keywords:^:kenshi nasty little witch doctor
+name:^:{mKenshi's {clittle {gwitch {wdoctor{x
+desc:^:{mKenshi's {clittle {gwitch {wdoctor{x is here, practicing the dark arts.
+longdesc:^:If you didn't know any better, you'd swear it was Satan come to pay you a visit.
+race:^:kobold
+max_hp:^:25d10+3000
+damage:^:8d4+16
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3020
+keywords:^:guildmaster master
+name:^:the guildmaster
+desc:^:Your guildmaster is standing here. 
+longdesc:^:Even though your guildmaster looks old and tired, you can clearly see the 
+vast amount of knowledge she possesses. She is wearing fine magic clothing, 
+and you notice that she is surrounded by a blue shimmering aura. 
+race:^:elf
+max_hp:^:1d1+1999
+damage:^:3d8+24
+noun:^:magic
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3040
+keywords:^:bartender
+name:^:the bartender
+desc:^:A bartender watches you calmly, while he skillfully mixes a drink. 
+longdesc:^:A tired looking Bartender who hates trouble in his bar. 
+race:^:human
+max_hp:^:1d1+499
+damage:^:1d8+18
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3041
+keywords:^:waiter
+name:^:the waiter
+desc:^:A waiter is going around from one place to another. 
+longdesc:^:A tired looking waiter. 
+race:^:human
+max_hp:^:1d1+499
+damage:^:1d8+18
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3042
+keywords:^:waiter
+name:^:the waiter
+desc:^:A man who in his young days was a famous sorcerer but now leads a quiet, 
+peaceful life as a waiter. 
+longdesc:^:
+race:^:human
+max_hp:^:1d1+499
+damage:^:1d8+18
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3043
+keywords:^:waiter
+name:^:the waiter
+desc:^:A waiter who seems to have reached contact with God. 
+longdesc:^:
+race:^:human
+max_hp:^:1d1+499
+damage:^:1d8+18
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3044
+keywords:^:waiter
+name:^:the waiter
+desc:^:A waiter who knows where all his customers keep their money. 
+longdesc:^:
+race:^:human
+max_hp:^:1d1+499
+damage:^:1d8+18
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3045
+keywords:^:waiter
+name:^:the waiter
+desc:^:A waiter who easily could kill you, and still carry quite a few firebreathers. 
+longdesc:^:
+race:^:human
+max_hp:^:1d1+499
+damage:^:1d8+18
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3046
+keywords:^:filthy
+name:^:Filthy
+desc:^:Filthy is standing here, eager to serve you a special drink. 
+longdesc:^:Filthy looks real, ehm, dirty. He likes to keep his costumers happy, 
+but do not mess with him or else he'll get upset. 
+race:^:human
+max_hp:^:1d1+499
+damage:^:1d8+18
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3060
+keywords:^:red sash guard
+name:^:A red sash guard
+desc:^:A red sash guard stands here. 
+longdesc:^:A big, strong, helpful, trustworthy guard. 
+race:^:human
+max_hp:^:15d15+160
+damage:^:2d4+4
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3061
+keywords:^:custodian
+name:^:A custodian
+desc:^:A custodian is walking around, cleaning up. 
+longdesc:^:
+race:^:human
+max_hp:^:2d6+10
+damage:^:1d5+0
+noun:^:pound
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3062
+keywords:^:sengir bat
+name:^:a bat
+desc:^:A bat is here, flying past your head.
+longdesc:^:A small hungry bat eyes you greedily as it hangs from its fixture on the far 
+wall.  I suppose you could wait for it to attack you, but it might be a little 
+wiser, if perhaps you attacked it first. 
+race:^:bat
+max_hp:^:1d6+4
+damage:^:1d4+0
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3063
+keywords:^:vagabond
+name:^:the vagabond
+desc:^:A vagabond is here, looking for victims. 
+longdesc:^:He looks pretty mean. 
+race:^:human
+max_hp:^:2d6+60
+damage:^:1d6+1
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3064
+keywords:^:drunk
+name:^:the drunk
+desc:^:A singing, happy drunk wanders around, singing about Moria. 
+longdesc:^:A drunk who seems to be too happy, and to carry too much money. 
+race:^:human
+max_hp:^:2d6+22
+damage:^:1d6+0
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3065
+keywords:^:beggar
+name:^:The beggar
+desc:^:A beggar is here, asking for a few coins. 
+longdesc:^:The beggar looks like she is fed up with life. 
+race:^:human
+max_hp:^:2d6+10
+damage:^:1d5+0
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3066
+keywords:^:cat
+name:^:an alley cat
+desc:^:An alley cat hisses at you. 
+longdesc:^:The alley cat is half starved and more than a little feral. 
+race:^:cat
+max_hp:^:1d6+4
+damage:^:1d4+0
+noun:^:scratch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3067
+keywords:^:red sash guard
+name:^:A red sash guard
+desc:^:A red sash guard is here, guarding the gate. 
+longdesc:^:A big, strong, helpful, trustworthy guard. 
+race:^:human
+max_hp:^:15d15+160
+damage:^:2d4+4
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3068
+keywords:^:red sash guard
+name:^:A red sash guard
+desc:^:A red sash guard is here, guarding the gate. 
+longdesc:^:A big, strong, helpful, trustworthy guard. 
+race:^:human
+max_hp:^:15d15+160
+damage:^:2d4+4
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3069
+keywords:^:red sash guard
+name:^:a red sash guard
+desc:^:A red sash guard is here, guarding the mayor. 
+longdesc:^:A big, strong, helpful, trustworthy guard. 
+race:^:human
+max_hp:^:20d20+200
+damage:^:2d4+7
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3070
+keywords:^:shopkeeper old man
+name:^:The ancient potion-brewer
+desc:^:An old man eyes you greedily.
+longdesc:^:He looks very dangerous.  I wouldn't try to rob him. 
+race:^:human
+max_hp:^:1d1+999
+damage:^:10d10+10
+noun:^:magic
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3071
+keywords:^:red sash guard
+name:^:A red sash guard
+desc:^:A red sash guard is here, guarding the gate alertly. 
+longdesc:^:A big, strong, helpful, trustworthy guard. 
+race:^:human
+max_hp:^:15d15+160
+damage:^:2d4+4
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3072
+keywords:^:red sash guard
+name:^:A red sash guard
+desc:^:A red sash guard is here, guarding the gate.  He is half asleep. 
+longdesc:^:A big, strong, helpful, trustworthy guard. 
+race:^:human
+max_hp:^:15d15+160
+damage:^:2d4+4
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3090
+keywords:^:kitten cat pet
+name:^:the kitten
+desc:^:A small loyal kitten is here. 
+longdesc:^:The kitten looks like a cute, little, fierce fighter. 
+race:^:cat
+max_hp:^:2d6+11
+damage:^:1d4+0
+noun:^:scratch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3091
+keywords:^:puppy dog pet
+name:^:the puppy
+desc:^:A small loyal puppy is here. 
+longdesc:^:The puppy looks like a cute, little, fierce fighter. 
+race:^:dog
+max_hp:^:4d6+25
+damage:^:1d6+0
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3092
+keywords:^:beagle dog pet
+name:^:the beagle
+desc:^:A small, quick, loyal beagle is here. 
+longdesc:^:The beagle looks like a fierce fighter. 
+race:^:dog
+max_hp:^:3d12+50
+damage:^:1d6+0
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3093
+keywords:^:rottweiler dog pet
+name:^:the rottweiler
+desc:^:A large, loyal rottweiler is here. 
+longdesc:^:The rottweiler looks like a strong, fierce fighter. 
+race:^:dog
+max_hp:^:6d10+60
+damage:^:2d4+1
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3094
+keywords:^:wolf pet
+name:^:the wolf
+desc:^:A large, trained wolf is here. 
+longdesc:^:The wolf looks like a strong, fearless fighter. 
+race:^:wolf
+max_hp:^:6d10+80
+damage:^:2d5+1
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3095
+keywords:^:eagle bird pet
+name:^:the eagle
+desc:^:A loyal eagle circles overhead. 
+longdesc:^:The eagle looks like a strong fierce fighter. 
+race:^:song bird
+max_hp:^:6d10+130
+damage:^:2d5+3
+noun:^:claw
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3096
+keywords:^:lion pet
+name:^:the lion
+desc:^:A large, faithful lion is here. 
+longdesc:^:The great lion looks very fierce. 
+race:^:cat
+max_hp:^:4d9+205
+damage:^:2d8+3
+noun:^:chomp
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3097
+keywords:^:tiger pet
+name:^:the tiger
+desc:^:A great, loyal tiger is here. 
+longdesc:^:The large, striped tiger looks like a savage fighter. 
+race:^:cat
+max_hp:^:4d9+325
+damage:^:4d4+5
+noun:^:claw
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3100
+keywords:^:maid
+name:^:The maid
+desc:^:The maid is waiting for your order. 
+longdesc:^:She is very beautiful with golden hair, and deep blue eyes. A good reason 
+for coming here more often. 
+race:^:human
+max_hp:^:1d1+499
+damage:^:1d8+12
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3120
+keywords:^:sexton
+name:^:the sexton
+desc:^:A sexton is sitting here, drinking hot tea. 
+longdesc:^:The sexton looks like he is relaxing after another grave-digging job. 
+race:^:human
+max_hp:^:2d6+35
+damage:^:1d7+0
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3121
+keywords:^:swan
+name:^:the swan
+desc:^:A swan is swimming around in the pond. 
+longdesc:^:The white swan is very elegant. 
+race:^:water fowl
+max_hp:^:2d6+10
+damage:^:1d5+0
+noun:^:peck
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3122
+keywords:^:duckling
+name:^:the duckling
+desc:^:A duckling is swimming around in the pond. 
+longdesc:^:The duckling is adorable, it looks most of all like a tiny furball. 
+race:^:water fowl
+max_hp:^:1d4+0
+damage:^:1d1+0
+noun:^:peckb
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3123
+keywords:^:sparrow
+name:^:the sparrow
+desc:^:A sparrow is flapping around on the ground. 
+longdesc:^:The sparrow looks like it is enjoying life. 
+race:^:song bird
+max_hp:^:2d6+0
+damage:^:1d3+0
+noun:^:peck
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3124
+keywords:^:duck
+name:^:The duck
+desc:^:A duck is here, quacking happily. 
+longdesc:^:The duck is quite fat.  It looks like it is enjoying life. 
+race:^:water fowl
+max_hp:^:2d6+5
+damage:^:1d4+0
+noun:^:peckb
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3140
+keywords:^:captain
+name:^:the captain
+desc:^:The captain of the red sash guards is looking very upset. 
+longdesc:^:A big, strong, angry captain. 
+race:^:human
+max_hp:^:15d15+190
+damage:^:2d4+6
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3141
+keywords:^:red sash guard
+name:^:a red sash guard
+desc:^:A red sash guard stands here, looking very upset. 
+longdesc:^:A big, strong, angry guard. 
+race:^:human
+max_hp:^:15d15+10
+damage:^:2d4+4
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3142
+keywords:^:secretary
+name:^:The secretary
+desc:^:A secretary is sitting at the desk. 
+longdesc:^:She looks very busy.  She sits here shuffling papers back and forth
+endlessly.  Without her the mayor would never be able to keep his affairs in
+order.  
+race:^:human
+max_hp:^:4d12+148
+damage:^:2d7+1
+noun:^:slap
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3143
+keywords:^:mayor
+name:^:the mayor
+desc:^:The mayor is here.  He shakes your hand. 
+longdesc:^:He is a stocky, middle-aged man with thin, grey hair. 
+race:^:human
+max_hp:^:6d10+500
+damage:^:1d8+12
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3144
+keywords:^:crier
+name:^:The town crier
+desc:^:The town crier is here, weeping quietly. 
+longdesc:^:He is very good at his job - completely dissolved in tears. 
+race:^:human
+max_hp:^:2d6+10
+damage:^:1d5+0
+noun:^:slap
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3149
+keywords:^:Chihuahua
+name:^:the {DBig {YChihuahua{x
+desc:^:A {wtwenty-foot {YChihuahua {xis here, licking its chops.
+longdesc:^:This is the largest dog you have ever seen.  If it weren't so large, it
+would be scrawny.  Its huge ears are flippy flappy.  It is white, with tan
+and brown spots about it.  It has large dark eyes.  Very scary!  
+race:^:giant
+max_hp:^:1d1+4500
+damage:^:5d4+40
+noun:^:crush
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3150
+keywords:^:Valan the owner
+name:^:Valan
+desc:^:Valan the owner of the diner is here, waiting for you to order something.
+longdesc:^:Valan brushes a lock of dark hair away from his face and smiles warmly at 
+you. 
+race:^:human
+max_hp:^:1d1+999
+damage:^:1d8+10
+noun:^:slap
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3160
+keywords:^:Meghan
+name:^:Meghan
+desc:^:Meghan is here, digging through a pile of scrolls, papers, and maps. 
+longdesc:^:Ragged brown hair frames a ghostly, pale face.  Puffy eyelids surround two 
+sky blue, haunting eyes.  An old, brown robe is wrapped around her frail  
+frame.  She looks up from her pile of papers and maps and looks inquiringly 
+at you, smiling faintly. 
+race:^:human
+max_hp:^:1d1+999
+damage:^:5d6+20
+noun:^:slap
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3161
+keywords:^:rob green tree snake
+name:^:Rob
+desc:^:A green tree snake is sitting here on a pile of books. 
+longdesc:^:This is Meghan's pet tree snake, Rob.  Something seems odd about his 
+jaw, almost as if he were smiling at you.  He's quite friendly, but don't 
+get him drunk. 
+race:^:snake
+max_hp:^:11d10+200
+damage:^:4d6+4
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3162
+keywords:^:dan money changer moneychanger
+name:^:Dan the Changer
+desc:^:Dan the Money Changer sits behind his desk, waiting for your coins. 
+longdesc:^:Dan is grotesquely fat man dressed in rich clothes.  Apparently the money 
+changing business pays quite well in this busy city, or possibly the rumors 
+of his fencing services are true... 
+race:^:human
+max_hp:^:1d1+999
+damage:^:5d6+20
+noun:^:slap
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3163
+keywords:^:thief
+name:^:the thief
+desc:^:A thief, all dressed in black. 
+longdesc:^:
+race:^:human
+max_hp:^:6d8+400
+damage:^:4d5+5
+noun:^:stab
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3164
+keywords:^:quest master questmaster
+name:^:the questmaster
+desc:^:The QuestMaster is here, ready to send you on an adventure. 
+longdesc:^:The old man grins at the thought of sending you on a quest.
+race:^:human
+max_hp:^:1d1+999
+damage:^:2d4+30
+noun:^:divine
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3165
+keywords:^:village fool
+name:^:the village fool
+desc:^:The village fool is doing tricks.
+longdesc:^:Dressed in bright colors and shiny material, the village fool trys
+to make you laugh.
+race:^:human
+max_hp:^:10d10+1300
+damage:^:4d7+11
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3166
+keywords:^:eastern armour sianghu
+name:^:Sianghu
+desc:^:A stunted man from the far east stands behind the counter expectantly.
+longdesc:^:This strange little man has come from far behind the eastern reaches of
+Dominia with strange wares.  He hopes to find a new market here in Midgaard.
+race:^:human
+max_hp:^:1d1+999
+damage:^:1d8+32
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3167
+keywords:^:domaru ninjitsu master
+name:^:Domaru
+desc:^:Domaru, the Ninjitsu Master, awaits your pleasure.
+longdesc:^:A tall and thin man, Domaru partially obscures his face with a black
+kerchief so that only his eyes are revealed.  
+race:^:human
+max_hp:^:1d1+999
+damage:^:1d8+32
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3168
+keywords:^:wan li weapon master
+name:^:Wan Li
+desc:^:Wan Li, the Ninja Weaponmaster, stares at you coldly.
+longdesc:^:Wan Li would be beautiful were it not for a long scar traced along one
+cheek, and her cold dispassionate expression. Always a professional.
+race:^:human
+max_hp:^:1d1+999
+damage:^:1d8+32
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3169
+keywords:^:Free Mob
+name:^:Free Mob
+desc:^:Free Mob
+longdesc:^:
+race:^:human
+max_hp:^:2d6+10
+damage:^:1d4+0
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3364
+keywords:^:castle guard goon kenshi outpost
+name:^:a Castle Guard
+desc:^:A Castle Guard stands at attention before the iron gates.
+longdesc:^:You look at the guards of the castle, and notice that with their armor and
+helmets on that it is impossible to determine race. Each of them all have
+the same rank and the exact same garb as the next. There shields bare the
+crst of the clan to which lays within the castle, and their weapons look
+deadly just from the glance. When you ask of their employment in the service
+of the Harpers, you are politely told that they greatly enjoy their duties
+and to either move along or leave.
+race:^:orc
+max_hp:^:50d10+9500
+damage:^:8d6+28
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3365
+keywords:^:slasher usher elven hand maiden
+name:^:Elven Hand Maiden
+desc:^:An Elven Hand Maiden waits to do your bidding.
+longdesc:^:You look up to catch the gaze of a drow elf maiden here, whom has been
+working on her chores. She hushes you, her blue eyes watching you as her
+pitch as night skin remains still other then the whispering from her lips.
+Once you prove you are of the Harpers, she turns; her white as snow hair
+twirls a little and blends into her translusant white dress. She shows
+you the way trough the path, so you may enter into the castle.
+race:^:human
+max_hp:^:10d10+1400
+damage:^:4d7+11
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3366
+keywords:^:castle guard goon kenshi outpost
+name:^:a Castle Guard
+desc:^:A Castle Guard stands at attention before the iron gates.
+longdesc:^:You look at the guards of the castle, and notice that with their armor and
+helmets on that it is impossible to determine race. Each of them all have
+the same rank and the exact same garb as the next. There shields bare the
+crst of the clan to which lays within the castle, and their weapons look
+deadly just from the glance. When you ask of their employment in the service
+of the Harpers, you are politely told that they greatly enjoy their duties
+and to either move along or leave.
+race:^:orc
+max_hp:^:50d10+9500
+damage:^:8d6+28
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3367
+keywords:^:Free Mob
+name:^:Free Mob
+desc:^:Free Mob
+longdesc:^:
+race:^:human
+max_hp:^:1d1+999
+damage:^:10d10+10
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3368
+keywords:^:healer elven cleric kenshi outpost
+name:^:Elven Cleric
+desc:^:An Elven Cleric waits to heal you.
+longdesc:^:Standing here is a tall beauty of the elven race. Her face is angular but
+soft to gaze at with bright green eyes and auburn hair. Her form is kept
+soft and womanly but very well concealed within her priestly robes and the
+smallest touch of armour. She stands with a large book of spells in her
+right arm, ready to cast which ever spell you wish her to cast on you for
+a small fee.
+ 
+Type 'heal' to see a listing of spells.
+race:^:human
+max_hp:^:25d10+2500
+damage:^:3d12+15
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3369
+keywords:^:pusher natural man selling shopkeeper
+name:^:The Pusher
+desc:^:The Pusher is here, trying to sell you things you shouldn't buy.
+longdesc:^:The Pusher seems like a natural man but he is a monster selling you lots
+of sweet dreams to ruin your body and leave your mind in total war.  As he
+slowly watches your spirit deteriorate, he sees the tombstones in your
+{DE{xy{DE{xs and doesn't care if you live or if you die.  It was this
+mornin' he last saw your good friend lying on the pavement, his mind racing,
+stoned on some new potion he found upon the wall of some unholy bathroom in
+some ungodly hall.  
+Though he wanted Heaven, Hell is where the Kenshi go.
+Though he wanted Heaven, but prayer was too slow. 
+His life had no meaning, so Hell is where you all will go.
+Though we all want Heaven, as a blade slits your throat,
+Hell sure can't beat that.
+race:^:human
+max_hp:^:2d6+10
+damage:^:1d4+0
+noun:^:pound
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3370
+keywords:^:acolyte selina
+name:^:an Acolyte of Selina
+desc:^:An Acolyte of Selina stands here, doing Selina's bidding.
+longdesc:^:A very large sliver stands here, with his head bowed in prayer.  He is an
+emissary from Selina to the lands of Terra, and is well used to any ridicule
+you may wish to send his way.  For a small price though, he will be willing
+to transport you to Dominia.  Type 'warp', pay the fee, and you will be
+whisked over to the lands of Selina.  
+race:^:sliver
+max_hp:^:50d10+9500
+damage:^:8d6+28
+noun:^:crush
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6500
+keywords:^:dwarf dwarven guard
+name:^:the dwarven guard
+desc:^:A dwarven guard is here.
+longdesc:^:The guard looks very tough and mean.
+race:^:dwarf
+max_hp:^:3d9+333
+damage:^:2d8+5
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6501
+keywords:^:dwarf dwarven miner worker
+name:^:the dwarven worker
+desc:^:A dwarven mining worker is here.
+longdesc:^:He is very dirty, and looks extremely over-worked.
+race:^:dwarf
+max_hp:^:2d10+150
+damage:^:1d10+3
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6502
+keywords:^:wraith undead
+name:^:the wraith
+desc:^:A wraith is awaiting your first move here.
+longdesc:^:A black, almost transparent wraith.
+race:^:human
+max_hp:^:6d12+778
+damage:^:2d12+8
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6503
+keywords:^:oldstyle storekeeper
+name:^:the storekeeper
+desc:^:There is the Hide & Tooth storekeeper standing here, waiting patiently.
+longdesc:^:The storekeeper is very rotund, but looks like a sharp guy.
+race:^:human
+max_hp:^:10d10+1300
+damage:^:4d7+11
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6504
+keywords:^:oldstyle baker
+name:^:the baker
+desc:^:Granite Head, the baker, is waiting for a customer here.
+longdesc:^:Granite Head is covered with flour and grains.
+race:^:human
+max_hp:^:10d10+1300
+damage:^:4d7+11
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6505
+keywords:^:giant lizard
+name:^:the giant lizard
+desc:^:A giant lizard is here.
+longdesc:^:This scaly creature looks like it is well adapted to it's underground
+habitat.  He looks very powerful.
+race:^:lizard
+max_hp:^:3d9+283
+damage:^:2d7+4
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6506
+keywords:^:giant
+name:^:the giant
+desc:^:A giant is here.
+longdesc:^:The giant is about 8 feet tall, with arms of steel, and looks very strong.
+race:^:giant
+max_hp:^:3d9+233
+damage:^:2d6+4
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6507
+keywords:^:dwarf dwarven miner
+name:^:the dwarven miner
+desc:^:A dwarven miner is here.
+longdesc:^:The mineworker is very tired, and very dirty, and he has bulging muscles.
+race:^:dwarf
+max_hp:^:2d7+96
+damage:^:1d7+2
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6508
+keywords:^:dwarf dwarven mine leader
+name:^:the dwarven mine leader
+desc:^:A dwarven mine leader is here.
+longdesc:^:The mine leader is very big and very strong.
+race:^:dwarf
+max_hp:^:4d10+360
+damage:^:4d4+5
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6509
+keywords:^:dwarf dwarven doctor
+name:^:the dwarven doctor
+desc:^:The dwarven doctor is here.
+longdesc:^:He is a very skilled surgeon, with hands of steel.
+race:^:dwarf
+max_hp:^:2d6+110
+damage:^:1d8+2
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6510
+keywords:^:dwarf dwarven peon
+name:^:the dwarven peon
+desc:^:A dwarven peon is awaiting help here.
+longdesc:^:Just your average everyday dwarven peon.
+race:^:dwarf
+max_hp:^:2d6+35
+damage:^:1d6+0
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6511
+keywords:^:dwarf
+name:^:the dwarf
+desc:^:A grinning dwarf is here.
+longdesc:^:He's grinning rather evilly at you. Maybe he's from the Colossal Caves.
+race:^:dwarf
+max_hp:^:2d6+110
+damage:^:1d8+2
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6512
+keywords:^:dwarf unwanted son
+name:^:the unwanted son
+desc:^:An unwanted son is here.  You feel sorry for the guy.
+longdesc:^:Awww, poor little bastard dwarf son!
+race:^:dwarf
+max_hp:^:2d6+110
+damage:^:1d8+2
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6513
+keywords:^:unwanted dwarf daughter
+name:^:the unwanted daughter
+desc:^:An unwanted daughter is here.  You feel sorry for her.
+longdesc:^:Awww, poor little bastard dwarf daughter!
+race:^:dwarf
+max_hp:^:2d7+121
+damage:^:2d4+2
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6514
+keywords:^:dwarf barracks guard
+name:^:the barracks guard
+desc:^:A barrack guard is here.
+longdesc:^:It's a dwarf that guards the barracks.
+race:^:dwarf
+max_hp:^:3d9+233
+damage:^:2d6+4
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6515
+keywords:^:man waiting
+name:^:the man in waiting
+desc:^:A man in waiting is here.  He looks nervous and unsure of himself.
+longdesc:^:You wonder what he's waiting for... then again...
+race:^:human
+max_hp:^:3d9+208
+damage:^:2d6+3
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6516
+keywords:^:mazekeeper
+name:^:the mazekeeper
+desc:^:A mazekeeper is here.
+longdesc:^:He looks VERY tough.
+race:^:human
+max_hp:^:6d12+778
+damage:^:2d12+8
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6517
+keywords:^:giant snake
+name:^:the giant snake
+desc:^:There is a giant snake here.
+longdesc:^:It's a giant snake!!!
+race:^:snake
+max_hp:^:3d9+208
+damage:^:2d6+3
+noun:^:none
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3900
+keywords:^:jack
+name:^:Jack
+desc:^:A small man named Jack stands around
+longdesc:^:His clothes are a bit worn and he looks like he's seen better days.  His
+beard grows in long scraggles that cover his face.  
+race:^:human
+max_hp:^:10d10+50
+damage:^:1d1+0
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4000
+keywords:^:python snake
+name:^:the huge python
+desc:^:The huge python rears its head and hisses at you. 
+longdesc:^:It sways back and forth contemplating whether or not to eat you.
+race:^:snake
+max_hp:^:11d9+110
+damage:^:3d4+2
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4001
+keywords:^:garter snake
+name:^:the garter snake
+desc:^:A small green garter snake slithers along the floor.
+longdesc:^:It looks harmless enough.  Or is it?
+race:^:snake
+max_hp:^:7d7+60
+damage:^:1d10+1
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4002
+keywords:^:centipede
+name:^:the centipede
+desc:^:A small centipede here is looking for vegetation.
+longdesc:^:It looks completely harmless but who knows for sure?
+race:^:centipede
+max_hp:^:3d3+30
+damage:^:1d6+0
+noun:^:sting
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4003
+keywords:^:kobold
+name:^:the kobold
+desc:^:An ugly kobold mumbles something under its breath.
+longdesc:^:It looks ugly enough to scare its own mother.
+race:^:kobold
+max_hp:^:4d4+40
+damage:^:1d4+1
+noun:^:claw
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4004
+keywords:^:orc
+name:^:the orc
+desc:^:This orc is frothing around the mouth.  Better stay away.
+longdesc:^:You notice a slight tinge of madness in his eyes.
+race:^:orc
+max_hp:^:6d5+50
+damage:^:1d6+3
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4005
+keywords:^:orc
+name:^:the large orc
+desc:^:This large orc is looking for someone small to pick on.
+longdesc:^:The orc says, "Whatcha look'n at?"
+race:^:orc
+max_hp:^:6d7+70
+damage:^:1d8+2
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4050
+keywords:^:warrior
+name:^:the warrior
+desc:^:This tall warrior has more scars than even you!
+longdesc:^:He's surely a strong, brainless fighter.  Like you.
+race:^:human
+max_hp:^:10d12+120
+damage:^:1d8+4
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4051
+keywords:^:warrior
+name:^:the warrior
+desc:^:This veteran warrior is old enough to be your father.
+longdesc:^:He seems to know his way with weapons.  And he wants
+to show you what he can do!
+race:^:human
+max_hp:^:8d7+70
+damage:^:1d7+2
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4052
+keywords:^:hobgoblin
+name:^:the hobgoblin
+desc:^:A small beat-up hobgoblin cringes in the corner.
+longdesc:^:Looking into the eyes of this poor soul makes you feel
+sad as you see the terror and fear in its eyes.  Why
+don't you put it out of its misery?
+race:^:hobgoblin
+max_hp:^:6d6+40
+damage:^:1d6+1
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4053
+keywords:^:snake
+name:^:the snake
+desc:^:A sickly brown snake watches you with caution.
+longdesc:^:A closer look reveals a hungry demeanor.  Don't get too close!
+race:^:snake
+max_hp:^:4d10+100
+damage:^:2d6+1
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4054
+keywords:^:centipede
+name:^:the centipede
+desc:^:A white centipede crawls along the cave floors randomly.
+longdesc:^:The centipede doesn't really seem to notice you.
+race:^:centipede
+max_hp:^:5d5+50
+damage:^:1d8+0
+noun:^:sting
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4055
+keywords:^:hobgoblin
+name:^:the large hobgoblin
+desc:^:A large hobgoblin is here wondering if he should tear you apart.
+longdesc:^:Red, bloodshot eyes and drool dripping from its mouth makes you
+wonder just how far away you should be.
+race:^:hobgoblin
+max_hp:^:2d10+120
+damage:^:2d4+3
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4056
+keywords:^:orc
+name:^:the orc
+desc:^:An orc is here, looking for something (or perhaps someone) to eat.
+longdesc:^:As you already know, orcs have quite a ravenous appetite.  
+Care to be dinner?
+race:^:orc
+max_hp:^:3d10+90
+damage:^:1d8+2
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4057
+keywords:^:lion mountain
+name:^:the mountain lion
+desc:^:A mountain lion bears its teeth at the sight of more food.
+longdesc:^:Huge claws and big teeth make quite a fearsome opponent for
+the weary.  Are you next?
+race:^:cat
+max_hp:^:4d10+100
+damage:^:2d6+1
+noun:^:claw
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4058
+keywords:^:giant hill
+name:^:the hill giant
+desc:^:A hill giant is here tossing rocks around.  Marbles perhaps?
+longdesc:^:The hill giant looks like he's about 9 feet tall. By his actions you
+come to the conclusion that he's not very intelligent.  A perfect
+playmate for you.
+race:^:giant
+max_hp:^:10d10+150
+damage:^:2d6+6
+noun:^:smash
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4100
+keywords:^:mage
+name:^:the Mage
+desc:^:A small intelligent looking mage is standing here. It looks like he
+knows his way with magic. 
+longdesc:^:This guy can ace the SAT with his frontal lobe tied behind his back.
+race:^:human
+max_hp:^:7d5+130
+damage:^:1d6+2
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4101
+keywords:^:troll
+name:^:the troll
+desc:^:This large mean-looking troll wants to take a closer look at you.
+longdesc:^:Whilst you look at this troll, you realize he is trying to
+figure just how tender you are.
+race:^:troll
+max_hp:^:7d10+150
+damage:^:2d7+3
+noun:^:claw
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4102
+keywords:^:guardian snake
+name:^:the guardian snake
+desc:^:A large green snake is guardian for something.
+longdesc:^:You take a closer look at this large snake while it tries to
+bite your head off!
+race:^:snake
+max_hp:^:4d10+100
+damage:^:2d6+1
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4103
+keywords:^:thief
+name:^:the thief
+desc:^:A thief, all dressed in black.
+longdesc:^:Well COUNT your money!
+race:^:human
+max_hp:^:6d8+80
+damage:^:1d5+1
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4104
+keywords:^:orc
+name:^:the orc
+desc:^:An ugly orc is standing here waiting for someone to practice on.
+longdesc:^:Yrkk..  He belches in your face!
+race:^:orc
+max_hp:^:7d7+70
+damage:^:1d8+3
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4105
+keywords:^:centipede
+name:^:a centipede
+desc:^:A small harmless centipede is here looking for some vegetation to eat.
+longdesc:^:It doesn't seem to pay any attention towards you.  You are probably
+not important.
+race:^:centipede
+max_hp:^:8d5+50
+damage:^:2d4+1
+noun:^:sting
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4106
+keywords:^:warrior
+name:^:the Warrior
+desc:^:A human warrior grins an evil grin in your face.
+longdesc:^:He doesn't look friendly at all...  He is no Mr. Rogers!
+race:^:human
+max_hp:^:4d10+130
+damage:^:1d8+3
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4107
+keywords:^:kobold
+name:^:the green kobold
+desc:^:A green kobold hobbles along the cave walls puking periodically.
+longdesc:^:It looks a little sick.  Something he ate maybe?
+race:^:kobold
+max_hp:^:8d4+50
+damage:^:2d4+1
+noun:^:claw
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4150
+keywords:^:bat blue
+name:^:the blue bat
+desc:^:A blue bat flies in circles while electrical charges arc here and there.
+longdesc:^:Bzzzt.  Zap.  Crackle.  Speak about static electricity!
+race:^:bat
+max_hp:^:3d10+70
+damage:^:1d9+1
+noun:^:shbite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4151
+keywords:^:bat red
+name:^:the red bat
+desc:^:A red bat hangs upside down from the ceiling, glowing.
+longdesc:^:You can definitely feel some heat from this thing.  A fever perhaps?
+race:^:bat
+max_hp:^:3d10+70
+damage:^:1d9+1
+noun:^:flbite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4152
+keywords:^:bat green
+name:^:the green bat
+desc:^:A green bat flies from wall to wall leaving an awful smell.
+longdesc:^:Whew!  What a stinker!
+race:^:bat
+max_hp:^:3d10+70
+damage:^:1d9+1
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4153
+keywords:^:bat white
+name:^:the white bat
+desc:^:A white bat rests on the ceiling.  You wonder where the cold is coming from.
+longdesc:^:Brrr!  You almost can't distinguish this bat from an ice cube.
+race:^:bat
+max_hp:^:3d10+70
+damage:^:1d9+1
+noun:^:frbite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4154
+keywords:^:bat black
+name:^:the black bat
+desc:^:A black bat flies from wall to wall leaving something hissing behind.
+longdesc:^:Amazing!  This bat is grooming itself with acid!
+race:^:bat
+max_hp:^:3d10+70
+damage:^:1d9+1
+noun:^:acbite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4155
+keywords:^:thief
+name:^:the thief
+desc:^:A sneaky thief appears and disappears within the shadows.
+longdesc:^:He definitely knows what he's doing.  Trust him.
+race:^:human
+max_hp:^:3d20+130
+damage:^:2d4+3
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4156
+keywords:^:troll
+name:^:the troll
+desc:^:A large ugly troll is here mumbling something.
+longdesc:^:He looks quite mean.  Don't mess with him.
+race:^:troll
+max_hp:^:8d20+140
+damage:^:3d4+5
+noun:^:claw
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4157
+keywords:^:mage
+name:^:the Mage
+desc:^:A small man is here researching magical incantations.
+longdesc:^:His little head is buried into his magic books.  He'd be very
+angry should you bother his studies.
+race:^:human
+max_hp:^:4d10+100
+damage:^:1d6+1
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4158
+keywords:^:snake
+name:^:the snake
+desc:^:A brown snake hisses at you.
+longdesc:^:Sickly brown as it is, you know what it really wants is you
+for dinner.
+race:^:snake
+max_hp:^:2d10+100
+damage:^:1d12+1
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4159
+keywords:^:troll
+name:^:the small troll
+desc:^:A 'small' troll is here happily dancing.  Trala-la-la.  La-la.
+longdesc:^:He is so happy, you are disgusted.  Kill him now!
+race:^:troll
+max_hp:^:3d10+80
+damage:^:2d5+2
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4160
+keywords:^:orc
+name:^:the orc
+desc:^:A large orc growls in your face.
+longdesc:^:He is just looking for a fight isn't he?
+race:^:orc
+max_hp:^:3d10+100
+damage:^:1d8+2
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3500
+keywords:^:wyvern
+name:^:the wyvern
+desc:^:A monstrous wyvern slowly circles just above your head.
+longdesc:^:This huge winged creature looks really menacing.  You are happy it doesn't
+APPEAR to be very hungry ... yet.
+race:^:wyvern
+max_hp:^:8d8+80
+damage:^:2d6+1
+noun:^:bite
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3501
+keywords:^:goblin mountain
+name:^:the goblin
+desc:^:A mountain goblin is wandering about, mumbling to himself.
+longdesc:^:You see before you a small and twisted creature with knotted muscles.
+race:^:goblin
+max_hp:^:4d4+65
+damage:^:2d4+1
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3502
+keywords:^:boy small
+name:^:the small boy
+desc:^:A small boy sits here, licking his wounds.
+longdesc:^:The poor boy has numerous cuts and scratches, but appears to be all right.
+He is apparently the only survivor of the ambush.
+race:^:human
+max_hp:^:1d12+47
+damage:^:1d6+0
+noun:^:beating
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3503
+keywords:^:innkeeper
+name:^:the Innkeeper
+desc:^:The Innkeeper stands here, cleaning glasses.
+longdesc:^:The Innkeeper now spends most of his days waiting for customers, while the
+nights are spent watching out for goblins.  His inn is no longer the happy
+place that is used to be in days past.
+race:^:human
+max_hp:^:1d12+200
+damage:^:2d8+1
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3504
+keywords:^:bard
+name:^:the bard
+desc:^:A sullen bard is here, drinking away his problems.
+longdesc:^:You can smell the alcohol on his breath from across the room.  This poor bard
+has been sitting here quite a while, drinking himself into oblivion.
+race:^:human
+max_hp:^:1d12+110
+damage:^:2d6+0
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3505
+keywords:^:horseman dark
+name:^:the dark horseman
+desc:^:A dark horseman is here, mounted on his black steed.
+longdesc:^:The man is obviously an outlaw, and has no qualms about slashing you into
+little bits.
+race:^:human
+max_hp:^:1d12+110
+damage:^:2d5+2
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3506
+keywords:^:goblin lieutenant
+name:^:the goblin lieutenant
+desc:^:A goblin lieutenant stands here, attempting to get his men in order.
+longdesc:^:The goblin lieutenant is rather angry, and looking for one of his men to
+beat up upon, but maybe you will do just fine ...
+race:^:goblin
+max_hp:^:1d12+100
+damage:^:1d10+1
+noun:^:punch
+position:^:(*int)1
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3507
+keywords:^:goblin leader
+name:^:the goblin leader
+desc:^:The goblin leader surveys the room.
+longdesc:^:The leader doesn't look too happy that you have found him here.  He grabs
+for his shortsword and lunges for your neck.
+race:^:goblin
+max_hp:^:1d12+120
+damage:^:1d12+3
+noun:^:punch
+position:^:(*int)1
 --- END MOBILE ---

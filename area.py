@@ -9,6 +9,36 @@ class Area():
     def __init__(self, name):
         self.name = name
         self.rooms = []
+        self.resets = []
+        self.resetTimer = 0.0
+
+    def reset(self):
+        import copy
+        print("HEY!", self.name)
+        #first check that there are no players here...
+        for i in range(len(self.rooms)):
+            for mob in _.mobiles:
+                #if mob is player, skip to next
+                if mob.has_peer():
+                    continue
+                else:
+                    if mob.get_room() is self.rooms[i]:
+                        _.mobiles.remove(mob)
+                        del(mob)
+        for i in range(len(self.resets)):
+            mob_data = self.resets[i].split(':^:')[1].strip('\n').split(' ')
+            mob_vnum = mob_data[0]
+            mob_room = mob_data[1]
+            #print(mob_vnum,mob_room)
+            available_mobs = [x for x in _.master_mobile_list if x.vnum == mob_vnum]
+            if len(available_mobs) <= 0:
+                print("ERROR: Invalid mob created during reset.", mob_vnum)
+            elif len(available_mobs) > 1:
+                print("ERROR: Reset attempted to create duplicate mob.")
+            else:
+                new_mob = copy.deepcopy(available_mobs[0])
+                new_mob.stats["room"] = mob_room
+                _.mobiles.append(new_mob)
 
 
 def initialize_area():
@@ -25,7 +55,18 @@ def initialize_area():
         _.areas.append(temp_area)
         lines = f.readlines()
         temp_room = None
-        for l in lines:
+        for i in range(0,len(lines)):
+            l = lines[i]
+            #Read RESET information from the end of the area file.
+            if l == "---START RESETS---\n":
+                nextFile = False
+                for j in range(i + 1, len(lines)):
+                    if lines[j] == "--- END RESETS ---\n":
+                        nextFile = True
+                        break
+                    temp_area.resets.append(lines[j])
+                if nextFile:
+                    break
             if l == "--- START ROOM ---\n":
                 temp_room = room.Room("", temp_area, "", "")
                 temp_mobiles = []
@@ -50,15 +91,6 @@ def initialize_area():
                         temp_room.exits[int(temp_value)] = temp_vnum
                     except IndexError:
                         print("Illegal exit found.")
-                elif temp_key == "mobiles":
-                    for m in temp_value.split():
-                        available_mobs = [x for x in _.master_mobile_list if x.vnum == m]
-                        if len(available_mobs) < 1:
-                            print("Room reset contains unknown vnum \"%s\"." % m)
-                        elif len(available_mobs) > 1:
-                            print("Room reset contains duplicated vnum \"%s\"." % m)
-                        else:
-                            temp_mobiles.append(copy.deepcopy(available_mobs[0]))
                 else:
                     if temp_key == "desc":
                         temp_value += "\n\r"

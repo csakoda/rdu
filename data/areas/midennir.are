@@ -508,3 +508,21 @@ make any further exploration impossible.  Fresh tracks cover the ground, and
 end right here.  The horsemen must be nearby.
 exit:^:1:^:3583
 ---  END ROOM  ---
+---START RESETS---
+mobile:^:3501 3506
+mobile:^:3501 3509
+mobile:^:3501 3512
+mobile:^:3501 3512
+mobile:^:3501 3513
+mobile:^:3500 3521
+mobile:^:3500 3521
+mobile:^:3506 3551
+mobile:^:3501 3556
+mobile:^:3506 3556
+mobile:^:3507 3556
+mobile:^:3502 3575
+mobile:^:3503 3576
+mobile:^:3504 3577
+mobile:^:3505 3583
+mobile:^:3505 3584
+--- END RESETS ---
