@@ -1,9 +1,0 @@
-class:^:mage
-race:^:dwarf
-version:^:(*int)0
-max_hp:^:(*int)100
-password:^:12345
-position:^:(*int)2
-name:^:Asdrubal
-room:^:5700
-hp:^:(*int)100
