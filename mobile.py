@@ -70,6 +70,10 @@ class Mobile():
             "room": _.START_ROOM,
             "hp": 100,
             "max_hp": 100,
+            "mana": 100,
+            "max_mana": 100,
+            "moves": 100,
+            "max_moves": 100,
             "position": _.POS_STANDING
         }
         self.keywords = []
@@ -122,6 +126,12 @@ class Mobile():
 
     def get_hp(self):
         return self.stats["hp"]
+        
+    def get_mana(self):
+        return self.stats["mana"]
+        
+    def get_moves(self):
+        return self.stats["moves"]
 
     def get_skills(self):
         return []
@@ -134,6 +144,12 @@ class Mobile():
 
     def get_max_hp(self):
         return self.stats["max_hp"]
+        
+    def get_max_mana(self):
+        return self.stats["max_mana"]
+        
+    def get_max_moves(self):
+        return self.stats["max_moves"]
 
     def damage(self, amount):
         self.stats["hp"] -= amount
