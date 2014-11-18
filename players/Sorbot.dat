@@ -1,11 +1,17 @@
-position:^:(*int)2
-room:^:5717
-class:^:runist
+max_moves:^:(*int)100
+max_mana:^:(*int)100
 name:^:Sorbot
-hp:^:(*int)100
 desc:^:
-version:^:(*int)0
-max_hp:^:(*int)100
-password:^:connor
 race:^:elf
+version:^:(*int)0
+prompt:^:{c<%%hhp %%mm %%vmv>{x
+hp:^:(*int)100
+color:^:(*int)1
+max_hp:^:(*int)100
+moves:^:(*int)100
+position:^:(*int)2
+class:^:runist
+mana:^:(*int)100
+room:^:5717
+password:^:connor
 item:^:3

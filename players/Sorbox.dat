@@ -1,13 +1,19 @@
-position:^:(*int)2
-room:^:5703
-hp:^:(*int)46
-version:^:(*int)0
+room:^:5702
 desc:^:
+max_moves:^:(*int)100
 class:^:thief
-name:^:Sorbox
-race:^:elf
+prompt:^:{c<%%hhp %%mm %%vmv>{x
 password:^:connor
+race:^:elf
+max_mana:^:(*int)100
+name:^:Sorbox
 max_hp:^:(*int)100
+version:^:(*int)0
+mana:^:(*int)100
+moves:^:(*int)100
+position:^:(*int)2
+color:^:(*int)1
+hp:^:(*int)46
 item:^:2
 equipment:^:4:^:7
 equipment:^:1:^:11

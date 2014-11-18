@@ -20,7 +20,8 @@ class Player(mobile.Mobile):
     def __init__(self):
         mobile.Mobile.__init__(self)
         self.lag = 0
-        self.prompt = "<%s/%shp>"
+        self.stats["color"] = 0
+        self.stats["prompt"] = "{c<%%hhp %%mm %%vmv>{x"
         self.equipment = {
             _.WEAR_ARMS: None,
             _.WEAR_BODY: None,
@@ -53,8 +54,24 @@ class Player(mobile.Mobile):
         temp_damage = temp_weapon.get_damage()
         return temp_damage
 
+    def get_color(self):
+        return self.stats["color"]
+
+    def get_raw_prompt(self):
+        return self.stats["prompt"]
+
     def get_prompt(self):
-        return self.prompt % (self.get_hp(), self.get_max_hp())
+        applied_prompt = self.stats["prompt"]
+        applied_prompt = applied_prompt.replace("%%h", str(self.get_hp()))
+        applied_prompt = applied_prompt.replace("%%H", str(self.get_max_hp()))
+        applied_prompt = applied_prompt.replace("%%m", str(self.get_mana()))
+        applied_prompt = applied_prompt.replace("%%M", str(self.get_max_mana()))
+        applied_prompt = applied_prompt.replace("%%v", str(self.get_moves()))
+        applied_prompt = applied_prompt.replace("%%V", str(self.get_max_moves()))
+        applied_prompt = applied_prompt.replace("%%a", self.get_area().name)
+        applied_prompt = applied_prompt.replace("%%r", self.get_room().get_name())
+        applied_prompt = applied_prompt.replace("%%n", "\n\r")
+        return applied_prompt
 
     def get_keywords(self):
         return [self.get_name().lower(),]
