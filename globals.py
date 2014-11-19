@@ -6,6 +6,8 @@ START_ROOM = "5700"
 
 ENCODING_TYPE = "utf-8"
 
+SEPARATOR = ":^:"
+
 DIR_NORTH = 0
 DIR_EAST = 1
 DIR_SOUTH = 2
@@ -13,15 +15,22 @@ DIR_WEST = 3
 DIR_UP = 4
 DIR_DOWN = 5
 
-STATE_NAME1 = 0
-STATE_NAME2 = 1
-STATE_NEW_PASSWORD1 = 2
-STATE_NEW_PASSWORD2 = 3
-STATE_RACE = 4
-STATE_CLASS = 5
-STATE_ONLINE = 6
-STATE_QUIT = 7
-STATE_PASSWORD = 8
+# Game states
+STATE_ONLINE = 0
+STATE_QUIT = 1
+STATE_LOGIN = 2
+
+# Login states
+LOGIN_NAME1 = 0
+LOGIN_NAME2 = 1
+LOGIN_RACE = 4
+LOGIN_CLASS = 5
+LOGIN_PASSWORD = 8
+LOGIN_LIST_CHARS = 13
+LOGIN_ACCOUNT1 = 9
+LOGIN_ACCOUNT2 = 10
+LOGIN_NEW_PASSWORD1 = 11
+LOGIN_NEW_PASSWORD2 = 12
 
 MAX_PASSWORDS = 3
 
@@ -115,7 +124,7 @@ EMPTIONREDEMPTIONR     ^^ ^ @@@@@@@@@ ^^       PTIONREDEMTIONRED\n\r\
 NREDEIPTIONREDEMPTI    ^^^^ @@@@@@@@@ ^^^^    TIONREDEMPTIONREDE\n\r\
 MPTIONREDEMPTIONREDEMPTIONREDEMPTIONREDEMPTIONREDEMPTIONREDEMPTI\n\r\
 EMPTIONREDEMPTIONREDEMPTIONREDEMPTIONREDEMPTIONREDEMPTIONREDEMPT\n\r\n\r\
-By what name do you wish to be known? "
+Enter your account name: "
 
 
 def send_to_room(message, room, named=[]):
@@ -161,28 +170,28 @@ def send_instruction(char, message):
     char.SOCKET.send(message)
 
 
-def send_to_char(char, message, prompt=True, override=False, named=[]):
-    # if char.online
-    if char is None:
+def send_to_char(player, message, prompt=True, override=False, named=[]):
+    # if player.online
+    if player is None:
         return
-    if char.state is not STATE_ONLINE and not override:
+    if player.game_state is not STATE_ONLINE and not override:
         return
-    if char not in peers:
+    if player not in peers:
         return
 
     if len(named) > 0:
-        message = message % tuple([n.get_name(char.player) for n in named])
+        message = message % tuple([n.get_name(player.player) for n in named])
 
     message = message[0].capitalize() + message[1:]
     
     if block_send:
-        send_to_buf(char, message)
-    elif not char.linkdead:
-        if char.state == STATE_ONLINE and prompt:
-            message += "\n\r" + char.player.get_prompt()
+        send_to_buf(player, message)
+    elif not player.linkdead:
+        if player.game_state == STATE_ONLINE and prompt:
+            message += "\n\r" + player.player.get_prompt()
             #  Color stuff
             message = message.replace("{{", "{~")
-            if char.player.get_color() == 1:
+            if player.player.get_color() == 1:
                 message = message.replace("{x", "\033[0;39m")
                 message = message.replace("{r", "\033[0;31m")
                 message = message.replace("{b", "\033[0;34m")
@@ -224,7 +233,7 @@ def send_to_char(char, message, prompt=True, override=False, named=[]):
             #  end color stuff
         # noinspection PyArgumentList
         try:
-            char.SOCKET.send(bytes(message, ENCODING_TYPE))
+            player.SOCKET.send(bytes(message, ENCODING_TYPE))
         except IOError as e:
             print(e)
 
@@ -264,5 +273,6 @@ def get_dir_constant(dir_string):
     elif dir_string[0] == 'd':
         return DIR_DOWN
     return None
-    
-        
+
+def strip_load_line(input_string):
+    return input_string.strip().split(SEPARATOR)

@@ -75,7 +75,7 @@ class Room():
         #  Characters
 
         other_players = [c.player for c in _.peers if c is not char and c.player.get_room() == self
-                                               and not c.linkdead and c.state == _.STATE_ONLINE]
+                                               and not c.linkdead and c.game_state == _.STATE_ONLINE]
         other_mobs = [m for m in _.mobiles if m.get_peer() is None and m.get_room() == self]
         others = other_mobs + other_players
 

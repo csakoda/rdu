@@ -3,13 +3,15 @@ __author__ = 'ohell_000'
 
 import globals as _
 import player
-import admin
+import login
 import threading
+import account
 
 class Peer(threading.Thread):
     def __init__(self, socket, address, lock):
         threading.Thread.__init__(self)
-        self.state = _.STATE_NAME1
+        self.game_state = _.STATE_LOGIN
+        self.login_state = _.LOGIN_ACCOUNT1
         self.SOCKET = socket
         self.ADDRESS = address
         self.input_buffer = ""
@@ -21,13 +23,17 @@ class Peer(threading.Thread):
         self.password_count = 0
         self.nervous_count = 0
 
-        self.player = player.Player()
+        self.account = account.Account()
+        
+        self.temp_account_name = ""
+        self.temp_password = ""
 
     def custom_decode(self, data):
         return str(data)[2:len(str(data)) - 1]
 
     def run(self):
         #  import telnetlib
+        from update import parse_command
 
         #  _.send_instruction(self, telnetlib.IAC + telnetlib.WILL + telnetlib.ECHO)
         self.lock.acquire()
@@ -37,7 +43,7 @@ class Peer(threading.Thread):
         _.send_to_char(self, _.LOGIN_MESSAGE, False, True)
 
         # main loop
-        while self.state is not _.STATE_QUIT:
+        while self.game_state is not _.STATE_QUIT:
             try:
                 data=self.SOCKET.recv(1024)
             except TimeoutError:
@@ -45,7 +51,7 @@ class Peer(threading.Thread):
                 continue
             except (ConnectionResetError, ConnectionAbortedError):
                 print("Connection failed.")
-                self.state = _.STATE_QUIT  # -Rework- to include linkdead
+                self.game_state = _.STATE_QUIT  # -Rework- to include linkdead
                 continue
             self.linkdead = False
             if not data:
@@ -65,27 +71,14 @@ class Peer(threading.Thread):
                         decodedMessage[:len(decodedMessage) - 2]
                     # After a newline is received, input_string_buffer is the command sent by the peer if it's not empty
                     if len(self.input_buffer) > 0:
-                        # Check state to handle login input_string
-                        if self.state == _.STATE_NAME1:
-                            admin.parse_name1(self, self.input_buffer)
-                        elif self.state == _.STATE_NAME2:
-                            admin.parse_name2(self, self.input_buffer)
-                        elif self.state == _.STATE_PASSWORD:
-                            admin.parse_password(self, self.input_buffer)
-                        elif self.state == _.STATE_NEW_PASSWORD1:
-                            admin.parse_new_password1(self, self.input_buffer)
-                        elif self.state == _.STATE_NEW_PASSWORD2:
-                            admin.parse_new_password2(self, self.input_buffer)
-                        elif self.state == _.STATE_RACE:
-                            admin.parse_race(self, self.input_buffer)
-                        elif self.state == _.STATE_CLASS:
-                            admin.parse_class(self, self.input_buffer)
-                        elif self.state == _.STATE_ONLINE:
+                        if self.game_state == _.STATE_ONLINE:
                             if len(self.command_buf) == 0 and self.player.lag == 0:
-                                if admin.parse_command(self, self.input_buffer): # returns true if not found
+                                if parse_command(self, self.input_buffer): # returns true if not found
                                     _.send_to_char(self,"Huh?\n\r")
                             else:
                                 self.command_buf.append(self.input_buffer)
+                        elif self.game_state == _.STATE_LOGIN:
+                            login.handle_login(self, self.input_buffer)
                     self.input_buffer = ""
                 else:
                     self.input_buffer += decodedMessage
@@ -94,7 +87,7 @@ class Peer(threading.Thread):
         quit()
 
     def quit(self):
-        self.state = _.STATE_QUIT
+        self.game_state = _.STATE_QUIT
         self.SOCKET.close()
         print("Disconnected ", self.ADDRESS)
         try:
@@ -104,3 +97,7 @@ class Peer(threading.Thread):
         self.lock.acquire()
         _.peers.remove(self)
         self.lock.release()
+
+
+# TEMPORARY STATIC FUNCTIONS
+

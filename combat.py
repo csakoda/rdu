@@ -186,7 +186,7 @@ def start_combat_block():
 
 def end_combat_block():
     for m in _.peers:
-        if m.player.fighting is not None:
+        if m.account.player.fighting is not None:
             _.send_to_char(m, m.player.fighting.get_condition())
 
     _.block_send = False

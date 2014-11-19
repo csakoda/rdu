@@ -237,9 +237,9 @@ class Mobile():
         return buf
 
     def get_peer(self):
-        for v in _.peers:
-            if v.player == self:
-                return v
+        for p in _.peers:
+            if p.account.player == self:
+                return p
         return None
 
     def has_peer(self):

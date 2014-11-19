@@ -17,6 +17,7 @@ class Class ():
     def get_class_stat(self):
         return self.stats["class_stat"]
 
+
 def initialize_classes():
     f = open("data/classes.dat", "r")
     lines = f.readlines()

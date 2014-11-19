@@ -16,7 +16,7 @@ def do_move(char, direction):
 
     dir_string = _.get_dir_string(direction)
 
-    if "sneak" not in char.player.get_skills():
+    if "sneak" not in char.account.player.get_skills():
         _.send_to_room_except("%s leaves %s.\n\r" % (char.player.stats["name"], dir_string), char.player.get_room(), [char,])
     char.player.stats["room"] = temp_new_room_vnum
     do_look(char, "")
@@ -101,7 +101,7 @@ def do_emote(char, args):
 def do_who(char, args):
     buf = ""
     for c in _.peers:
-        if c.state == _.STATE_ONLINE:
+        if c.game_state == _.STATE_ONLINE:
             buf += "[51 %-7s %7s] [  Loner ] %s%s %s\n\r" % ( c.player.stats["race"].capitalize(), \
                 c.player.stats["class"].capitalize(), "<LINKDEAD> " if c.linkdead else "", \
                 c.player.stats["name"], c)
@@ -236,18 +236,19 @@ def do_color(char, args):
         _.send_to_char(char, "Color is off now. Sigh.")
 
 def do_quit(char, args):  # -Rework- to avoid quitting while nervous
-    from admin import save_char
     if char.nervous_count > 0:
         _.send_to_char(char, "You are too excited to quit!\n\r")
         return
-    save_char(char)
+    char.save()
     _.send_to_char(char, "Alas, all good things must come to an end.\n\r")
     char.quit()
-    char.state = _.STATE_QUIT
+    char.game_state = _.STATE_QUIT
+
 
 def do_qui(char, args):
     _.send_to_char(char, "If you want to QUIT, you'll have to spell it out.\n\r")
-    
+
+
 def do_shutdown(char, args):
     _.send_to_char(char, "whyudoah\n\r")
     

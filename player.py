@@ -216,3 +216,64 @@ class Player(mobile.Mobile):
             return True
         except ValueError:
             return False
+        
+    def save(self, name):
+        import os
+        if not os.path.exists('players'):
+            os.makedirs('players')
+        f = open("players/" + self.stats["name"].lower() + ".dat","w")
+        for s in self.stats:
+            f.write("%s:^:%s%s\n" % (s, "" if type(self.stats[s]) is str else "(*int)", self.stats[s]))
+        for i in self.inventory:
+            f.write("item:^:%s\n" % i.vnum)
+        for a in self.affects:
+            f.write("affect:^:%s:^:%s\n" % (a.name, a.duration))
+        for e in self.equipment:
+            if self.equipment[e] is not None:
+                f.write("equipment:^:%s:^:%s\n" % (self.equipment[e].vnum, e))
+        f.close()
+        
+    def load(self, name):
+        import copy
+        import item
+        
+        try:
+            f = open("players/" + name + ".dat", "r")
+            print("File found, loading character.")
+            lines = f.readlines()
+            for l in lines:
+                temp_key = l.split(":^:")[0].strip()
+                if temp_key == "item":
+                    temp_vnum = l.split(":^:")[1].strip()
+                    temp_item = copy.deepcopy(item.get_item_by_vnum(temp_vnum))
+                    if temp_item is not None:
+                        self.inventory.append(temp_item)
+                elif temp_key == "affect":
+                    temp_affect = l.split(":^:")[1].strip()
+                    temp_duration = int(float(l.split(":^:")[2].strip()))
+                    try:
+                        _.affect_list[temp_affect].apply_affect(self,temp_duration)
+                    except KeyError:
+                        print("Illegal affect found. Skipping.")
+                elif temp_key == "equipment":
+                    try:
+                        temp_vnum = l.split(":^:")[1].strip()
+                        temp_item = copy.deepcopy(item.get_item_by_vnum(temp_vnum))
+                        temp_slot = int(l.split(":^:")[2].strip())
+                        if temp_item is not None:
+                            self.equipment[temp_slot] = temp_item
+                    except IndexError:
+                        print("Illegal equipment found. Skipping.")
+                else:
+                    temp_key = l.split(":^:")[0].strip()
+                    temp_value = l.split(":^:")[1].strip()
+                    if "(*int)" in temp_value:
+                        temp_value = temp_value[6:]
+                        temp_value = int(temp_value)
+                    self.stats[temp_key] = temp_value
+                    print('>' + str(self.stats[temp_key]) + '<')
+        except FileNotFoundError:
+            print("File not found.")
+            return False
+        f.close()
+        return True
