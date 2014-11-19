@@ -11,7 +11,7 @@ def do_update():
     for p in _.peers:
         #  Handle command lag and the command buffer
         if p.account.player.lag > 0:
-            p.account.player.lag = max(p.player.lag - 0.25, 0)
+            p.account.player.lag = max(p.account.player.lag - 0.25, 0)
         elif len(p.command_buf) > 0:
             parse_command(p, p.command_buf[0])
             p.command_buf.pop(0)
@@ -25,7 +25,7 @@ def do_update():
         if p.nervous_count > 0:
             p.nervous_count -= 0.25
             if p.nervous_count <= 0:
-                _.send_to_char(p, "You are no longer nervous.\n\r")
+                p.peer_send("You are no longer nervous.\n\r")
 
     #  Update and remove affects
     for m in _.mobiles:
@@ -78,7 +78,7 @@ def parse_command(peer, input_string):
     else:
         #  Then check skills
         for s in _.skill_list_sorted:
-            if s not in peer.player.get_skills():
+            if s not in peer.account.player.get_skills():
                 continue
             if len(s) >= len(command):
                 if command == s[:len(command)]:

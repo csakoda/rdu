@@ -4,33 +4,12 @@ __author__ = 'ohell_000'
 import globals as _
 
 
-def parse_name1(peer, input_string):
-    try:
-        input_string = input_string.split()[0].strip()
-    except IndexError:
-        peer.peer_send("Illegal name.\n\rBy what name do you wish to be known? ", False, True)
-        return
-    if input_string != ''.join(c for c in input_string if c in _.VALID_CHARS):
-        peer.peer_send("Illegal name.\n\rBy what name do you wish to be known? ", False, True)
-        return
-
-    #  See if player exists
-    if peer.player.load(input_string):
-        peer.peer_send("\n\rPassword: ", False, True)
-        peer.login_state = _.LOGIN_PASSWORD
-        return
-    else:
-        peer.player.stats["name"] = input_string.capitalize()
-        peer.peer_send("\n\rDid I get that right, %s? (Y/N) " % peer.player.stats["name"], False, True)
-        peer.login_state = _.LOGIN_NAME2
-        return
-
-
 def parse_password(peer, input_string):
     temp_password = input_string.split()[0].strip()
     if temp_password == peer.account.password:
-        peer.peer_send(("You have %i gold and the following active players:\n\r" % peer.account.gold) +
-                       str(peer.account.players)+ " ", False, True)
+        peer.peer_send(("Enter 'new' for a new character.\n\rYou have %i gold and the following active players:\n\r"
+                        % peer.account.gold) +
+                       str(peer.account.players) + " ", False, True)
         peer.login_state = _.LOGIN_LIST_CHARS
         return
     else:
@@ -54,7 +33,8 @@ def parse_new_password2(peer, input_string):
     temp_password = input_string.split()[0].strip()
     if temp_password == peer.account.password:
         peer.account.save()
-        peer.peer_send("New account.\n\You have the following active characters:\n\r" +
+        peer.peer_send("New account.\n\r\n\rEnter 'new' for a new character.\n\r \
+                       You have the following active characters:\n\r" +
                        str(peer.account.players)+ " ", False, True)
         peer.login_state = _.LOGIN_LIST_CHARS
     else:
@@ -62,15 +42,39 @@ def parse_new_password2(peer, input_string):
         peer.login_state = _.STATE_QUIT
 
 
+def parse_name1(peer, input_string):
+    try:
+        input_string = input_string.split()[0].strip()
+    except IndexError:
+        peer.peer_send("Illegal name.\n\rBy what name do you wish to be known? ", False, True)
+        return
+    if input_string != ''.join(c for c in input_string if c in _.VALID_CHARS):
+        peer.peer_send("Illegal name.\n\rBy what name do you wish to be known? ", False, True)
+        return
+
+    #  See if player exists
+    try:
+        f = open("players/" + input_string + ".dat", "r")
+        peer.peer_send("That name is already taken.\n\rBy what name do you wish to be known? ", False, True)
+    except FileNotFoundError: # Good, player doesn't exist
+        peer.account.player.stats["name"] = input_string.capitalize()
+        peer.peer_send("\n\rDid I get that right, %s? (Y/N) " % peer.account.player.stats["name"], False, True)
+        peer.login_state = _.LOGIN_NAME2
+        return
+    f.close()
+    return
+
+    
 def parse_name2(peer, input_string):
     temp_answer = input_string[0].lower().strip()
     if temp_answer == "y":
         print("New character.")
-        peer.peer_send("New character.\n\rPlease choose a password: ", False, True)
-        peer.login_state = _.LOGIN_NEW_PASSWORD1
+        peer.peer_send("\n\rChoose from the following races:\n\r" + str(_.race_list) + " ", False, True)
+        peer.login_state = _.LOGIN_RACE
 
     elif temp_answer == "n":
-        peer.peer_send("\n\rAlright, what is it then? ", False, True)
+        peer.peer_send("\n\rEnter 'new' for a new character.\n\r \
+                       You have the following active characters:\n\r" + str(peer.account.players), False, True)
         peer.login_state = _.LOGIN_NAME1
     else:
         peer.peer_send("\n\rPlease answer yes or no. ", False, True)
@@ -86,7 +90,7 @@ def parse_race(peer, input_string):
 
     for r in _.race_list:
         if len(input_string) > 0 and input_string == r[:min(len(r), len(input_string))]:
-            peer.player.stats["race"] = r
+            peer.account.player.stats["race"] = r
             peer.peer_send("\n\rChoose from the following classes:\n\r" + str(_.class_list) + " ", False, True)
             peer.login_state = _.LOGIN_CLASS
             break
@@ -106,13 +110,17 @@ def parse_class(peer, input_string):
 
     for c in _.class_list:
         if len(input_string) > 0 and input_string == c[:min(len(c), len(input_string))]:
-            peer.player.stats["class"] = c
+            peer.account.player.stats["class"] = c
             peer.peer_send("\n\rWelcome to Redemption!\n\rPlease don't feed the mobiles.\n\r\n\r", False, True)
             #  Save new character
-            peer.save()
+            peer.account.player.peer = peer
+            peer.account.players.append(peer.account.player.stats["name"])
+            print(str(peer.account.players))
+            peer.account.player.save()
+            peer.account.save()
             peer.game_state = _.STATE_ONLINE
-            _.mobiles.append(peer.player)
-            _.send_to_room_except("%s has entered the game.\n\r" % peer.player.get_name(), peer.player.get_room(),
+            _.mobiles.append(peer.account.player)
+            _.send_to_room_except("%s has entered the game.\n\r" % peer.account.player.get_name(), peer.account.player.get_room(),
                                   [peer,])
             commands.do_look(peer, "")
             break
@@ -138,7 +146,7 @@ def parse_account_name1(peer, input_string):
         return
     else:
         peer.account.name = input_string
-        peer.peer_send("\n\rDid I get that right, %s? (Y/N) " % peer.temp_account_name, False, True)
+        peer.peer_send("\n\rDid I get that right, %s? (Y/N) " % peer.account.name, False, True)
         peer.login_state = _.LOGIN_ACCOUNT2
         return
 
@@ -163,26 +171,32 @@ def parse_char(peer, input_string):
     try:
         input_string = input_string.split()[0].lower()
     except IndexError:
-        peer.peer_send("\n\rYou don't have a character by that name.\n\rYou have the following active \
-                             characters:\n\r" + str(peer.account.players), False, True)
+        peer.peer_send("\n\rYou don't have a character by that name.\n\rEnter 'new' for a new character.\n\r"
+                       "You have the following active characters:\n\r" + str(peer.account.players), False, True)
         return
 
-    for c in peer.account.players:
-        if c == input_string:
-            if peer.account.player.load(input_string):
-                print("Character found and loaded.")
-                peer.peer_send("\n\rWelcome to Redemption!\n\rPlease don't feed the mobiles.\n\r\n\r", False, True)
-                peer.game_state = _.STATE_ONLINE
-                _.mobiles.append(peer.player)
-                for p in [p for p in _.peers if p.player.get_room() == peer.player.get_room() and p is not peer]:
-                    peer.peer_send(p, "%s has entered the game.\n\r" % peer.player.get_name(p.player).capitalize())
-                commands.do_look(peer, "")
-                break
-            else:
-                print("Character found but loading failed.")
+    if input_string == "new":
+        peer.peer_send("New character.\n\rBy what name do you wish to be known? ", False, True)
+        peer.login_state = _.LOGIN_NAME1
     else:
-        peer.peer_send("\n\rYou don't have a character by that name.\n\rYou have the following active \
-                             characters:\n\r" + str(peer.account.players), False, True)
+        for c in peer.account.players:
+            if c == input_string:
+                if peer.account.player.load(input_string):
+                    peer.account.player.peer = peer
+                    print("Character found and loaded.")
+                    peer.peer_send("\n\rWelcome to Redemption!\n\rPlease don't feed the mobiles.\n\r\n\r", False, True)
+                    peer.game_state = _.STATE_ONLINE
+                    _.mobiles.append(peer.account.player)
+                    for p in [p for p in _.peers if p.account.player.get_room() == peer.account.player.get_room() and p is not peer]:
+                        peer.peer_send("%s has entered the game.\n\r" % peer.account.player.get_name(p.account.player).capitalize())
+                    commands.do_look(peer, "")
+                    break
+                else:
+                    print("Character found but loading failed.")
+        else:
+            peer.peer_send("\n\rYou don't have a character by that name.\n\r\n\rEnter 'new' for a new character.\n\r \
+                           You have the following active characters:\n\r" + str(peer.account.players), False, True)
+            return
 
 
 def handle_login(peer, input_string):

@@ -25,9 +25,6 @@ class Peer(threading.Thread):
 
         self.account = account.Account()
         self.block_send = False
-        
-        self.temp_account_name = ""
-        self.temp_password = ""
 
     def custom_decode(self, data):
         return str(data)[2:len(str(data)) - 1]
@@ -73,9 +70,9 @@ class Peer(threading.Thread):
                     # After a newline is received, input_string_buffer is the command sent by the peer if it's not empty
                     if len(self.input_buffer) > 0:
                         if self.game_state == _.STATE_ONLINE:
-                            if len(self.command_buf) == 0 and self.player.lag == 0:
+                            if len(self.command_buf) == 0 and self.account.player.lag == 0:
                                 if parse_command(self, self.input_buffer): # returns true if not found
-                                    _.send_to_char(self,"Huh?\n\r")
+                                    self.peer_send("Huh?\n\r")
                             else:
                                 self.command_buf.append(self.input_buffer)
                         elif self.game_state == _.STATE_LOGIN:
@@ -92,7 +89,7 @@ class Peer(threading.Thread):
         self.SOCKET.close()
         print("Disconnected ", self.ADDRESS)
         try:
-            _.mobiles.remove(self.player)
+            _.mobiles.remove(self.account.player)
         except ValueError:
             print("Player disconnected before being added to mobiles list")
         self.lock.acquire()
@@ -101,7 +98,7 @@ class Peer(threading.Thread):
 
     def peer_send(self, message, prompt=True, override=False, named=[]):
         if len(named) > 0:
-            message = message % tuple([n.get_name(self.player) for n in named])
+            message = message % tuple([n.get_name(self.account.player) for n in named])
 
         message = message[0].capitalize() + message[1:]
 
@@ -109,10 +106,10 @@ class Peer(threading.Thread):
             self.send_to_buf(self, message)
         elif not self.linkdead:
             if self.game_state == _.STATE_ONLINE and prompt:
-                message += "\n\r" + self.player.get_prompt()
+                message += "\n\r" + self.account.player.get_prompt()
                 #  Color stuff
                 message = message.replace("{{", "{~")
-                if self.player.get_color() == 1:
+                if self.account.player.get_color() == 1:
                     message = message.replace("{x", "\033[0;39m")
                     message = message.replace("{r", "\033[0;31m")
                     message = message.replace("{b", "\033[0;34m")

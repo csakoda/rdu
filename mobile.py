@@ -160,7 +160,7 @@ class Mobile():
 
     def handle_death(self, villain):
         self.remove_from_combat()
-        _.send_to_char(self.peer, "You have been KILLED!!\n\r", False)
+        self.send("You have been KILLED!!\n\r", False)
         _.send_to_room_except("%s is DEAD!!\n\r" % self.get_name(), self.get_room(), [self.peer,])
         if villain.has_peer() and self.has_peer():
             _.send_to_all("%s suffers defeat at the hands of %s.\n\r" % (self.get_name(), villain.get_name()))
@@ -274,6 +274,9 @@ class Mobile():
         if self.affected_by(_.affect_list["blind"]):
             return False
         return True
+
+    def send(self):
+        return
 
 
 def initialize_mobiles():

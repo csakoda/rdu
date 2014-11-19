@@ -20,18 +20,18 @@ def get_item_in_room(room, target):
     else:
         return None
 
-def get_item_in_inventory(char, target):
-    for e in char.player.inventory:
+def get_item_in_inventory(peer, target):
+    for e in peer.account.player.inventory:
         for i in e.keywords:
             if len(i) >= len(target) and i[:len(target)] == target:
                 return e
     else:
         return None
 
-def get_item_slot_in_equipment(char, target):
-    for e in char.player.equipment:
-        if char.player.equipment[e] is not None:
-            for i in char.player.equipment[e].keywords:
+def get_item_slot_in_equipment(peer, target):
+    for e in peer.account.player.equipment:
+        if peer.account.player.equipment[e] is not None:
+            for i in peer.account.player.equipment[e].keywords:
                 if len(i) >= len(target) and i[:len(target)] == target:
                     return e
     else:

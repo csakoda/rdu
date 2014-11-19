@@ -25,7 +25,7 @@ class Account():
         f = open("accounts/" + self.name + ".dat","w")
         f.write("password:^:%s\n" % self.password)
         f.write("gold:^:(*int)%i\n" % self.gold)
-        f.write("players:^:%s\n" % " ".join(self.players))
+        f.write("players:^:%s\n" % " ".join(self.players).lower())
         f.close()
 
     def load(self, name):
@@ -44,6 +44,7 @@ class Account():
                         self.players.append(p)
                 elif l[0] == "gold":
                     self.gold = int(l[1][6:])
+            self.name = name
         except FileNotFoundError:
             print("Account not found.")
             return False

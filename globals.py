@@ -129,42 +129,42 @@ Enter your account name: "
 
 def send_to_room(message, room, named=[]):
     for c in peers:
-        if c.player.get_room() == room:
-            send_to_char(c, message, True, False, named)
+        if c.account.player.get_room() == room:
+            c.peer_send(message, True, False, named)
 
 
 def send_to_area_except(message, area, exceptions):
     for c in peers:
-        if c.player.get_area() == area and c not in exceptions:
-            send_to_char(c, message)
+        if c.account.player.get_area() == area and c not in exceptions:
+            c.peer_send(message)
 
 
 def send_to_room_except(message, room, exceptions, named=[]):
     for c in peers:
-        if c.player.get_room() == room and c not in exceptions:
-            send_to_char(c, message, True, False, named)
+        if c.account.player.get_room() == room and c not in exceptions:
+            c.peer_send(message, True, False, named)
 
 
 def send_to_all(message):
     for c in peers:
-        send_to_char(c, message)
+        c.peer_send(message)
 
 
 def send_to_all_except(message, exceptions):
     for c in peers:
         if c not in exceptions:
-            send_to_char(c, message)
+            c.peer_send(message)
 
 
 
 
 
-def send_buf_to_char(char, prompt=True):
-    send_to_char(char, char.send_buffer, prompt)
+def send_buf_to_char(peer, prompt=True):
+    peer.peer_send(peer.send_buffer, prompt)
 
 
-def send_instruction(char, message):
-    char.SOCKET.send(message)
+def send_instruction(peer, message):
+    peer.SOCKET.send(message)
 
 
 def get_dir_string(direction):
