@@ -53,24 +53,24 @@ def do_cgossip(char, args):
     if args == "":
         _.send_to_char(char, "What do you want to cgossip?\n\r")
         return
-    _.send_to_char(char, "You cgossip '%s'\n\r" % args)
-    _.send_to_all_except("%s cgossips '%s'\n\r" % (char.player.stats["name"], args), [char,])
+    _.send_to_char(char, "{gYou cgossip '%s'{g\n\r" % args)
+    _.send_to_all_except("{g%s cgossips '%s'{g\n\r" % (char.player.stats["name"], args), [char,])
 
 
 def do_yell(char, args):
     if args == "":
         _.send_to_char(char, "Yell what?\n\r")
         return
-    _.send_to_char(char, "You yell '%s'\n\r" % args)
-    _.send_to_area_except("%s yells '%s'\n\r" % (char.player.stats["name"], args), char.player.get_area(), [char,])
+    _.send_to_char(char, "{RYou yell '%s'{x\n\r" % args)
+    _.send_to_area_except("{R%s yells '%s'{x\n\r" % (char.player.stats["name"], args), char.player.get_area(), [char,])
 
 
 def do_say(char, args):
     if args == "":
         _.send_to_char(char, "What do you want to say?\n\r")
         return
-    _.send_to_char(char, "You say '%s'\n\r" % args)
-    _.send_to_room_except("%s says '%s'\n\r" % (char.player.stats["name"], args), char.player.get_room(),[char,])
+    _.send_to_char(char, "{yYou say '%s'{x\n\r" % args)
+    _.send_to_room_except("{y%s says '%s'{x\n\r" % (char.player.stats["name"], args), char.player.get_room(),[char,])
 
 
 def do_tell(char, args):
@@ -90,8 +90,8 @@ def do_tell(char, args):
     except IndexError:
         _.send_to_char(char, "What do you want to tell them?\n\r")
         return
-    _.send_to_char(char, "You tell %s '%s'\n\r" % (target_player.get_name(), message))
-    _.send_to_char(target_player.get_peer(), "%s tells you '%s'\n\r" % (char.player.get_name(), message))
+    _.send_to_char(char, "{mYou tell %s '{y%s{m'{x\n\r" % (target_player.get_name(), message))
+    _.send_to_char(target_player.get_peer(), "{m%s tells you '{y%s'{m\n\r" % (char.player.get_name(), message))
 
 
 def do_emote(char, args):
@@ -152,6 +152,27 @@ def do_spells(char, args):
     buf = str(char.player.get_spells()) + "\n\r"
     _.send_to_char(char, buf)
 
+def do_prompt(char, args):
+    if len(args) < 1:
+        buf = "\n\rPrompt options:\n\r\n\r"
+        buf += " %h     current hp\n\r"
+        buf += " %H     maximum hp\n\r"
+        buf += " %m     current mana\n\r"
+        buf += " %M     maximum mana\n\r"
+        buf += " %v     current moves\n\r"
+        buf += " %V     maximum moves\n\r"
+        buf += " %a     current area\n\r"
+        buf += " %r     current room\n\r"
+        buf += " %n     newline\n\r"
+        
+        temp_prompt = char.player.get_raw_prompt()
+        temp_prompt = temp_prompt.replace("%%", "%")
+        temp_prompt = temp_prompt.replace("{", "{{")
+        buf += "\n\rCurrent prompt is:\n\r" + temp_prompt +"\n\r"
+        _.send_to_char(char, buf)
+        return
+    char.player.stats["prompt"] = args.replace("%", "%%")
+    _.send_to_char(char, "Prompt set.\n\r")
 
 def do_look(char, args):
     temp_room = char.player.get_room()
@@ -185,51 +206,34 @@ def do_look(char, args):
                 _.send_to_char(char, "They aren't here.\n\r")
 
     else:
-        #  Name and description
-        buf = temp_room.get_name() + "\n\r\n\r"\
-        + temp_room.get_desc() + "\n\r\n\rExits: [ "
+        _.send_to_char(char, temp_room.display(char))
 
-        #  Exits
-        noexit = True  # -Rework-
-        for d in [x for x in sorted(temp_room.exits) if temp_room.exits[x] is not None]:
-            buf += _.get_dir_string(d) + " "
-            noexit = False
 
-        if noexit:
-            buf += "none "
+def do_peer(char, args):
+    import room
+    if len(args) < 1:
+        _.send_to_char(char, "Peer in which direction?")
+        return
+    direction = _.get_dir_constant(args.split()[0])
+    
+    temp_room = char.player.get_room()
+    temp_new_room_vnum = temp_room.exits[direction]
+    if temp_new_room_vnum is None:
+        _.send_to_char(char, "There's nothing in that direction.")
+        return
+    elif temp_new_room_vnum not in [x.vnum for x in _.rooms]:
+        _.send_to_char(char, "Illegal room. Contact an immortal.\n\r")
+        return
+    _.send_to_char(char, "You peer intensely and see...\n\r\n\r" + room.get_room(temp_new_room_vnum).display(char));
+    
 
-        buf += "]\n\r\n\r"
-
-        #  Items
-
-        for r in temp_room.items:
-            buf += "%s\n\r" % r.get_desc()
-        if len(temp_room.items) > 0:
-            buf += "\n\r"
-
-        #  Characters
-
-        other_players = [c.player for c in _.peers if c is not char and c.player.get_room() == char.player.get_room()
-                                               and not c.linkdead and c.state == _.STATE_ONLINE]
-        other_mobs = [m for m in _.mobiles if m.get_peer() is None and m.get_room() == char.player.get_room()]
-        others = other_mobs + other_players
-
-        for c in others:
-            pos_string = ""
-            pos_tag = ""
-            if c.get_position() == _.POS_FIGHTING:
-                pos_tag = ", fighting %s" % c.fighting.get_name() if c.fighting is not None else "null"
-            elif c.get_position() == _.POS_RESTING:
-                pos_string = "resting "
-            elif c.get_position() == _.POS_SLEEPING:
-                pos_string = "sleeping "
-            buf += "%s%s is %shere%s.\n\r" % ("<LINKDEAD> " if c.get_peer() is not None and c.get_peer().linkdead else "",
-                                              c.stats["name"].capitalize(), pos_string, pos_tag)
-        if len(others) > 0:
-            buf += "\n\r"
-
-        _.send_to_char(char, buf)
-
+def do_color(char, args):
+    temp_color = 1 - char.player.get_color()
+    char.player.stats["color"] = temp_color
+    if temp_color == 1:
+        _.send_to_char(char, "Color is {rON{x now, cool!\n\r")
+    else:
+        _.send_to_char(char, "Color is off now. Sigh.")
 
 def do_quit(char, args):  # -Rework- to avoid quitting while nervous
     from admin import save_char
@@ -241,6 +245,15 @@ def do_quit(char, args):  # -Rework- to avoid quitting while nervous
     char.quit()
     char.state = _.STATE_QUIT
 
+def do_qui(char, args):
+    _.send_to_char(char, "If you want to QUIT, you'll have to spell it out.\n\r")
+    
+def do_shutdown(char, args):
+    _.send_to_char(char, "whyudoah\n\r")
+    
+    
+def do_shutdow(char, args):
+    _.send_to_char(char, "If you want to SHUTDOWN, you'll have to spell it out.\n\r")
 
 def do_get(char, args):
     import item
@@ -475,7 +488,7 @@ def do_wake(char, args):
         return
     temp_vector = temp_target.get_peer()
     if temp_position == _.POS_SLEEPING:
-        _.send_to_char(temp_vector, "You wake and stand up.\n\r")
+        _.send_to_char(temp_vector, "You wake and stand up.\n\r", False)
         _.send_to_room_except("%s wakes and stands up.\n\r" % temp_target.get_name(), temp_target.get_room(), [temp_vector,])
         temp_target.set_position(_.POS_STANDING)
         do_look(temp_vector, "")
@@ -493,10 +506,11 @@ def do_wake(char, args):
 def do_rest(char, args):
     temp_position = char.player.get_position()
     if temp_position == _.POS_SLEEPING:
-        _.send_to_char(char, "You wake up and start resting.\n\r")
+        _.send_to_char(char, "You wake up and start resting.\n\r", False)
         _.send_to_room_except("%s wakes up and starts resting.\n\r" % char.player.get_name(), char.player.get_room(),
                               [char,])
         char.player.set_position(_.POS_RESTING)
+        do_look(char, "")
     elif temp_position == _.POS_RESTING:
         _.send_to_char(char, "You are already resting.\n\r")
     elif temp_position == _.POS_STANDING:
@@ -574,12 +588,14 @@ def initialize_commands():
     _.command_list["wh"] = Command(do_who, _.POS_SLEEPING, 0)
     _.command_list["commands"] = Command(do_commands, _.POS_SLEEPING, 0)
     _.command_list["look"] = Command(do_look, _.POS_RESTING, 0)
+    _.command_list["peer"] = Command(do_peer, _.POS_RESTING, 0)
     _.command_list["inventory"] = Command(do_inventory, _.POS_SLEEPING, 0)
     _.command_list["affects"] = Command(do_affects, _.POS_SLEEPING, 0)
     _.command_list["equipment"] = Command(do_equipment, _.POS_SLEEPING, 0)
     _.command_list["score"] = Command(do_score, _.POS_SLEEPING, 0)
     _.command_list["skills"] = Command(do_skills, _.POS_SLEEPING, 0)
     _.command_list["spells"] = Command(do_spells, _.POS_SLEEPING, 0)
+    _.command_list["prompt"] = Command(do_prompt, _.POS_SLEEPING, 0)
     #  Items
     _.command_list["get"] = Command(do_get, _.POS_RESTING, 0)
     _.command_list["take"] = Command(do_get, _.POS_RESTING, 0)
@@ -591,7 +607,11 @@ def initialize_commands():
     _.command_list["flee"] = Command(do_flee, _.POS_FIGHTING, 0)
     _.command_list["cast"] = Command(do_cast, _.POS_STANDING, 0)
     #  Misc
+    _.command_list["color"] = Command(do_color, _.POS_SLEEPING, 0)
     _.command_list["quit"] = Command(do_quit, _.POS_SLEEPING, 0, False)
+    _.command_list["qui"] = Command(do_qui, _.POS_SLEEPING, 0, False)
+    _.command_list["shutdown"] = Command(do_shutdown, _.POS_SLEEPING, 0)
+    _.command_list["shutdow"] = Command(do_shutdow, _.POS_SLEEPING, 0)
     #  Position
     _.command_list["stand"] = Command(do_stand, _.POS_SLEEPING, 0)
     _.command_list["wake"] = Command(do_wake, _.POS_SLEEPING, 0)
