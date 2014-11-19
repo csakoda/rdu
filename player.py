@@ -3,6 +3,7 @@ __author__ = 'ohell_000'
 
 import globals as _
 import mobile
+import peer
 
 
 def get_player(target):
@@ -19,6 +20,7 @@ def get_player(target):
 class Player(mobile.Mobile):
     def __init__(self):
         mobile.Mobile.__init__(self)
+        self.sendable = True
         self.lag = 0
         self.stats["color"] = 0
         self.stats["prompt"] = "{c<%%hhp %%mm %%vmv>{x"
@@ -271,9 +273,16 @@ class Player(mobile.Mobile):
                         temp_value = temp_value[6:]
                         temp_value = int(temp_value)
                     self.stats[temp_key] = temp_value
-                    print('>' + str(self.stats[temp_key]) + '<')
         except FileNotFoundError:
             print("File not found.")
             return False
         f.close()
         return True
+
+    def is_sendable(self):
+        return self.sendable
+
+    def send(self, message, prompt=True, override=False, named=[]):
+        if not self.is_sendable():
+            return
+        self.peer.peer_send(message, prompt, override, named)

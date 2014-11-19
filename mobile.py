@@ -80,9 +80,13 @@ class Mobile():
         self.inventory = []
         self.affects = []
         self.fighting = None
+        self.peer = None
 
     def get_position(self):
         return self.stats["position"]
+
+    def is_sendable(self):
+        return False
 
     def set_position(self, position):
         self.stats["position"] = position
@@ -156,8 +160,8 @@ class Mobile():
 
     def handle_death(self, villain):
         self.remove_from_combat()
-        _.send_to_char(self.get_peer(), "You have been KILLED!!\n\r", False)
-        _.send_to_room_except("%s is DEAD!!\n\r" % self.get_name(), self.get_room(), [self.get_peer(),])
+        _.send_to_char(self.peer, "You have been KILLED!!\n\r", False)
+        _.send_to_room_except("%s is DEAD!!\n\r" % self.get_name(), self.get_room(), [self.peer,])
         if villain.has_peer() and self.has_peer():
             _.send_to_all("%s suffers defeat at the hands of %s.\n\r" % (self.get_name(), villain.get_name()))
         if self.has_peer():
@@ -236,14 +240,8 @@ class Mobile():
 
         return buf
 
-    def get_peer(self):
-        for p in _.peers:
-            if p.account.player == self:
-                return p
-        return None
-
     def has_peer(self):
-        if self.get_peer() is None:
+        if self.peer is None:
             return False
         else:
             return True
