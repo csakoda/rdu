@@ -275,7 +275,7 @@ class Mobile():
             return False
         return True
 
-    def send(self):
+    def send(self, message, prompt=True, override=False, named=[]):
         return
 
 

@@ -47,7 +47,7 @@ class Affect():
 
     def remove_affect(self):
         if self.remove_string_self != "":
-            self.target.peer.peer_send(self.target.peer, self.remove_string_self)
+            self.target.peer.peer_send(self.remove_string_self)
         if self.remove_string_others != "":
             _.send_to_room_except(self.remove_string_others % self.target.get_name(), self.target.get_room(), \
                               [self.target.peer,])

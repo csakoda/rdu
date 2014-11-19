@@ -24,7 +24,6 @@ class Peer(threading.Thread):
         self.nervous_count = 0
 
         self.account = account.Account()
-        self.block_send = False
 
     def custom_decode(self, data):
         return str(data)[2:len(str(data)) - 1]
@@ -102,8 +101,8 @@ class Peer(threading.Thread):
 
         message = message[0].capitalize() + message[1:]
 
-        if self.block_send:
-            self.send_to_buf(self, message)
+        if _.block_send:
+            self.send_to_buf(message)
         elif not self.linkdead:
             if self.game_state == _.STATE_ONLINE and prompt:
                 message += "\n\r" + self.account.player.get_prompt()
@@ -156,7 +155,7 @@ class Peer(threading.Thread):
                 print(e)
 
     def send_to_buf(self, message):
-        self.peer.send_buffer += message
+        self.send_buffer += message
 
 
 # TEMPORARY STATIC FUNCTIONS

@@ -75,7 +75,7 @@ def parse_name2(peer, input_string):
     elif temp_answer == "n":
         peer.peer_send("\n\rEnter 'new' for a new character.\n\r \
                        You have the following active characters:\n\r" + str(peer.account.players), False, True)
-        peer.login_state = _.LOGIN_NAME1
+        peer.login_state = _.LOGIN_LIST_CHARS
     else:
         peer.peer_send("\n\rPlease answer yes or no. ", False, True)
 

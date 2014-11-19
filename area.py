@@ -14,7 +14,7 @@ class Area():
 
     def reset(self):
         import copy
-        print("HEY!", self.name)
+        print("Area reset: %s." % self.name)
         #first check that there are no players here...
         for i in range(len(self.rooms)):
             for mob in _.mobiles:

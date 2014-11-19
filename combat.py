@@ -134,7 +134,7 @@ def start_combat(hitter, victim):
 def do_damage(hitter, victim, damage, noun, magical):
     dam_adjective, dam_verb, dam_tag = get_damage_string(damage, magical)
     hitter.send("Your %s%s %s %%s%s (%s)\n\r" % (dam_adjective, noun, dam_verb,
-                                                                    dam_tag, damage), True, False, [victim, ])
+                                                 dam_tag, damage), True, False, [victim, ])
     try:
         hitter.fighting.send("%s's %s%s %s you%s (%s)\n\r" % (hitter.get_name(victim).capitalize(),
                                                                                     dam_adjective, noun, dam_verb,
@@ -188,7 +188,7 @@ def start_combat_block():
 def end_combat_block():
     for m in _.peers:
         if m.account.player.fighting is not None:
-            m.peer_send(m.player.fighting.get_condition())
+            m.peer_send(m.account.player.fighting.get_condition())
 
     _.block_send = False
 
