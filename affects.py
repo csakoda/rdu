@@ -42,12 +42,12 @@ class Affect():
         target.affects.append(new_affect)
         if self.apply_function is not None:
             self.apply_function(new_affect)
-        target.peer.peer_send(self.apply_string_self)
+        target.send(self.apply_string_self)
         _.send_to_room_except(self.apply_string_others % target.get_name(), target.get_room(), [target.peer,])
 
     def remove_affect(self):
         if self.remove_string_self != "":
-            self.target.peer.peer_send(self.remove_string_self)
+            self.target.send(self.remove_string_self)
         if self.remove_string_others != "":
             _.send_to_room_except(self.remove_string_others % self.target.get_name(), self.target.get_room(), \
                               [self.target.peer,])
