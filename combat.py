@@ -101,17 +101,18 @@ def do_elemental(hitter, victim, element):
     if random.randint(0,10) > 5:
         return
     if "fire" in element:
-        _.send_to_char(victim.get_peer(), "You are burned by " + hitter.get_name() + "'s flames.\n\r")
-        _.send_to_char(hitter.get_peer(), victim.get_name() + " is burned by your flames.\n\r")
-        _.send_to_room_except(victim.get_name() + "is burned by " + hitter.get_name() + "'s flames.\n\r",hitter.get_room(),[victim.get_peer(), hitter.get_peer()])
+        victim.send("You are burned by " + hitter.get_name() + "'s flames.\n\r")
+        hitter.send(victim.get_name() + " is burned by your flames.\n\r")
+        _.send_to_room_except(victim.get_name() + "is burned by " + hitter.get_name() + "'s flames.\n\r",hitter.get_room(),[victim.peer, hitter.peer])
         victim.damage(2)
         _.affect_list["blind"].apply_affect(victim,1)
     if "shocking" in element:
-        _.send_to_char(hitter.get_peer(), "You shock them with your weapon, but it doesn't seem to have any effect.\n\r")
+        hitter.send("You shock them with your weapon, but it doesn't seem to have any effect.\n\r")
     if "demon" in element:
-        _.send_to_char(victim.get_peer(), "You are stricken by the damnation of " + hitter.get_name() + ".\n\r")
-        _.send_to_char(hitter.get_peer(), victim.get_name() + " is struck down by hellfire.\n\r")
-        _.send_to_room_except(victim.get_name() + "is struck down by the damnation of " + hitter.get_name() + ".\n\r",hitter.get_room(),[victim.get_peer(), hitter.get_peer()])
+        victim.send("You are stricken by the damnation of " + hitter.get_name() + ".\n\r")
+        hitter.send(victim.get_name() + " is struck down by hellfire.\n\r")
+        _.send_to_room_except(victim.get_name() + "is struck down by the damnation of " + hitter.get_name() +
+                              ".\n\r",hitter.get_room(),[victim.peer, hitter.peer])
         victim.damage(2)
         _.affect_list["curse"].apply_affect(victim,1)
 
@@ -132,17 +133,17 @@ def start_combat(hitter, victim):
 
 def do_damage(hitter, victim, damage, noun, magical):
     dam_adjective, dam_verb, dam_tag = get_damage_string(damage, magical)
-    _.send_to_char(hitter.get_peer(), "Your %s%s %s %%s%s (%s)\n\r" % (dam_adjective, noun, dam_verb,
-                                                                    dam_tag, damage), True, False, [victim, ])
+    hitter.send("Your %s%s %s %%s%s (%s)\n\r" % (dam_adjective, noun, dam_verb,
+                                                 dam_tag, damage), True, False, [victim, ])
     try:
-        _.send_to_char(hitter.fighting.get_peer(), "%s's %s%s %s you%s (%s)\n\r" % (hitter.get_name(victim).capitalize(),
+        hitter.fighting.send("%s's %s%s %s you%s (%s)\n\r" % (hitter.get_name(victim).capitalize(),
                                                                                     dam_adjective, noun, dam_verb,
                                                                                     dam_tag, damage))
     except AttributeError:
         pass
     _.send_to_room_except("%%s's %s%s %s %%s%s (%s)\n\r" % (dam_adjective, noun,
                                                            dam_verb, dam_tag, damage)
-                        , hitter.get_room(), [hitter.get_peer(), victim.get_peer()], [hitter, victim])
+                        , hitter.get_room(), [hitter.peer, victim.peer], [hitter, victim])
     victim.damage(damage)  # -Debug- only, should be victim.damage(damage)
     if victim.is_dead():
         victim.handle_death(hitter)
@@ -152,9 +153,9 @@ def do_damage(hitter, victim, damage, noun, magical):
 def do_one_hit(mob):
     victim = mob.fighting
     if mob.has_peer():
-        mob.get_peer().nervous_count = _.NERVOUS_TIMER
+        mob.peer.nervous_count = _.NERVOUS_TIMER
     if victim.has_peer():
-        victim.get_peer().nervous_count = _.NERVOUS_TIMER
+        victim.peer.nervous_count = _.NERVOUS_TIMER
     temp_damage, temp_noun, element = mob.get_damage()
     do_damage(mob, victim, temp_damage, temp_noun, False)
     do_elemental(mob, mob.fighting, element)
@@ -186,8 +187,8 @@ def start_combat_block():
 
 def end_combat_block():
     for m in _.peers:
-        if m.player.fighting is not None:
-            _.send_to_char(m, m.player.fighting.get_condition())
+        if m.account.player.fighting is not None:
+            m.peer_send(m.account.player.fighting.get_condition())
 
     _.block_send = False
 

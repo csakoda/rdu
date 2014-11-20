@@ -6,6 +6,8 @@ START_ROOM = "5700"
 
 ENCODING_TYPE = "utf-8"
 
+SEPARATOR = ":^:"
+
 DIR_NORTH = 0
 DIR_EAST = 1
 DIR_SOUTH = 2
@@ -13,15 +15,22 @@ DIR_WEST = 3
 DIR_UP = 4
 DIR_DOWN = 5
 
-STATE_NAME1 = 0
-STATE_NAME2 = 1
-STATE_NEW_PASSWORD1 = 2
-STATE_NEW_PASSWORD2 = 3
-STATE_RACE = 4
-STATE_CLASS = 5
-STATE_ONLINE = 6
-STATE_QUIT = 7
-STATE_PASSWORD = 8
+# Game states
+STATE_ONLINE = 0
+STATE_QUIT = 1
+STATE_LOGIN = 2
+
+# Login states
+LOGIN_NAME1 = 0
+LOGIN_NAME2 = 1
+LOGIN_RACE = 4
+LOGIN_CLASS = 5
+LOGIN_PASSWORD = 8
+LOGIN_LIST_CHARS = 13
+LOGIN_ACCOUNT1 = 9
+LOGIN_ACCOUNT2 = 10
+LOGIN_NEW_PASSWORD1 = 11
+LOGIN_NEW_PASSWORD2 = 12
 
 MAX_PASSWORDS = 3
 
@@ -115,118 +124,47 @@ EMPTIONREDEMPTIONR     ^^ ^ @@@@@@@@@ ^^       PTIONREDEMTIONRED\n\r\
 NREDEIPTIONREDEMPTI    ^^^^ @@@@@@@@@ ^^^^    TIONREDEMPTIONREDE\n\r\
 MPTIONREDEMPTIONREDEMPTIONREDEMPTIONREDEMPTIONREDEMPTIONREDEMPTI\n\r\
 EMPTIONREDEMPTIONREDEMPTIONREDEMPTIONREDEMPTIONREDEMPTIONREDEMPT\n\r\n\r\
-By what name do you wish to be known? "
+Enter your account name: "
 
 
 def send_to_room(message, room, named=[]):
     for c in peers:
-        if c.player.get_room() == room:
-            send_to_char(c, message, True, False, named)
+        if c.account.player.get_room() == room:
+            c.peer_send(message, True, False, named)
 
 
 def send_to_area_except(message, area, exceptions):
     for c in peers:
-        if c.player.get_area() == area and c not in exceptions:
-            send_to_char(c, message)
+        if c.account.player.get_area() == area and c not in exceptions:
+            c.peer_send(message)
 
 
 def send_to_room_except(message, room, exceptions, named=[]):
     for c in peers:
-        if c.player.get_room() == room and c not in exceptions:
-            send_to_char(c, message, True, False, named)
+        if c.account.player.get_room() == room and c not in exceptions:
+            c.peer_send(message, True, False, named)
 
 
 def send_to_all(message):
     for c in peers:
-        send_to_char(c, message)
+        c.peer_send(message)
 
 
 def send_to_all_except(message, exceptions):
     for c in peers:
         if c not in exceptions:
-            send_to_char(c, message)
+            c.peer_send(message)
 
 
-def send_to_buf(char, message):
-    if char not in peers:
-        return
-    char.send_buffer += message
 
 
-def send_buf_to_char(char, prompt=True):
-    send_to_char(char, char.send_buffer, prompt)
+
+def send_buf_to_char(peer, prompt=True):
+    peer.peer_send(peer.send_buffer, prompt)
 
 
-def send_instruction(char, message):
-    char.SOCKET.send(message)
-
-
-def send_to_char(char, message, prompt=True, override=False, named=[]):
-    # if char.online
-    if char is None:
-        return
-    if char.state is not STATE_ONLINE and not override:
-        return
-    if char not in peers:
-        return
-
-    if len(named) > 0:
-        message = message % tuple([n.get_name(char.player) for n in named])
-
-    message = message[0].capitalize() + message[1:]
-    
-    if block_send:
-        send_to_buf(char, message)
-    elif not char.linkdead:
-        if char.state == STATE_ONLINE and prompt:
-            message += "\n\r" + char.player.get_prompt()
-            #  Color stuff
-            message = message.replace("{{", "{~")
-            if char.player.get_color() == 1:
-                message = message.replace("{x", "\033[0;39m")
-                message = message.replace("{r", "\033[0;31m")
-                message = message.replace("{b", "\033[0;34m")
-                message = message.replace("{g", "\033[0;32m")
-                message = message.replace("{c", "\033[0;36m")
-                message = message.replace("{m", "\033[0;35m")
-                message = message.replace("{y", "\033[0;33m")
-                message = message.replace("{w", "\033[0;37m")
-
-                message = message.replace("{d", "\033[1;30m")
-                message = message.replace("{D", "\033[1;30m")
-                message = message.replace("{R", "\033[1;31m")
-                message = message.replace("{B", "\033[1;34m")
-                message = message.replace("{G", "\033[1;32m")
-                message = message.replace("{C", "\033[1;36m")
-                message = message.replace("{M", "\033[1;35m")
-                message = message.replace("{Y", "\033[1;33m")
-                message = message.replace("{W", "\033[1;37m")
-            else:
-                message = message.replace("{x", "")
-                message = message.replace("{r", "")
-                message = message.replace("{b", "")
-                message = message.replace("{g", "")
-                message = message.replace("{c", "")
-                message = message.replace("{m", "")
-                message = message.replace("{y", "")
-                message = message.replace("{w", "")
-
-                message = message.replace("{d", "")
-                message = message.replace("{D", "")
-                message = message.replace("{R", "")
-                message = message.replace("{B", "")
-                message = message.replace("{G", "")
-                message = message.replace("{C", "")
-                message = message.replace("{M", "")
-                message = message.replace("{Y", "")
-                message = message.replace("{W", "")
-            message = message.replace("{~", "{")
-            #  end color stuff
-        # noinspection PyArgumentList
-        try:
-            char.SOCKET.send(bytes(message, ENCODING_TYPE))
-        except IOError as e:
-            print(e)
+def send_instruction(peer, message):
+    peer.SOCKET.send(message)
 
 
 def get_dir_string(direction):
@@ -264,5 +202,6 @@ def get_dir_constant(dir_string):
     elif dir_string[0] == 'd':
         return DIR_DOWN
     return None
-    
-        
+
+def strip_load_line(input_string):
+    return input_string.strip().split(SEPARATOR)

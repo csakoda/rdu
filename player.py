@@ -3,6 +3,7 @@ __author__ = 'ohell_000'
 
 import globals as _
 import mobile
+import peer
 
 
 def get_player(target):
@@ -19,6 +20,7 @@ def get_player(target):
 class Player(mobile.Mobile):
     def __init__(self):
         mobile.Mobile.__init__(self)
+        self.sendable = True
         self.lag = 0
         self.stats["color"] = 0
         self.stats["prompt"] = "{c<%%hhp %%mm %%vmv>{x"
@@ -113,31 +115,31 @@ class Player(mobile.Mobile):
         return damroll
 
     def wield_weapon(self, weapon):  # -Rework- for brevity
-        char = self.get_peer()
+        peer = self.peer
         if self.equipment[_.WEAR_WEAPON] is None:
                     #  Easy, just remove from inventory and equip to that slot
                     self.equipment[_.WEAR_WEAPON] = weapon
                     self.inventory.remove(weapon)
                     #  Eventually we will add messages better tailored to the slot being used
-                    _.send_to_char(char, "You wield %s.\n\r" % weapon.get_name())
+                    peer.account.player.send("You wield %s.\n\r" % weapon.get_name())
                     _.send_to_room_except("%s wields %s.\n\r" % (self.get_name(), weapon.get_name()), \
-                                          self.get_room(), [char,])
+                                          self.get_room(), [peer,])
             # No luck, so we just remove the item at the given slot and add the new item
         #  Easy, just remove from inventory and equip to that slot
         else:
             self.inventory.append(self.equipment[_.WEAR_WEAPON])
-            _.send_to_char(char, "You stop using %s.\n\r" % self.equipment[_.WEAR_WEAPON].get_name())
+            peer.account.player.send("You stop using %s.\n\r" % self.equipment[_.WEAR_WEAPON].get_name())
             _.send_to_room_except("%s stops using %s.\n\r" % (self.get_name(), self.equipment[_.WEAR_WEAPON].get_name()), \
-                                  self.get_room(), [char,])
+                                  self.get_room(), [peer,])
             self.equipment[_.WEAR_WEAPON] = weapon
             self.inventory.remove(weapon)
-            _.send_to_char(char, "You wield %s.\n\r" % weapon.get_name())
+            peer.account.player.send("You wield %s.\n\r" % weapon.get_name())
             _.send_to_room_except("%s wields %s.\n\r" % (self.get_name(), weapon.get_name()), \
-                                  self.get_room(), [char,])
+                                  self.get_room(), [peer,])
 
     def wear_armor(self, armor):  # -Rework- for brevity
         #  Presumes an item in your inventory
-        char = self.get_peer()
+        peer = self.peer
 
         temp_loc = armor.wear_loc
         if temp_loc == _.WEAR_WEAPON:
@@ -149,9 +151,9 @@ class Player(mobile.Mobile):
             self.equipment[temp_loc] = armor
             self.inventory.remove(armor)
             #  Eventually we will add messages better tailored to the slot being used
-            _.send_to_char(char, "You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
+            peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
             _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
-                                  self.get_room(), [char,])
+                                  self.get_room(), [peer,])
             return
         #  For a few items, check for a second open slot as well
         if temp_loc == _.WEAR_WRIST:
@@ -160,9 +162,9 @@ class Player(mobile.Mobile):
                 self.equipment[_.WEAR_WRIST2] = armor
                 self.inventory.remove(armor)
                 #  Eventually we will add messages better tailored to the slot being used
-                _.send_to_char(char, "You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
+                peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
                 _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
-                                      self.get_room(), [char,])
+                                      self.get_room(), [peer,])
                 return
         if temp_loc == _.WEAR_FLOAT:
             if self.equipment[_.WEAR_FLOAT2] is None:
@@ -170,9 +172,9 @@ class Player(mobile.Mobile):
                 self.equipment[_.WEAR_FLOAT2] = armor
                 self.inventory.remove(armor)
                 #  Eventually we will add messages better tailored to the slot being used
-                _.send_to_char(char, "You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
+                peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
                 _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
-                                      self.get_room(), [char,])
+                                      self.get_room(), [peer,])
                 return
         if temp_loc == _.WEAR_FINGER:
             if self.equipment[_.WEAR_FINGER2] is None:
@@ -180,9 +182,9 @@ class Player(mobile.Mobile):
                 self.equipment[_.WEAR_FINGER2] = armor
                 self.inventory.remove(armor)
                 #  Eventually we will add messages better tailored to the slot being used
-                _.send_to_char(char, "You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
+                peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
                 _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
-                                      self.get_room(), [char,])
+                                      self.get_room(), [peer,])
                 return
         if temp_loc == _.WEAR_NECK:
             if self.equipment[_.WEAR_NECK2] is None:
@@ -190,22 +192,22 @@ class Player(mobile.Mobile):
                 self.equipment[_.WEAR_NECK2] = armor
                 self.inventory.remove(armor)
                 #  Eventually we will add messages better tailored to the slot being used
-                _.send_to_char(char, "You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
+                peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
                 _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
-                                      self.get_room(), [char,])
+                                      self.get_room(), [peer,])
                 return
         # No luck, so we just remove the item at the given slot and add the new item
         #  Easy, just remove from inventory and equip to that slot
         self.inventory.append(self.equipment[temp_loc])
-        _.send_to_char(char, "You stop using %s.\n\r" % self.equipment[temp_loc].get_name())
+        peer.account.player.send("You stop using %s.\n\r" % self.equipment[temp_loc].get_name())
         _.send_to_room_except("%s stops using %s.\n\r" % (self.get_name(), self.equipment[temp_loc].get_name()), \
-                              self.get_room(), [char,])
+                              self.get_room(), [peer,])
         self.equipment[temp_loc] = armor
         self.inventory.remove(armor)
         #  Eventually we will add messages better tailored to the slot being used
-        _.send_to_char(char, "You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
+        peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
         _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
-                              self.get_room(), [char,])
+                              self.get_room(), [peer,])
 
     def add_item(self, item):
         self.inventory.append(item)
@@ -216,3 +218,71 @@ class Player(mobile.Mobile):
             return True
         except ValueError:
             return False
+        
+    def save(self):
+        import os
+        if not os.path.exists('players'):
+            os.makedirs('players')
+        f = open("players/" + self.stats["name"].lower() + ".dat","w")
+        for s in self.stats:
+            f.write("%s:^:%s%s\n" % (s, "" if type(self.stats[s]) is str else "(*int)", self.stats[s]))
+        for i in self.inventory:
+            f.write("item:^:%s\n" % i.vnum)
+        for a in self.affects:
+            f.write("affect:^:%s:^:%s\n" % (a.name, a.duration))
+        for e in self.equipment:
+            if self.equipment[e] is not None:
+                f.write("equipment:^:%s:^:%s\n" % (self.equipment[e].vnum, e))
+        f.close()
+        
+    def load(self, name):
+        import copy
+        import item
+        
+        try:
+            f = open("players/" + name + ".dat", "r")
+            print("File found, loading character.")
+            lines = f.readlines()
+            for l in lines:
+                temp_key = l.split(":^:")[0].strip()
+                if temp_key == "item":
+                    temp_vnum = l.split(":^:")[1].strip()
+                    temp_item = copy.deepcopy(item.get_item_by_vnum(temp_vnum))
+                    if temp_item is not None:
+                        self.inventory.append(temp_item)
+                elif temp_key == "affect":
+                    temp_affect = l.split(":^:")[1].strip()
+                    temp_duration = int(float(l.split(":^:")[2].strip()))
+                    try:
+                        _.affect_list[temp_affect].apply_affect(self,temp_duration)
+                    except KeyError:
+                        print("Illegal affect found. Skipping.")
+                elif temp_key == "equipment":
+                    try:
+                        temp_vnum = l.split(":^:")[1].strip()
+                        temp_item = copy.deepcopy(item.get_item_by_vnum(temp_vnum))
+                        temp_slot = int(l.split(":^:")[2].strip())
+                        if temp_item is not None:
+                            self.equipment[temp_slot] = temp_item
+                    except IndexError:
+                        print("Illegal equipment found. Skipping.")
+                else:
+                    temp_key = l.split(":^:")[0].strip()
+                    temp_value = l.split(":^:")[1].strip()
+                    if "(*int)" in temp_value:
+                        temp_value = temp_value[6:]
+                        temp_value = int(temp_value)
+                    self.stats[temp_key] = temp_value
+        except FileNotFoundError:
+            print("File not found.")
+            return False
+        f.close()
+        return True
+
+    def is_sendable(self):
+        return self.sendable
+
+    def send(self, message, prompt=True, override=False, named=[]):
+        if not self.is_sendable():
+            return
+        self.peer.peer_send(message, prompt, override, named)

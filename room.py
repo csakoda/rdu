@@ -48,7 +48,7 @@ class Room():
             return None
         return temp_exit
 
-    def display(self, char):
+    def display(self, peer):
         
         #  Name and description
         buf = self.get_name() + "\n\r\n\r"\
@@ -74,9 +74,9 @@ class Room():
 
         #  Characters
 
-        other_players = [c.player for c in _.peers if c is not char and c.player.get_room() == self
-                                               and not c.linkdead and c.state == _.STATE_ONLINE]
-        other_mobs = [m for m in _.mobiles if m.get_peer() is None and m.get_room() == self]
+        other_players = [c.account.player for c in _.peers if c is not peer and c.account.player.get_room() == self
+                                               and not c.linkdead and c.game_state == _.STATE_ONLINE]
+        other_mobs = [m for m in _.mobiles if m.peer is None and m.get_room() == self]
         others = other_mobs + other_players
 
         for c in others:
@@ -88,7 +88,7 @@ class Room():
                 pos_string = "resting "
             elif c.get_position() == _.POS_SLEEPING:
                 pos_string = "sleeping "
-            buf += "%s%s is %shere%s.\n\r" % ("<LINKDEAD> " if c.get_peer() is not None and c.get_peer().linkdead else "",
+            buf += "%s%s is %shere%s.\n\r" % ("<LINKDEAD> " if c.peer is not None and c.peer.linkdead else "",
                                               c.stats["name"].capitalize(), pos_string, pos_tag)
         if len(others) > 0:
             buf += "\n\r"
