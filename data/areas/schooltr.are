@@ -1,0 +1,2621 @@
+--- START ROOM ---
+vnum:^:17000
+name:^:The Entrance to {BBosco's{x Military Academy
+desc:^:You have found yourself in a brilliantly decorated room.  The floors,
+ceilings and walls are all covered in beautiful white marble.  The entire
+room is lit from a dome above, located in the center of the room.  A ladder
+seems to lead up to this dome, as well as down towards Bosco's Temple.  The
+room is open in all directions.  A large sign reading "Bosco's Military
+Academy" is set onto an old oak desk.  
+exit:^:0:^:17005
+exit:^:1:^:17003
+exit:^:2:^:17001
+exit:^:3:^:17007
+exit:^:4:^:17009
+exit:^:5:^:17179
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17001
+name:^:South Side of the Lobby
+desc:^:You have found yourself in a brilliantly decorated room.  The floors,
+ceilings and walls are all covered in beautiful white marble.  The entire
+room is lit from a dome above, located in the center of the room.  There
+are many portraits and tapestries draped all over the walls depicting great
+heroes of justice, powerful oracles of seeker, and even the great villains
+of kindred.  One tapestry depicts Bosco at the temple of Thalos telling his
+people to build a new temple in his honor.  The room is open to the west and
+east, and the recruiting desk lies to the north.  
+exit:^:0:^:17000
+exit:^:1:^:17002
+exit:^:3:^:17008
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17002
+name:^:Southeast Corner of the Lobby
+desc:^:You have found yourself in a brilliantly decorated room.  The floors,
+ceilings and walls are all covered in beautiful white marble.  The entire
+room is lit from a dome above, located in the center of the room.  There
+are many portraits and tapestries draped all over the walls depicting great
+heroes of justice, powerful oracles of seeker, and even the great villains
+of kindred.  One tapestry depicts the building of Midgaard.  The room is
+open to the west and north.  
+exit:^:0:^:17003
+exit:^:3:^:17001
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17003
+name:^:East Side of the Lobby
+desc:^:You have found yourself in a brilliantly decorated room.  The floors,
+ceilings and walls are all covered in beautiful white marble.  The entire
+room is lit from a dome above, located in the center of the room.  There are
+many portraits and tapestries draped all over the walls depicting great
+heroes of justice, powerful oracles of seeker, and even the great villains
+of kindred.  One tapestry depicts a great scout ship travelling close to the
+shores of dominia for the first time.  The room is open to the north and
+south, and the recruitment desk lies to the west.  
+exit:^:0:^:17004
+exit:^:2:^:17002
+exit:^:3:^:17000
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17004
+name:^:Northeast Corner of the Lobby
+desc:^:You have found yourself in a brilliantly decorated room.  The floors,
+ceilings and walls are all covered in beautiful white marble.  The entire
+room is lit from a dome above, located in the center of the room.  There are
+many portraits and tapestries draped all over the walls depicting great
+heroes of justice, powerful oracles of seeker, and even the great villains
+of kindred.  One tapestry depicts the siege of Shlet'mir and the slaughter
+of the unprepared sliver defenses.  The room is open to the west and south. 
+exit:^:2:^:17003
+exit:^:3:^:17005
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17005
+name:^:The Entrance to the Training Course
+desc:^:You have found yourself in a brilliantly decorated room.  The floors,
+ceilings and walls are all covered in beautiful white marble.  The entire
+room is lit from a dome above, located in the center of the room.  There are
+many portraits and tapestries draped all over the walls depicting great
+heroes of justice, powerful oracles of seeker, and even the great villains
+of kindred.  The room is open to the west and east, and the recruitment desk
+lies to the south.  A sturdy wood door lies to the north.  Go ahead and open
+it and go through once you're ready.
+exit:^:0:^:17010
+exit:^:1:^:17004
+exit:^:2:^:17000
+exit:^:3:^:17006
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17006
+name:^:Northwest Corner of the Lobby
+desc:^:You have found yourself in a brilliantly decorated room.  The floors,
+ceilings and walls are all covered in beautiful white marble.  The entire
+room is lit from a dome above, located in the center of the room.  There
+are many portraits and tapestries draped all over the walls depicting great
+heroes of justice, powerful oracles of seeker, and even the great villains
+of kindred.  One tapestry depicts the battles in the northern jungles of
+dominia.  The room is open to the east and south.  
+exit:^:1:^:17005
+exit:^:2:^:17007
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17007
+name:^:West Side of the Lobby
+desc:^:You have found yourself in a brilliantly decorated room.  The floors,
+ceilings and walls are all covered in beautiful white marble.  The entire
+room is lit from a dome above, located in the center of the room.  There
+are many portraits and tapestries draped all over the walls depicting great
+heroes of justice, powerful oracles of seeker, and even the great villains
+of kindred.  One tapestry depicts the assassination of Braxnor and another
+the founding of atlantis.  The room is open to the north and south, and the
+recruitment desk lies to the east.  
+exit:^:0:^:17006
+exit:^:1:^:17000
+exit:^:2:^:17008
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17008
+name:^:Southwest Corner of the Lobby
+desc:^:You have found yourself in a brilliantly decorated room.  The floors,
+ceilings and walls are all covered in beautiful white marble.  The entire
+room is lit from a dome above, located in the center of the room.  There
+are many portraits and tapestries draped all over the walls depicting great
+heroes of justice, powerful oracles of seeker, and even the great villains
+of kindred.  One tapestry depicts the siege on Shandalar, where the walls
+never fell.  The room is open to the north and east.  
+exit:^:0:^:17007
+exit:^:1:^:17001
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17009
+name:^:The Dome Above the Entrance
+desc:^:Light pours in from this large glass dome and fills the room below with a
+shimmering presence.  There is a ledge with a railing all around the inside
+wall of this dome, and there are several seating areas for people to enjoy
+the view.  You also notice that this room is unusually warm.  The only exit
+is down to the main room by way of a silvery ladder.  
+exit:^:5:^:17000
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17010
+name:^:The Receptionist
+desc:^:This room appears similar to the great entrance of the academy, save for
+the size and the lack of a lit dome.  The walls, ceiling, and floor are all
+covered in beautiful marble, and there are several paintings of old heroes
+and villains.  There appears to be a sturdy desk with a beautiful woman
+sitting behind it.  She looks quite busy in her work.  The door back to the
+entrance hall lies to the south and a very sturdy door marked "Armory" lies
+to the north.  
+ 
+Please make sure that you understand the rules of Redemption before you
+continue into the academy. Type {RHelp Rules{x to read them.
+ 
+If you have not yet done so, you might wish to spend your practice
+exit:^:0:^:17011
+exit:^:2:^:17005
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17011
+name:^:The Cadet's Armory
+desc:^:The room you have stepped into is a dark contrast to the grand entrance
+hall.  The walls, ceilings, and floors are now a dull granite gray, and the
+room is lit by faint torch light.  There are many objects on this world that
+you can interact with.  Some you can pick up, others not.  To open the
+container on the ground type {Ropen chest{x.  To retrieve your basic
+equipment from the chest, type {Rget all chest{x.  This can be done with
+other containers too, like bags and backpacks.  To wear a piece of
+equipment, type {Rwear <object>{x and to remove it, type {Rremove
+<object>{x.  As you explore redemption, you will need to eat and drink to
+survive.  When you find food to eat, type {Reat <object>{x you can do the
+same with drink.  Pills and potions can be consumed by using {R{Reat and
+quaff{x, respectively{x.  To put an object back into a container, type {Rput
+<object> <container>{x.  Once you have equipped yourself, move on to the
+next room.  
+exit:^:1:^:17012
+exit:^:2:^:17010
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17012
+name:^:A Small Shrine
+desc:^:The walls, floor, and ceiling of this room are crafted from a dark grey
+stone.  The room is lit by a single glowing torch that doesn't give off any
+heat.  In the world of redemption, there are several gods one can worship. 
+As a new character, you start by worshipping Bosco or Selina depending on
+what race you are.  However, you can choose a new god to worship, each with
+their own unique abilities.  For more information about the different gods,
+type {Rhelp worship{x.  Once you have chosen which god you are to worship,
+continue into the next room.  
+exit:^:2:^:17013
+exit:^:3:^:17011
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17013
+name:^:The Sorting Room
+desc:^:The walls, floor, and ceiling of this room are crafted from a dark grey
+stone.  The room is lit by a single glowing torch that doesn't give off any
+heat.  In the world of Redemption, there are two classifications of
+citizens: Clanners and Non-Clanners.  Those who belong to clanner caste can
+join one of four clans and fight battles against other players. 
+Non-clanners can join one of many guilds, and cannot be harmed nor cause
+harm to other players.  The four clans of Redemption are: {RSeeker,
+Kindred, Kenshi{x, and {RVenari{x.  For more information on each of the
+clans, type help <clan>.  There are many guilds for non-clanners, each with
+their own help file.  You cannot join a clan or guild till you reach level
+10.  Move on to the next room once you have finished learning about the
+clanner system.  
+exit:^:0:^:17012
+exit:^:1:^:17014
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17014
+name:^:Combat Training
+desc:^:The walls, floor, and ceiling of this room are crafted from a dark grey
+stone.  The room is lit by a single glowing torch that doesn't give off any
+heat.  In this section you will learn about combat.  The combat dummy in
+this room is a normal mob.  He isn't particularly wimpy nor aggressive.  Go
+ahead and kill him by typing {RKill dummy{x.  Once you have finished your
+combat, you will see that you were awarded experience, money, and maybe even
+some deity points.  Depending on the respective level of the mob compared to
+yours, will define how much experience you'll receive for defeating it. 
+Once it is dead, go north and face the wimpy dummy which may try to flee. 
+Follow it, and kill it.  Once you are done go all south and face the
+aggressive dummy.  He should automatically attack you.  Be wary of
+aggressive mobs in the world of Redemption.  If you want to find out if a
+mob is too tough for you, use {Rconsider <name>{x If the fight is to tough,
+feel free to {Rflee{x from the combat.  Also remember that you can {Rpeer{x
+into a room to see what's in it before you even enter.  Once you have
+completed all 3 combats, move on to the east.  
+exit:^:0:^:17015
+exit:^:1:^:17017
+exit:^:2:^:17016
+exit:^:3:^:17013
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17015
+name:^:Combat Training
+desc:^:The walls, floor, and ceiling of this room are crafted from a dark grey
+stone.  The room is lit by a single glowing torch that doesn't give off any
+heat.  
+exit:^:2:^:17014
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17016
+name:^:Combat Training
+desc:^:The walls, floor, and ceiling of this room are crafted from a dark grey
+stone.  The room is lit by a single glowing torch that doesn't give off any
+heat.  
+exit:^:0:^:17014
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17017
+name:^:Entrance to the Obstacle Course
+desc:^:The walls, floor, and ceiling of this room are crafted from a dark grey
+stone.  The room is lit by a single glowing torch that doesn't give off any
+heat.  Now it's time for you to learn about terrain.  As you traverse
+through the continents of Terra and Dominia, you will find yourself going
+through forests, roads, mountains, even rivers.  Each terrain can affect you
+differently (mainly in how tired you become) and some you can't even go
+through without proper spells or equipment (such as deep water).  In the
+next several rooms, you will go through each type of terrain and see its
+affects on you.  Make sure you pick up the {Rraft{x before you go as you
+will need it to complete the course.  
+exit:^:0:^:17018
+exit:^:3:^:17014
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17018
+name:^:On a Dusty {yRoad{x
+desc:^:You have wandered outside onto a dusty road.  There appears to be little
+of note save for the building behind you and a small shack to the north. 
+Walls to the east and west prevent early escape of the obstacle course.  
+exit:^:0:^:17019
+exit:^:2:^:17017
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17019
+name:^:A Small {wShack{x
+desc:^:You have entered a small dank shack.  It seems to be completly made of
+wood which is rotting and looks to the point of collapse.  A doorway leads
+to the road to the south and a doorway lies open to the west, leading into a
+dark and wet forest.  
+exit:^:2:^:17018
+exit:^:3:^:17020
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17020
+name:^:A Dark Dank {GForest{x
+desc:^:As you walk further into the obstacle course, you stumble into a dark,
+dank forest.  The trees form a wall that almost seems to surround you.  You
+can vaguely see an open doorway to the east that leads into an old hut.  The
+path itself seems to curve towards the north, where you see a river flowing.
+exit:^:0:^:17021
+exit:^:1:^:17019
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17021
+name:^:A Flowing {CRiver{x
+desc:^:The river flows from the north, apparently coming from a small mountain,
+and curves and flows through a grate in the wall to the east.  At this point
+it is clear that there is no bridge.  A raft will be necassary to continue
+north.  The dark dank forest lies to the south.  
+exit:^:0:^:17022
+exit:^:2:^:17020
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17022
+name:^:Further Along the {BRiver{x
+desc:^:As you travel down the river, it gets deeper and deeper until you need
+either flight or a boat to continue.  A waterfall pours from a mountain to
+the north, and the water seems deep enough to dive into here.  The river
+flows to the south.  
+exit:^:0:^:17023
+exit:^:2:^:17021
+exit:^:5:^:17024
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17023
+name:^:A {rMountain{x Pass
+desc:^:You have ventured up a steep mountain pass.  The sounds of a waterfall
+come from the south and the smells of a swamp waft from the north.  From
+here, there is an excellent view of the rest of the training grounds at
+Bosco's Academy.  
+exit:^:0:^:17026
+exit:^:2:^:17022
+exit:^:4:^:17025
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17024
+name:^:Deep Into the {bRiver{x
+desc:^:You have dived deep into the river.  There is a certain calm under the
+water.  If you don't have the ability to breathe underwater, you will drown
+in a matter of minutes.  You can swim back to the surface by going up.  
+exit:^:4:^:17022
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17025
+name:^:High in the {WSky{x
+desc:^:You have flown high above the mountain!  From here you can see the
+training grounds of the Academy, and even the city of Midgaard.  The only
+way to go is back down to the mountain.  
+exit:^:5:^:17023
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17026
+name:^:A Murky {DMarsh{x
+desc:^:The smells of rotting plant life fill the air as you step into a swamp. 
+There are many insects buzzing around, and the smell is quite putrid.  The
+mountain path lies to the south, and some hills to the east.  A wall blocks
+the path to the north and west.  
+exit:^:1:^:17027
+exit:^:2:^:17023
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17027
+name:^:Some Rocky {mHills{x
+desc:^:The path winds its way though several very rocky hills.  There are little
+windows in these hills, as if some creature lives within them.  An extremely
+foul smell comes from the west and a dry wind blows from the north.  
+exit:^:0:^:17028
+exit:^:3:^:17026
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17028
+name:^:A Dry {YDesert{x
+desc:^:Your feet begin to sink a little as you stumble into the sand of a small
+desert.  The air is dry and hot, but yet there is hope.  The door leading to
+to the end of the course lies just ahead to the north.  The hills lie back
+to the south.  
+exit:^:0:^:17029
+exit:^:2:^:17027
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17029
+name:^:The End of the Course
+desc:^:You have reached the end of the obstacle course!  You have found yourself
+in a building similar to the one at the entrance of the academy.  In these
+halls you will learn of the different races of Terra and Dominia.  The
+Terran races are on the left (west) and the Dominian races are on the right
+(east).  Feel free to test your combat skills on the caged criminals.  
+exit:^:0:^:17030
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17030
+name:^:The Halls of Learning
+desc:^:This hall is lined with marble and is lit by everburning torches.  The
+hall seems fairly straight, and has doors on both sides.  The door to the
+west is labeled "Humans 101" and the door to the east is labeled "Trolls
+101".  
+exit:^:0:^:17033
+exit:^:1:^:17032
+exit:^:2:^:17029
+exit:^:3:^:17031
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17031
+name:^:A Classroom
+desc:^:This classroom is filled with young aspiring students sitting in desks in
+neat little rows.  A teacher stands near a chalkboard drawling on about the
+races of Terra.  The chalkboard seems to be covered in writings which go as
+follows: Humans are the most versatile of all the races of Terra and
+Dominia.  They are well suited to any class and tend to learn quickly.  They
+can remort into either Dopplegangers or Medusas.  
+exit:^:1:^:17030
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17032
+name:^:A Classroom
+desc:^:This classroom is filled with young aspiring students sitting in desks in
+neat little rows.  A teacher stands near a chalkboard drawling on about the
+races of Dominia.  The chalkboard seems to be covered in writings which go
+as follows: Trolls are smelly, aggressive, and dumb.  They are well suited
+as warriors, but have been seen as rogues.  Kill them with fire to end the
+battle quickly.  They can remort into Two-Headed or Spectral Trolls.  
+exit:^:3:^:17030
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17033
+name:^:The Halls of Learning
+desc:^:This hall is lined with marble and is lit by everburning torches.  The
+hall seems fairly straight, and has doors on both sides.  The door to the
+west is labeled "Elves 101" and the door to the east is labeled "Gargoyles
+101".  
+exit:^:0:^:17036
+exit:^:1:^:17035
+exit:^:2:^:17030
+exit:^:3:^:17034
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17034
+name:^:A Classroom
+desc:^:This classroom is filled with young aspiring students sitting in desks in
+neat little rows.  A teacher stands near a chalkboard drawling on about the
+races of Terra.  The chalkboard seems to be covered in writings which go as
+follows: Elves are widespread throughout the forests and caves of Terra. 
+They are well suited for the life of thievery and make excellent
+spellcasters.  They can remort into Forest and Drow Elves.  
+exit:^:1:^:17033
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17035
+name:^:A Classroom
+desc:^:This classroom is filled with young aspiring students sitting in desks in
+neat little rows.  A teacher stands near a chalkboard drawling on about the
+races of Dominia.  The chalkboard seems to be covered in writings which go
+as follows: Gargoyles may just seem like statues at first, but they are
+extremely dangerous in battle.  Their rocky skin gives them a kind of damage
+resistance, so hit them with dull weapons to break up the stone.  They are
+quite often seen as runists and paladins.  They can remort into Sentinel or
+Haunting Gargoyles.  
+exit:^:3:^:17033
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17036
+name:^:The Halls of Learning
+desc:^:This hall is lined with marble and is lit by everburning torches.  The
+hall seems fairly straight, and has doors on both sides.  The door to the
+west is labeled "Dwarves 101" and the door to the east is labeled "Kirre
+101".  
+exit:^:0:^:17039
+exit:^:1:^:17038
+exit:^:2:^:17033
+exit:^:3:^:17037
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17037
+name:^:A Classroom
+desc:^:This classroom is filled with young aspiring students sitting in desks in
+neat little rows.  A teacher stands near a chalkboard drawling on about the
+races of Terra.  The chalkboard seems to be covered in writings which go as
+follows: The dwarves of Terra are a hardy race that live in the deepest
+caves and the tallest mountains.  They make excellent warriors and skilled
+clerics.  They can remort into Grey Dwarves and Mountain Dwarves.  
+exit:^:1:^:17036
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17038
+name:^:A Classroom
+desc:^:This classroom is filled with young aspiring students sitting in desks in
+neat little rows.  A teacher stands near a chalkboard drawling on about the
+races of Dominia.  The chalkboard seems to be covered in writings which go
+as follows: Kirre are the vicious cat people of dominia.  You will most
+likely see them as warriors, but some take to the rogue life.  Very few are
+spellcasters.  Kirre remort into either Sabre or Dark Kirres.  
+exit:^:3:^:17036
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17039
+name:^:The Halls of Learning
+desc:^:This hall is lined with marble and is lit by everburning torches.  The
+hall seems fairly straight, and has doors on both sides.  The door to the
+west is labeled "Giants 101" and the door to the east is labeled "Slivers
+101".  
+exit:^:0:^:17042
+exit:^:1:^:17044
+exit:^:2:^:17036
+exit:^:3:^:17040
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17040
+name:^:A Classroom
+desc:^:This classroom is filled with young aspiring students sitting in desks in
+neat little rows.  A teacher stands near a chalkboard drawling on about the
+races of Terra.  The chalkboard seems to be covered in writings which go as
+follows: The giants of Terra are the largest of the races.  They excel at
+being warriors and the destrucion of anything in their paths.  They can
+remort into either Cave or Hill Giants.  
+exit:^:1:^:17039
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17041
+name:^:A Classroom
+desc:^:This classroom is filled with young aspiring students sitting in desks in
+neat little rows.  A teacher stands near a chalkboard drawling on about the
+races of Terra.  The chalkboard seems to be covered in writings which go as
+follows: Marids are the underwater dwelling race of Terra.  They have an
+affinity with the elements, and are extremely dangerous spellcasters. 
+Marids can remort into Befoulers and Nereids.  
+exit:^:2:^:17042
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17042
+name:^:The Halls of Learning
+desc:^:This hall is lined with marble and is lit by everburning torches.  The
+hall seems fairly straight, and has doors on both sides.  The door to the
+west is labeled "Dragons 101" and the door to the north is labeled "Marids
+101".  The door leading into the next building lies to the east.  
+exit:^:0:^:17041
+exit:^:1:^:17045
+exit:^:2:^:17039
+exit:^:3:^:17043
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17043
+name:^:A Classroom
+desc:^:This classroom is filled with young aspiring students sitting in desks in
+neat little rows.  A teacher stands near a chalkboard drawling on about the
+races of Terra.  The chalkboard seems to be covered in writings which go as
+follows: The Dragons of Bosco are the most powerful of the races on Terra. 
+They can turn into any of 5 colors: {BBlue{x, {GGreen{x, {RRed{x, {DBlack{x,
+or {WWhite{x.  For each color, there are two remorts.  To find out more,
+type help dragon.  
+exit:^:1:^:17042
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17044
+name:^:A Classroom
+desc:^:This classroom is filled with young aspiring students sitting in desks in
+neat little rows.  A teacher stands near a chalkboard drawling on about the
+races of Dominia.  The chalkboard seems to be covered in writings which go
+as follows: Slivers are a strange race of creatures that cover Dominia. 
+They are quite alien in appearance and seem to be able to telepathically
+communicate with others of its kind.  They seem to carry unique abilities
+which surface at level 10.  They only benefit themselves from these
+abilities when they remort.  Slivers can remort into either Stinging or
+Abyssal Slivers.  
+exit:^:3:^:17039
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17045
+name:^:A Marble Hallway
+desc:^:This hall is lined with marble and is lit by everburning torches.  The
+hall continues to the north and a door leading into the classrooms lies to
+the west.  
+exit:^:0:^:17046
+exit:^:3:^:17042
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17046
+name:^:A Marble Hallway
+desc:^:This hall is lined with marble and is lit by everburning torches.  The
+hall goes to the east and to the south.  
+exit:^:1:^:17047
+exit:^:2:^:17045
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17047
+name:^:A Marble Hallway
+desc:^:This hall is lined with marble and is lit by everburning torches.  The
+hall goes back to the west and a trapdoor leading into the guild rooms lies
+on the floor.  
+exit:^:3:^:17046
+exit:^:5:^:17048
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17048
+name:^:The Guildhalls
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  The Warriors Guild is to the north, The
+Thieves Guild is to the west, The Mages Guild is to the south, and The
+Cleric Guild lies to the east.  
+exit:^:0:^:17049
+exit:^:1:^:17061
+exit:^:2:^:17057
+exit:^:3:^:17053
+exit:^:4:^:17047
+exit:^:5:^:17065
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17049
+name:^:The {BWarrior{x Guild
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  In this guild, you will learn how to best play
+a warrior, ranger, or paladin.  To learn more about rangers go to the west. 
+To learn more about paladins, go to the east.  For straight warriors, go to
+the north.  
+exit:^:0:^:17051
+exit:^:1:^:17050
+exit:^:2:^:17048
+exit:^:3:^:17052
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17050
+name:^:The Paladin's Training Hall
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  Paladins are excellent warriors and decent
+spellcasters.  However, in general, you want to concentrate on one or the
+other.  If you wish to go more combat, take skills like trip and disarm as
+well as the defensive skills.  If you wish to go more caster, make sure you
+pick up the attack group of magic as well as the transportation.  Remember
+that you also have the ability to heal yourself through spells and Lay
+Hands.  Spending your trains on HP is very beneficial.  Paladins reclass
+into either Cavaliers or Tempalars.  
+exit:^:3:^:17049
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17051
+name:^:The Warrior's Training Hall
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  Warriors are best suited to straight combat. 
+Make use of bash and trip to keep your foes in combat, and dodge, parry and
+shield block to keep yourself from dying.  A small amount of casting can
+prove useful as well.  Concentrate on strength and damage equipment, and put
+your trains into hit points.  Warriors can reclass into Warlords or
+Barbarians.  
+exit:^:2:^:17049
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17052
+name:^:The Ranger's Training Hall
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  Rangers are well suited for tracking and
+fighting their prey.  Make use of bash or trip to keep them in battle, and
+hide and sneak to close in the ranks or run and hide.  Make good use of your
+spells to weaken or damage your foes.  Rangers also have archery, which
+allows them to attack foes from afar.  Concentrate on physical stat and
+damage gear for best results and put your trains into hit points.  Rangers
+can reclass into Bounty Hunters or Hermits.  
+exit:^:1:^:17049
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17053
+name:^:The {DThieves{x Guild
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  In this guild, you will learn how to best play
+a thief or a runist.  To learn more about thieves, go to the south.  To
+learn more about runists, go to the north.  Another room lies to the west.  
+exit:^:0:^:17054
+exit:^:1:^:17048
+exit:^:2:^:17056
+exit:^:3:^:17055
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17054
+name:^:The Runist's Training Hall
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  Runists are the most versatile and hardest
+class to play on Redemption.  They have several runes and tattoos to give
+themselves bonuses.  They also have the ability to enhance objects and trap
+rooms.  Train hit points or mana depending on the type of runist you are
+playing.  Runists reclass into either Psions or Zealots.  
+exit:^:2:^:17053
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17055
+name:^:The Thief Store!
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  A thief has apparently set up shop here.  You
+can buy some useful items from them.  Use {RBuy{x and {RSell{x to purchase
+equipment from them.  If you want to see their inventory, type {RList{x.  
+exit:^:1:^:17053
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17056
+name:^:The Thieves Training Hall
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  Thieves are the shadows of Redemption.  They
+are experts at sneaking around and stealing from others.  In combat, they
+can prove difficult to hit.  Use backstab to weaken your opponent quickly,
+then use trips to prevent them from fleeing.  Put your trains into hit
+points and a few into dexterity.  Thieves reclass into either Assassins or
+Rogues.  
+exit:^:0:^:17053
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17057
+name:^:The {RMages{x Guild
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  In this guild you will learn how best to play
+a mage class.  The information in each room can usually be applied to the
+other mage classes.  The mage itself is a combination of all the arcane
+magics in Redemption.  Though not speciallized, their versatility can prove
+invaluable in many situations.  Place your trains into mana, hit points, and
+intelligence and wisdom for best results.  Mages can reclass into Alchemists
+and Wizards.  Enchanters go to the west, Conjurers to the south, and
+Invokers to the east.  
+exit:^:0:^:17048
+exit:^:1:^:17060
+exit:^:2:^:17059
+exit:^:3:^:17058
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17058
+name:^:The Enchanter's Training Hall
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  Enchanters are specialists in controlling the
+will of others.  Although weak in attack magic, they more than make up for
+it in the ability to charm and befuddle their foes.  Attempt to put your foe
+to sleep before combat even begins, for a decisive victory.  Place your
+trains into mana, hit points, and intelligence.  Enchanters reclass into
+Mystics or Illusionists.  
+exit:^:1:^:17057
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17059
+name:^:The Conjurer's Training Hall
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  Conjurers are the masters of summoning.  Their
+ability to call creatures makes it so they never need to get into combat
+themselves.  They also have Spirit Link and Carnal Reach which are very
+powerful versions of gate and summon.  Use attack magic and charmies to make
+your combats easier.  Place trains into mana, intelligence, and wisdom. 
+Conjurers reclass into Shamans and Sorcerors.  
+exit:^:0:^:17057
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17060
+name:^:The Invoker's Training Hall
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  Invokers are the masters of offensive magics. 
+If your enemy has a weakness, the invoker can hit it.  Use your spells to
+deal heavy damage to foes, and don't give them a chance to fight back.  Some
+invokers even practice in the art of summoning demons, but be wary as the
+demons don't like to be summoned.  Use your trains in mana, hit points,
+wisdom, and intelligence.  Invokers reclass into Necromancers and Diviners. 
+exit:^:3:^:17057
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17061
+name:^:The {WCleric{x Guild
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  Clerics are the healers of Redemption.  In
+these halls, you will learn how best to play one of the clerical classes. 
+Each of the clerics are very different in their mindsets and beliefs. 
+Druids can learn to the south, Clerics to the east, and Monks to the north. 
+exit:^:0:^:17064
+exit:^:1:^:17063
+exit:^:2:^:17062
+exit:^:3:^:17048
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17062
+name:^:The Druid's Training Hall
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  Druids draw their powers from nature itself. 
+They can cast a variety of spells to enhance themselves and their
+companions.  In addition, they are decent warriors in battle.  Make sure to
+spell yourself up before going into battle.  Trains can be well spent in hit
+points, mana, or any of the stats.  Druids can reclass into Herbalists or
+Hierophants.  
+exit:^:0:^:17061
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17063
+name:^:The Cleric's Training Hall
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  Clerics are the masters of healing and
+maladicts.  Use your healing abilites to keep yourself and your companions
+in tip top shape, and make use of your maladicts to blind and curse your
+foes.  Trains are well spent on hit points, mana, and wisdom.  Clerics can
+walk two paths on reclass: The path of evil, Heretic, or the path of good,
+Exorcist.  
+exit:^:3:^:17061
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17064
+name:^:The Monk's Training Hall
+desc:^:The guildhalls are less fancy than the previous halls.  The walls are no
+longer covered in marble, but rather in cold grey stone.  The room is lit by
+several torches on the wall.  Monks are unarmed specialists that excel in
+battle.  Concentrate on dealing a lot of damage quickly and make good use of
+your abilities to hit your foes vulnerable spots.  Trains are best spent in
+hit points, although using a few on dexterity or strength can be useful. 
+Monks can reclass into Ninjas or Samurai.  
+exit:^:2:^:17061
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17065
+name:^:The End of the Tutorial!
+desc:^:It's the end of of the tutorial!  If you think you need more practice or
+are missing any slots in your newbie gear, you may want to go back and find
+the pieces.  However, if you are ready, go ahead and descend the ladder
+down.  If you want to try player killing out, open the door to the north and
+enter the Arena.  You and other players (of level 5 or less) can attack each
+other and die without penalty.  If you wish to explore the rest of Terra,
+just walk to the south and you will be at recall in Midgaard.  
+exit:^:0:^:17161
+exit:^:2:^:3001
+exit:^:4:^:17048
+exit:^:5:^:17066
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17066
+name:^:Fort Bosco
+desc:^:This fort was built to run training exercises to replicate an authentic
+attack on a fort of Bosco.  It is your mission as a cadet to defend the fort
+against the attacking Dominian forces.  Go out and defeat the Commander of
+each attacking army.  They hold an item you may find useful in later levels.
+If you are up for a challenge, travel into the cellar of the fort and face a
+legendary beast.  Be warned that you must do this before you reach level 6. 
+When you are ready to leave the fort, go back up and then south.  
+exit:^:0:^:17068
+exit:^:1:^:17071
+exit:^:2:^:17070
+exit:^:3:^:17069
+exit:^:4:^:17065
+exit:^:5:^:17067
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17067
+name:^:Before the Lair of the Legendary Beast
+desc:^:You are in a dark tunnel under the fort.  The cave walls are covered in
+transparent slime and the floor is littered in bones.  You hear a sucking
+sound to the north, almost as if a creature is sucking the soul out of
+something.  If you think you are ready to tackle it, then head north and try
+to defeat it.  Make sure you are wearing full gear and have spells on when
+you combat it.  If it proves too tough, then try to rally some teammates to
+help you defeat it.  
+exit:^:0:^:17072
+exit:^:4:^:17066
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17068
+name:^:North Gate of Fort Bosco
+desc:^:You stand before a mighty iron gate set into a twenty-foot stone wall. 
+Two mighty towers lie to the west and east.  Above you appears to be a
+catwalk for archers which can be accessed through the towers.  The central
+courtyard lies back to the south.  
+exit:^:0:^:17142
+exit:^:1:^:17074
+exit:^:2:^:17066
+exit:^:3:^:17073
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17069
+name:^:West Gate of Fort Bosco
+desc:^:You stand before a mighty iron gate set into a twenty-foot stone wall. 
+Two mighty towers lie to the north and south.  Above you appears to be a
+catwalk for archers which can be accessed through the towers.  The central
+courtyard lies back to the east.  
+exit:^:0:^:17073
+exit:^:1:^:17066
+exit:^:2:^:17075
+exit:^:3:^:17085
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17070
+name:^:South Gate of Fort Bosco
+desc:^:You stand before a mighty iron gate set into a twenty-foot stone wall.  Two
+mighty towers lie to the west and east.  Above you appears to be a catwalk
+for archers which can be accessed through the towers.  The central courtyard
+lies back to the north.
+exit:^:0:^:17066
+exit:^:1:^:17076
+exit:^:2:^:17104
+exit:^:3:^:17075
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17071
+name:^:East Gate of Fort Bosco
+desc:^:You stand before a mighty iron gate set into a twenty-foot stone wall. 
+Two mighty towers lie to the north and south.  Above you appears to be a
+catwalk for archers which can be accessed through the towers.  The central
+courtyard lies back to the west.  
+exit:^:0:^:17074
+exit:^:1:^:17123
+exit:^:2:^:17076
+exit:^:3:^:17066
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17072
+name:^:The Lair of The Giant Snail!
+desc:^:You have reached the lair of the giant snail!  This snail is a survivor
+from the old arena, and he has grown to a massive size.  He will be
+difficult to kill by yourself.  However, the reward may be worth the risk. 
+The only exit is to the south.  
+exit:^:2:^:17067
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17073
+name:^:North-West Tower
+desc:^:You are standing in a sturdy stone tower.  Several beautiful tapestries
+line the walls depicting the symbol of Bosco.  A spiral staircase goes up to
+the top of the tower.  There are doorways to the south and east.  
+exit:^:1:^:17068
+exit:^:2:^:17069
+exit:^:4:^:17077
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17074
+name:^:North-East Tower
+desc:^:You are standing in a sturdy stone tower.  Several beautiful tapestries
+line the walls depicting the symbol of Bosco.  A spiral staircase goes up to
+the top of the tower.  There are doorways to the south and west.  
+exit:^:2:^:17071
+exit:^:3:^:17068
+exit:^:4:^:17079
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17075
+name:^:South-West Tower
+desc:^:You are standing in a sturdy stone tower.  Several beautiful tapestries
+line the walls depicting the symbol of Bosco.  A spiral staircase goes up to
+the top of the tower.  There are doorways to the north and east.  
+exit:^:0:^:17069
+exit:^:1:^:17070
+exit:^:4:^:17083
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17076
+name:^:South-East Tower
+desc:^:You are standing in a sturdy stone tower.  Several beautiful tapestries
+line the walls depicting the symbol of Bosco.  A spiral staircase goes up to
+the top of the tower.  There are doorways to the north and west. 
+exit:^:0:^:17071
+exit:^:3:^:17070
+exit:^:4:^:17081
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17077
+name:^:Upper North-West Tower
+desc:^:You are standing upon a tall tower overlooking the battlegrounds.  If you
+knew how to use a bow or how to throw, you could attack enemies to the north
+or west from here.  The walkway continues to the south and east.
+exit:^:0:^:17143
+exit:^:1:^:17078
+exit:^:2:^:17084
+exit:^:3:^:17086
+exit:^:5:^:17073
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17078
+name:^:Above the North Gate
+desc:^:You are standing on a catwalk above the northern gate.  From here you can
+see the battlefield to the north.  You notice many scorch marks and arrow
+dents in the battlements. Two grand towers lie to the west and east.
+exit:^:0:^:17142
+exit:^:1:^:17079
+exit:^:3:^:17077
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17079
+name:^:Upper North-East Tower
+desc:^:You are standing upon a tall tower overlooking the battlegrounds.  If you
+knew how to use a bow or how to throw, you could attack enemies to the north
+or east from here.  The walkway continues to the south and west.
+exit:^:0:^:17144
+exit:^:1:^:17124
+exit:^:2:^:17080
+exit:^:3:^:17078
+exit:^:5:^:17074
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17080
+name:^:Above the East Gate
+desc:^:You are standing on a catwalk above the eastern gate.  From here you can
+see the battlefield to the east.  You notice many scorch marks and arrow
+dents in the battlements.  Two grand towers lie to the north and south.  
+exit:^:0:^:17079
+exit:^:1:^:17123
+exit:^:2:^:17081
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17081
+name:^:Upper South-East Tower
+desc:^:You are standing upon a tall tower overlooking the battlegrounds.  If you
+knew how to use a bow or how to throw, you could attack enemies to the east
+or south from here.  The walkway continues to the west and north.
+exit:^:0:^:17080
+exit:^:1:^:17125
+exit:^:2:^:17106
+exit:^:3:^:17082
+exit:^:5:^:17076
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17082
+name:^:Above the South Gate
+desc:^:You are standing on a catwalk above the southern gate.  From here you can
+see the battlefield to the south.  You notice many scorch marks and arrow
+dents in the battlements.  Two grand towers lie to the west and east.  
+exit:^:1:^:17081
+exit:^:2:^:17104
+exit:^:3:^:17083
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17083
+name:^:Upper South-West Tower
+desc:^:You are standing upon a tall tower overlooking the battlegrounds.  If you
+knew how to use a bow or how to throw, you could attack enemies to the south
+or west from here.  The walkway continues to the north and east.
+exit:^:0:^:17084
+exit:^:1:^:17082
+exit:^:2:^:17105
+exit:^:3:^:17087
+exit:^:5:^:17075
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17084
+name:^:Above the West Gate
+desc:^:You are standing on a catwalk above the western gate.  From here you can
+see the battlefield to the west.  You notice many scorch marks and arrow
+dents in the battlements.  Two grand towers lie to the north and south.  
+exit:^:0:^:17077
+exit:^:2:^:17083
+exit:^:3:^:17085
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17085
+name:^:Outside the Western Gate
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The western gate to the fortress lies to the east,
+and the battlefield lies open to the north, west, and south.  
+exit:^:0:^:17086
+exit:^:1:^:17069
+exit:^:2:^:17087
+exit:^:3:^:17088
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17086
+name:^:The Western Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  You see a mighty tower to the east and the
+battlefield lies open to the west and south.  
+exit:^:2:^:17085
+exit:^:3:^:17089
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17087
+name:^:The Western Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  You see a mighty tower to the east and the
+battlefield lies open to the west and north.  
+exit:^:0:^:17085
+exit:^:3:^:17090
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17088
+name:^:The Western Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the north, west, south
+and east.  
+exit:^:0:^:17089
+exit:^:1:^:17085
+exit:^:2:^:17090
+exit:^:3:^:17091
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17089
+name:^:The Western Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the west, south, and
+east.  
+exit:^:1:^:17086
+exit:^:2:^:17088
+exit:^:3:^:17092
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17090
+name:^:The Western Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the west, north, and
+east.  
+exit:^:0:^:17088
+exit:^:1:^:17087
+exit:^:3:^:17093
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17091
+name:^:The Western Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  Banners belonging to the {DBlack{YClaw{x army flank the
+pathway to the west.  The battlefield lies open to the north, east, and
+south.  
+exit:^:0:^:17092
+exit:^:1:^:17088
+exit:^:2:^:17093
+exit:^:3:^:17094
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17092
+name:^:The Western Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the south and east.  
+exit:^:1:^:17089
+exit:^:2:^:17091
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17093
+name:^:The Western Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the north and east.  
+exit:^:0:^:17091
+exit:^:1:^:17090
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17094
+name:^:Path to the {DBlack{YClaw{x Camp
+desc:^:The path has slimmed to only a few feet wide.  You hear the sound of
+smiths sharpening blades and warriors preparing for battle.  The trees
+around you seem to grow darker with each step in.  Claw marks on each tree
+seem almost to be warning signs.  The path goes deeper into the forest to
+the west and into the battlefield to the east.  
+exit:^:1:^:17091
+exit:^:3:^:17095
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17095
+name:^:{DBlack{YClaw{x Camp
+desc:^:You are in the {DBlack{YClaw{x Camp.  The warriors seem to be preparing
+for their siege against the fort.  There are large trees all around you,
+each with a large hole carved into the base, big enough for a person to walk
+into.  The path through the camp continues to the west and the path to the
+battlefield lies to the east.  Large trees stand in the south and north.
+exit:^:0:^:17096
+exit:^:1:^:17094
+exit:^:2:^:17097
+exit:^:3:^:17098
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17096
+name:^:{DBlack{YClaw{x Camp
+desc:^:You have entered a barracks built into the base of a large tree.  Bunk
+beds have been carved into the walls.  A weapon and armor rack have been
+attached to the wall.  It looks as though the warriors are almost ready to
+strike.  The hole to the camp lies open to the south.  
+exit:^:2:^:17095
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17097
+name:^:{DBlack{YClaw{x Camp
+desc:^:You have entered a barracks built into the base of a large tree.  Bunk
+beds have been carved into the walls.  A weapon and armor rack have been
+attached to the wall.  It looks as though the warriors are almost ready to
+strike.  The hole to the camp lies open to the north.  
+exit:^:0:^:17095
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17098
+name:^:{DBlack{YClaw{x Camp
+desc:^:You are in the {DBlack{YClaw{x Camp.  The warriors seem to be preparing
+for their siege against the fort.  There are large trees all around you,
+each with a large hole carved into the base, big enough for a person to walk
+into.  The path through the camp continues to the west and the path to the
+battlefield lies to the east.  Large trees stand in the south and north.
+exit:^:0:^:17099
+exit:^:1:^:17095
+exit:^:2:^:17100
+exit:^:3:^:17101
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17099
+name:^:{DBlack{YClaw{x Camp
+desc:^:You have entered a barracks built into the base of a large tree.  Bunk
+beds have been carved into the walls.  A weapon and armor rack have been
+attached to the wall.  It looks as though the warriors are almost ready to
+strike.  The hole to the camp lies open to the south.  
+exit:^:2:^:17098
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17100
+name:^:{DBlack{YClaw{x Camp
+desc:^:You have entered a barracks built into the base of a large tree.  Bunk
+beds have been carved into the walls.  A weapon and armor rack have been
+attached to the wall.  It looks as though the warriors are almost ready to
+strike.  The hole to the camp lies open to the north.  
+exit:^:0:^:17098
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17101
+name:^:{DBlack{YClaw{x Camp
+desc:^:You are in the {DBlack{YClaw{x Camp.  The warriors seem to be preparing
+for their siege against the fort.  There are large trees all around you,
+each with a large hole carved into the base, big enough for a person to walk
+into.  The path to the battlefield lies to the east.  Large trees stand in
+the south and north.  
+exit:^:0:^:17102
+exit:^:1:^:17098
+exit:^:2:^:17103
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17102
+name:^:{DBlack{YClaw{x Camp
+desc:^:This appears to be the home of the BlackClaw Commander.  Its furnishings
+are much more plush including a large four post dragonskin bed.  A sort of
+throne also resides in this room, as if the commander plans to take much
+more than a few lives.  The hole leading back to the camp lies to the south.
+exit:^:2:^:17101
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17103
+name:^:{DBlack{YClaw{x Camp
+desc:^:You have entered a barracks built into the base of a large tree.  Bunk
+beds have been carved into the walls.  A weapon and armor rack have been
+attached to the wall.  It looks as though the warriors are almost ready to
+strike.  The hole to the camp lies open to the north.  
+exit:^:0:^:17101
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17104
+name:^:Outside the Southern Gate
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The southern gate to the fortress lies to the north,
+and the battlefield lies open to the east, west, and south.
+exit:^:0:^:17070
+exit:^:1:^:17106
+exit:^:2:^:17107
+exit:^:3:^:17105
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17105
+name:^:The Southern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  You see a mighty tower to the north and the
+battlefield lies open to the east and south.  
+exit:^:1:^:17104
+exit:^:2:^:17108
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17106
+name:^:The Southern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  You see a mighty tower to the north and the
+battlefield lies open to the west and south.  
+exit:^:2:^:17109
+exit:^:3:^:17104
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17107
+name:^:The Southern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the north, west,
+south, and east.  
+exit:^:0:^:17104
+exit:^:1:^:17109
+exit:^:2:^:17110
+exit:^:3:^:17108
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17108
+name:^:The Southern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the north, south.  And
+east.  
+exit:^:0:^:17105
+exit:^:1:^:17107
+exit:^:2:^:17111
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17109
+name:^:The Southern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the north, west, and
+south.  
+exit:^:0:^:17106
+exit:^:2:^:17112
+exit:^:3:^:17107
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17110
+name:^:The Southern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  Banners belonging to the {rBlood{wHive{x army flank
+the pathway to the south.  The battlefield lies open to the north, west, and
+east.  
+exit:^:0:^:17107
+exit:^:1:^:17112
+exit:^:2:^:17113
+exit:^:3:^:17111
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17111
+name:^:The Southern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the north and east.  
+exit:^:0:^:17108
+exit:^:1:^:17110
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17112
+name:^:The Southern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the north and west.  
+exit:^:0:^:17109
+exit:^:3:^:17110
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17113
+name:^:Path to the {rBlood{wHive{x Camp
+desc:^:The path has slimmed to only a few feet wide.  You hear the sound of
+smiths sharpening blades and warriors preparing for battle.  The path begins
+to descend into the earth, and the tunnel grows dark.  There is an eerie
+silence in the air that is quite unsettling.  The tunnel continues to the
+south and the battlefield lies to the north.  
+exit:^:0:^:17110
+exit:^:2:^:17114
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17114
+name:^:{rBlood{wHive{x Camp
+desc:^:The tunnel here is dark and damp.  There appears to be a sticky substance
+almost like a spider's web lining the walls, floors, and ceilings.  There is
+an overpowering scent of rotting flesh coming from the west and east tunnels
+and the tunnel descends further to the south.  The path up to the
+battlefield lies to the north.  
+exit:^:0:^:17113
+exit:^:1:^:17116
+exit:^:2:^:17117
+exit:^:3:^:17115
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17115
+name:^:{rBlood{wHive{x Camp
+desc:^:This room is somewhat round and seems to have been dug with claw like
+tools.  Large piles of eggs lie everywhere, and smell strongly of rotten
+flesh.  The same sticky substance seems to be lining this room as well.  It
+looks like the hive may almost have quite an army ready.  The tunnel back
+lies to the east.  
+exit:^:1:^:17114
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17116
+name:^:{rBlood{wHive{x Camp
+desc:^:This room is somewhat round and seems to have been dug with claw like
+tools.  Large piles of eggs lie everywhere, and smell strongly of rotten
+flesh.  The same sticky substance seems to be lining this room as well.  It
+looks like the hive may almost have quite an army ready.  The tunnel back
+lies to the west.
+exit:^:3:^:17114
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17117
+name:^:{rBlood{wHive{x Camp
+desc:^:The tunnel here is dark and damp.  There appears to be a sticky substance
+almost like a spider's web lining the walls, floors, and ceilings.  There is
+an overpowering scent of rotting flesh coming from the west and east tunnels
+and the tunnel descends further to the south.  The path up to the
+battlefield lies to the north.
+exit:^:0:^:17114
+exit:^:1:^:17119
+exit:^:2:^:17120
+exit:^:3:^:17118
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17118
+name:^:{rBlood{wHive{x Camp
+desc:^:This room is somewhat round and seems to have been dug with claw like
+tools.  Large piles of eggs lie everywhere, and smell strongly of rotten
+flesh.  The same sticky substance seems to be lining this room as well.  It
+looks like the hive may almost have quite an army ready.  The tunnel back
+lies to the east.
+exit:^:1:^:17117
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17119
+name:^:{rBlood{wHive{x Camp
+desc:^:This room is somewhat round and seems to have been dug with claw like
+tools.  Large piles of eggs lie everywhere, and smell strongly of rotten
+flesh.  The same sticky substance seems to be lining this room as well.  It
+looks like the hive may almost have quite an army ready.  The tunnel back
+lies to the west.
+exit:^:3:^:17117
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17120
+name:^:{rBlood{wHive{x Camp
+desc:^:The tunnel here is dark and damp.  There appears to be a sticky substance
+almost like a spider's web lining the walls, floors, and ceilings.  There is
+an overpowering scent of rotting flesh coming from the west and east tunnel.
+The path up to the battlefield lies to the north.  
+exit:^:0:^:17117
+exit:^:1:^:17122
+exit:^:3:^:17121
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17121
+name:^:{rBlood{wHive{x Camp
+desc:^:This room is somewhat round and seems to have been dug with claw like
+tools.  Large piles of eggs lie everywhere, and smell strongly of rotten
+flesh.  The same sticky substance seems to be lining this room as well.  It
+looks like the hive may almost have quite an army ready.  The tunnel back
+lies to the east.
+exit:^:1:^:17120
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17122
+name:^:{rBlood{wHive{x Camp
+desc:^:You have come across the queen's chamber.  The room is layered with the
+sticky substance that is found everywhere in this tunnel.  Although you
+might not have thought it, there appear to be luxuries all around her.  It
+appears that she is quite intelligent.  The exit back to the main tunnel
+lies to the west.  
+exit:^:3:^:17120
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17123
+name:^:Outside the Eastern Gate
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The eastern gate to the fortress lies to the west,
+and the battlefield lies open to the east, north, and south.  
+exit:^:0:^:17124
+exit:^:1:^:17126
+exit:^:2:^:17125
+exit:^:3:^:17071
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17124
+name:^:The Eastern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  You see a mighty tower to the west and the
+battlefield lies open to the east and south.  
+exit:^:1:^:17127
+exit:^:2:^:17123
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17125
+name:^:The Eastern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  You see a mighty tower to the west and the
+battlefield lies open to the east and north.  
+exit:^:0:^:17123
+exit:^:1:^:17128
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17126
+name:^:The Eastern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the north, west,
+south, and east.  
+exit:^:0:^:17127
+exit:^:1:^:17129
+exit:^:2:^:17128
+exit:^:3:^:17123
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17127
+name:^:The Eastern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the west, south, and
+east.  
+exit:^:1:^:17130
+exit:^:2:^:17126
+exit:^:3:^:17124
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17128
+name:^:The Eastern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the north, west, and
+east.  
+exit:^:0:^:17126
+exit:^:1:^:17131
+exit:^:3:^:17125
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17129
+name:^:The Eastern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  Banners belonging to the {wStone{bBlade{x army
+flank the pathway to the east.  The battlefield lies open to the north,
+west, and south.  
+exit:^:0:^:17130
+exit:^:1:^:17132
+exit:^:2:^:17131
+exit:^:3:^:17126
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17130
+name:^:The Eastern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the west and south.  
+exit:^:2:^:17129
+exit:^:3:^:17127
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17131
+name:^:The Eastern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the west and north.
+exit:^:0:^:17129
+exit:^:3:^:17128
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17132
+name:^:Path to the {wStone{bBlade{x Camp
+desc:^:The path quickly turns into a steep set of stairs.  At the top you can
+see a monastery of sorts, and at the bottom seems to be the eastern front. 
+The sound of chanting and training seems to be coming from the east and the
+sounds of battle to the west.  
+exit:^:1:^:17133
+exit:^:3:^:17129
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17133
+name:^:{wStone{bBlade{x Camp
+desc:^:This monastery was built recently upon this hill.  It is made of dark
+stone and looks like it could withstand an enemy attack easily.  Great
+arches leading into the monestary lie to the north and south.  The path
+through continues to the east and the stairs down lie to the west.  
+exit:^:0:^:17134
+exit:^:1:^:17136
+exit:^:2:^:17135
+exit:^:3:^:17132
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17134
+name:^:{wStone{bBlade{x Camp
+desc:^:The inside of the monastery was built for training as well as prayer. 
+The room is well lit from candles lining the walls, and training tools lie
+neatly stacked in racks.  The archway back lies to the south.  
+exit:^:2:^:17133
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17135
+name:^:{wStone{bBlade{x Camp
+desc:^:The inside of the monastery was build for training as well as prayer. 
+The room is well lit from candles lining the walls, and training tools lie
+neatly stacked in racks.  The archway back lies to the north.  
+exit:^:0:^:17133
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17136
+name:^:{wStone{bBlade{x Camp
+desc:^:This monastery was built recently upon this hill.  It is made of dark
+stone and looks like it could withstand an enemy attack easily.  Great
+arches leading into the monestary lie to the north and south.  The path
+through continues to the east and the stairs down lie to the west.
+exit:^:0:^:17137
+exit:^:1:^:17139
+exit:^:2:^:17138
+exit:^:3:^:17133
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17137
+name:^:{wStone{bBlade{x Camp
+desc:^:The inside of the monastary was build for training as well as prayer. 
+The room is well lit from candles lining the walls, and training tools lie
+neatly stacked in racks.  The archway back lies to the south.
+exit:^:2:^:17136
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17138
+name:^:{wStone{bBlade{x Camp
+desc:^:The inside of the monastery was build for training as well as prayer. 
+The room is well lit from candles lining the walls, and training tools lie
+neatly stacked in racks.  The archway back lies to the north.
+exit:^:0:^:17136
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17139
+name:^:{wStone{bBlade{x Camp
+desc:^:This monastery was built recently upon this hill.  It is made of dark
+stone and looks like it could withstand an enemy attack easily.  Great
+arches leading into the monestary lie to the north and south.  The stairs
+down lie to the west.  
+exit:^:0:^:17140
+exit:^:2:^:17141
+exit:^:3:^:17136
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17140
+name:^:{wStone{bBlade{x Camp
+desc:^:This inner chamber seems reserved for the Daimyo of the army.  The smell
+of incense and sweat fills the air and the sound of prayer resonates in the
+walls.  There are sleeping quarters as well.  The archway back lies to the
+south.  
+exit:^:2:^:17139
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17141
+name:^:{wStone{bBlade{x Camp
+desc:^:The inside of the monastery was build for training as well as prayer. 
+The room is well lit from candles lining the walls, and training tools lie
+neatly stacked in racks.  The archway back lies to the north.  
+exit:^:0:^:17139
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17142
+name:^:Outside the Northern Gate
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The northern gate to the fortress lies to the
+south, and the battlefield lies open to the east, west, and north.  
+exit:^:0:^:17145
+exit:^:1:^:17144
+exit:^:2:^:17068
+exit:^:3:^:17143
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17143
+name:^:The Northern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  You see a mighty tower to the south and the
+battlefield lies open to the north and east.
+exit:^:0:^:17146
+exit:^:1:^:17142
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17144
+name:^:The Northern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  You see a mighty tower to the south and the
+battlefield lies open to the north and west.
+exit:^:0:^:17147
+exit:^:3:^:17142
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17145
+name:^:The Northern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the north, west, south
+and east.  
+exit:^:0:^:17148
+exit:^:1:^:17147
+exit:^:2:^:17142
+exit:^:3:^:17146
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17146
+name:^:The Northern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the north, south, and
+east.  
+exit:^:0:^:17149
+exit:^:1:^:17145
+exit:^:2:^:17143
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17147
+name:^:The Northern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the north, west, and
+south.  
+exit:^:0:^:17150
+exit:^:2:^:17144
+exit:^:3:^:17145
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17148
+name:^:The Northern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  Banners belonging to the {yT{ce{ym{cp{ye{cs{yt{x army flank the
+pathway to the north.  The battlefield lies open to the west, east, and
+south.  
+exit:^:0:^:17151
+exit:^:1:^:17150
+exit:^:2:^:17145
+exit:^:3:^:17149
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17149
+name:^:The Northern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the south and east.
+exit:^:1:^:17148
+exit:^:2:^:17146
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17150
+name:^:The Northern Front
+desc:^:The battlefield outside the fortress is stained with the blood of Bosco's
+enemies.  The dirt is packed down and stained so it almost looks like
+reddish stone.  You hear the sound of distant warcries as if an army is
+trying to raise morale.  The battlefield lies open to the south and west.
+exit:^:2:^:17147
+exit:^:3:^:17148
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17151
+name:^:Path to the {yT{ce{ym{cp{ye{cs{yt{x Camp
+desc:^:The path to the Tempest camp is wet and mucky.  You notice the water
+level seems to be rising as you step.  If this doesn't improve, you will
+need a boat to go any further.  You hear the sound of running water to the
+north and the sounds of battle to the south.  
+exit:^:0:^:17152
+exit:^:2:^:17148
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17152
+name:^:{yT{ce{ym{cp{ye{cs{yt{x Camp
+desc:^:The camp appears to be a small lake.  The marids have certainly made
+themselves at home.  Small caves that house the invading army have been
+carved out of the rocky shore to the east and west.  The lake continues to
+the north and the river heading to the battlefield lies to the south.  
+exit:^:0:^:17155
+exit:^:1:^:17154
+exit:^:2:^:17151
+exit:^:3:^:17153
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17153
+name:^:{yT{ce{ym{cp{ye{cs{yt{x Camp
+desc:^:These small caves are flooded with water.  The weapons and armor of the
+marids don't seem to mind getting wet.  You are also suprised to see books
+on shelves under the water.  The opening to the lake lies to the east.  
+exit:^:1:^:17152
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17154
+name:^:{yT{ce{ym{cp{ye{cs{yt{x Camp
+desc:^:These small caves are flooded with water.  The weapons and armor of the
+marids don't seem to mind getting wet.  You are also suprised to see books
+on shelves under the water.  The opening to the lake lies to the west.  
+exit:^:3:^:17152
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17155
+name:^:{yT{ce{ym{cp{ye{cs{yt{x Camp
+desc:^:The camp appears to be a small lake.  The marids have certainly made
+themselves at home.  Small caves that house the invading army have been
+carved out of the rocky shore to the east and west.  The lake continues to
+the north and the river heading to the battlefield lies to the south.  
+exit:^:0:^:17158
+exit:^:1:^:17157
+exit:^:2:^:17152
+exit:^:3:^:17156
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17156
+name:^:{yT{ce{ym{cp{ye{cs{yt{x Camp
+desc:^:These small caves are flooded with water.  The weapons and armor of the
+marids don't seem to mind getting wet.  You are also suprised to see books
+on shelves under the water.  The opening to the lake lies to the east.
+exit:^:1:^:17155
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17157
+name:^:{yT{ce{ym{cp{ye{cs{yt{x Camp
+desc:^:These small caves are flooded with water.  The weapons and armor of the
+marids don't seem to mind getting wet.  You are also suprised to see books
+on shelves under the water.  The opening to the lake lies to the west.  
+exit:^:3:^:17155
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17158
+name:^:{yT{ce{ym{cp{ye{cs{yt{x Camp
+desc:^:The camp appears to be a small lake.  The marids have certainly made
+themselves at home.  Small caves that house the invading army have been
+carved out of the rocky shore to the east and west.  The river heading to
+the battlefield lies to the south.  
+exit:^:1:^:17160
+exit:^:2:^:17155
+exit:^:3:^:17159
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17159
+name:^:{yT{ce{ym{cp{ye{cs{yt{x Camp
+desc:^:These small caves are flooded with water.  The weapons and armor of the
+marids don't seem to mind getting wet.  You are also suprised to see books
+on shelves under the water.  The opening to the lake lies to the east.
+exit:^:1:^:17158
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17160
+name:^:{yT{ce{ym{cp{ye{cs{yt{x Camp
+desc:^:You have found the queen's quarters.  The room is well equipped with
+books and scrolls.  Beautiful furniture also lines the room.  There also
+seems to be a war table with a map of the fort.  It appears they plan to use
+magic to break the defenses.  The path to the lake lies to the west.  
+exit:^:3:^:17158
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17161
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  {RYou are now
+in an area that you can be killed in by another player.  {x When you die you
+will reappear at a place called the Temple Healer.  To reenter the school,
+go south and up from there.  Exits lie to the north, west, and east, and the
+door to the school lies to the south.  
+exit:^:0:^:17163
+exit:^:1:^:17164
+exit:^:2:^:17065
+exit:^:3:^:17162
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17162
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the north, west, and east.  
+exit:^:0:^:17165
+exit:^:1:^:17161
+exit:^:3:^:17170
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17163
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the north, west, south, and east.  
+exit:^:0:^:17166
+exit:^:1:^:17167
+exit:^:2:^:17161
+exit:^:3:^:17165
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17164
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the north, west, and east.  
+exit:^:0:^:17167
+exit:^:1:^:17173
+exit:^:3:^:17161
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17165
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the north, south, and east. 
+exit:^:0:^:17168
+exit:^:1:^:17163
+exit:^:2:^:17162
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17166
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the south, west, and east. 
+exit:^:1:^:17169
+exit:^:2:^:17163
+exit:^:3:^:17168
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17167
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the north, west, and south. 
+exit:^:0:^:17169
+exit:^:2:^:17164
+exit:^:3:^:17163
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17168
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the south, west, and east. 
+exit:^:1:^:17166
+exit:^:2:^:17165
+exit:^:3:^:17172
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17169
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the east, west, and south.
+exit:^:1:^:17175
+exit:^:2:^:17167
+exit:^:3:^:17166
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17170
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the north and east.  
+exit:^:0:^:17171
+exit:^:1:^:17162
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17171
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the north, down, and south. 
+exit:^:0:^:17172
+exit:^:2:^:17170
+exit:^:5:^:17176
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17172
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the east and south.
+exit:^:1:^:17168
+exit:^:2:^:17171
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17173
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the north and west.
+exit:^:0:^:17174
+exit:^:3:^:17164
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17174
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the north and south.
+exit:^:0:^:17175
+exit:^:2:^:17173
+exit:^:5:^:17178
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17175
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the west and south.
+exit:^:2:^:17174
+exit:^:3:^:17169
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17176
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the east and up.
+exit:^:1:^:17177
+exit:^:4:^:17171
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17177
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the west and east.  
+exit:^:1:^:17178
+exit:^:3:^:17176
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17178
+name:^:The Arena
+desc:^:You have entered a large arena.  The walls, floors, and ceilings are made
+of the same grey stone.  Everywhere is lit with torchlight.  Exits lie to
+the west and up.
+exit:^:3:^:17177
+exit:^:4:^:17174
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17179
+name:^:Welcome to Redemption
+desc:^:You are standing in a round marble room lit from torches.  A sparkling
+ladder leads up into the Military Academy lobby.  Another ladder seems to
+descend down into Midgaard.  {RIf you are new to Redemption, please type up
+to climb up the ladder into the Academy and walk through the Tutorial.  {x
+If you are levels 1-5 you should first level in the Tutorial area.  The Fort
+is meant for levels 4-10.  
+exit:^:0:^:17066
+exit:^:4:^:17000
+exit:^:5:^:3001
+---  END ROOM  ---
+--- START ROOM ---
+vnum:^:17199
+name:^:Ravenfeather's Sanctuary
+desc:^:Anderyn's office is a fairly nice room.  It is decorated in a very
+business like manor.  An old sturdy desk and an old coke machine sit in the
+room looking perfectly normal.  Some lovely tapestries line the walls and a
+comfy couch sits next to a wall.  There are no visable exits.  
+---  END ROOM  ---
+---START RESETS---
+mobile:^:17000 17000
+carry:^:17002
+mobile:^:17090 17009
+mobile:^:17002 17010
+carry:^:17004
+mobile:^:17090 17013
+mobile:^:17001 17014
+mobile:^:17004 17015
+carry:^:17046
+mobile:^:17005 17016
+carry:^:17045
+mobile:^:17006 17018
+wield:^:17011
+mobile:^:17023 17019
+carry:^:17015
+carry:^:17031
+mobile:^:17007 17020
+carry:^:17022
+carry:^:17029
+mobile:^:17024 17021
+carry:^:17027
+mobile:^:17025 17023
+carry:^:17033
+carry:^:17033
+mobile:^:17008 17024
+carry:^:17023
+mobile:^:17090 17026
+mobile:^:17026 17026
+carry:^:17030
+mobile:^:17027 17027
+carry:^:17028
+mobile:^:17028 17028
+carry:^:17032
+mobile:^:17009 17031
+mobile:^:17014 17032
+mobile:^:17010 17034
+mobile:^:17015 17035
+mobile:^:17090 17036
+mobile:^:17011 17037
+mobile:^:17016 17038
+mobile:^:17012 17040
+mobile:^:17017 17041
+mobile:^:17013 17043
+mobile:^:17018 17044
+mobile:^:17090 17048
+mobile:^:17021 17048
+carry:^:17013
+carry:^:17012
+carry:^:17011
+carry:^:17010
+carry:^:17009
+carry:^:17008
+carry:^:17007
+carry:^:17006
+carry:^:17005
+carry:^:17049
+carry:^:17050
+mobile:^:17019 17049
+mobile:^:17032 17050
+carry:^:17038
+mobile:^:17031 17051
+carry:^:17037
+mobile:^:17030 17052
+carry:^:17036
+mobile:^:17020 17053
+mobile:^:17033 17054
+carry:^:17040
+mobile:^:17035 17055
+carry:^:17041
+mobile:^:17022 17055
+carry:^:17026
+carry:^:17025
+mobile:^:17034 17056
+carry:^:17039
+mobile:^:17029 17057
+mobile:^:17036 17058
+carry:^:17034
+mobile:^:17037 17059
+carry:^:17024
+mobile:^:17038 17060
+wield:^:17035
+mobile:^:17003 17061
+mobile:^:17039 17062
+carry:^:17042
+mobile:^:17040 17063
+carry:^:17043
+mobile:^:17041 17064
+carry:^:17044
+mobile:^:17088 17065
+carry:^:17000
+mobile:^:17090 17066
+mobile:^:17043 17066
+wield:^:17055
+wield:^:17065
+mobile:^:17048 17068
+wield:^:17053
+wield:^:17054
+wield:^:17055
+wield:^:17064
+wield:^:17065
+mobile:^:17048 17069
+wield:^:17053
+wield:^:17054
+wield:^:17055
+wield:^:17064
+wield:^:17065
+mobile:^:17048 17070
+wield:^:17053
+wield:^:17054
+wield:^:17055
+wield:^:17064
+wield:^:17065
+mobile:^:17048 17071
+wield:^:17053
+wield:^:17054
+wield:^:17055
+wield:^:17064
+wield:^:17065
+mobile:^:17090 17072
+mobile:^:17042 17072
+wield:^:17048
+mobile:^:17049 17073
+carry:^:17064
+carry:^:17060
+carry:^:17055
+carry:^:17054
+carry:^:17053
+mobile:^:17044 17073
+wield:^:17052
+wield:^:17053
+wield:^:17054
+wield:^:17055
+mobile:^:17051 17074
+carry:^:17069
+carry:^:17068
+carry:^:17067
+carry:^:17061
+carry:^:17066
+mobile:^:17044 17074
+wield:^:17052
+wield:^:17053
+wield:^:17054
+wield:^:17055
+mobile:^:17050 17075
+carry:^:17052
+carry:^:17062
+carry:^:17059
+carry:^:17058
+carry:^:17057
+carry:^:17056
+mobile:^:17044 17075
+wield:^:17052
+wield:^:17053
+wield:^:17054
+wield:^:17055
+mobile:^:17052 17076
+carry:^:17021
+carry:^:17018
+carry:^:17017
+carry:^:17065
+carry:^:17051
+mobile:^:17044 17076
+wield:^:17052
+wield:^:17053
+wield:^:17054
+wield:^:17055
+mobile:^:17047 17077
+wield:^:17053
+wield:^:17054
+wield:^:17055
+wield:^:17062
+mobile:^:17046 17077
+wield:^:17053
+wield:^:17054
+wield:^:17055
+wield:^:17059
+wield:^:17060
+mobile:^:17045 17078
+wield:^:17053
+wield:^:17055
+wield:^:17056
+wield:^:17057
+carry:^:17058
+carry:^:17051
+mobile:^:17047 17079
+wield:^:17053
+wield:^:17054
+wield:^:17055
+wield:^:17062
+mobile:^:17046 17079
+wield:^:17053
+wield:^:17054
+wield:^:17055
+wield:^:17059
+wield:^:17060
+carry:^:17061
+mobile:^:17045 17080
+wield:^:17053
+wield:^:17055
+wield:^:17056
+wield:^:17057
+carry:^:17058
+mobile:^:17047 17081
+wield:^:17053
+wield:^:17054
+wield:^:17055
+wield:^:17062
+mobile:^:17046 17081
+wield:^:17053
+wield:^:17054
+wield:^:17055
+wield:^:17059
+wield:^:17060
+mobile:^:17045 17082
+wield:^:17053
+wield:^:17055
+wield:^:17056
+wield:^:17057
+carry:^:17058
+mobile:^:17047 17083
+wield:^:17053
+wield:^:17054
+wield:^:17055
+wield:^:17062
+mobile:^:17046 17083
+wield:^:17053
+wield:^:17054
+wield:^:17055
+wield:^:17059
+wield:^:17060
+mobile:^:17045 17084
+wield:^:17053
+wield:^:17055
+wield:^:17056
+wield:^:17057
+carry:^:17058
+mobile:^:17053 17086
+wield:^:17070
+wield:^:17073
+mobile:^:17053 17087
+wield:^:17070
+wield:^:17073
+mobile:^:17054 17088
+wield:^:17070
+wield:^:17071
+wield:^:17074
+mobile:^:17054 17089
+wield:^:17070
+wield:^:17074
+mobile:^:17055 17089
+wield:^:17070
+wield:^:17075
+wield:^:17057
+mobile:^:17054 17090
+wield:^:17070
+wield:^:17074
+mobile:^:17055 17090
+wield:^:17070
+wield:^:17075
+wield:^:17057
+mobile:^:17058 17091
+wield:^:17070
+wield:^:17078
+mobile:^:17057 17092
+wield:^:17070
+wield:^:17077
+mobile:^:17056 17092
+wield:^:17070
+wield:^:17072
+wield:^:17076
+mobile:^:17057 17093
+wield:^:17070
+wield:^:17072
+wield:^:17077
+mobile:^:17056 17093
+wield:^:17070
+carry:^:17076
+mobile:^:17090 17094
+mobile:^:17074 17095
+wield:^:17101
+wield:^:17102
+wield:^:17103
+mobile:^:17076 17096
+wield:^:17101
+wield:^:17102
+wield:^:17105
+mobile:^:17077 17097
+wield:^:17101
+wield:^:17106
+wield:^:17102
+mobile:^:17074 17098
+wield:^:17101
+wield:^:17102
+wield:^:17103
+mobile:^:17078 17099
+wield:^:17101
+wield:^:17102
+wield:^:17107
+mobile:^:17079 17100
+wield:^:17101
+wield:^:17102
+wield:^:17108
+mobile:^:17074 17101
+wield:^:17101
+wield:^:17102
+wield:^:17103
+mobile:^:17080 17102
+wield:^:17101
+wield:^:17102
+wield:^:17109
+carry:^:17110
+mobile:^:17075 17103
+wield:^:17101
+wield:^:17102
+wield:^:17104
+mobile:^:17053 17105
+wield:^:17070
+wield:^:17073
+mobile:^:17053 17106
+wield:^:17070
+wield:^:17073
+mobile:^:17054 17107
+wield:^:17070
+wield:^:17071
+wield:^:17074
+mobile:^:17054 17108
+wield:^:17070
+wield:^:17074
+mobile:^:17055 17108
+wield:^:17070
+wield:^:17075
+wield:^:17057
+mobile:^:17054 17109
+wield:^:17070
+wield:^:17074
+mobile:^:17055 17109
+wield:^:17070
+wield:^:17075
+wield:^:17057
+mobile:^:17059 17110
+wield:^:17070
+wield:^:17080
+wield:^:17072
+wield:^:17079
+mobile:^:17057 17111
+wield:^:17070
+wield:^:17077
+mobile:^:17056 17111
+wield:^:17070
+wield:^:17072
+wield:^:17076
+mobile:^:17057 17112
+wield:^:17070
+wield:^:17077
+mobile:^:17056 17112
+wield:^:17070
+wield:^:17076
+mobile:^:17090 17113
+mobile:^:17061 17114
+wield:^:17081
+wield:^:17083
+mobile:^:17060 17115
+wield:^:17081
+mobile:^:17060 17115
+wield:^:17081
+mobile:^:17060 17115
+carry:^:17082
+wield:^:17081
+mobile:^:17060 17115
+wield:^:17081
+mobile:^:17062 17116
+wield:^:17081
+wield:^:17084
+mobile:^:17061 17117
+wield:^:17081
+wield:^:17083
+mobile:^:17064 17118
+wield:^:17081
+wield:^:17086
+mobile:^:17063 17119
+wield:^:17081
+wield:^:17085
+mobile:^:17061 17120
+wield:^:17081
+wield:^:17083
+mobile:^:17065 17121
+wield:^:17081
+wield:^:17087
+mobile:^:17066 17122
+wield:^:17081
+wield:^:17088
+wield:^:17089
+carry:^:17090
+mobile:^:17053 17124
+wield:^:17070
+wield:^:17073
+mobile:^:17053 17125
+wield:^:17070
+wield:^:17073
+mobile:^:17054 17126
+wield:^:17070
+wield:^:17071
+wield:^:17074
+mobile:^:17054 17127
+wield:^:17070
+wield:^:17074
+mobile:^:17055 17127
+wield:^:17070
+wield:^:17075
+wield:^:17057
+mobile:^:17054 17128
+wield:^:17070
+wield:^:17074
+mobile:^:17055 17128
+wield:^:17070
+wield:^:17075
+wield:^:17057
+mobile:^:17058 17129
+wield:^:17070
+wield:^:17078
+mobile:^:17057 17130
+wield:^:17070
+wield:^:17077
+mobile:^:17056 17130
+wield:^:17070
+wield:^:17076
+mobile:^:17057 17131
+wield:^:17070
+wield:^:17077
+mobile:^:17056 17131
+wield:^:17070
+wield:^:17072
+wield:^:17076
+mobile:^:17090 17132
+mobile:^:17067 17133
+wield:^:17091
+wield:^:17092
+wield:^:17093
+mobile:^:17069 17134
+wield:^:17095
+wield:^:17092
+wield:^:17091
+mobile:^:17068 17135
+wield:^:17091
+wield:^:17092
+wield:^:17094
+mobile:^:17067 17136
+wield:^:17091
+wield:^:17092
+wield:^:17093
+mobile:^:17071 17137
+wield:^:17091
+wield:^:17092
+wield:^:17097
+mobile:^:17070 17138
+wield:^:17091
+wield:^:17092
+wield:^:17096
+mobile:^:17067 17139
+wield:^:17091
+wield:^:17092
+wield:^:17093
+mobile:^:17073 17140
+wield:^:17091
+wield:^:17092
+wield:^:17098
+wield:^:17099
+carry:^:17100
+mobile:^:17072 17141
+wield:^:17091
+wield:^:17092
+wield:^:17098
+mobile:^:17053 17143
+wield:^:17070
+wield:^:17073
+mobile:^:17053 17144
+wield:^:17070
+wield:^:17073
+mobile:^:17054 17145
+wield:^:17070
+wield:^:17071
+wield:^:17074
+mobile:^:17054 17146
+wield:^:17070
+wield:^:17074
+mobile:^:17055 17146
+wield:^:17070
+wield:^:17075
+wield:^:17057
+mobile:^:17054 17147
+wield:^:17070
+wield:^:17074
+mobile:^:17055 17147
+wield:^:17070
+wield:^:17075
+wield:^:17057
+mobile:^:17058 17148
+wield:^:17070
+wield:^:17078
+mobile:^:17057 17149
+wield:^:17070
+wield:^:17077
+mobile:^:17056 17149
+wield:^:17070
+wield:^:17072
+wield:^:17076
+mobile:^:17057 17150
+wield:^:17070
+wield:^:17072
+wield:^:17077
+mobile:^:17056 17150
+wield:^:17070
+wield:^:17076
+mobile:^:17090 17151
+mobile:^:17081 17152
+wield:^:17111
+wield:^:17112
+wield:^:17113
+mobile:^:17082 17153
+wield:^:17111
+wield:^:17112
+wield:^:17114
+mobile:^:17085 17154
+wield:^:17111
+wield:^:17112
+wield:^:17117
+mobile:^:17081 17155
+wield:^:17111
+wield:^:17112
+wield:^:17113
+mobile:^:17083 17156
+wield:^:17111
+wield:^:17112
+wield:^:17115
+mobile:^:17086 17157
+wield:^:17111
+wield:^:17112
+wield:^:17118
+mobile:^:17081 17158
+wield:^:17111
+wield:^:17112
+wield:^:17113
+mobile:^:17084 17159
+wield:^:17111
+wield:^:17112
+wield:^:17116
+mobile:^:17087 17160
+wield:^:17111
+wield:^:17112
+carry:^:17120
+wield:^:17119
+wield:^:17113
+wield:^:17124
+mobile:^:17090 17163
+mobile:^:17089 17199
+carry:^:17121
+--- END RESETS ---

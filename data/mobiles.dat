@@ -6,10 +6,23 @@ desc:^:Tim Bits the jolly baker stands here with flour all over him.
 longdesc:^:A rather large man, the only thing larger than his girth is his heart. 
 He is known for his generosity to the poor.  
 race:^:human
+position:^:stand
+wealth:^:(*int)500
+size:^:medium
+align:^:(*int)0
+level:^:(*int)15
 max_hp:^:3d9+208
-damage:^:2d6+3
+hit:^:(*int)1
+dam:^:2d6+3
 noun:^:squeeze
-position:^:(*int)1
+ac:^:-2 -2 -2 -2
+affects:^:detect_invis grandeur dark_vision 
+actions:^:npc sentinel 
+offense:^:
+vulnerable:^:energy 
+resist:^:mental 
+immune:^:charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5701
@@ -21,10 +34,23 @@ can best be described as laugh lines, for it appears that she has always
 been happy.  Her hands are gentle but nimble as they fly across the hundreds
 of pastries she creates each day.  
 race:^:human
+position:^:stand
+wealth:^:(*int)500
+size:^:medium
+align:^:(*int)0
+level:^:(*int)53
 max_hp:^:50d10+6000
-damage:^:6d7+21
+hit:^:(*int)5
+dam:^:6d7+21
 noun:^:none
-position:^:(*int)1
+ac:^:-23 -23 -23 -23
+affects:^:detect_invis detect_hidden 
+actions:^:npc sentinel 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5702
@@ -35,10 +61,23 @@ longdesc:^:Purple eyes look up at you from under a cascading mane of silver hair
 They seem to smile at you, as if knowing your inner thoughts.  Are you
 really at peace with yourself, they ask?  
 race:^:elf
+position:^:stand
+wealth:^:(*int)10000
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)45
 max_hp:^:25d10+3000
-damage:^:8d4+16
+hit:^:(*int)4
+dam:^:8d4+16
 noun:^:none
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:detect_invis detect_hidden berserk infrared grandeur flying dark_vision 
+actions:^:npc healer 
+offense:^:
+vulnerable:^:iron 
+resist:^:charm bash 
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5703
@@ -50,10 +89,23 @@ wrinkles.  Her movements are slow, aided by her cane, which is an
 intricately carved piece of wood.  The symbols are unintelligible to you,
 however they seem to have been painstakingly wrought into the wood.  
 race:^:human
+position:^:stand
+wealth:^:(*int)200
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)10
 max_hp:^:2d7+121
-damage:^:2d4+2
+hit:^:(*int)1
+dam:^:2d4+2
 noun:^:thwack
-position:^:(*int)1
+ac:^:1 1 1 1
+affects:^:detect_invis detect_hidden 
+actions:^:npc sentinel 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5704
@@ -63,10 +115,23 @@ desc:^:A woman stands here picking at her nails fretfully.
 longdesc:^:Short hair and an even shorter temper and her pocketbook looks like it
 packs a mean punch.  Do you really want to bother her right now?  
 race:^:human
+position:^:stand
+wealth:^:(*int)500
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)15
 max_hp:^:3d9+208
-damage:^:2d6+3
+hit:^:(*int)1
+dam:^:2d6+3
 noun:^:smother
-position:^:(*int)1
+ac:^:-2 -2 -2 -2
+affects:^:haste 
+actions:^:npc 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5705
@@ -76,10 +141,23 @@ desc:^:A baby is here crying loudly.
 longdesc:^:Of course she's crying, her diaper is soiled so badly that you can smell
 it from where you stand.  You'd be crying too if you had to sit in that!  
 race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)7
 max_hp:^:2d6+85
-damage:^:1d8+1
+hit:^:(*int)0
+dam:^:1d8+1
 noun:^:bite
-position:^:(*int)1
+ac:^:4 4 4 4
+affects:^:
+actions:^:npc 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5706
@@ -89,10 +167,23 @@ desc:^:A toddler is here running over people's feet.
 longdesc:^:A tempestuous child, you can tell by the crooked grin that he has no clue
 that he's actually hurting people, he just wants to play with you.  
 race:^:human
+position:^:stand
+wealth:^:(*int)200
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)10
 max_hp:^:2d7+121
-damage:^:2d4+2
+hit:^:(*int)1
+dam:^:2d4+2
 noun:^:chomp
-position:^:(*int)1
+ac:^:1 1 1 1
+affects:^:
+actions:^:npc aggressive 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5707
@@ -102,10 +193,23 @@ desc:^:A teenager is here mumbling about the unfairness of it all.
 longdesc:^:Short and petite, she belongs at cheerleading practice, not out shopping
 with her mom, and from her constant grumbling, you know she agrees.  
 race:^:human
+position:^:stand
+wealth:^:(*int)300
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)12
 max_hp:^:2d10+150
-damage:^:1d10+3
+hit:^:(*int)1
+dam:^:1d10+3
 noun:^:scratch
-position:^:(*int)1
+ac:^:0 0 0 0
+affects:^:
+actions:^:npc 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5708
@@ -115,10 +219,23 @@ desc:^:An old lady is here clipping coupons furiously.
 longdesc:^:The years have not been kind to this woman, and she takes it out on
 everyone around her.  You might want to turn away before you catch her eye. 
 race:^:human
+position:^:stand
+wealth:^:(*int)400
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)13
 max_hp:^:2d10+170
-damage:^:2d5+3
+hit:^:(*int)1
+dam:^:2d5+3
 noun:^:skewer
-position:^:(*int)1
+ac:^:-1 -1 -1 -1
+affects:^:
+actions:^:npc 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5709
@@ -129,10 +246,23 @@ longdesc:^:Crisply ironed clothes, and a large briefcase slung over his shoulder
 looks ready for anything.  Except perhaps for the news that he is getting
 from whomever he is talking to.  He does not look happy.  
 race:^:human
+position:^:stand
+wealth:^:(*int)600
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)15
 max_hp:^:3d9+208
-damage:^:2d6+3
+hit:^:(*int)1
+dam:^:2d6+3
 noun:^:entangle
-position:^:(*int)1
+ac:^:-2 -2 -2 -2
+affects:^:
+actions:^:npc 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5710
@@ -142,10 +272,23 @@ desc:^:A woman stands here waiting to take your money.
 longdesc:^:Chewing gum, she flashes her yellowed teeth in a semblance of a smile as
 she waits for you to pay her.  
 race:^:human
+position:^:stand
+wealth:^:(*int)350
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)12
 max_hp:^:2d10+150
-damage:^:1d10+3
+hit:^:(*int)1
+dam:^:1d10+3
 noun:^:charge
-position:^:(*int)1
+ac:^:0 0 0 0
+affects:^:
+actions:^:npc sentinel 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5711
@@ -156,10 +299,23 @@ longdesc:^:With a look of sheer determination on his face, this boy concentrates
 the task at hand...  Stacking the cans on the shelf so that they don't fall
 over.  It would not be a good idea to break his concentration.  
 race:^:human
+position:^:stand
+wealth:^:(*int)225
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)10
 max_hp:^:2d7+121
-damage:^:2d4+2
+hit:^:(*int)1
+dam:^:2d4+2
 noun:^:crush
-position:^:(*int)1
+ac:^:1 1 1 1
+affects:^:
+actions:^:npc 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5712
@@ -171,10 +327,23 @@ your food's best interests in mind.  You watch as he packs the bags with no
 regard for heavy items, putting them on top of eggs and bread in no
 particular order.  
 race:^:human
+position:^:stand
+wealth:^:(*int)225
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)10
 max_hp:^:2d7+121
-damage:^:2d4+2
+hit:^:(*int)1
+dam:^:2d4+2
 noun:^:force
-position:^:(*int)1
+ac:^:1 1 1 1
+affects:^:
+actions:^:npc sentinel 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5713
@@ -185,10 +354,23 @@ longdesc:^:His hands are gnarled and covered with scars, most likely from mistak
 made when cutting meat.  He looks formidable, but the smile on his face
 tells you he is very friendly.  Just don't make him mad.  
 race:^:human
+position:^:stand
+wealth:^:(*int)500
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)15
 max_hp:^:3d9+208
-damage:^:2d6+3
+hit:^:(*int)1
+dam:^:2d6+3
 noun:^:gutting
-position:^:(*int)1
+ac:^:-2 -2 -2 -2
+affects:^:
+actions:^:npc sentinel 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5714
@@ -197,10 +379,23 @@ name:^:Bunnicula
 desc:^:A cute, fluffy innocent bunny hops around. Don't let him see you looking at him or he might get scared.
 longdesc:^:Is it just your imagination, or does this bunny have fangs?  
 race:^:rabbit
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)8
 max_hp:^:2d7+96
-damage:^:1d7+2
+hit:^:(*int)0
+dam:^:1d7+2
 noun:^:drain
-position:^:(*int)1
+ac:^:3 3 3 3
+affects:^:
+actions:^:npc 
+offense:^:dodge fast tail 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head legs heart brains guts feet ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5715
@@ -212,10 +407,23 @@ of this less than elegant establishment is happy with his
 life. His hair is neatly pulled back in a ponytail, and 
 if you look closely you'll see that it is streaked in purple.
 race:^:human
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)59
 max_hp:^:50d10+9000
-damage:^:8d6+26
+hit:^:(*int)5
+dam:^:8d6+26
 noun:^:none
-position:^:(*int)1
+ac:^:-29 -29 -29 -29
+affects:^:
+actions:^:npc sentinel 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5716
@@ -226,10 +434,23 @@ longdesc:^:Her blue scales are awash with an irridescent light that is almost
 surreal.  The glow illuminates the store and everything around her in a
 gentle blue hue.  
 race:^:blue dragon
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)59
 max_hp:^:50d10+9000
-damage:^:8d6+26
+hit:^:(*int)5
+dam:^:8d6+26
 noun:^:none
-position:^:(*int)1
+ac:^:-29 -29 -29 -29
+affects:^:detect_invis detect_magic detect_hidden berserk infrared flying dark_vision 
+actions:^:npc sentinel pet 
+offense:^:
+vulnerable:^:acid 
+resist:^:charm bash lightning 
+immune:^:summon charm magic weapon rain 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5717
@@ -238,10 +459,23 @@ name:^:Shammyra
 desc:^:A beautiful flame coloured kitten licks herself contentedly.
 longdesc:^:Fluffy orange and white fur masks a powerful feline form.
 race:^:cat
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)5
 max_hp:^:2d6+60
-damage:^:1d6+1
+hit:^:(*int)0
+dam:^:1d6+1
 noun:^:scratch
-position:^:(*int)1
+ac:^:5 5 5 5
+affects:^:haste dark_vision 
+actions:^:npc pet 
+offense:^:dodge fast 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head legs heart brains guts feet ears eyes tail claws fangs 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5718
@@ -252,10 +486,23 @@ longdesc:^:Everything is so out of place!  My ears are too long, and my nose is 
 short.  My tail knocks things over when I wag it, but I get so darned
 excited I can't help myself!  
 race:^:dog
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)8
 max_hp:^:2d7+96
-damage:^:1d7+2
+hit:^:(*int)0
+dam:^:1d7+2
 noun:^:chomp
-position:^:(*int)1
+ac:^:3 3 3 3
+affects:^:haste dark_vision 
+actions:^:npc pet 
+offense:^:fast 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head legs heart brains guts feet ears eyes claws fangs 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5719
@@ -265,10 +512,23 @@ desc:^:An old blue dragon has offered to share his wisdom with others.
 longdesc:^:With a smile for everyone but his enemies, this blue dragon can be your
 best friend, or your worst nightmare.  
 race:^:blue dragon
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)12
 max_hp:^:2d10+150
-damage:^:1d10+3
+hit:^:(*int)1
+dam:^:1d10+3
 noun:^:wrath
-position:^:(*int)1
+ac:^:0 0 0 0
+affects:^:infrared flying haste dark_vision 
+actions:^:npc pet 
+offense:^:disarm 
+vulnerable:^:acid 
+resist:^:charm bash lightning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:5720
@@ -277,10 +537,1572 @@ name:^:Catacomb
 desc:^:A big red dragon is here daring you to hurt his master.
 longdesc:^:Protector of Innocents, am I.
 race:^:red dragon
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)15
 max_hp:^:3d9+208
-damage:^:2d6+3
+hit:^:(*int)1
+dam:^:2d6+3
 noun:^:wrath
-position:^:(*int)1
+ac:^:-2 -2 -2 -2
+affects:^:infrared flying haste dark_vision 
+actions:^:npc pet 
+offense:^:bash 
+vulnerable:^:cold 
+resist:^:charm bash fire 
+immune:^:summon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6500
+keywords:^:dwarf dwarven guard
+name:^:the dwarven guard
+desc:^:A dwarven guard is here.
+longdesc:^:The guard looks very tough and mean.
+race:^:dwarf
+position:^:stand
+wealth:^:(*int)500
+size:^:medium
+align:^:(*int)500
+level:^:(*int)20
+max_hp:^:3d9+333
+hit:^:(*int)0
+dam:^:2d8+5
+noun:^:none
+ac:^:-4 -4 -4 7
+affects:^:detect_invis infrared 
+actions:^:npc sentinel 
+offense:^:disarm dodge trip assist_race 
+vulnerable:^:drowning 
+resist:^:poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6501
+keywords:^:dwarf dwarven miner worker
+name:^:the dwarven worker
+desc:^:A dwarven mining worker is here.
+longdesc:^:He is very dirty, and looks extremely over-worked.
+race:^:dwarf
+position:^:stand
+wealth:^:(*int)175
+size:^:medium
+align:^:(*int)900
+level:^:(*int)12
+max_hp:^:2d10+150
+hit:^:(*int)0
+dam:^:1d10+3
+noun:^:none
+ac:^:0 0 0 8
+affects:^:infrared 
+actions:^:npc stay_area 
+offense:^:disarm dodge trip assist_race 
+vulnerable:^:drowning 
+resist:^:poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6502
+keywords:^:wraith undead
+name:^:the wraith
+desc:^:A wraith is awaiting your first move here.
+longdesc:^:A black, almost transparent wraith.
+race:^:human
+position:^:stand
+wealth:^:(*int)2500
+size:^:medium
+align:^:(*int)-900
+level:^:(*int)29
+max_hp:^:6d12+778
+hit:^:(*int)0
+dam:^:2d12+8
+noun:^:none
+ac:^:-9 -9 -9 6
+affects:^:detect_invis detect_hidden 
+actions:^:npc sentinel 
+offense:^:disarm dodge trip assist_vnum 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6503
+keywords:^:oldstyle storekeeper
+name:^:the storekeeper
+desc:^:There is the Hide & Tooth storekeeper standing here, waiting patiently.
+longdesc:^:The storekeeper is very rotund, but looks like a sharp guy.
+race:^:human
+position:^:stand
+wealth:^:(*int)5000
+size:^:medium
+align:^:(*int)900
+level:^:(*int)35
+max_hp:^:10d10+1300
+hit:^:(*int)0
+dam:^:4d7+11
+noun:^:none
+ac:^:-11 -11 -11 5
+affects:^:
+actions:^:npc sentinel 
+offense:^:disarm dodge trip assist_vnum 
+vulnerable:^:
+resist:^:
+immune:^:summon charm rain 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6504
+keywords:^:oldstyle baker
+name:^:the baker
+desc:^:Granite Head, the baker, is waiting for a customer here.
+longdesc:^:Granite Head is covered with flour and grains.
+race:^:human
+position:^:stand
+wealth:^:(*int)50
+size:^:medium
+align:^:(*int)900
+level:^:(*int)35
+max_hp:^:10d10+1300
+hit:^:(*int)0
+dam:^:4d7+11
+noun:^:none
+ac:^:-11 -11 -11 5
+affects:^:
+actions:^:npc sentinel 
+offense:^:disarm dodge trip assist_vnum 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6505
+keywords:^:giant lizard
+name:^:the giant lizard
+desc:^:A giant lizard is here.
+longdesc:^:This scaly creature looks like it is well adapted to it's underground
+habitat.  He looks very powerful.
+race:^:lizard
+position:^:stand
+wealth:^:(*int)60
+size:^:large
+align:^:(*int)100
+level:^:(*int)18
+max_hp:^:3d9+283
+hit:^:(*int)0
+dam:^:2d7+4
+noun:^:none
+ac:^:-3 -3 -3 7
+affects:^:detect_invis 
+actions:^:npc stay_area 
+offense:^:disarm dodge trip assist_race 
+vulnerable:^:cold 
+resist:^:poison 
+immune:^:
+parts:^:head legs heart brains guts feet eyes tail fangs 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6506
+keywords:^:giant
+name:^:the giant
+desc:^:A giant is here.
+longdesc:^:The giant is about 8 feet tall, with arms of steel, and looks very strong.
+race:^:giant
+position:^:stand
+wealth:^:(*int)100
+size:^:large
+align:^:(*int)0
+level:^:(*int)16
+max_hp:^:3d9+233
+hit:^:(*int)0
+dam:^:2d6+4
+noun:^:none
+ac:^:-2 -2 -2 7
+affects:^:
+actions:^:npc stay_area 
+offense:^:disarm dodge trip assist_race 
+vulnerable:^:lightning mental 
+resist:^:fire cold 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6507
+keywords:^:dwarf dwarven miner
+name:^:the dwarven miner
+desc:^:A dwarven miner is here.
+longdesc:^:The mineworker is very tired, and very dirty, and he has bulging muscles.
+race:^:dwarf
+position:^:stand
+wealth:^:(*int)2
+size:^:medium
+align:^:(*int)0
+level:^:(*int)8
+max_hp:^:2d7+96
+hit:^:(*int)0
+dam:^:1d7+2
+noun:^:none
+ac:^:3 3 3 9
+affects:^:infrared 
+actions:^:npc sentinel 
+offense:^:disarm dodge trip assist_race 
+vulnerable:^:drowning 
+resist:^:poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6508
+keywords:^:dwarf dwarven mine leader
+name:^:the dwarven mine leader
+desc:^:A dwarven mine leader is here.
+longdesc:^:The mine leader is very big and very strong.
+race:^:dwarf
+position:^:stand
+wealth:^:(*int)1000
+size:^:medium
+align:^:(*int)0
+level:^:(*int)21
+max_hp:^:4d10+360
+hit:^:(*int)0
+dam:^:4d4+5
+noun:^:none
+ac:^:-5 -5 -5 7
+affects:^:infrared 
+actions:^:npc sentinel 
+offense:^:disarm dodge trip assist_race 
+vulnerable:^:drowning 
+resist:^:poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6509
+keywords:^:dwarf dwarven doctor
+name:^:the dwarven doctor
+desc:^:The dwarven doctor is here.
+longdesc:^:He is a very skilled surgeon, with hands of steel.
+race:^:dwarf
+position:^:stand
+wealth:^:(*int)75
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)9
+max_hp:^:2d6+110
+hit:^:(*int)0
+dam:^:1d8+2
+noun:^:none
+ac:^:2 2 2 8
+affects:^:detect_invis berserk infrared 
+actions:^:npc sentinel 
+offense:^:disarm dodge trip assist_race 
+vulnerable:^:drowning 
+resist:^:poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6510
+keywords:^:dwarf dwarven peon
+name:^:the dwarven peon
+desc:^:A dwarven peon is awaiting help here.
+longdesc:^:Just your average everyday dwarven peon.
+race:^:dwarf
+position:^:stand
+wealth:^:(*int)3
+size:^:medium
+align:^:(*int)500
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:none
+ac:^:7 7 7 10
+affects:^:infrared 
+actions:^:npc sentinel 
+offense:^:disarm dodge trip assist_race 
+vulnerable:^:drowning 
+resist:^:poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6511
+keywords:^:dwarf
+name:^:the dwarf
+desc:^:A grinning dwarf is here.
+longdesc:^:He's grinning rather evilly at you. Maybe he's from the Colossal Caves.
+race:^:dwarf
+position:^:stand
+wealth:^:(*int)62
+size:^:medium
+align:^:(*int)500
+level:^:(*int)9
+max_hp:^:2d6+110
+hit:^:(*int)0
+dam:^:1d8+2
+noun:^:none
+ac:^:2 2 2 8
+affects:^:infrared 
+actions:^:npc sentinel 
+offense:^:disarm dodge trip assist_race 
+vulnerable:^:drowning 
+resist:^:poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6512
+keywords:^:dwarf unwanted son
+name:^:the unwanted son
+desc:^:An unwanted son is here.  You feel sorry for the guy.
+longdesc:^:Awww, poor little bastard dwarf son!
+race:^:dwarf
+position:^:stand
+wealth:^:(*int)2
+size:^:small
+align:^:(*int)250
+level:^:(*int)9
+max_hp:^:2d6+110
+hit:^:(*int)0
+dam:^:1d8+2
+noun:^:none
+ac:^:2 2 2 8
+affects:^:infrared 
+actions:^:npc stay_area 
+offense:^:disarm dodge trip assist_race 
+vulnerable:^:drowning 
+resist:^:poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6513
+keywords:^:unwanted dwarf daughter
+name:^:the unwanted daughter
+desc:^:An unwanted daughter is here.  You feel sorry for her.
+longdesc:^:Awww, poor little bastard dwarf daughter!
+race:^:dwarf
+position:^:stand
+wealth:^:(*int)2
+size:^:small
+align:^:(*int)250
+level:^:(*int)10
+max_hp:^:2d7+121
+hit:^:(*int)0
+dam:^:2d4+2
+noun:^:none
+ac:^:1 1 1 8
+affects:^:infrared 
+actions:^:npc stay_area 
+offense:^:disarm dodge trip assist_race 
+vulnerable:^:drowning 
+resist:^:poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6514
+keywords:^:dwarf barracks guard
+name:^:the barracks guard
+desc:^:A barrack guard is here.
+longdesc:^:It's a dwarf that guards the barracks.
+race:^:dwarf
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)100
+level:^:(*int)16
+max_hp:^:3d9+233
+hit:^:(*int)0
+dam:^:2d6+4
+noun:^:none
+ac:^:-2 -2 -2 7
+affects:^:infrared 
+actions:^:npc sentinel 
+offense:^:disarm dodge trip assist_race 
+vulnerable:^:drowning 
+resist:^:poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6515
+keywords:^:man waiting
+name:^:the man in waiting
+desc:^:A man in waiting is here.  He looks nervous and unsure of himself.
+longdesc:^:You wonder what he's waiting for... then again...
+race:^:human
+position:^:stand
+wealth:^:(*int)348
+size:^:medium
+align:^:(*int)300
+level:^:(*int)15
+max_hp:^:3d9+208
+hit:^:(*int)0
+dam:^:2d6+3
+noun:^:none
+ac:^:-2 -2 -2 7
+affects:^:
+actions:^:npc sentinel 
+offense:^:disarm dodge trip assist_vnum 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6516
+keywords:^:mazekeeper
+name:^:the mazekeeper
+desc:^:A mazekeeper is here.
+longdesc:^:He looks VERY tough.
+race:^:human
+position:^:stand
+wealth:^:(*int)4000
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)29
+max_hp:^:6d12+778
+hit:^:(*int)0
+dam:^:2d12+8
+noun:^:none
+ac:^:-9 -9 -9 6
+affects:^:berserk 
+actions:^:npc sentinel aggressive 
+offense:^:disarm dodge trip assist_vnum 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:6517
+keywords:^:giant snake
+name:^:the giant snake
+desc:^:There is a giant snake here.
+longdesc:^:It's a giant snake!!!
+race:^:snake
+position:^:stand
+wealth:^:(*int)150
+size:^:large
+align:^:(*int)-1000
+level:^:(*int)15
+max_hp:^:3d9+208
+hit:^:(*int)0
+dam:^:2d6+3
+noun:^:none
+ac:^:-2 -2 -2 7
+affects:^:
+actions:^:npc sentinel aggressive 
+offense:^:disarm dodge trip assist_race 
+vulnerable:^:cold 
+resist:^:poison 
+immune:^:
+parts:^:head heart brains guts eyes long_tongue tail fangs scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3900
+keywords:^:jack
+name:^:Jack
+desc:^:A small man named Jack stands around
+longdesc:^:His clothes are a bit worn and he looks like he's seen better days.  His
+beard grows in long scraggles that cover his face.  
+race:^:human
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)500
+level:^:(*int)10
+max_hp:^:10d10+50
+hit:^:(*int)0
+dam:^:1d1+0
+noun:^:beating
+ac:^:2 2 2 2
+affects:^:
+actions:^:npc 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4000
+keywords:^:python snake
+name:^:the huge python
+desc:^:The huge python rears its head and hisses at you. 
+longdesc:^:It sways back and forth contemplating whether or not to eat you.
+race:^:snake
+position:^:stand
+wealth:^:(*int)0
+size:^:large
+align:^:(*int)-200
+level:^:(*int)11
+max_hp:^:11d9+110
+hit:^:(*int)2
+dam:^:3d4+2
+noun:^:bite
+ac:^:-1 0 3 6
+affects:^:detect_invis 
+actions:^:npc sentinel aggressive 
+offense:^:dodge fast trip crush assist_race 
+vulnerable:^:cold 
+resist:^:piercing poison 
+immune:^:
+parts:^:head heart brains guts eyes long_tongue tail fangs scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4001
+keywords:^:garter snake
+name:^:the garter snake
+desc:^:A small green garter snake slithers along the floor.
+longdesc:^:It looks harmless enough.  Or is it?
+race:^:snake
+position:^:stand
+wealth:^:(*int)0
+size:^:small
+align:^:(*int)-100
+level:^:(*int)7
+max_hp:^:7d7+60
+hit:^:(*int)0
+dam:^:1d10+1
+noun:^:bite
+ac:^:2 3 5 8
+affects:^:
+actions:^:npc sentinel no_align 
+offense:^:dodge fast assist_race 
+vulnerable:^:cold 
+resist:^:bash poison 
+immune:^:
+parts:^:head heart brains guts eyes long_tongue tail fangs scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4002
+keywords:^:centipede
+name:^:the centipede
+desc:^:A small centipede here is looking for vegetation.
+longdesc:^:It looks completely harmless but who knows for sure?
+race:^:centipede
+position:^:stand
+wealth:^:(*int)0
+size:^:tiny
+align:^:(*int)100
+level:^:(*int)3
+max_hp:^:3d3+30
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:sting
+ac:^:6 7 9 10
+affects:^:dark_vision 
+actions:^:npc sentinel no_align 
+offense:^:dodge assist_race 
+vulnerable:^:bash 
+resist:^:piercing cold 
+immune:^:
+parts:^:head legs eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4003
+keywords:^:kobold
+name:^:the kobold
+desc:^:An ugly kobold mumbles something under its breath.
+longdesc:^:It looks ugly enough to scare its own mother.
+race:^:kobold
+position:^:stand
+wealth:^:(*int)18
+size:^:small
+align:^:(*int)-100
+level:^:(*int)4
+max_hp:^:4d4+40
+hit:^:(*int)0
+dam:^:1d4+1
+noun:^:claw
+ac:^:7 7 7 10
+affects:^:infrared 
+actions:^:npc scavenger stay_area warrior 
+offense:^:assist_race 
+vulnerable:^:magic 
+resist:^:poison 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes tail 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4004
+keywords:^:orc
+name:^:the orc
+desc:^:This orc is frothing around the mouth.  Better stay away.
+longdesc:^:You notice a slight tinge of madness in his eyes.
+race:^:orc
+position:^:stand
+wealth:^:(*int)60
+size:^:medium
+align:^:(*int)-400
+level:^:(*int)5
+max_hp:^:6d5+50
+hit:^:(*int)2
+dam:^:1d6+3
+noun:^:beating
+ac:^:7 7 7 10
+affects:^:infrared 
+actions:^:npc scavenger aggressive stay_area warrior 
+offense:^:bash berserk trip assist_race 
+vulnerable:^:light 
+resist:^:magic disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4005
+keywords:^:orc
+name:^:the large orc
+desc:^:This large orc is looking for someone small to pick on.
+longdesc:^:The orc says, "Whatcha look'n at?"
+race:^:orc
+position:^:stand
+wealth:^:(*int)120
+size:^:large
+align:^:(*int)-500
+level:^:(*int)7
+max_hp:^:6d7+70
+hit:^:(*int)1
+dam:^:1d8+2
+noun:^:punch
+ac:^:4 5 5 8
+affects:^:infrared 
+actions:^:npc scavenger stay_area warrior 
+offense:^:bash kick_dirt assist_race 
+vulnerable:^:light 
+resist:^:disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4050
+keywords:^:warrior
+name:^:the warrior
+desc:^:This tall warrior has more scars than even you!
+longdesc:^:He's surely a strong, brainless fighter.  Like you.
+race:^:human
+position:^:stand
+wealth:^:(*int)300
+size:^:medium
+align:^:(*int)-300
+level:^:(*int)12
+max_hp:^:10d12+120
+hit:^:(*int)3
+dam:^:1d8+4
+noun:^:punch
+ac:^:1 -1 2 5
+affects:^:
+actions:^:npc sentinel scavenger aggressive warrior 
+offense:^:bash kick assist_align assist_race 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4051
+keywords:^:warrior
+name:^:the warrior
+desc:^:This veteran warrior is old enough to be your father.
+longdesc:^:He seems to know his way with weapons.  And he wants
+to show you what he can do!
+race:^:human
+position:^:stand
+wealth:^:(*int)140
+size:^:medium
+align:^:(*int)-400
+level:^:(*int)7
+max_hp:^:8d7+70
+hit:^:(*int)2
+dam:^:1d7+2
+noun:^:punch
+ac:^:4 5 4 8
+affects:^:
+actions:^:npc scavenger aggressive warrior 
+offense:^:bash kick assist_align assist_race 
+vulnerable:^:magic 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4052
+keywords:^:hobgoblin
+name:^:the hobgoblin
+desc:^:A small beat-up hobgoblin cringes in the corner.
+longdesc:^:Looking into the eyes of this poor soul makes you feel
+sad as you see the terror and fear in its eyes.  Why
+don't you put it out of its misery?
+race:^:hobgoblin
+position:^:stand
+wealth:^:(*int)12
+size:^:medium
+align:^:(*int)-300
+level:^:(*int)6
+max_hp:^:6d6+40
+hit:^:(*int)0
+dam:^:1d6+1
+noun:^:beating
+ac:^:6 5 5 8
+affects:^:infrared 
+actions:^:npc scavenger stay_area wimpy warrior 
+offense:^:trip 
+vulnerable:^:magic 
+resist:^:poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes none 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4053
+keywords:^:snake
+name:^:the snake
+desc:^:A sickly brown snake watches you with caution.
+longdesc:^:A closer look reveals a hungry demeanor.  Don't get too close!
+race:^:snake
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)-600
+level:^:(*int)10
+max_hp:^:4d10+100
+hit:^:(*int)1
+dam:^:2d6+1
+noun:^:bite
+ac:^:0 2 2 5
+affects:^:
+actions:^:npc sentinel aggressive no_align 
+offense:^:dodge fade trip assist_race 
+vulnerable:^:cold 
+resist:^:bash piercing poison 
+immune:^:
+parts:^:head heart brains guts eyes long_tongue tail fangs scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4054
+keywords:^:centipede
+name:^:the centipede
+desc:^:A white centipede crawls along the cave floors randomly.
+longdesc:^:The centipede doesn't really seem to notice you.
+race:^:centipede
+position:^:stand
+wealth:^:(*int)0
+size:^:small
+align:^:(*int)-100
+level:^:(*int)5
+max_hp:^:5d5+50
+hit:^:(*int)0
+dam:^:1d8+0
+noun:^:sting
+ac:^:4 7 5 10
+affects:^:dark_vision 
+actions:^:npc sentinel no_align 
+offense:^:dodge assist_race 
+vulnerable:^:bash 
+resist:^:piercing cold 
+immune:^:
+parts:^:head legs eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4055
+keywords:^:hobgoblin
+name:^:the large hobgoblin
+desc:^:A large hobgoblin is here wondering if he should tear you apart.
+longdesc:^:Red, bloodshot eyes and drool dripping from its mouth makes you
+wonder just how far away you should be.
+race:^:hobgoblin
+position:^:stand
+wealth:^:(*int)210
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)10
+max_hp:^:2d10+120
+hit:^:(*int)2
+dam:^:2d4+3
+noun:^:punch
+ac:^:2 2 1 5
+affects:^:infrared 
+actions:^:npc scavenger stay_area warrior 
+offense:^:bash berserk kick_dirt assist_race 
+vulnerable:^:
+resist:^:magic poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes none 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4056
+keywords:^:orc
+name:^:the orc
+desc:^:An orc is here, looking for something (or perhaps someone) to eat.
+longdesc:^:As you already know, orcs have quite a ravenous appetite.  
+Care to be dinner?
+race:^:orc
+position:^:stand
+wealth:^:(*int)60
+size:^:medium
+align:^:(*int)-800
+level:^:(*int)8
+max_hp:^:3d10+90
+hit:^:(*int)1
+dam:^:1d8+2
+noun:^:beating
+ac:^:3 3 2 5
+affects:^:infrared 
+actions:^:npc scavenger aggressive stay_area warrior 
+offense:^:bash trip assist_race 
+vulnerable:^:light 
+resist:^:disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4057
+keywords:^:lion mountain
+name:^:the mountain lion
+desc:^:A mountain lion bears its teeth at the sight of more food.
+longdesc:^:Huge claws and big teeth make quite a fearsome opponent for
+the weary.  Are you next?
+race:^:cat
+position:^:stand
+wealth:^:(*int)0
+size:^:large
+align:^:(*int)-100
+level:^:(*int)9
+max_hp:^:4d10+100
+hit:^:(*int)2
+dam:^:2d6+1
+noun:^:claw
+ac:^:0 0 0 4
+affects:^:dark_vision 
+actions:^:npc aggressive stay_area 
+offense:^:disarm dodge fast assist_race 
+vulnerable:^:
+resist:^:bash 
+immune:^:
+parts:^:head legs heart brains guts feet ears eyes tail claws fangs 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4058
+keywords:^:giant hill
+name:^:the hill giant
+desc:^:A hill giant is here tossing rocks around.  Marbles perhaps?
+longdesc:^:The hill giant looks like he's about 9 feet tall. By his actions you
+come to the conclusion that he's not very intelligent.  A perfect
+playmate for you.
+race:^:giant
+position:^:stand
+wealth:^:(*int)500
+size:^:large
+align:^:(*int)0
+level:^:(*int)13
+max_hp:^:10d10+150
+hit:^:(*int)2
+dam:^:2d6+6
+noun:^:smash
+ac:^:0 -2 0 4
+affects:^:
+actions:^:npc stay_area warrior 
+offense:^:berserk crush assist_race 
+vulnerable:^:lightning mental 
+resist:^:weapon fire cold 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4100
+keywords:^:mage
+name:^:the Mage
+desc:^:A small intelligent looking mage is standing here. It looks like he
+knows his way with magic. 
+longdesc:^:This guy can ace the SAT with his frontal lobe tied behind his back.
+race:^:human
+position:^:stand
+wealth:^:(*int)400
+size:^:medium
+align:^:(*int)-100
+level:^:(*int)13
+max_hp:^:7d5+130
+hit:^:(*int)1
+dam:^:1d6+2
+noun:^:punch
+ac:^:-2 -2 -2 2
+affects:^:detect_invis 
+actions:^:npc sentinel scavenger aggressive mage 
+offense:^:dodge assist_align 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4101
+keywords:^:troll
+name:^:the troll
+desc:^:This large mean-looking troll wants to take a closer look at you.
+longdesc:^:Whilst you look at this troll, you realize he is trying to
+figure just how tender you are.
+race:^:troll
+position:^:stand
+wealth:^:(*int)200
+size:^:large
+align:^:(*int)-800
+level:^:(*int)12
+max_hp:^:7d10+150
+hit:^:(*int)2
+dam:^:2d7+3
+noun:^:claw
+ac:^:0 -3 2 6
+affects:^:detect_hidden infrared 
+actions:^:npc sentinel scavenger aggressive warrior 
+offense:^:bash berserk disarm crush assist_race 
+vulnerable:^:fire acid 
+resist:^:charm bash disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4102
+keywords:^:guardian snake
+name:^:the guardian snake
+desc:^:A large green snake is guardian for something.
+longdesc:^:You take a closer look at this large snake while it tries to
+bite your head off!
+race:^:snake
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)-700
+level:^:(*int)10
+max_hp:^:4d10+100
+hit:^:(*int)2
+dam:^:2d6+1
+noun:^:bite
+ac:^:0 0 2 6
+affects:^:
+actions:^:npc sentinel scavenger aggressive 
+offense:^:fast tail trip crush assist_race 
+vulnerable:^:disease cold 
+resist:^:piercing poison 
+immune:^:
+parts:^:head heart brains guts eyes long_tongue tail fangs scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4103
+keywords:^:thief
+name:^:the thief
+desc:^:A thief, all dressed in black.
+longdesc:^:Well COUNT your money!
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-100
+level:^:(*int)8
+max_hp:^:6d8+80
+hit:^:(*int)1
+dam:^:1d5+1
+noun:^:punch
+ac:^:2 4 3 7
+affects:^:sneak hide 
+actions:^:npc scavenger wimpy thief 
+offense:^:disarm dodge kick_dirt trip 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4104
+keywords:^:orc
+name:^:the orc
+desc:^:An ugly orc is standing here waiting for someone to practice on.
+longdesc:^:Yrkk..  He belches in your face!
+race:^:orc
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)-200
+level:^:(*int)7
+max_hp:^:7d7+70
+hit:^:(*int)1
+dam:^:1d8+3
+noun:^:punch
+ac:^:4 5 5 8
+affects:^:infrared 
+actions:^:npc scavenger aggressive stay_area wimpy warrior 
+offense:^:bash kick_dirt assist_race 
+vulnerable:^:light 
+resist:^:disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4105
+keywords:^:centipede
+name:^:a centipede
+desc:^:A small harmless centipede is here looking for some vegetation to eat.
+longdesc:^:It doesn't seem to pay any attention towards you.  You are probably
+not important.
+race:^:centipede
+position:^:stand
+wealth:^:(*int)0
+size:^:small
+align:^:(*int)300
+level:^:(*int)6
+max_hp:^:8d5+50
+hit:^:(*int)1
+dam:^:2d4+1
+noun:^:sting
+ac:^:3 6 4 10
+affects:^:dark_vision 
+actions:^:npc sentinel no_align 
+offense:^:dodge assist_race 
+vulnerable:^:bash 
+resist:^:piercing cold 
+immune:^:
+parts:^:head legs eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4106
+keywords:^:warrior
+name:^:the Warrior
+desc:^:A human warrior grins an evil grin in your face.
+longdesc:^:He doesn't look friendly at all...  He is no Mr. Rogers!
+race:^:human
+position:^:stand
+wealth:^:(*int)300
+size:^:medium
+align:^:(*int)-300
+level:^:(*int)9
+max_hp:^:4d10+130
+hit:^:(*int)2
+dam:^:1d8+3
+noun:^:punch
+ac:^:3 2 4 6
+affects:^:
+actions:^:npc scavenger aggressive stay_area warrior 
+offense:^:bash kick_dirt assist_align assist_vnum 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4107
+keywords:^:kobold
+name:^:the green kobold
+desc:^:A green kobold hobbles along the cave walls puking periodically.
+longdesc:^:It looks a little sick.  Something he ate maybe?
+race:^:kobold
+position:^:stand
+wealth:^:(*int)25
+size:^:small
+align:^:(*int)-100
+level:^:(*int)7
+max_hp:^:8d4+50
+hit:^:(*int)1
+dam:^:2d4+1
+noun:^:claw
+ac:^:5 5 5 10
+affects:^:infrared 
+actions:^:npc scavenger aggressive stay_area warrior 
+offense:^:trip assist_race 
+vulnerable:^:magic 
+resist:^:poison 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes tail 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4150
+keywords:^:bat blue
+name:^:the blue bat
+desc:^:A blue bat flies in circles while electrical charges arc here and there.
+longdesc:^:Bzzzt.  Zap.  Crackle.  Speak about static electricity!
+race:^:bat
+position:^:stand
+wealth:^:(*int)0
+size:^:tiny
+align:^:(*int)-100
+level:^:(*int)7
+max_hp:^:3d10+70
+hit:^:(*int)1
+dam:^:1d9+1
+noun:^:shbite
+ac:^:4 4 4 6
+affects:^:flying dark_vision 
+actions:^:npc sentinel aggressive 
+offense:^:dodge fast assist_race 
+vulnerable:^:drowning light silver iron 
+resist:^:
+immune:^:lightning 
+parts:^:head legs heart brains guts feet ears eyes wings 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4151
+keywords:^:bat red
+name:^:the red bat
+desc:^:A red bat hangs upside down from the ceiling, glowing.
+longdesc:^:You can definitely feel some heat from this thing.  A fever perhaps?
+race:^:bat
+position:^:stand
+wealth:^:(*int)0
+size:^:tiny
+align:^:(*int)-100
+level:^:(*int)7
+max_hp:^:3d10+70
+hit:^:(*int)1
+dam:^:1d9+1
+noun:^:flbite
+ac:^:4 4 4 6
+affects:^:flying dark_vision 
+actions:^:npc sentinel aggressive 
+offense:^:dodge fast assist_race 
+vulnerable:^:cold drowning light 
+resist:^:
+immune:^:fire 
+parts:^:head legs heart brains guts feet ears eyes wings 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4152
+keywords:^:bat green
+name:^:the green bat
+desc:^:A green bat flies from wall to wall leaving an awful smell.
+longdesc:^:Whew!  What a stinker!
+race:^:bat
+position:^:stand
+wealth:^:(*int)0
+size:^:tiny
+align:^:(*int)-100
+level:^:(*int)7
+max_hp:^:3d10+70
+hit:^:(*int)1
+dam:^:1d9+1
+noun:^:bite
+ac:^:4 4 4 6
+affects:^:flying dark_vision 
+actions:^:npc sentinel aggressive 
+offense:^:dodge fast assist_race 
+vulnerable:^:light 
+resist:^:
+immune:^:poison 
+parts:^:head legs heart brains guts feet ears eyes wings 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4153
+keywords:^:bat white
+name:^:the white bat
+desc:^:A white bat rests on the ceiling.  You wonder where the cold is coming from.
+longdesc:^:Brrr!  You almost can't distinguish this bat from an ice cube.
+race:^:bat
+position:^:stand
+wealth:^:(*int)0
+size:^:tiny
+align:^:(*int)-100
+level:^:(*int)7
+max_hp:^:3d10+70
+hit:^:(*int)1
+dam:^:1d9+1
+noun:^:frbite
+ac:^:4 4 4 6
+affects:^:flying dark_vision 
+actions:^:npc sentinel aggressive 
+offense:^:dodge fast assist_race 
+vulnerable:^:fire light 
+resist:^:
+immune:^:cold 
+parts:^:head legs heart brains guts feet ears eyes wings 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4154
+keywords:^:bat black
+name:^:the black bat
+desc:^:A black bat flies from wall to wall leaving something hissing behind.
+longdesc:^:Amazing!  This bat is grooming itself with acid!
+race:^:bat
+position:^:stand
+wealth:^:(*int)0
+size:^:tiny
+align:^:(*int)-100
+level:^:(*int)7
+max_hp:^:3d10+70
+hit:^:(*int)1
+dam:^:1d9+1
+noun:^:acbite
+ac:^:4 4 4 6
+affects:^:flying dark_vision 
+actions:^:npc sentinel aggressive 
+offense:^:dodge fast assist_race 
+vulnerable:^:light 
+resist:^:
+immune:^:acid 
+parts:^:head legs heart brains guts feet ears eyes wings 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4155
+keywords:^:thief
+name:^:the thief
+desc:^:A sneaky thief appears and disappears within the shadows.
+longdesc:^:He definitely knows what he's doing.  Trust him.
+race:^:human
+position:^:stand
+wealth:^:(*int)500
+size:^:medium
+align:^:(*int)400
+level:^:(*int)12
+max_hp:^:3d20+130
+hit:^:(*int)2
+dam:^:2d4+3
+noun:^:punch
+ac:^:2 0 0 6
+affects:^:invisible hide 
+actions:^:npc scavenger stay_area thief 
+offense:^:backstab dodge kick_dirt trip assist_align assist_vnum 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4156
+keywords:^:troll
+name:^:the troll
+desc:^:A large ugly troll is here mumbling something.
+longdesc:^:He looks quite mean.  Don't mess with him.
+race:^:troll
+position:^:stand
+wealth:^:(*int)1000
+size:^:huge
+align:^:(*int)-700
+level:^:(*int)14
+max_hp:^:8d20+140
+hit:^:(*int)3
+dam:^:3d4+5
+noun:^:claw
+ac:^:-1 -3 -1 4
+affects:^:detect_hidden infrared 
+actions:^:npc sentinel scavenger aggressive warrior 
+offense:^:bash berserk disarm crush assist_race 
+vulnerable:^:magic fire acid 
+resist:^:charm bash disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4157
+keywords:^:mage
+name:^:the Mage
+desc:^:A small man is here researching magical incantations.
+longdesc:^:His little head is buried into his magic books.  He'd be very
+angry should you bother his studies.
+race:^:human
+position:^:stand
+wealth:^:(*int)200
+size:^:medium
+align:^:(*int)-200
+level:^:(*int)11
+max_hp:^:4d10+100
+hit:^:(*int)0
+dam:^:1d6+1
+noun:^:beating
+ac:^:0 0 0 2
+affects:^:
+actions:^:npc scavenger aggressive stay_area mage 
+offense:^:assist_align assist_vnum 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4158
+keywords:^:snake
+name:^:the snake
+desc:^:A brown snake hisses at you.
+longdesc:^:Sickly brown as it is, you know what it really wants is you
+for dinner.
+race:^:snake
+position:^:fight
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)200
+level:^:(*int)9
+max_hp:^:2d10+100
+hit:^:(*int)1
+dam:^:1d12+1
+noun:^:bite
+ac:^:1 3 3 6
+affects:^:
+actions:^:npc sentinel aggressive no_align 
+offense:^:dodge fade trip assist_race 
+vulnerable:^:cold 
+resist:^:bash piercing poison 
+immune:^:
+parts:^:head heart brains guts eyes long_tongue tail fangs scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4159
+keywords:^:troll
+name:^:the small troll
+desc:^:A 'small' troll is here happily dancing.  Trala-la-la.  La-la.
+longdesc:^:He is so happy, you are disgusted.  Kill him now!
+race:^:troll
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-300
+level:^:(*int)8
+max_hp:^:3d10+80
+hit:^:(*int)2
+dam:^:2d5+2
+noun:^:bite
+ac:^:3 1 3 6
+affects:^:detect_hidden infrared 
+actions:^:npc scavenger aggressive stay_area warrior 
+offense:^:berserk disarm kick_dirt assist_race 
+vulnerable:^:fire acid 
+resist:^:charm bash disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:4160
+keywords:^:orc
+name:^:the orc
+desc:^:A large orc growls in your face.
+longdesc:^:He is just looking for a fight isn't he?
+race:^:orc
+position:^:stand
+wealth:^:(*int)150
+size:^:large
+align:^:(*int)-200
+level:^:(*int)9
+max_hp:^:3d10+100
+hit:^:(*int)1
+dam:^:1d8+2
+noun:^:beating
+ac:^:2 2 1 5
+affects:^:infrared 
+actions:^:npc scavenger aggressive stay_area warrior 
+offense:^:bash kick_dirt trip assist_race 
+vulnerable:^:light 
+resist:^:disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3500
+keywords:^:wyvern
+name:^:the wyvern
+desc:^:A monstrous wyvern slowly circles just above your head.
+longdesc:^:This huge winged creature looks really menacing.  You are happy it doesn't
+APPEAR to be very hungry ... yet.
+race:^:wyvern
+position:^:stand
+wealth:^:(*int)0
+size:^:huge
+align:^:(*int)-200
+level:^:(*int)8
+max_hp:^:8d8+80
+hit:^:(*int)2
+dam:^:2d6+1
+noun:^:bite
+ac:^:5 4 5 6
+affects:^:detect_invis detect_hidden flying 
+actions:^:npc stay_area 
+offense:^:bash berserk dodge fast trip assist_race 
+vulnerable:^:light 
+resist:^:
+immune:^:poison 
+parts:^:head legs heart brains guts feet ears eyes tail fangs scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3501
+keywords:^:goblin mountain
+name:^:the goblin
+desc:^:A mountain goblin is wandering about, mumbling to himself.
+longdesc:^:You see before you a small and twisted creature with knotted muscles.
+race:^:goblin
+position:^:stand
+wealth:^:(*int)25
+size:^:small
+align:^:(*int)-500
+level:^:(*int)6
+max_hp:^:4d4+65
+hit:^:(*int)1
+dam:^:2d4+1
+noun:^:punch
+ac:^:4 6 4 9
+affects:^:infrared 
+actions:^:npc aggressive stay_area warrior 
+offense:^:parry assist_race 
+vulnerable:^:magic 
+resist:^:disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3502
+keywords:^:boy small
+name:^:the small boy
+desc:^:A small boy sits here, licking his wounds.
+longdesc:^:The poor boy has numerous cuts and scratches, but appears to be all right.
+He is apparently the only survivor of the ambush.
+race:^:human
+position:^:rest
+wealth:^:(*int)0
+size:^:small
+align:^:(*int)500
+level:^:(*int)4
+max_hp:^:1d12+47
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:beating
+ac:^:8 8 8 10
+affects:^:
+actions:^:npc sentinel wimpy 
+offense:^:kick 
+vulnerable:^:magic 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3503
+keywords:^:innkeeper
+name:^:the Innkeeper
+desc:^:The Innkeeper stands here, cleaning glasses.
+longdesc:^:The Innkeeper now spends most of his days waiting for customers, while the
+nights are spent watching out for goblins.  His inn is no longer the happy
+place that is used to be in days past.
+race:^:human
+position:^:stand
+wealth:^:(*int)350
+size:^:medium
+align:^:(*int)500
+level:^:(*int)10
+max_hp:^:1d12+200
+hit:^:(*int)1
+dam:^:2d8+1
+noun:^:punch
+ac:^:2 2 2 8
+affects:^:
+actions:^:npc sentinel warrior 
+offense:^:backstab dodge parry assist_align 
+vulnerable:^:
+resist:^:magic weapon 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3504
+keywords:^:bard
+name:^:the bard
+desc:^:A sullen bard is here, drinking away his problems.
+longdesc:^:You can smell the alcohol on his breath from across the room.  This poor bard
+has been sitting here quite a while, drinking himself into oblivion.
+race:^:human
+position:^:sit
+wealth:^:(*int)260
+size:^:medium
+align:^:(*int)600
+level:^:(*int)8
+max_hp:^:1d12+110
+hit:^:(*int)3
+dam:^:2d6+0
+noun:^:punch
+ac:^:3 5 3 6
+affects:^:detect_invis 
+actions:^:npc sentinel thief warrior 
+offense:^:dodge kick kick_dirt parry trip assist_align 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3505
+keywords:^:horseman dark
+name:^:the dark horseman
+desc:^:A dark horseman is here, mounted on his black steed.
+longdesc:^:The man is obviously an outlaw, and has no qualms about slashing you into
+little bits.
+race:^:human
+position:^:stand
+wealth:^:(*int)400
+size:^:medium
+align:^:(*int)-900
+level:^:(*int)8
+max_hp:^:1d12+110
+hit:^:(*int)2
+dam:^:2d5+2
+noun:^:punch
+ac:^:5 3 3 6
+affects:^:sneak 
+actions:^:npc stay_area wimpy thief 
+offense:^:backstab dodge kick_dirt parry assist_align 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3506
+keywords:^:goblin lieutenant
+name:^:the goblin lieutenant
+desc:^:A goblin lieutenant stands here, attempting to get his men in order.
+longdesc:^:The goblin lieutenant is rather angry, and looking for one of his men to
+beat up upon, but maybe you will do just fine ...
+race:^:goblin
+position:^:stand
+wealth:^:(*int)55
+size:^:medium
+align:^:(*int)-600
+level:^:(*int)7
+max_hp:^:1d12+100
+hit:^:(*int)1
+dam:^:1d10+1
+noun:^:punch
+ac:^:3 5 3 8
+affects:^:infrared 
+actions:^:npc aggressive stay_area warrior 
+offense:^:berserk parry trip assist_race 
+vulnerable:^:magic 
+resist:^:disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:3507
+keywords:^:goblin leader
+name:^:the goblin leader
+desc:^:The goblin leader surveys the room.
+longdesc:^:The leader doesn't look too happy that you have found him here.  He grabs
+for his shortsword and lunges for your neck.
+race:^:goblin
+position:^:stand
+wealth:^:(*int)500
+size:^:medium
+align:^:(*int)-900
+level:^:(*int)9
+max_hp:^:1d12+120
+hit:^:(*int)2
+dam:^:1d12+3
+noun:^:punch
+ac:^:1 3 1 6
+affects:^:infrared 
+actions:^:npc scavenger aggressive stay_area warrior 
+offense:^:berserk kick_dirt parry trip assist_race 
+vulnerable:^:magic 
+resist:^:disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3000
@@ -291,10 +2113,23 @@ longdesc:^:The wizard looks old and senile, and yet he looks like a very powerfu
 wizard. He is equipped with fine clothing, and is wearing many fine 
 rings and bracelets. 
 race:^:human
+position:^:stand
+wealth:^:(*int)15000
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:1d1+999
-damage:^:1d8+32
+hit:^:(*int)0
+dam:^:1d8+32
 noun:^:magic
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:detect_invis 
+actions:^:npc sentinel no_purge 
+offense:^:area dodge 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3001
@@ -304,10 +2139,23 @@ desc:^:The baker looks at you calmly, wiping flour from his face with one hand.
 longdesc:^:A fat, nice looking baker. But you can see that he has many scars on his 
 body. 
 race:^:human
+position:^:stand
+wealth:^:(*int)500
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:1d1+999
-damage:^:1d8+20
+hit:^:(*int)0
+dam:^:1d8+20
 noun:^:beating
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:detect_invis dark_vision 
+actions:^:npc sentinel no_purge 
+offense:^:bash berserk dodge 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3002
@@ -316,10 +2164,23 @@ name:^:the grocer
 desc:^:A grocer stands at the counter, with a slightly impatient look on his face. 
 longdesc:^:A tall grocer, who moves two 200 pounds bag of flour around on his shoulders. 
 race:^:human
+position:^:stand
+wealth:^:(*int)13000
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:1d1+999
-damage:^:1d8+20
+hit:^:(*int)0
+dam:^:1d8+20
 noun:^:beating
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:
+actions:^:npc sentinel no_purge 
+offense:^:disarm dodge kick_dirt 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3003
@@ -328,10 +2189,23 @@ name:^:the weaponsmith
 desc:^:A weaponsmith. 
 longdesc:^:A young weaponsmith, who still has lots to learn. 
 race:^:human
+position:^:stand
+wealth:^:(*int)250000
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:1d1+999
-damage:^:1d8+32
+hit:^:(*int)10
+dam:^:1d8+32
 noun:^:punch
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:
+actions:^:npc sentinel warrior no_purge 
+offense:^:bash disarm kick parry 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3004
@@ -340,10 +2214,23 @@ name:^:The armourer
 desc:^:An armourer stands here. 
 longdesc:^:
 race:^:human
+position:^:stand
+wealth:^:(*int)250000
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:1d1+999
-damage:^:1d8+32
+hit:^:(*int)10
+dam:^:1d8+32
 noun:^:punch
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:
+actions:^:npc sentinel no_purge 
+offense:^:bash disarm dodge kick_dirt parry trip 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3005
@@ -352,10 +2239,23 @@ name:^:the thief
 desc:^:A thief, all dressed in black. 
 longdesc:^:
 race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-100
+level:^:(*int)8
 max_hp:^:6d8+80
-damage:^:1d5+1
+hit:^:(*int)1
+dam:^:1d5+1
 noun:^:punch
-position:^:(*int)1
+ac:^:2 4 3 7
+affects:^:sneak hide 
+actions:^:npc scavenger wimpy thief 
+offense:^:disarm dodge kick_dirt trip 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3006
@@ -366,10 +2266,23 @@ longdesc:^:This captain has killed more sharks than you have eaten peas.
 He looks like he has taken a liking to the bottle now that
 he has lost his sea legs so to speak.
 race:^:human
+position:^:stand
+wealth:^:(*int)1300
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:1d1+999
-damage:^:1d8+32
+hit:^:(*int)10
+dam:^:1d8+32
 noun:^:beating
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:
+actions:^:npc sentinel warrior no_purge 
+offense:^:bash disarm kick 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3007
@@ -380,10 +2293,23 @@ longdesc:^:A old wise man is here, waiting for you to tell him what you want to 
 or train in the arts.  He sits in a meditational stance, and doesn't move
 or flinch at any of the noises around him.
 race:^:human
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)1
 max_hp:^:1000d1+50
-damage:^:20d20+20
+hit:^:(*int)100
+dam:^:20d20+20
 noun:^:slice
-position:^:(*int)1
+ac:^:0 0 0 0
+affects:^:detect_invis calm dark_vision 
+actions:^:npc sentinel train practice warrior no_purge skill_train 
+offense:^:disarm dodge trip assist_vnum 
+vulnerable:^:
+resist:^:
+immune:^:summon magic weapon poison negative holy energy disease 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3008
@@ -392,10 +2318,23 @@ name:^:The pet shop boy
 desc:^:A pet shop boy is here, humming gently. 
 longdesc:^:He is young and close-cropped and looks quite happy. 
 race:^:human
+position:^:stand
+wealth:^:(*int)4000
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:1d1+999
-damage:^:1d8+20
+hit:^:(*int)0
+dam:^:1d8+20
 noun:^:punch
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:
+actions:^:npc sentinel no_purge 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3009
@@ -404,10 +2343,23 @@ name:^:the jeweller
 desc:^:The jeweller is standing behind the desk. 
 longdesc:^:He is fat and has a content although watchful look on his face. 
 race:^:human
+position:^:stand
+wealth:^:(*int)580000
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:1d1+999
-damage:^:1d8+22
+hit:^:(*int)0
+dam:^:1d8+22
 noun:^:slap
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:
+actions:^:npc sentinel no_purge 
+offense:^:area dodge 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3010
@@ -417,10 +2369,23 @@ desc:^:The leather worker is sitting by the table, sewing a leather cap.
 longdesc:^:She looks as an honest, hard-working artisan who only just earns enough to 
 keep herself going. 
 race:^:human
+position:^:stand
+wealth:^:(*int)4500
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:1d1+999
-damage:^:1d8+20
+hit:^:(*int)0
+dam:^:1d8+20
 noun:^:punch
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:
+actions:^:npc sentinel no_purge 
+offense:^:area dodge trip 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3011
@@ -431,10 +2396,23 @@ longdesc:^:Tetragon is a rather large dragon.  He protects those who need it, an
 those who are criminals.  Do not under estimate him.  He is quick, smart,  
 and hard to scare. 
 race:^:red dragon
+position:^:stand
+wealth:^:(*int)0
+size:^:huge
+align:^:(*int)1000
+level:^:(*int)45
 max_hp:^:1d1+3999
-damage:^:5d4+40
+hit:^:(*int)30
+dam:^:5d4+40
 noun:^:crush
-position:^:(*int)1
+ac:^:-25 -25 -25 -15
+affects:^:detect_invis detect_hidden infrared flying haste dark_vision 
+actions:^:npc sentinel warrior no_purge 
+offense:^:area bash berserk disarm dodge fast kick parry rescue trip crush assist_guard 
+vulnerable:^:cold lightning mental 
+resist:^:charm magic weapon bash fire cold 
+immune:^:summon charm mental rain 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3012
@@ -444,10 +2422,23 @@ desc:^:A healer is here, selling spells.
 longdesc:^:Although retired from adventuring, the healer still lends a hand. 
 Type 'heal' to see a listing of spells. 
 race:^:human
+position:^:stand
+wealth:^:(*int)5000
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)40
 max_hp:^:1d1+999
-damage:^:2d4+30
+hit:^:(*int)0
+dam:^:2d4+30
 noun:^:divine
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:detect_invis detect_hidden berserk 
+actions:^:npc sentinel cleric no_purge healer 
+offense:^:dodge fast kick parry 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon acid 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3013
@@ -458,10 +2449,23 @@ longdesc:^:A large black dragon lounges behind the bar, scales slightly faded bu
 his eyes still glowing like coals from a fire.  Retired from battling
 and adventuring, the pub life obviously suits him well.
 race:^:human
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)0
 max_hp:^:10d100+3000
-damage:^:30d20+2000
+hit:^:(*int)100
+dam:^:30d20+2000
 noun:^:slice
-position:^:(*int)1
+ac:^:0 0 0 0
+affects:^:
+actions:^:npc sentinel warrior 
+offense:^:disarm dodge trip assist_vnum 
+vulnerable:^:
+resist:^:
+immune:^:summon magic weapon poison holy energy disease 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3014
@@ -470,10 +2474,23 @@ name:^:{mKenshi's {clittle {gwitch {wdoctor{x
 desc:^:{mKenshi's {clittle {gwitch {wdoctor{x is here, practicing the dark arts.
 longdesc:^:If you didn't know any better, you'd swear it was Satan come to pay you a visit.
 race:^:kobold
+position:^:stand
+wealth:^:(*int)0
+size:^:tiny
+align:^:(*int)-1000
+level:^:(*int)45
 max_hp:^:25d10+3000
-damage:^:8d4+16
+hit:^:(*int)4
+dam:^:8d4+16
 noun:^:bite
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:infrared 
+actions:^:npc sentinel healer 
+offense:^:
+vulnerable:^:magic 
+resist:^:poison 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes tail 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3020
@@ -484,10 +2501,23 @@ longdesc:^:Even though your guildmaster looks old and tired, you can clearly see
 vast amount of knowledge she possesses. She is wearing fine magic clothing, 
 and you notice that she is surrounded by a blue shimmering aura. 
 race:^:elf
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)36
 max_hp:^:1d1+1999
-damage:^:3d8+24
+hit:^:(*int)0
+dam:^:3d8+24
 noun:^:magic
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:detect_invis detect_magic detect_hidden infrared dark_vision 
+actions:^:npc sentinel practice mage no_purge 
+offense:^:dodge fade 
+vulnerable:^:iron 
+resist:^:charm bash 
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3040
@@ -496,10 +2526,23 @@ name:^:the bartender
 desc:^:A bartender watches you calmly, while he skillfully mixes a drink. 
 longdesc:^:A tired looking Bartender who hates trouble in his bar. 
 race:^:human
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:1d1+499
-damage:^:1d8+18
+hit:^:(*int)0
+dam:^:1d8+18
 noun:^:beating
-position:^:(*int)1
+ac:^:-6 -6 -6 0
+affects:^:
+actions:^:npc sentinel no_purge 
+offense:^:dodge fast kick_dirt trip 
+vulnerable:^:
+resist:^:magic weapon 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3041
@@ -508,10 +2551,23 @@ name:^:the waiter
 desc:^:A waiter is going around from one place to another. 
 longdesc:^:A tired looking waiter. 
 race:^:human
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:1d1+499
-damage:^:1d8+18
+hit:^:(*int)0
+dam:^:1d8+18
 noun:^:beating
-position:^:(*int)1
+ac:^:-6 -6 -6 0
+affects:^:
+actions:^:npc sentinel no_purge 
+offense:^:dodge fast kick_dirt trip 
+vulnerable:^:
+resist:^:magic weapon 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3042
@@ -521,10 +2577,23 @@ desc:^:A man who in his young days was a famous sorcerer but now leads a quiet,
 peaceful life as a waiter. 
 longdesc:^:
 race:^:human
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)600
+level:^:(*int)23
 max_hp:^:1d1+499
-damage:^:1d8+18
+hit:^:(*int)0
+dam:^:1d8+18
 noun:^:beating
-position:^:(*int)1
+ac:^:-6 -6 -6 0
+affects:^:detect_invis 
+actions:^:npc sentinel mage no_purge 
+offense:^:dodge kick_dirt trip 
+vulnerable:^:
+resist:^:magic weapon 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3043
@@ -533,10 +2602,23 @@ name:^:the waiter
 desc:^:A waiter who seems to have reached contact with God. 
 longdesc:^:
 race:^:human
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)600
+level:^:(*int)23
 max_hp:^:1d1+499
-damage:^:1d8+18
+hit:^:(*int)0
+dam:^:1d8+18
 noun:^:beating
-position:^:(*int)1
+ac:^:-6 -6 -6 0
+affects:^:
+actions:^:npc sentinel cleric no_purge 
+offense:^:dodge fast kick_dirt trip 
+vulnerable:^:
+resist:^:magic weapon 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3044
@@ -545,10 +2627,23 @@ name:^:the waiter
 desc:^:A waiter who knows where all his customers keep their money. 
 longdesc:^:
 race:^:human
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)600
+level:^:(*int)23
 max_hp:^:1d1+499
-damage:^:1d8+18
+hit:^:(*int)0
+dam:^:1d8+18
 noun:^:beating
-position:^:(*int)1
+ac:^:-6 -6 -6 0
+affects:^:
+actions:^:npc sentinel thief no_purge 
+offense:^:dodge fast kick_dirt trip 
+vulnerable:^:
+resist:^:magic weapon 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3045
@@ -557,10 +2652,23 @@ name:^:the waiter
 desc:^:A waiter who easily could kill you, and still carry quite a few firebreathers. 
 longdesc:^:
 race:^:human
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)600
+level:^:(*int)23
 max_hp:^:1d1+499
-damage:^:1d8+18
+hit:^:(*int)0
+dam:^:1d8+18
 noun:^:beating
-position:^:(*int)1
+ac:^:-6 -6 -6 0
+affects:^:
+actions:^:npc sentinel warrior no_purge 
+offense:^:backstab dodge fast kick_dirt trip 
+vulnerable:^:
+resist:^:magic weapon 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3046
@@ -570,10 +2678,23 @@ desc:^:Filthy is standing here, eager to serve you a special drink.
 longdesc:^:Filthy looks real, ehm, dirty. He likes to keep his costumers happy, 
 but do not mess with him or else he'll get upset. 
 race:^:human
+position:^:stand
+wealth:^:(*int)200
+size:^:medium
+align:^:(*int)600
+level:^:(*int)23
 max_hp:^:1d1+499
-damage:^:1d8+18
+hit:^:(*int)2
+dam:^:1d8+18
 noun:^:beating
-position:^:(*int)1
+ac:^:-8 -8 -8 -4
+affects:^:
+actions:^:npc sentinel thief no_purge 
+offense:^:backstab disarm dodge kick_dirt trip 
+vulnerable:^:
+resist:^:magic weapon 
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3060
@@ -582,10 +2703,23 @@ name:^:A red sash guard
 desc:^:A red sash guard stands here. 
 longdesc:^:A big, strong, helpful, trustworthy guard. 
 race:^:human
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)15
 max_hp:^:15d15+160
-damage:^:2d4+4
+hit:^:(*int)3
+dam:^:2d4+4
 noun:^:punch
-position:^:(*int)1
+ac:^:0 0 0 8
+affects:^:
+actions:^:npc scavenger stay_area warrior 
+offense:^:bash berserk disarm parry rescue assist_guard assist_vnum 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3061
@@ -594,10 +2728,23 @@ name:^:A custodian
 desc:^:A custodian is walking around, cleaning up. 
 longdesc:^:
 race:^:human
+position:^:stand
+wealth:^:(*int)10
+size:^:medium
+align:^:(*int)900
+level:^:(*int)1
 max_hp:^:2d6+10
-damage:^:1d5+0
+hit:^:(*int)0
+dam:^:1d5+0
 noun:^:pound
-position:^:(*int)1
+ac:^:10 10 10 10
+affects:^:
+actions:^:npc stay_area wimpy 
+offense:^:trip assist_vnum 
+vulnerable:^:magic 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3062
@@ -608,10 +2755,23 @@ longdesc:^:A small hungry bat eyes you greedily as it hangs from its fixture on 
 wall.  I suppose you could wait for it to attack you, but it might be a little 
 wiser, if perhaps you attacked it first. 
 race:^:bat
+position:^:stand
+wealth:^:(*int)10
+size:^:small
+align:^:(*int)-200
+level:^:(*int)0
 max_hp:^:1d6+4
-damage:^:1d4+0
+hit:^:(*int)0
+dam:^:1d4+0
 noun:^:bite
-position:^:(*int)1
+ac:^:10 10 10 10
+affects:^:flying dark_vision 
+actions:^:npc aggressive stay_area wimpy no_align 
+offense:^:dodge fast assist_race 
+vulnerable:^:magic weapon light 
+resist:^:
+immune:^:
+parts:^:head legs heart brains guts feet ears eyes wings tail fangs 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3063
@@ -620,10 +2780,23 @@ name:^:the vagabond
 desc:^:A vagabond is here, looking for victims. 
 longdesc:^:He looks pretty mean. 
 race:^:human
+position:^:stand
+wealth:^:(*int)18
+size:^:medium
+align:^:(*int)-200
+level:^:(*int)5
 max_hp:^:2d6+60
-damage:^:1d6+1
+hit:^:(*int)1
+dam:^:1d6+1
 noun:^:punch
-position:^:(*int)1
+ac:^:7 5 5 10
+affects:^:
+actions:^:npc scavenger thief 
+offense:^:backstab kick_dirt trip assist_align 
+vulnerable:^:magic 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3064
@@ -632,10 +2805,23 @@ name:^:the drunk
 desc:^:A singing, happy drunk wanders around, singing about Moria. 
 longdesc:^:A drunk who seems to be too happy, and to carry too much money. 
 race:^:human
+position:^:stand
+wealth:^:(*int)65
+size:^:medium
+align:^:(*int)400
+level:^:(*int)2
 max_hp:^:2d6+22
-damage:^:1d6+0
+hit:^:(*int)-1
+dam:^:1d6+0
 noun:^:beating
-position:^:(*int)1
+ac:^:8 8 8 10
+affects:^:
+actions:^:npc stay_area 
+offense:^:assist_vnum 
+vulnerable:^:magic 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3065
@@ -644,10 +2830,23 @@ name:^:The beggar
 desc:^:A beggar is here, asking for a few coins. 
 longdesc:^:The beggar looks like she is fed up with life. 
 race:^:human
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)400
+level:^:(*int)1
 max_hp:^:2d6+10
-damage:^:1d5+0
+hit:^:(*int)0
+dam:^:1d5+0
 noun:^:beating
-position:^:(*int)1
+ac:^:8 8 8 10
+affects:^:
+actions:^:npc sentinel 
+offense:^:dodge kick_dirt trip assist_vnum 
+vulnerable:^:magic 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3066
@@ -656,10 +2855,23 @@ name:^:an alley cat
 desc:^:An alley cat hisses at you. 
 longdesc:^:The alley cat is half starved and more than a little feral. 
 race:^:cat
+position:^:stand
+wealth:^:(*int)0
+size:^:small
+align:^:(*int)-200
+level:^:(*int)0
 max_hp:^:1d6+4
-damage:^:1d4+0
+hit:^:(*int)1
+dam:^:1d4+0
 noun:^:scratch
-position:^:(*int)1
+ac:^:8 8 8 9
+affects:^:dark_vision 
+actions:^:npc aggressive stay_area wimpy no_align 
+offense:^:berserk dodge fast assist_race 
+vulnerable:^:magic 
+resist:^:
+immune:^:
+parts:^:head legs heart brains guts feet ears eyes tail claws fangs 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3067
@@ -668,10 +2880,23 @@ name:^:A red sash guard
 desc:^:A red sash guard is here, guarding the gate. 
 longdesc:^:A big, strong, helpful, trustworthy guard. 
 race:^:human
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)15
 max_hp:^:15d15+160
-damage:^:2d4+4
+hit:^:(*int)3
+dam:^:2d4+4
 noun:^:punch
-position:^:(*int)1
+ac:^:0 0 0 8
+affects:^:
+actions:^:npc sentinel warrior 
+offense:^:bash berserk disarm parry rescue assist_guard assist_vnum 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3068
@@ -680,10 +2905,23 @@ name:^:A red sash guard
 desc:^:A red sash guard is here, guarding the gate. 
 longdesc:^:A big, strong, helpful, trustworthy guard. 
 race:^:human
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)15
 max_hp:^:15d15+160
-damage:^:2d4+4
+hit:^:(*int)3
+dam:^:2d4+4
 noun:^:punch
-position:^:(*int)1
+ac:^:0 0 0 8
+affects:^:
+actions:^:npc sentinel warrior 
+offense:^:bash berserk disarm parry rescue assist_guard assist_vnum 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3069
@@ -692,10 +2930,23 @@ name:^:a red sash guard
 desc:^:A red sash guard is here, guarding the mayor. 
 longdesc:^:A big, strong, helpful, trustworthy guard. 
 race:^:human
+position:^:stand
+wealth:^:(*int)500
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)20
 max_hp:^:20d20+200
-damage:^:2d4+7
+hit:^:(*int)4
+dam:^:2d4+7
 noun:^:punch
-position:^:(*int)1
+ac:^:-4 -6 -6 0
+affects:^:invisible hide 
+actions:^:npc sentinel warrior 
+offense:^:bash berserk disarm fast parry rescue assist_guard assist_vnum 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3070
@@ -704,10 +2955,23 @@ name:^:The ancient potion-brewer
 desc:^:An old man eyes you greedily.
 longdesc:^:He looks very dangerous.  I wouldn't try to rob him. 
 race:^:human
+position:^:stand
+wealth:^:(*int)5000
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)32
 max_hp:^:1d1+999
-damage:^:10d10+10
+hit:^:(*int)0
+dam:^:10d10+10
 noun:^:magic
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:detect_invis detect_magic detect_hidden 
+actions:^:npc sentinel cleric mage no_purge 
+offense:^:dodge fade fast 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3071
@@ -716,10 +2980,23 @@ name:^:A red sash guard
 desc:^:A red sash guard is here, guarding the gate alertly. 
 longdesc:^:A big, strong, helpful, trustworthy guard. 
 race:^:human
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)15
 max_hp:^:15d15+160
-damage:^:2d4+4
+hit:^:(*int)3
+dam:^:2d4+4
 noun:^:punch
-position:^:(*int)1
+ac:^:0 0 0 8
+affects:^:
+actions:^:npc sentinel warrior 
+offense:^:bash berserk disarm parry rescue assist_guard assist_vnum 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3072
@@ -728,10 +3005,23 @@ name:^:A red sash guard
 desc:^:A red sash guard is here, guarding the gate.  He is half asleep. 
 longdesc:^:A big, strong, helpful, trustworthy guard. 
 race:^:human
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)15
 max_hp:^:15d15+160
-damage:^:2d4+4
+hit:^:(*int)3
+dam:^:2d4+4
 noun:^:punch
-position:^:(*int)1
+ac:^:0 0 0 8
+affects:^:
+actions:^:npc sentinel warrior 
+offense:^:bash berserk disarm parry rescue assist_guard assist_vnum 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3090
@@ -740,10 +3030,23 @@ name:^:the kitten
 desc:^:A small loyal kitten is here. 
 longdesc:^:The kitten looks like a cute, little, fierce fighter. 
 race:^:cat
+position:^:stand
+wealth:^:(*int)0
+size:^:tiny
+align:^:(*int)400
+level:^:(*int)1
 max_hp:^:2d6+11
-damage:^:1d4+0
+hit:^:(*int)2
+dam:^:1d4+0
 noun:^:scratch
-position:^:(*int)1
+ac:^:8 8 8 10
+affects:^:dark_vision 
+actions:^:npc sentinel no_align 
+offense:^:dodge fast 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head legs heart brains guts feet ears eyes tail claws fangs 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3091
@@ -752,10 +3055,23 @@ name:^:the puppy
 desc:^:A small loyal puppy is here. 
 longdesc:^:The puppy looks like a cute, little, fierce fighter. 
 race:^:dog
+position:^:stand
+wealth:^:(*int)0
+size:^:small
+align:^:(*int)400
+level:^:(*int)3
 max_hp:^:4d6+25
-damage:^:1d6+0
+hit:^:(*int)2
+dam:^:1d6+0
 noun:^:bite
-position:^:(*int)1
+ac:^:7 7 7 10
+affects:^:detect_hidden 
+actions:^:npc sentinel no_align 
+offense:^:fast trip 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head legs heart brains guts feet ears eyes tail claws fangs 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3092
@@ -764,10 +3080,23 @@ name:^:the beagle
 desc:^:A small, quick, loyal beagle is here. 
 longdesc:^:The beagle looks like a fierce fighter. 
 race:^:dog
+position:^:stand
+wealth:^:(*int)0
+size:^:small
+align:^:(*int)400
+level:^:(*int)5
 max_hp:^:3d12+50
-damage:^:1d6+0
+hit:^:(*int)3
+dam:^:1d6+0
 noun:^:bite
-position:^:(*int)1
+ac:^:5 5 5 9
+affects:^:detect_hidden 
+actions:^:npc sentinel no_align 
+offense:^:fast trip 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head legs heart brains guts feet ears eyes tail claws fangs 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3093
@@ -776,10 +3105,23 @@ name:^:the rottweiler
 desc:^:A large, loyal rottweiler is here. 
 longdesc:^:The rottweiler looks like a strong, fierce fighter. 
 race:^:dog
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)400
+level:^:(*int)7
 max_hp:^:6d10+60
-damage:^:2d4+1
+hit:^:(*int)3
+dam:^:2d4+1
 noun:^:bite
-position:^:(*int)1
+ac:^:4 4 4 8
+affects:^:detect_hidden 
+actions:^:npc sentinel no_align 
+offense:^:bash berserk fast rescue 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head legs heart brains guts feet ears eyes claws fangs 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3094
@@ -788,10 +3130,23 @@ name:^:the wolf
 desc:^:A large, trained wolf is here. 
 longdesc:^:The wolf looks like a strong, fearless fighter. 
 race:^:wolf
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)9
 max_hp:^:6d10+80
-damage:^:2d5+1
+hit:^:(*int)3
+dam:^:2d5+1
 noun:^:bite
-position:^:(*int)1
+ac:^:4 4 4 8
+affects:^:detect_hidden dark_vision 
+actions:^:npc sentinel no_align 
+offense:^:bash dodge fast 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head legs heart brains guts ears eyes tail fangs 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3095
@@ -800,10 +3155,23 @@ name:^:the eagle
 desc:^:A loyal eagle circles overhead. 
 longdesc:^:The eagle looks like a strong fierce fighter. 
 race:^:song bird
+position:^:stand
+wealth:^:(*int)0
+size:^:small
+align:^:(*int)0
+level:^:(*int)12
 max_hp:^:6d10+130
-damage:^:2d5+3
+hit:^:(*int)3
+dam:^:2d5+3
 noun:^:claw
-position:^:(*int)1
+ac:^:0 0 0 8
+affects:^:detect_hidden flying dark_vision 
+actions:^:npc sentinel pet no_align 
+offense:^:dodge fast trip 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head legs heart brains guts feet eyes wings claws 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3096
@@ -812,10 +3180,23 @@ name:^:the lion
 desc:^:A large, faithful lion is here. 
 longdesc:^:The great lion looks very fierce. 
 race:^:cat
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)15
 max_hp:^:4d9+205
-damage:^:2d8+3
+hit:^:(*int)2
+dam:^:2d8+3
 noun:^:chomp
-position:^:(*int)1
+ac:^:-2 -2 -2 7
+affects:^:detect_hidden dark_vision 
+actions:^:npc sentinel pet no_align 
+offense:^:bash dodge fast 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head legs heart brains guts feet ears eyes tail claws fangs 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3097
@@ -824,10 +3205,23 @@ name:^:the tiger
 desc:^:A great, loyal tiger is here. 
 longdesc:^:The large, striped tiger looks like a savage fighter. 
 race:^:cat
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)20
 max_hp:^:4d9+325
-damage:^:4d4+5
+hit:^:(*int)3
+dam:^:4d4+5
 noun:^:claw
-position:^:(*int)1
+ac:^:-4 -4 -4 6
+affects:^:detect_hidden dark_vision 
+actions:^:npc sentinel pet no_align 
+offense:^:bash dodge fast tail trip 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head legs heart brains guts feet ears eyes tail claws fangs 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3100
@@ -837,10 +3231,23 @@ desc:^:The maid is waiting for your order.
 longdesc:^:She is very beautiful with golden hair, and deep blue eyes. A good reason 
 for coming here more often. 
 race:^:human
+position:^:stand
+wealth:^:(*int)180
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)23
 max_hp:^:1d1+499
-damage:^:1d8+12
+hit:^:(*int)2
+dam:^:1d8+12
 noun:^:beating
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:
+actions:^:npc sentinel no_purge 
+offense:^:dodge fade 
+vulnerable:^:
+resist:^:magic weapon 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3120
@@ -849,10 +3256,23 @@ name:^:the sexton
 desc:^:A sexton is sitting here, drinking hot tea. 
 longdesc:^:The sexton looks like he is relaxing after another grave-digging job. 
 race:^:human
+position:^:sit
+wealth:^:(*int)75
+size:^:medium
+align:^:(*int)800
+level:^:(*int)3
 max_hp:^:2d6+35
-damage:^:1d7+0
+hit:^:(*int)0
+dam:^:1d7+0
 noun:^:punch
-position:^:(*int)1
+ac:^:7 7 7 10
+affects:^:
+actions:^:npc sentinel wimpy 
+offense:^:
+vulnerable:^:magic 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3121
@@ -861,10 +3281,23 @@ name:^:the swan
 desc:^:A swan is swimming around in the pond. 
 longdesc:^:The white swan is very elegant. 
 race:^:water fowl
+position:^:stand
+wealth:^:(*int)0
+size:^:small
+align:^:(*int)1000
+level:^:(*int)1
 max_hp:^:2d6+10
-damage:^:1d5+0
+hit:^:(*int)0
+dam:^:1d5+0
 noun:^:peck
-position:^:(*int)1
+ac:^:8 8 8 10
+affects:^:flying 
+actions:^:npc sentinel no_align 
+offense:^:bash dodge assist_race 
+vulnerable:^:magic 
+resist:^:drowning 
+immune:^:
+parts:^:head legs heart brains guts feet eyes wings 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3122
@@ -873,10 +3306,23 @@ name:^:the duckling
 desc:^:A duckling is swimming around in the pond. 
 longdesc:^:The duckling is adorable, it looks most of all like a tiny furball. 
 race:^:water fowl
+position:^:stand
+wealth:^:(*int)0
+size:^:tiny
+align:^:(*int)1000
+level:^:(*int)0
 max_hp:^:1d4+0
-damage:^:1d1+0
+hit:^:(*int)0
+dam:^:1d1+0
 noun:^:peckb
-position:^:(*int)1
+ac:^:10 10 10 10
+affects:^:flying 
+actions:^:npc sentinel no_align 
+offense:^:dodge assist_race 
+vulnerable:^:magic 
+resist:^:drowning 
+immune:^:
+parts:^:head legs heart brains guts feet eyes wings 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3123
@@ -885,10 +3331,23 @@ name:^:the sparrow
 desc:^:A sparrow is flapping around on the ground. 
 longdesc:^:The sparrow looks like it is enjoying life. 
 race:^:song bird
+position:^:stand
+wealth:^:(*int)0
+size:^:tiny
+align:^:(*int)1000
+level:^:(*int)0
 max_hp:^:2d6+0
-damage:^:1d3+0
+hit:^:(*int)0
+dam:^:1d3+0
 noun:^:peck
-position:^:(*int)1
+ac:^:10 10 10 10
+affects:^:flying 
+actions:^:npc stay_area wimpy no_align 
+offense:^:dodge fast assist_race 
+vulnerable:^:magic 
+resist:^:
+immune:^:
+parts:^:head legs heart brains guts feet eyes wings 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3124
@@ -897,10 +3356,23 @@ name:^:The duck
 desc:^:A duck is here, quacking happily. 
 longdesc:^:The duck is quite fat.  It looks like it is enjoying life. 
 race:^:water fowl
+position:^:stand
+wealth:^:(*int)0
+size:^:small
+align:^:(*int)1000
+level:^:(*int)1
 max_hp:^:2d6+5
-damage:^:1d4+0
+hit:^:(*int)0
+dam:^:1d4+0
 noun:^:peckb
-position:^:(*int)1
+ac:^:10 10 10 10
+affects:^:flying 
+actions:^:npc stay_area no_align 
+offense:^:dodge assist_race 
+vulnerable:^:magic 
+resist:^:drowning 
+immune:^:iron 
+parts:^:head legs heart brains guts feet eyes wings 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3140
@@ -909,10 +3381,23 @@ name:^:the captain
 desc:^:The captain of the red sash guards is looking very upset. 
 longdesc:^:A big, strong, angry captain. 
 race:^:human
+position:^:stand
+wealth:^:(*int)500
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)17
 max_hp:^:15d15+190
-damage:^:2d4+6
+hit:^:(*int)4
+dam:^:2d4+6
 noun:^:punch
-position:^:(*int)1
+ac:^:-2 -2 -2 6
+affects:^:detect_invis 
+actions:^:npc sentinel scavenger aggressive warrior 
+offense:^:bash berserk disarm fast parry rescue assist_vnum 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3141
@@ -921,10 +3406,23 @@ name:^:a red sash guard
 desc:^:A red sash guard stands here, looking very upset. 
 longdesc:^:A big, strong, angry guard. 
 race:^:human
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)15
 max_hp:^:15d15+10
-damage:^:2d4+4
+hit:^:(*int)3
+dam:^:2d4+4
 noun:^:punch
-position:^:(*int)1
+ac:^:0 0 0 8
+affects:^:
+actions:^:npc sentinel scavenger aggressive warrior 
+offense:^:bash berserk disarm fast parry rescue assist_vnum 
+vulnerable:^:
+resist:^:magic 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3142
@@ -935,10 +3433,23 @@ longdesc:^:She looks very busy.  She sits here shuffling papers back and forth
 endlessly.  Without her the mayor would never be able to keep his affairs in
 order.  
 race:^:human
+position:^:sit
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)900
+level:^:(*int)12
 max_hp:^:4d12+148
-damage:^:2d7+1
+hit:^:(*int)2
+dam:^:2d7+1
 noun:^:slap
-position:^:(*int)1
+ac:^:0 0 0 8
+affects:^:
+actions:^:npc sentinel 
+offense:^:dodge fast kick 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3143
@@ -947,10 +3458,23 @@ name:^:the mayor
 desc:^:The mayor is here.  He shakes your hand. 
 longdesc:^:He is a stocky, middle-aged man with thin, grey hair. 
 race:^:human
+position:^:sleep
+wealth:^:(*int)1000
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:6d10+500
-damage:^:1d8+12
+hit:^:(*int)6
+dam:^:1d8+12
 noun:^:punch
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:prot_evil 
+actions:^:npc sentinel 
+offense:^:disarm dodge trip assist_players 
+vulnerable:^:
+resist:^:magic weapon 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3144
@@ -959,10 +3483,23 @@ name:^:The town crier
 desc:^:The town crier is here, weeping quietly. 
 longdesc:^:He is very good at his job - completely dissolved in tears. 
 race:^:human
+position:^:stand
+wealth:^:(*int)14
+size:^:medium
+align:^:(*int)900
+level:^:(*int)1
 max_hp:^:2d6+10
-damage:^:1d5+0
+hit:^:(*int)0
+dam:^:1d5+0
 noun:^:slap
-position:^:(*int)1
+ac:^:10 10 10 10
+affects:^:
+actions:^:npc wimpy 
+offense:^:berserk 
+vulnerable:^:magic 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3149
@@ -973,10 +3510,23 @@ longdesc:^:This is the largest dog you have ever seen.  If it weren't so large, 
 would be scrawny.  Its huge ears are flippy flappy.  It is white, with tan
 and brown spots about it.  It has large dark eyes.  Very scary!  
 race:^:giant
+position:^:stand
+wealth:^:(*int)0
+size:^:huge
+align:^:(*int)1000
+level:^:(*int)45
 max_hp:^:1d1+4500
-damage:^:5d4+40
+hit:^:(*int)30
+dam:^:5d4+40
 noun:^:crush
-position:^:(*int)1
+ac:^:-25 -25 -25 -16
+affects:^:detect_invis detect_hidden infrared haste dark_vision 
+actions:^:npc sentinel warrior no_purge 
+offense:^:area bash berserk disarm dodge fast kick parry rescue trip crush assist_guard 
+vulnerable:^:lightning mental 
+resist:^:magic weapon fire cold 
+immune:^:summon charm mental 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3150
@@ -986,10 +3536,23 @@ desc:^:Valan the owner of the diner is here, waiting for you to order something.
 longdesc:^:Valan brushes a lock of dark hair away from his face and smiles warmly at 
 you. 
 race:^:human
+position:^:stand
+wealth:^:(*int)1000
+size:^:medium
+align:^:(*int)900
+level:^:(*int)25
 max_hp:^:1d1+999
-damage:^:1d8+10
+hit:^:(*int)0
+dam:^:1d8+10
 noun:^:slap
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:
+actions:^:npc sentinel no_purge 
+offense:^:dodge fade 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3160
@@ -1001,10 +3564,23 @@ sky blue, haunting eyes.  An old, brown robe is wrapped around her frail
 frame.  She looks up from her pile of papers and maps and looks inquiringly 
 at you, smiling faintly. 
 race:^:human
+position:^:stand
+wealth:^:(*int)1000
+size:^:medium
+align:^:(*int)900
+level:^:(*int)25
 max_hp:^:1d1+999
-damage:^:5d6+20
+hit:^:(*int)0
+dam:^:5d6+20
 noun:^:slap
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:
+actions:^:npc sentinel no_purge 
+offense:^:dodge fade 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3161
@@ -1015,10 +3591,23 @@ longdesc:^:This is Meghan's pet tree snake, Rob.  Something seems odd about his
 jaw, almost as if he were smiling at you.  He's quite friendly, but don't 
 get him drunk. 
 race:^:snake
+position:^:stand
+wealth:^:(*int)0
+size:^:small
+align:^:(*int)200
+level:^:(*int)15
 max_hp:^:11d10+200
-damage:^:4d6+4
+hit:^:(*int)3
+dam:^:4d6+4
 noun:^:bite
-position:^:(*int)1
+ac:^:-6 -5 -2 4
+affects:^:detect_invis 
+actions:^:npc sentinel no_purge 
+offense:^:dodge fast trip assist_race 
+vulnerable:^:cold 
+resist:^:piercing poison 
+immune:^:
+parts:^:head heart brains guts eyes long_tongue tail fangs scales 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3162
@@ -1029,10 +3618,23 @@ longdesc:^:Dan is grotesquely fat man dressed in rich clothes.  Apparently the m
 changing business pays quite well in this busy city, or possibly the rumors 
 of his fencing services are true... 
 race:^:human
+position:^:stand
+wealth:^:(*int)1000
+size:^:medium
+align:^:(*int)900
+level:^:(*int)25
 max_hp:^:1d1+999
-damage:^:5d6+20
+hit:^:(*int)0
+dam:^:5d6+20
 noun:^:slap
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:detect_invis detect_hidden 
+actions:^:npc sentinel no_purge changer banker 
+offense:^:dodge fade 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3163
@@ -1041,10 +3643,23 @@ name:^:the thief
 desc:^:A thief, all dressed in black. 
 longdesc:^:
 race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-100
+level:^:(*int)30
 max_hp:^:6d8+400
-damage:^:4d5+5
+hit:^:(*int)1
+dam:^:4d5+5
 noun:^:stab
-position:^:(*int)1
+ac:^:2 4 3 7
+affects:^:sneak hide 
+actions:^:npc scavenger wimpy thief 
+offense:^:disarm dodge kick_dirt trip 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3164
@@ -1053,10 +3668,23 @@ name:^:the questmaster
 desc:^:The QuestMaster is here, ready to send you on an adventure. 
 longdesc:^:The old man grins at the thought of sending you on a quest.
 race:^:human
+position:^:stand
+wealth:^:(*int)5000
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)40
 max_hp:^:1d1+999
-damage:^:2d4+30
+hit:^:(*int)0
+dam:^:2d4+30
 noun:^:divine
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:detect_invis detect_hidden berserk 
+actions:^:npc sentinel cleric no_purge healer 
+offense:^:dodge fast kick parry 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3165
@@ -1066,10 +3694,23 @@ desc:^:The village fool is doing tricks.
 longdesc:^:Dressed in bright colors and shiny material, the village fool trys
 to make you laugh.
 race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-100
+level:^:(*int)35
 max_hp:^:10d10+1300
-damage:^:4d7+11
+hit:^:(*int)0
+dam:^:4d7+11
 noun:^:none
-position:^:(*int)1
+ac:^:-11 -11 -11 -11
+affects:^:berserk haste 
+actions:^:npc scavenger wimpy 
+offense:^:disarm dodge kick_dirt trip 
+vulnerable:^:
+resist:^:charm bash 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3166
@@ -1079,10 +3720,23 @@ desc:^:A stunted man from the far east stands behind the counter expectantly.
 longdesc:^:This strange little man has come from far behind the eastern reaches of
 Dominia with strange wares.  He hopes to find a new market here in Midgaard.
 race:^:human
+position:^:stand
+wealth:^:(*int)150000
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:1d1+999
-damage:^:1d8+32
+hit:^:(*int)10
+dam:^:1d8+32
 noun:^:none
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:
+actions:^:npc sentinel 
+offense:^:bash disarm dodge kick_dirt parry trip 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3167
@@ -1092,10 +3746,23 @@ desc:^:Domaru, the Ninjitsu Master, awaits your pleasure.
 longdesc:^:A tall and thin man, Domaru partially obscures his face with a black
 kerchief so that only his eyes are revealed.  
 race:^:human
+position:^:stand
+wealth:^:(*int)100000
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:1d1+999
-damage:^:1d8+32
+hit:^:(*int)10
+dam:^:1d8+32
 noun:^:none
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:
+actions:^:npc sentinel 
+offense:^:bash disarm dodge kick_dirt parry trip 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3168
@@ -1105,10 +3772,23 @@ desc:^:Wan Li, the Ninja Weaponmaster, stares at you coldly.
 longdesc:^:Wan Li would be beautiful were it not for a long scar traced along one
 cheek, and her cold dispassionate expression. Always a professional.
 race:^:human
+position:^:stand
+wealth:^:(*int)100000
+size:^:medium
+align:^:(*int)900
+level:^:(*int)23
 max_hp:^:1d1+999
-damage:^:1d8+32
+hit:^:(*int)10
+dam:^:1d8+32
 noun:^:none
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:
+actions:^:npc sentinel 
+offense:^:bash disarm dodge kick_dirt parry trip 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3169
@@ -1117,10 +3797,23 @@ name:^:Free Mob
 desc:^:Free Mob
 longdesc:^:
 race:^:human
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)1
 max_hp:^:2d6+10
-damage:^:1d4+0
+hit:^:(*int)0
+dam:^:1d4+0
 noun:^:none
-position:^:(*int)1
+ac:^:9 9 9 9
+affects:^:
+actions:^:npc sentinel healer 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3364
@@ -1135,10 +3828,23 @@ deadly just from the glance. When you ask of their employment in the service
 of the Harpers, you are politely told that they greatly enjoy their duties
 and to either move along or leave.
 race:^:orc
+position:^:stand
+wealth:^:(*int)0
+size:^:giant
+align:^:(*int)0
+level:^:(*int)60
 max_hp:^:50d10+9500
-damage:^:8d6+28
+hit:^:(*int)6
+dam:^:8d6+28
 noun:^:none
-position:^:(*int)1
+ac:^:-30 -30 -30 -30
+affects:^:detect_invis berserk infrared grandeur prot_evil prot_good hide haste dark_vision 
+actions:^:npc sentinel scavenger stay_area warrior 
+offense:^:bash berserk disarm dodge kick_dirt parry crush assist_race 
+vulnerable:^:light 
+resist:^:disease 
+immune:^:summon charm rain vorpal 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3365
@@ -1152,10 +3858,23 @@ Once you prove you are of the Harpers, she turns; her white as snow hair
 twirls a little and blends into her translusant white dress. She shows
 you the way trough the path, so you may enter into the castle.
 race:^:human
+position:^:stand
+wealth:^:(*int)0
+size:^:giant
+align:^:(*int)0
+level:^:(*int)60
 max_hp:^:10d10+1400
-damage:^:4d7+11
+hit:^:(*int)0
+dam:^:4d7+11
 noun:^:none
-position:^:(*int)1
+ac:^:-10 -10 -10 -10
+affects:^:detect_invis dark_vision 
+actions:^:npc sentinel scavenger stay_area train warrior 
+offense:^:dodge assist_vnum 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3366
@@ -1170,10 +3889,23 @@ deadly just from the glance. When you ask of their employment in the service
 of the Harpers, you are politely told that they greatly enjoy their duties
 and to either move along or leave.
 race:^:orc
+position:^:stand
+wealth:^:(*int)0
+size:^:giant
+align:^:(*int)0
+level:^:(*int)60
 max_hp:^:50d10+9500
-damage:^:8d6+28
+hit:^:(*int)6
+dam:^:8d6+28
 noun:^:none
-position:^:(*int)1
+ac:^:-30 -30 -30 -30
+affects:^:detect_invis berserk infrared grandeur prot_evil prot_good hide haste dark_vision 
+actions:^:npc sentinel scavenger stay_area warrior 
+offense:^:area backstab bash berserk disarm dodge fast parry crush assist_race 
+vulnerable:^:light 
+resist:^:bash piercing disease disease 
+immune:^:summon charm rain vorpal 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3367
@@ -1182,10 +3914,23 @@ name:^:Free Mob
 desc:^:Free Mob
 longdesc:^:
 race:^:human
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)1
 max_hp:^:1d1+999
-damage:^:10d10+10
+hit:^:(*int)0
+dam:^:10d10+10
 noun:^:none
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:
+actions:^:npc sentinel 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3368
@@ -1201,10 +3946,23 @@ a small fee.
  
 Type 'heal' to see a listing of spells.
 race:^:human
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)43
 max_hp:^:25d10+2500
-damage:^:3d12+15
+hit:^:(*int)4
+dam:^:3d12+15
 noun:^:none
-position:^:(*int)1
+ac:^:-15 -15 -15 -15
+affects:^:detect_invis dark_vision 
+actions:^:npc sentinel cleric no_purge healer 
+offense:^:dodge fast kick parry 
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3369
@@ -1224,10 +3982,23 @@ His life had no meaning, so Hell is where you all will go.
 Though we all want Heaven, as a blade slits your throat,
 Hell sure can't beat that.
 race:^:human
+position:^:stand
+wealth:^:(*int)200000
+size:^:medium
+align:^:(*int)0
+level:^:(*int)1
 max_hp:^:2d6+10
-damage:^:1d4+0
+hit:^:(*int)0
+dam:^:1d4+0
 noun:^:pound
-position:^:(*int)1
+ac:^:9 9 9 9
+affects:^:sanctuary detect_invis 
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic weapon 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
 vnum:^:3370
@@ -1240,764 +4011,2388 @@ you may wish to send his way.  For a small price though, he will be willing
 to transport you to Dominia.  Type 'warp', pay the fee, and you will be
 whisked over to the lands of Selina.  
 race:^:sliver
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)60
 max_hp:^:50d10+9500
-damage:^:8d6+28
+hit:^:(*int)6
+dam:^:8d6+28
 noun:^:crush
-position:^:(*int)1
+ac:^:-30 -30 -30 -30
+affects:^:detect_invis detect_hidden grandeur 
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:acid 
+resist:^:charm 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:6500
-keywords:^:dwarf dwarven guard
-name:^:the dwarven guard
-desc:^:A dwarven guard is here.
-longdesc:^:The guard looks very tough and mean.
-race:^:dwarf
-max_hp:^:3d9+333
-damage:^:2d8+5
-noun:^:none
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:6501
-keywords:^:dwarf dwarven miner worker
-name:^:the dwarven worker
-desc:^:A dwarven mining worker is here.
-longdesc:^:He is very dirty, and looks extremely over-worked.
-race:^:dwarf
-max_hp:^:2d10+150
-damage:^:1d10+3
-noun:^:none
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:6502
-keywords:^:wraith undead
-name:^:the wraith
-desc:^:A wraith is awaiting your first move here.
-longdesc:^:A black, almost transparent wraith.
+vnum:^:17000
+keywords:^:recruiting recruiter officer bosco derrin
+name:^:Derrin, {BB{Wo{Bs{Wc{Bo{W's{x recruiting officer
+desc:^:A recruiting officer for the military academy stands here smiling at you.
+longdesc:^:He wears the uniform of bosco's military and seems quite happy to help
+you.  If you need a Bosco Guide to Redemption, just type {RBuy Book{x and
+for 50 silver he will sell you one.  
 race:^:human
-max_hp:^:6d12+778
-damage:^:2d12+8
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)50
+max_hp:^:50d10+4500
+hit:^:(*int)-3
+dam:^:5d8+19
 noun:^:none
-position:^:(*int)1
+ac:^:-20 -20 -20 -20
+affects:^:detect_invis 
+actions:^:npc sentinel stay_area train practice no_purge healer skill_train 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:summon charm magic drowning iron 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes scales 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:6503
-keywords:^:oldstyle storekeeper
-name:^:the storekeeper
-desc:^:There is the Hide & Tooth storekeeper standing here, waiting patiently.
-longdesc:^:The storekeeper is very rotund, but looks like a sharp guy.
+vnum:^:17001
+keywords:^:dummy combat mob monster
+name:^:a combat test dummy
+desc:^:A straw and wooden dummy dressed like a soldier looks ready to take a beating.
+longdesc:^:This dummy looks like it's been through a lot of abuse.  
+race:^:doll
+position:^:stand
+wealth:^:(*int)50
+size:^:medium
+align:^:(*int)0
+level:^:(*int)1
+max_hp:^:1d4+8
+hit:^:(*int)0
+dam:^:1d2+0
+noun:^:beating
+ac:^:9 9 9 9
+affects:^:
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:energy 
+resist:^:bash cold poison negative holy mental disease drowning light 
+immune:^:charm 
+parts:^:head arms legs heart brains guts hands feet eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17002
+keywords:^:secretary receptionist woman
+name:^:a pretty secretary
+desc:^:A pretty young woman sits here working on tons of paperwork.
+longdesc:^:A pretty blonde girl, who kinda reminds you of a very harsh babysitter.  
 race:^:human
-max_hp:^:10d10+1300
-damage:^:4d7+11
-noun:^:none
-position:^:(*int)1
+position:^:stand
+wealth:^:(*int)1000
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)1
+max_hp:^:2d6+10
+hit:^:(*int)0
+dam:^:1d4+0
+noun:^:divine
+ac:^:9 9 9 9
+affects:^:detect_invis berserk infrared prot_evil 
+actions:^:npc sentinel stay_area train practice no_purge healer 
+offense:^:disarm 
+vulnerable:^:
+resist:^:
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:6504
-keywords:^:oldstyle baker
-name:^:the baker
-desc:^:Granite Head, the baker, is waiting for a customer here.
-longdesc:^:Granite Head is covered with flour and grains.
+vnum:^:17003
+keywords:^:cleric guildmaster holy woman priestess
+name:^:the cleric guildmaster
+desc:^:A priestess stands here singing songs of prayer to teach the youth.
+longdesc:^:A beautiful robed priestess with symbols of every god save for selina on
+her robe.  She seems quite capable of providing {RTraining, Gains,{x or
+{RPractice.  {x 
 race:^:human
-max_hp:^:10d10+1300
-damage:^:4d7+11
-noun:^:none
-position:^:(*int)1
+position:^:stand
+wealth:^:(*int)10000
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)51
+max_hp:^:50d10+5000
+hit:^:(*int)0
+dam:^:5d8+20
+noun:^:divine
+ac:^:-21 -21 -21 -21
+affects:^:berserk 
+actions:^:npc sentinel stay_area train practice healer skill_train 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:6505
-keywords:^:giant lizard
-name:^:the giant lizard
-desc:^:A giant lizard is here.
-longdesc:^:This scaly creature looks like it is well adapted to it's underground
-habitat.  He looks very powerful.
-race:^:lizard
-max_hp:^:3d9+283
-damage:^:2d7+4
-noun:^:none
-position:^:(*int)1
+vnum:^:17004
+keywords:^:dummy combat wimpy
+name:^:a wimpy combat test dummy
+desc:^:A straw and wooden dummy dressed like a soldier looks ready to take a beating.
+longdesc:^:This dummy looks like it's been through a lot of abuse.  
+race:^:doll
+position:^:stand
+wealth:^:(*int)50
+size:^:medium
+align:^:(*int)0
+level:^:(*int)1
+max_hp:^:1d4+8
+hit:^:(*int)0
+dam:^:1d2+0
+noun:^:beating
+ac:^:9 9 9 9
+affects:^:
+actions:^:npc sentinel stay_area wimpy 
+offense:^:
+vulnerable:^:energy 
+resist:^:bash cold poison negative holy mental disease drowning light 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet eyes 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:6506
-keywords:^:giant
-name:^:the giant
-desc:^:A giant is here.
-longdesc:^:The giant is about 8 feet tall, with arms of steel, and looks very strong.
-race:^:giant
-max_hp:^:3d9+233
-damage:^:2d6+4
-noun:^:none
-position:^:(*int)1
+vnum:^:17005
+keywords:^:combat test dummy aggressive
+name:^:an aggressive combat dummy
+desc:^:A straw and wooden dummy dressed like a soilder looks ready to take a beating.
+longdesc:^:This dummy looks like it's been through alot of abuse.  
+race:^:doll
+position:^:stand
+wealth:^:(*int)50
+size:^:medium
+align:^:(*int)0
+level:^:(*int)1
+max_hp:^:1d4+8
+hit:^:(*int)0
+dam:^:1d2+0
+noun:^:beating
+ac:^:9 9 9 9
+affects:^:
+actions:^:npc sentinel aggressive stay_area 
+offense:^:
+vulnerable:^:energy 
+resist:^:bash cold poison negative holy mental disease drowning light 
+immune:^:
+parts:^:head arms legs hands feet eyes 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:6507
-keywords:^:dwarf dwarven miner
-name:^:the dwarven miner
-desc:^:A dwarven miner is here.
-longdesc:^:The mineworker is very tired, and very dirty, and he has bulging muscles.
-race:^:dwarf
-max_hp:^:2d7+96
-damage:^:1d7+2
-noun:^:none
-position:^:(*int)1
+vnum:^:17006
+keywords:^:bandit newbie mob monster cloak armed individual
+name:^:a Newbie Bandit
+desc:^:A cloaked individual is skulking in a corner, ready to pounce.
+longdesc:^:This bandit actually seems to be working for the military school to drill
+newbies on combat.  
+race:^:human
+position:^:stand
+wealth:^:(*int)15
+size:^:medium
+align:^:(*int)-750
+level:^:(*int)2
+max_hp:^:1d6+29
+hit:^:(*int)0
+dam:^:1d4+0
+noun:^:punch
+ac:^:8 8 8 8
+affects:^:sneak hide 
+actions:^:npc sentinel aggressive stay_area 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:6508
-keywords:^:dwarf dwarven mine leader
-name:^:the dwarven mine leader
-desc:^:A dwarven mine leader is here.
-longdesc:^:The mine leader is very big and very strong.
-race:^:dwarf
-max_hp:^:4d10+360
-damage:^:4d4+5
-noun:^:none
-position:^:(*int)1
+vnum:^:17007
+keywords:^:deer mob monster
+name:^:a peaceful deer
+desc:^:A beautiful deer stands here, grazing on berries and grass.
+longdesc:^:This lovely brown and white deer seems to have been branded by the
+Military Academy for use in the obstacle course.  
+race:^:wolf
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)2
+max_hp:^:2d7+21
+hit:^:(*int)0
+dam:^:1d5+0
+noun:^:pierce
+ac:^:8 8 8 8
+affects:^:dark_vision 
+actions:^:npc sentinel scavenger stay_area 
+offense:^:dodge fast 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head legs heart brains guts ears eyes tail fangs 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:6509
-keywords:^:dwarf dwarven doctor
-name:^:the dwarven doctor
-desc:^:The dwarven doctor is here.
-longdesc:^:He is a very skilled surgeon, with hands of steel.
-race:^:dwarf
-max_hp:^:2d6+110
-damage:^:1d8+2
-noun:^:none
-position:^:(*int)1
+vnum:^:17008
+keywords:^:oyster small newbie mob monster
+name:^:a small oyster
+desc:^:A fresh water oyster lies here waiting for something.
+longdesc:^:This oyster is rather large in comparison to most and seems quite capable
+of defending itself.  
+race:^:water fowl
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)2
+max_hp:^:2d7+21
+hit:^:(*int)0
+dam:^:1d5+0
+noun:^:slash
+ac:^:8 8 8 8
+affects:^:flying 
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:
+resist:^:drowning 
+immune:^:drowning 
+parts:^:head legs heart brains guts feet eyes wings 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:6510
-keywords:^:dwarf dwarven peon
-name:^:the dwarven peon
-desc:^:A dwarven peon is awaiting help here.
-longdesc:^:Just your average everyday dwarven peon.
-race:^:dwarf
+vnum:^:17009
+keywords:^:cage human mob
+name:^:a caged human
+desc:^:A caged human is sitting in the corner looking sulky.
+longdesc:^:This human was given to the Military Academy to pay for his crimes
+against Bosco.  
+race:^:human
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
 max_hp:^:2d6+35
-damage:^:1d6+0
-noun:^:none
-position:^:(*int)1
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:pound
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:6511
-keywords:^:dwarf
-name:^:the dwarf
-desc:^:A grinning dwarf is here.
-longdesc:^:He's grinning rather evilly at you. Maybe he's from the Colossal Caves.
+vnum:^:17010
+keywords:^:cage elf mob
+name:^:a caged elf
+desc:^:A caged elf sits in the corner looking bored.
+longdesc:^:This elf was given to the Military Academy to pay for his crimes
+against Bosco.
+race:^:elf
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:pound
+ac:^:7 7 7 7
+affects:^:infrared 
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:iron 
+resist:^:charm 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17011
+keywords:^:dwarf cage mob
+name:^:a caged dwarf
+desc:^:A caged dwarf seems to be trying to escape from the cage that traps him.
+longdesc:^:This dwarf was given to the Military Academy to pay for his crimes
+against Bosco.
 race:^:dwarf
-max_hp:^:2d6+110
-damage:^:1d8+2
-noun:^:none
-position:^:(*int)1
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:pound
+ac:^:7 7 7 7
+affects:^:infrared 
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:drowning 
+resist:^:poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:6512
-keywords:^:dwarf unwanted son
-name:^:the unwanted son
-desc:^:An unwanted son is here.  You feel sorry for the guy.
-longdesc:^:Awww, poor little bastard dwarf son!
-race:^:dwarf
-max_hp:^:2d6+110
-damage:^:1d8+2
-noun:^:none
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:6513
-keywords:^:unwanted dwarf daughter
-name:^:the unwanted daughter
-desc:^:An unwanted daughter is here.  You feel sorry for her.
-longdesc:^:Awww, poor little bastard dwarf daughter!
-race:^:dwarf
-max_hp:^:2d7+121
-damage:^:2d4+2
-noun:^:none
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:6514
-keywords:^:dwarf barracks guard
-name:^:the barracks guard
-desc:^:A barrack guard is here.
-longdesc:^:It's a dwarf that guards the barracks.
-race:^:dwarf
-max_hp:^:3d9+233
-damage:^:2d6+4
-noun:^:none
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:6515
-keywords:^:man waiting
-name:^:the man in waiting
-desc:^:A man in waiting is here.  He looks nervous and unsure of himself.
-longdesc:^:You wonder what he's waiting for... then again...
-race:^:human
-max_hp:^:3d9+208
-damage:^:2d6+3
-noun:^:none
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:6516
-keywords:^:mazekeeper
-name:^:the mazekeeper
-desc:^:A mazekeeper is here.
-longdesc:^:He looks VERY tough.
-race:^:human
-max_hp:^:6d12+778
-damage:^:2d12+8
-noun:^:none
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:6517
-keywords:^:giant snake
-name:^:the giant snake
-desc:^:There is a giant snake here.
-longdesc:^:It's a giant snake!!!
-race:^:snake
-max_hp:^:3d9+208
-damage:^:2d6+3
-noun:^:none
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:3900
-keywords:^:jack
-name:^:Jack
-desc:^:A small man named Jack stands around
-longdesc:^:His clothes are a bit worn and he looks like he's seen better days.  His
-beard grows in long scraggles that cover his face.  
-race:^:human
-max_hp:^:10d10+50
-damage:^:1d1+0
-noun:^:beating
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4000
-keywords:^:python snake
-name:^:the huge python
-desc:^:The huge python rears its head and hisses at you. 
-longdesc:^:It sways back and forth contemplating whether or not to eat you.
-race:^:snake
-max_hp:^:11d9+110
-damage:^:3d4+2
-noun:^:bite
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4001
-keywords:^:garter snake
-name:^:the garter snake
-desc:^:A small green garter snake slithers along the floor.
-longdesc:^:It looks harmless enough.  Or is it?
-race:^:snake
-max_hp:^:7d7+60
-damage:^:1d10+1
-noun:^:bite
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4002
-keywords:^:centipede
-name:^:the centipede
-desc:^:A small centipede here is looking for vegetation.
-longdesc:^:It looks completely harmless but who knows for sure?
-race:^:centipede
-max_hp:^:3d3+30
-damage:^:1d6+0
-noun:^:sting
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4003
-keywords:^:kobold
-name:^:the kobold
-desc:^:An ugly kobold mumbles something under its breath.
-longdesc:^:It looks ugly enough to scare its own mother.
-race:^:kobold
-max_hp:^:4d4+40
-damage:^:1d4+1
-noun:^:claw
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4004
-keywords:^:orc
-name:^:the orc
-desc:^:This orc is frothing around the mouth.  Better stay away.
-longdesc:^:You notice a slight tinge of madness in his eyes.
-race:^:orc
-max_hp:^:6d5+50
-damage:^:1d6+3
-noun:^:beating
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4005
-keywords:^:orc
-name:^:the large orc
-desc:^:This large orc is looking for someone small to pick on.
-longdesc:^:The orc says, "Whatcha look'n at?"
-race:^:orc
-max_hp:^:6d7+70
-damage:^:1d8+2
-noun:^:punch
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4050
-keywords:^:warrior
-name:^:the warrior
-desc:^:This tall warrior has more scars than even you!
-longdesc:^:He's surely a strong, brainless fighter.  Like you.
-race:^:human
-max_hp:^:10d12+120
-damage:^:1d8+4
-noun:^:punch
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4051
-keywords:^:warrior
-name:^:the warrior
-desc:^:This veteran warrior is old enough to be your father.
-longdesc:^:He seems to know his way with weapons.  And he wants
-to show you what he can do!
-race:^:human
-max_hp:^:8d7+70
-damage:^:1d7+2
-noun:^:punch
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4052
-keywords:^:hobgoblin
-name:^:the hobgoblin
-desc:^:A small beat-up hobgoblin cringes in the corner.
-longdesc:^:Looking into the eyes of this poor soul makes you feel
-sad as you see the terror and fear in its eyes.  Why
-don't you put it out of its misery?
-race:^:hobgoblin
-max_hp:^:6d6+40
-damage:^:1d6+1
-noun:^:beating
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4053
-keywords:^:snake
-name:^:the snake
-desc:^:A sickly brown snake watches you with caution.
-longdesc:^:A closer look reveals a hungry demeanor.  Don't get too close!
-race:^:snake
-max_hp:^:4d10+100
-damage:^:2d6+1
-noun:^:bite
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4054
-keywords:^:centipede
-name:^:the centipede
-desc:^:A white centipede crawls along the cave floors randomly.
-longdesc:^:The centipede doesn't really seem to notice you.
-race:^:centipede
-max_hp:^:5d5+50
-damage:^:1d8+0
-noun:^:sting
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4055
-keywords:^:hobgoblin
-name:^:the large hobgoblin
-desc:^:A large hobgoblin is here wondering if he should tear you apart.
-longdesc:^:Red, bloodshot eyes and drool dripping from its mouth makes you
-wonder just how far away you should be.
-race:^:hobgoblin
-max_hp:^:2d10+120
-damage:^:2d4+3
-noun:^:punch
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4056
-keywords:^:orc
-name:^:the orc
-desc:^:An orc is here, looking for something (or perhaps someone) to eat.
-longdesc:^:As you already know, orcs have quite a ravenous appetite.  
-Care to be dinner?
-race:^:orc
-max_hp:^:3d10+90
-damage:^:1d8+2
-noun:^:beating
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4057
-keywords:^:lion mountain
-name:^:the mountain lion
-desc:^:A mountain lion bears its teeth at the sight of more food.
-longdesc:^:Huge claws and big teeth make quite a fearsome opponent for
-the weary.  Are you next?
-race:^:cat
-max_hp:^:4d10+100
-damage:^:2d6+1
-noun:^:claw
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4058
-keywords:^:giant hill
-name:^:the hill giant
-desc:^:A hill giant is here tossing rocks around.  Marbles perhaps?
-longdesc:^:The hill giant looks like he's about 9 feet tall. By his actions you
-come to the conclusion that he's not very intelligent.  A perfect
-playmate for you.
+vnum:^:17012
+keywords:^:giant cage mob
+name:^:a caged giant
+desc:^:Someone has stuffed this poor giant into a cage far too small for him.
+longdesc:^:This giant was given to the Military Academy to pay for his crimes
+against Bosco.
 race:^:giant
-max_hp:^:10d10+150
-damage:^:2d6+6
+position:^:stand
+wealth:^:(*int)0
+size:^:large
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:crush
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:lightning 
+resist:^:fire cold 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17013
+keywords:^:caged hatchling dragon mob
+name:^:a caged hatchling
+desc:^:A small hatchling has been trapped in a cage, not old enough to even have its color.
+longdesc:^:This hatchling was given to the Military Academy to pay for his crimes
+against Bosco.
+race:^:hatchling
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:slash
+ac:^:7 7 7 7
+affects:^:infrared 
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:
+resist:^:charm 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17014
+keywords:^:caged troll mob
+name:^:a caged troll
+desc:^:A horrible smell seems to be coming from the caged troll in the corner.
+longdesc:^:This troll was given to the Military Academy to pay for his crimes
+against Bosco.  
+race:^:troll
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:punch
+ac:^:7 7 7 7
+affects:^:infrared 
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:fire 
+resist:^:disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17015
+keywords:^:caged gargoyle mob statue
+name:^:a caged gargoyle
+desc:^:Someone has apparently put a statue in a cage.
+longdesc:^:This gargoyle was given to the Military Academy to pay for his crimes
+against Bosco.
+race:^:gargoyle
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:punch
+ac:^:7 7 7 7
+affects:^:infrared flying 
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:poison disease 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes wings tail claws fangs 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17016
+keywords:^:caged kirre kitty six
+name:^:a caged kirre
+desc:^:A strange six legged kitty is sitting looking quite pissed off in a cage.
+longdesc:^:This kirre was given to the Military Academy to pay for his crimes
+against Bosco.
+race:^:kirre
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:slash
+ac:^:7 7 7 7
+affects:^:infrared 
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:cold 
+resist:^:lightning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes tail 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17017
+keywords:^:caged marid aquarium woman mob
+name:^:a caged marid
+desc:^:A large aquarium seems to be holding a beautiful bluish skinned woman.
+longdesc:^:This marid was given to the Military Academy to pay for his crimes
+against Bosco.
+race:^:marid
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:pound
+ac:^:7 7 7 7
+affects:^:water_breathing water_walk 
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:lightning 
+resist:^:fire drowning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17018
+keywords:^:caged sliver mob
+name:^:a caged sliver
+desc:^:Someone has managed to trap a live sliver and place it in a cage.
+longdesc:^:This sliver was given to the Military Academy to pay for his crimes
+against Bosco.
+race:^:sliver
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:stab
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:acid 
+resist:^:charm 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17019
+keywords:^:guildmaster warrior
+name:^:The Warrior Guildmaster
+desc:^:The guildmaster of the warriors guild is here to help!
+longdesc:^:A rugged looking warrior looks like he was once quite fierce in his
+youth.  The tattoo of Kindred on his shoulder would vouch for that.  He
+seems quite capable of providing {RTraining, Gains, {xor{R Practice.  {x 
+race:^:human
+position:^:stand
+wealth:^:(*int)10000
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)51
+max_hp:^:50d10+5000
+hit:^:(*int)0
+dam:^:5d8+20
+noun:^:punch
+ac:^:-21 -21 -21 -21
+affects:^:berserk 
+actions:^:npc sentinel stay_area train practice healer skill_train 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17020
+keywords:^:thief guildmaster man
+name:^:The Thieves Guildmaster
+desc:^:A very bored looking man leans against the wall, and looks ready to educate!
+longdesc:^:This rogue looks like hes adventured for far too long.  He seems to have
+several wounds to prove it.  He seems quite capable of providing {RTraining,
+Gains, {xor{R Practice.  {x 
+race:^:human
+position:^:stand
+wealth:^:(*int)10000
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)51
+max_hp:^:50d10+5000
+hit:^:(*int)0
+dam:^:5d8+20
+noun:^:punch
+ac:^:-21 -21 -21 -21
+affects:^:berserk 
+actions:^:npc sentinel stay_area train practice healer skill_train 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17021
+keywords:^:weaponmaster store shop
+name:^:the weaponmaster
+desc:^:The weaponmaster is trying to sell you a weapon!
+longdesc:^:This is a shopkeeper.  There are many shopkeepers in redemption.  They
+can buy your old equipment and sell you new stuff.  This one sells and buys
+weapons.  
+To see his inventory, type {RList{x
+To buy an item, type {Rbuy <item>{x
+to sell an item to him, type {Rsell <item>{x
+race:^:human
+position:^:stand
+wealth:^:(*int)1000
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)51
+max_hp:^:50d10+5000
+hit:^:(*int)0
+dam:^:5d8+20
+noun:^:divine
+ac:^:-21 -21 -21 -21
+affects:^:berserk 
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17022
+keywords:^:thief store william shop man shady
+name:^:william, the pawn broker
+desc:^:A shady looking man sits behind a little window asking if you'd like to buy something.
+longdesc:^:William is a shadey looking pawn broker.  He buys and sells armor,
+jewelry, gems, and pills.  
+race:^:human
+position:^:stand
+wealth:^:(*int)100000
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)5
+max_hp:^:2d6+60
+hit:^:(*int)0
+dam:^:1d6+1
+noun:^:divine
+ac:^:5 5 5 5
+affects:^:
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17023
+keywords:^:rebel newbie cadet
+name:^:a rebel cadet
+desc:^:It appears this cadet doesn't want to be a cadet anymore.
+longdesc:^:A young cadet just like you.  Unlike you, this one is looking to escape.  
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:pound
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel scavenger stay_area 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17024
+keywords:^:elven fisherman
+name:^:an elven fisherman
+desc:^:A young elven woman is trying to fish with a bow.
+longdesc:^:She is a drop dead gorgeous woman.  Rather young and fair skinned, but
+obviously a little ditsy.  
+race:^:elf
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:slap
+ac:^:7 7 7 7
+affects:^:infrared 
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:iron 
+resist:^:charm 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17025
+keywords:^:dwarf dwarven rock climber
+name:^:a dwarven rock climber
+desc:^:A rugged looking dwarf is climbing up the mountain side.
+longdesc:^:He appears to be attempting to reach the peak of this fake mountain.  It
+looks like hes almost there.  
+race:^:dwarf
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)-1
+dam:^:1d6+0
 noun:^:smash
-position:^:(*int)1
+ac:^:7 7 7 7
+affects:^:infrared 
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:drowning 
+resist:^:poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:4100
-keywords:^:mage
-name:^:the Mage
-desc:^:A small intelligent looking mage is standing here. It looks like he
-knows his way with magic. 
-longdesc:^:This guy can ace the SAT with his frontal lobe tied behind his back.
-race:^:human
-max_hp:^:7d5+130
-damage:^:1d6+2
-noun:^:punch
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4101
-keywords:^:troll
-name:^:the troll
-desc:^:This large mean-looking troll wants to take a closer look at you.
-longdesc:^:Whilst you look at this troll, you realize he is trying to
-figure just how tender you are.
-race:^:troll
-max_hp:^:7d10+150
-damage:^:2d7+3
-noun:^:claw
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4102
-keywords:^:guardian snake
-name:^:the guardian snake
-desc:^:A large green snake is guardian for something.
-longdesc:^:You take a closer look at this large snake while it tries to
-bite your head off!
-race:^:snake
-max_hp:^:4d10+100
-damage:^:2d6+1
-noun:^:bite
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4103
-keywords:^:thief
-name:^:the thief
-desc:^:A thief, all dressed in black.
-longdesc:^:Well COUNT your money!
-race:^:human
-max_hp:^:6d8+80
-damage:^:1d5+1
-noun:^:punch
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4104
-keywords:^:orc
-name:^:the orc
-desc:^:An ugly orc is standing here waiting for someone to practice on.
-longdesc:^:Yrkk..  He belches in your face!
-race:^:orc
-max_hp:^:7d7+70
-damage:^:1d8+3
-noun:^:punch
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4105
-keywords:^:centipede
-name:^:a centipede
-desc:^:A small harmless centipede is here looking for some vegetation to eat.
-longdesc:^:It doesn't seem to pay any attention towards you.  You are probably
-not important.
-race:^:centipede
-max_hp:^:8d5+50
-damage:^:2d4+1
-noun:^:sting
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4106
-keywords:^:warrior
-name:^:the Warrior
-desc:^:A human warrior grins an evil grin in your face.
-longdesc:^:He doesn't look friendly at all...  He is no Mr. Rogers!
-race:^:human
-max_hp:^:4d10+130
-damage:^:1d8+3
-noun:^:punch
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4107
-keywords:^:kobold
-name:^:the green kobold
-desc:^:A green kobold hobbles along the cave walls puking periodically.
-longdesc:^:It looks a little sick.  Something he ate maybe?
-race:^:kobold
-max_hp:^:8d4+50
-damage:^:2d4+1
-noun:^:claw
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4150
-keywords:^:bat blue
-name:^:the blue bat
-desc:^:A blue bat flies in circles while electrical charges arc here and there.
-longdesc:^:Bzzzt.  Zap.  Crackle.  Speak about static electricity!
-race:^:bat
-max_hp:^:3d10+70
-damage:^:1d9+1
-noun:^:shbite
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4151
-keywords:^:bat red
-name:^:the red bat
-desc:^:A red bat hangs upside down from the ceiling, glowing.
-longdesc:^:You can definitely feel some heat from this thing.  A fever perhaps?
-race:^:bat
-max_hp:^:3d10+70
-damage:^:1d9+1
-noun:^:flbite
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4152
-keywords:^:bat green
-name:^:the green bat
-desc:^:A green bat flies from wall to wall leaving an awful smell.
-longdesc:^:Whew!  What a stinker!
-race:^:bat
-max_hp:^:3d10+70
-damage:^:1d9+1
-noun:^:bite
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4153
-keywords:^:bat white
-name:^:the white bat
-desc:^:A white bat rests on the ceiling.  You wonder where the cold is coming from.
-longdesc:^:Brrr!  You almost can't distinguish this bat from an ice cube.
-race:^:bat
-max_hp:^:3d10+70
-damage:^:1d9+1
-noun:^:frbite
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:4154
-keywords:^:bat black
-name:^:the black bat
-desc:^:A black bat flies from wall to wall leaving something hissing behind.
-longdesc:^:Amazing!  This bat is grooming itself with acid!
-race:^:bat
-max_hp:^:3d10+70
-damage:^:1d9+1
+vnum:^:17026
+keywords:^:ooze green pudding blob
+name:^:a puddle of green ooze
+desc:^:A puddle of green ooze floats around with some remains of a poor adventurer in it.
+longdesc:^:Its a puddle of green goo.  What more do you want?  
+race:^:school monster
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
 noun:^:acbite
-position:^:(*int)1
+ac:^:7 7 7 7
+affects:^:faerie_fire slow 
+actions:^:npc sentinel aggressive stay_area no_align 
+offense:^:bash 
+vulnerable:^:magic 
+resist:^:
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts feet ears eyes tail claws 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:4155
-keywords:^:thief
-name:^:the thief
-desc:^:A sneaky thief appears and disappears within the shadows.
-longdesc:^:He definitely knows what he's doing.  Trust him.
+vnum:^:17027
+keywords:^:squire lost
+name:^:a lost squire
+desc:^:A lost looking squire is sitting in the hills looking sad.
+longdesc:^:This squire seems to have misplaced his knight.  Could you help him?  
 race:^:human
-max_hp:^:3d20+130
-damage:^:2d4+3
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
 noun:^:punch
-position:^:(*int)1
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:4156
-keywords:^:troll
-name:^:the troll
-desc:^:A large ugly troll is here mumbling something.
-longdesc:^:He looks quite mean.  Don't mess with him.
-race:^:troll
-max_hp:^:8d20+140
-damage:^:3d4+5
+vnum:^:17028
+keywords:^:kirre assassin sneak
+name:^:a kirre assassin
+desc:^:A kirre dressed in black lunges out from the sand!
+longdesc:^:This assassin has been sent for you!  Someone must not want Bosco to have
+new recruits...  
+race:^:kirre
+position:^:stand
+wealth:^:(*int)150
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
 noun:^:claw
-position:^:(*int)1
+ac:^:7 7 7 7
+affects:^:infrared 
+actions:^:npc sentinel aggressive stay_area thief 
+offense:^:backstab trip 
+vulnerable:^:cold 
+resist:^:lightning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes tail 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:4157
-keywords:^:mage
-name:^:the Mage
-desc:^:A small man is here researching magical incantations.
-longdesc:^:His little head is buried into his magic books.  He'd be very
-angry should you bother his studies.
+vnum:^:17029
+keywords:^:mage guildmaster
+name:^:the mages guildmaster
+desc:^:The mages guildmaster sits here teaching from some heavy tomes.
+longdesc:^:A woman dressed all in red is drawling on about various magical spells
+and incantations.  She seems quite capable of providing {RTraining, Gains,
+{xor{R Practice.  {x 
 race:^:human
-max_hp:^:4d10+100
-damage:^:1d6+1
-noun:^:beating
-position:^:(*int)1
+position:^:stand
+wealth:^:(*int)10000
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)51
+max_hp:^:50d10+5000
+hit:^:(*int)0
+dam:^:5d8+20
+noun:^:divine
+ac:^:-21 -21 -21 -21
+affects:^:berserk 
+actions:^:npc sentinel stay_area train practice no_purge healer skill_train 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:4158
-keywords:^:snake
-name:^:the snake
-desc:^:A brown snake hisses at you.
-longdesc:^:Sickly brown as it is, you know what it really wants is you
-for dinner.
-race:^:snake
-max_hp:^:2d10+100
-damage:^:1d12+1
-noun:^:bite
-position:^:(*int)1
+vnum:^:17030
+keywords:^:newbie ranger mob
+name:^:a newbie ranger
+desc:^:A novice ranger stands here ready for a good fight.
+longdesc:^:This novice ranger looks like he has very little experience.  However he
+looks willing to fight with you.  
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:slash
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area 
+offense:^:disarm trip 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:4159
-keywords:^:troll
-name:^:the small troll
-desc:^:A 'small' troll is here happily dancing.  Trala-la-la.  La-la.
-longdesc:^:He is so happy, you are disgusted.  Kill him now!
+vnum:^:17031
+keywords:^:newbie warrior mob cadet
+name:^:a newbie warrior
+desc:^:A warrior cadet is looking for a good fight.
+longdesc:^:This novice warrior looks like he has very little experience.  However he
+looks willing to fight with you.  
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:punch
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area warrior 
+offense:^:bash 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17032
+keywords:^:newbie paladin mob
+name:^:a newbie paladin
+desc:^:A young paladin is praying for his next victory in battle.
+longdesc:^:This novice paladin looks like he has very little experience.  However he
+looks willing to fight with you.  
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)-3
+dam:^:1d6+0
+noun:^:divine
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area warrior 
+offense:^:disarm rescue 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17033
+keywords:^:newbie runist mob
+name:^:a newbie runist
+desc:^:A young runist is painting runes on a nearby wall.
+longdesc:^:This runist is practicing painting.  They appear however to want a break
+from it.  
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:pierce
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area thief 
+offense:^:kick_dirt 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17034
+keywords:^:newbie thief mob
+name:^:a newbie thief
+desc:^:A novice thief is practicing backstab on a dummy.
+longdesc:^:This individual appears to be practicing their thieving skills.  Why not
+give them a chance to practice combat as well?  
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:pierce
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area thief 
+offense:^:backstab 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17035
+keywords:^:sneak thief pickpocket mob person
+name:^:a sneak thief
+desc:^:A shadowy sneak thief is trying to pick your pocket!
+longdesc:^:This thief sethems more interested in stealing then practicing their
+skills.  You should probably teach em a lesson.  
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:pierce
+ac:^:7 7 7 7
+affects:^:sneak hide 
+actions:^:npc sentinel stay_area thief 
+offense:^:backstab 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17036
+keywords:^:enchanter newbie mage mob
+name:^:a newbie enchanter
+desc:^:An apprentice enchanter is attempting to charm a small rodent.
+longdesc:^:This enchanter looks like they are studying hard.  Why not give them a
+break?  
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:punch
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area mage 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17037
+keywords:^:conjurer newbie apprentice mob
+name:^:a newbie conjurer
+desc:^:A young conjurer appears to be trying to feed a small sparrow.
+longdesc:^:This conjurer looks like they are studying hard.  Why not give them a
+break?  
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:punch
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area mage 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17038
+keywords:^:invoker newbie apprentice mob
+name:^:a newbie invoker
+desc:^:An apprentice invoker is studying a book of dark arcane arts.
+longdesc:^:This invoker looks like they are studying hard.  Why not give them a
+break?  
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:punch
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area undead 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17039
+keywords:^:newbie druid mob
+name:^:a newbie druid
+desc:^:A young druid is planting a small garden in the corner.
+longdesc:^:This druid is hard at work planting seeds.  They look like they need to
+get away for a bit.  
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:whip
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area cleric 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17040
+keywords:^:cleric newbie mob
+name:^:a newbie cleric
+desc:^:A cleric is praying diligently for guidance.
+longdesc:^:This priest looks like they could show you a thing or two about religions.  
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:divine
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area cleric 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17041
+keywords:^:newbie monk mob
+name:^:a newbie monk
+desc:^:An apprentice monk is meditating quietly.
+longdesc:^:The monk looks ready for a good fight.  
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)-3
+dam:^:1d6+0
+noun:^:punch
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area 
+offense:^:kick 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17042
+keywords:^:legendary snail giant gigantic
+name:^:a legendary giant {gsnail{x
+desc:^:A gigantic snail sits purring happily in a corner.
+longdesc:^:This is a legendary creature.  There are many around Terra and Dominia,
+but they are not usually fightable until you reach level 51.  However they
+tend to hold powerful equipment so they are well worth the risk.  
+race:^:school monster
+position:^:stand
+wealth:^:(*int)1000
+size:^:huge
+align:^:(*int)0
+level:^:(*int)10
+max_hp:^:2d7+500
+hit:^:(*int)3
+dam:^:1d8+0
+noun:^:slime
+ac:^:1 1 1 1
+affects:^:detect_invis berserk faerie_fire infrared flying 
+actions:^:npc sentinel stay_area no_align 
+offense:^:area trip crush 
+vulnerable:^:magic 
+resist:^:
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts feet ears eyes tail claws 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17043
+keywords:^:commander bosco military dragon ghal
+name:^:Ghal, Bosco's military commander
+desc:^:A stern looking dragon stands before you, ready to give you orders.
+longdesc:^:A large red dragon that looks like he will breathe fire if you don't
+listen to his orders.
+race:^:red dragon
+position:^:stand
+wealth:^:(*int)10000
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)51
+max_hp:^:50d10+5000
+hit:^:(*int)0
+dam:^:5d8+20
+noun:^:divine
+ac:^:-21 -21 -21 -21
+affects:^:detect_invis berserk infrared flying 
+actions:^:npc sentinel stay_area no_purge healer 
+offense:^:
+vulnerable:^:cold 
+resist:^:charm bash fire 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17044
+keywords:^:human soldier bosco
+name:^:a human soldier
+desc:^:A battered looking human wearing the crest of Bosco stands waiting for battle.
+longdesc:^:This human looks like he's been through quite a few battles.  He does
+however look ready for more.  
+race:^:human
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)500
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)-1
+dam:^:1d6+0
+noun:^:pound
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc scavenger stay_area warrior 
+offense:^:bash assist_race assist_players 
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17045
+keywords:^:elven soldier bosco
+name:^:an elven soldier
+desc:^:This elven soldier is watching over the gate to prevent invaders from slipping in.
+longdesc:^:This elf seems to be waiting for a target to come into view.  They bear
+the crest of bosco.  
+race:^:elf
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)500
+level:^:(*int)4
+max_hp:^:2d7+46
+hit:^:(*int)0
+dam:^:1d5+1
+noun:^:slap
+ac:^:6 6 6 6
+affects:^:infrared 
+actions:^:npc sentinel stay_area warrior 
+offense:^:trip assist_race 
+vulnerable:^:iron 
+resist:^:charm 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17046
+keywords:^:dwarf dwarven soldier
+name:^:a dwarven soldier
+desc:^:A sturdy looking dwarf is keeping an eye on things.
+longdesc:^:This hardy dwarf hails from the mountain and seems ready to defend
+Bosco's honor.  He wears the crest of Bosco.  
+race:^:dwarf
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)500
+level:^:(*int)5
+max_hp:^:2d6+60
+hit:^:(*int)-2
+dam:^:1d6+1
+noun:^:smash
+ac:^:5 5 5 5
+affects:^:infrared 
+actions:^:npc stay_area warrior 
+offense:^:disarm assist_race assist_players assist_guard 
+vulnerable:^:drowning 
+resist:^:poison disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17047
+keywords:^:giant soldier man huge sentry
+name:^:a giant soldier
+desc:^:A huge man stands sentry on the tower, ready to throw boulders at the attacking armies.
+longdesc:^:This giant man looks quite battle hardened.  He wears the crest of Bosco.  
+race:^:giant
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)500
+level:^:(*int)6
+max_hp:^:2d7+71
+hit:^:(*int)-1
+dam:^:1d7+1
+noun:^:smash
+ac:^:4 4 4 4
+affects:^:
+actions:^:npc sentinel stay_area warrior 
+offense:^:bash crush assist_race assist_guard 
+vulnerable:^:lightning 
+resist:^:fire cold 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17048
+keywords:^:young dragon soldier
+name:^:a dragon soldier
+desc:^:A young dragon stands sentry guarding the gate from intruders.
+longdesc:^:This strong looking dragon looks like they are ready for battle.  They
+bear the crest of Bosco.  
+race:^:green dragon
+position:^:stand
+wealth:^:(*int)100
+size:^:large
+align:^:(*int)500
+level:^:(*int)7
+max_hp:^:2d6+85
+hit:^:(*int)-2
+dam:^:1d8+1
+noun:^:slash
+ac:^:4 4 4 4
+affects:^:infrared flying dark_vision 
+actions:^:npc sentinel stay_area warrior 
+offense:^:bash tail assist_align assist_guard 
+vulnerable:^:lightning 
+resist:^:charm bash acid poison 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17049
+keywords:^:pete armorer shop keeper
+name:^:Peter the keeper of arms
+desc:^:Peter, the keeper of arms stands ready to equip you or purchase your used armor.
+longdesc:^:This shopkeeper deals in armor and clothing and nothing else.  Use the
+buy, sell, and list commands like with all shops.  He wears the crest of
+Bosco.  
+race:^:dwarf
+position:^:stand
+wealth:^:(*int)100000
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)14
+max_hp:^:2d10+190
+hit:^:(*int)0
+dam:^:1d12+3
+noun:^:divine
+ac:^:-1 -1 -1 -1
+affects:^:infrared 
+actions:^:npc sentinel stay_area no_purge 
+offense:^:
+vulnerable:^:drowning 
+resist:^:poison disease 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17050
+keywords:^:John shop keeper weapon human
+name:^:John the weaponsmith
+desc:^:John the weaponsmith is here to supply you with weapons.
+longdesc:^:This shopkeeper deals in weapons and nothing else.  Use the buy, sell, and
+list commands like with all shops.  He wears the crest of Bosco.  
+race:^:human
+position:^:stand
+wealth:^:(*int)100000
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)15
+max_hp:^:3d9+208
+hit:^:(*int)0
+dam:^:2d6+3
+noun:^:divine
+ac:^:-2 -2 -2 -2
+affects:^:
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17051
+keywords:^:jessica alchemist shop keeper
+name:^:Jessica the alchemist
+desc:^:Jessica is here to provide you with magical goods, for a price.
+longdesc:^:This shopkeeper deals in magic items (potions, scrolls, pills.  Wands,
+and staffs) and nothing but.  Use the buy, sell, and list commands like with
+all shops.  She wears the crest of Bosco.  
+race:^:elf
+position:^:stand
+wealth:^:(*int)100000
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)15
+max_hp:^:3d9+208
+hit:^:(*int)0
+dam:^:2d6+3
+noun:^:divine
+ac:^:-2 -2 -2 -2
+affects:^:infrared 
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:iron 
+resist:^:charm 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17052
+keywords:^:william supply keeper shop
+name:^:Walter the supply dealer
+desc:^:William is here to supply you with general goods.
+longdesc:^:This shopkeeper deals in general supplies.  Use the buy, sell, and list
+commands like with all shops.  He wears the crest of Bosco.  
+race:^:human
+position:^:stand
+wealth:^:(*int)100000
+size:^:medium
+align:^:(*int)1000
+level:^:(*int)15
+max_hp:^:3d9+208
+hit:^:(*int)0
+dam:^:2d6+3
+noun:^:divine
+ac:^:-2 -2 -2 -2
+affects:^:
+actions:^:npc sentinel stay_area 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17053
+keywords:^:troll scout sneaky little
+name:^:a troll scout
+desc:^:A sneaky little troll scout is here checking out the defenses.
+longdesc:^:This little troll looks like he doesn't want to fight.  He wears the
+crest of selina.  
 race:^:troll
-max_hp:^:3d10+80
-damage:^:2d5+2
-noun:^:bite
-position:^:(*int)1
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d6+0
+noun:^:stab
+ac:^:7 7 7 7
+affects:^:infrared sneak 
+actions:^:npc scavenger stay_area wimpy thief 
+offense:^:
+vulnerable:^:fire 
+resist:^:disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue tail claws fangs horns scales 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:4160
-keywords:^:orc
-name:^:the orc
-desc:^:A large orc growls in your face.
-longdesc:^:He is just looking for a fight isn't he?
-race:^:orc
-max_hp:^:3d10+100
-damage:^:1d8+2
-noun:^:beating
-position:^:(*int)1
+vnum:^:17054
+keywords:^:troll pikemen massive
+name:^:a troll pikemen
+desc:^:A massive troll stands here holding the line.
+longdesc:^:This troll isn't gonna let you pass without a fight.  They wear the crest
+of Selina.  
+race:^:troll
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)4
+max_hp:^:2d7+46
+hit:^:(*int)-1
+dam:^:1d5+1
+noun:^:pierce
+ac:^:6 6 6 6
+affects:^:infrared 
+actions:^:npc sentinel stay_area warrior 
+offense:^:
+vulnerable:^:fire 
+resist:^:disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue tail claws fangs horns scales 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:3500
-keywords:^:wyvern
-name:^:the wyvern
-desc:^:A monstrous wyvern slowly circles just above your head.
-longdesc:^:This huge winged creature looks really menacing.  You are happy it doesn't
-APPEAR to be very hungry ... yet.
-race:^:wyvern
-max_hp:^:8d8+80
-damage:^:2d6+1
-noun:^:bite
-position:^:(*int)1
+vnum:^:17055
+keywords:^:troll archer
+name:^:a troll archer
+desc:^:A troll archer stands here waiting for the signal to attack.
+longdesc:^:This archer looks well trained and ready for action.  They wear the crest
+of Selina.  
+race:^:troll
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)5
+max_hp:^:2d6+60
+hit:^:(*int)-2
+dam:^:1d6+1
+noun:^:pierce
+ac:^:5 5 5 5
+affects:^:infrared 
+actions:^:npc sentinel stay_area warrior 
+offense:^:dodge 
+vulnerable:^:fire 
+resist:^:disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue tail claws fangs horns scales 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:3501
-keywords:^:goblin mountain
-name:^:the goblin
-desc:^:A mountain goblin is wandering about, mumbling to himself.
-longdesc:^:You see before you a small and twisted creature with knotted muscles.
-race:^:goblin
-max_hp:^:4d4+65
-damage:^:2d4+1
+vnum:^:17056
+keywords:^:troll axemen buff
+name:^:a troll axemen
+desc:^:A buff troll wanders around, looking for a skull to plant his axe in.
+longdesc:^:This troll isn't playing games, he wants you dead.  He wears the crest of
+Selina.  
+race:^:troll
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)0
+level:^:(*int)6
+max_hp:^:2d7+71
+hit:^:(*int)-1
+dam:^:1d7+1
+noun:^:chop
+ac:^:4 4 4 4
+affects:^:infrared 
+actions:^:npc stay_area warrior 
+offense:^:bash 
+vulnerable:^:fire 
+resist:^:disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17057
+keywords:^:troll knight noble
+name:^:a troll knight
+desc:^:A noble troll riding a horse looks ready to charge into battle.
+longdesc:^:This noble troll looks ready to give his life for Selina.  He wears his
+family crest and the crest of Selina.  
+race:^:troll
+position:^:stand
+wealth:^:(*int)1000
+size:^:medium
+align:^:(*int)0
+level:^:(*int)7
+max_hp:^:2d6+85
+hit:^:(*int)-1
+dam:^:1d8+1
+noun:^:divine
+ac:^:4 4 4 4
+affects:^:infrared 
+actions:^:npc sentinel stay_area warrior 
+offense:^:disarm kick rescue 
+vulnerable:^:fire 
+resist:^:disease 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17058
+keywords:^:troll captain important
+name:^:a troll captain
+desc:^:An important looking troll stands here barking out orders for the siege.
+longdesc:^:This troll has reached a high point in his life and looks ready to take
+the fort.  He wears the crest of Selina.  
+race:^:troll
+position:^:stand
+wealth:^:(*int)1000
+size:^:medium
+align:^:(*int)0
+level:^:(*int)8
+max_hp:^:2d7+96
+hit:^:(*int)-2
+dam:^:1d7+0
 noun:^:punch
-position:^:(*int)1
+ac:^:3 3 3 3
+affects:^:infrared grandeur prot_evil prot_good 
+actions:^:npc sentinel stay_area warrior 
+offense:^:
+vulnerable:^:fire 
+resist:^:disease 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue tail claws fangs horns scales 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:3502
-keywords:^:boy small
-name:^:the small boy
-desc:^:A small boy sits here, licking his wounds.
-longdesc:^:The poor boy has numerous cuts and scratches, but appears to be all right.
-He is apparently the only survivor of the ambush.
+vnum:^:17059
+keywords:^:tregnar troll commander
+name:^:{GTregnar{x, the troll commander
+desc:^:Tregnar the troll commander stands here smiling at the impending chaos of the battle.
+longdesc:^:Tregnar is the highest ranking troll soldier.  He has been selected to
+lead the siege against Bosco's fort.  He wears the crest of Selina.  
+race:^:troll
+position:^:stand
+wealth:^:(*int)1500
+size:^:medium
+align:^:(*int)0
+level:^:(*int)9
+max_hp:^:2d6+110
+hit:^:(*int)-2
+dam:^:1d8+2
+noun:^:divine
+ac:^:2 2 2 2
+affects:^:infrared grandeur 
+actions:^:npc sentinel stay_area warrior 
+offense:^:bash dodge parry 
+vulnerable:^:fire 
+resist:^:disease 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17060
+keywords:^:sliver larva
+name:^:a sliver larva
+desc:^:A very young sliver looks very hungry....for flesh.
+longdesc:^:This sliver appears to still be in early development.  It wears the
+collar of the {rBlood{wHive{x Army.  
+race:^:sliver
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)3
+max_hp:^:2d6+35
+hit:^:(*int)0
+dam:^:1d3+0
+noun:^:slime
+ac:^:7 7 7 7
+affects:^:
+actions:^:npc sentinel stay_area warrior 
+offense:^:assist_race 
+vulnerable:^:acid 
+resist:^:charm 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17061
+keywords:^:sliver worker
+name:^:a worker sliver
+desc:^:A sliver appears to be tunneling and gathering food for the hive.
+longdesc:^:This worker sliver seems to just do that, work.  He wears the collar of
+the {rBlood{wHive{x Army.  
+race:^:sliver
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)5
+max_hp:^:2d6+60
+hit:^:(*int)-1
+dam:^:1d6+1
+noun:^:slash
+ac:^:5 5 5 5
+affects:^:
+actions:^:npc scavenger stay_area wimpy warrior 
+offense:^:trip 
+vulnerable:^:acid 
+resist:^:charm 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17062
+keywords:^:jagged sliver soldier
+name:^:a jagged sliver soldier
+desc:^:A mean looking sliver soldier stands here training for the coming assault.
+longdesc:^:This tough looking sliver looks like he can dish out a lot of damage.  He
+wears the collar of the {rBlood{wHive{x Army.  
+race:^:sliver
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)7
+max_hp:^:2d6+85
+hit:^:(*int)-1
+dam:^:1d8+1
+noun:^:slash
+ac:^:4 4 4 4
+affects:^:
+actions:^:npc sentinel stay_area warrior 
+offense:^:bash disarm kick_dirt parry trip assist_race 
+vulnerable:^:acid 
+resist:^:charm 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17063
+keywords:^:shielded sliver soldier
+name:^:a shielded sliver soldier
+desc:^:This sliver soldier appears to be working on its defence.
+longdesc:^:This sliver looks sturdy enough to resist a few spells.  He wears the
+collar of the {rBlood{wHive{x Army.  
+race:^:sliver
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)7
+max_hp:^:2d6+85
+hit:^:(*int)-1
+dam:^:1d8+1
+noun:^:slash
+ac:^:4 4 4 4
+affects:^:
+actions:^:npc sentinel stay_area warrior 
+offense:^:bash disarm kick_dirt trip assist_race 
+vulnerable:^:acid 
+resist:^:charm 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17064
+keywords:^:enraged sliver elite
+name:^:an enraged sliver elite
+desc:^:This elite sliver soldier looks like he is well trained in accuracy.
+longdesc:^:One of the queen's elite soldiers, they prepare for the coming battle.  He
+wears the collar of the {rBlood{wHive{x Army.  
+race:^:sliver
+position:^:stand
+wealth:^:(*int)300
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)9
+max_hp:^:2d6+110
+hit:^:(*int)-3
+dam:^:1d8+2
+noun:^:slash
+ac:^:2 2 2 2
+affects:^:
+actions:^:npc sentinel stay_area warrior 
+offense:^:bash disarm kick_dirt parry trip assist_race 
+vulnerable:^:acid 
+resist:^:charm 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17065
+keywords:^:savage sliver elite
+name:^:a savage sliver elite
+desc:^:This savage sliver is tearing apart a combat dummy, and appears to want a better target.
+longdesc:^:One of the queen's elite soldiers, they prepare for the coming battle. 
+They wear the collar of the {rBlood{wHive{x Army.  
+race:^:sliver
+position:^:stand
+wealth:^:(*int)300
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)9
+max_hp:^:2d6+110
+hit:^:(*int)-3
+dam:^:1d8+2
+noun:^:slash
+ac:^:2 2 2 2
+affects:^:
+actions:^:npc sentinel stay_area warrior 
+offense:^:bash disarm kick_dirt parry trip assist_race 
+vulnerable:^:acid 
+resist:^:charm 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17066
+keywords:^:strivia ancient queen sliver
+name:^:{rStrivia{x the ancient sliver queen
+desc:^:{rStrivia{x, the ancient queen sliver, looks quite annoyed at your intrusion.
+longdesc:^:This magificent ancient sliver has been "providing" new recruits for her
+army.  She wears the collar of the {rBlood{wHive{x Army.  
+race:^:sliver
+position:^:stand
+wealth:^:(*int)500
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)12
+max_hp:^:2d10+150
+hit:^:(*int)1
+dam:^:1d10+3
+noun:^:slash
+ac:^:0 0 0 0
+affects:^:detect_invis berserk grandeur prot_evil prot_good 
+actions:^:npc sentinel stay_area warrior 
+offense:^:bash disarm kick_dirt parry trip 
+vulnerable:^:acid 
+resist:^:charm 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes long_tongue wings tail claws fangs horns scales 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17067
+keywords:^:gargoyle stone acolyte
+name:^:a stone acolyte
+desc:^:A gargoyle wearing monk robes walks around cleaning and fetching things.
+longdesc:^:This gargoyle has been waiting his whole life to join the
+{wStone{bBlade{x army.  He wears his robes and belt quite proudly.  
+race:^:gargoyle
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)5
+max_hp:^:2d6+60
+hit:^:(*int)0
+dam:^:1d6+1
+noun:^:smash
+ac:^:5 5 5 5
+affects:^:infrared flying 
+actions:^:npc scavenger stay_area wimpy cleric 
+offense:^:trip 
+vulnerable:^:poison disease 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes wings tail claws fangs 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17068
+keywords:^:gargoyle spirit speaker monk
+name:^:a spirit speaker
+desc:^:A monk in deep meditation seems to be whispering to no one in particular in the room.
+longdesc:^:This monk has charms all over themself as if to ward off some dark
+spirit.  They belong to the {wStone{bBlade{x army.  
+race:^:gargoyle
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)7
+max_hp:^:2d6+85
+hit:^:(*int)0
+dam:^:1d8+1
+noun:^:smash
+ac:^:4 4 4 4
+affects:^:infrared flying 
+actions:^:npc sentinel stay_area cleric 
+offense:^:
+vulnerable:^:poison disease 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes wings tail claws fangs 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17069
+keywords:^:sentinal blade statue
+name:^:a sentinal blade
+desc:^:A strange looking statue looks slighty out of place, until it attacks.
+longdesc:^:This gargoyle has trained for years to become a great assassin.  They
+belong to the {wStone{bBlade{x army.  
+race:^:gargoyle
+position:^:stand
+wealth:^:(*int)200
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)7
+max_hp:^:2d6+85
+hit:^:(*int)0
+dam:^:1d8+1
+noun:^:pierce
+ac:^:4 4 4 4
+affects:^:infrared sneak hide flying 
+actions:^:npc sentinel stay_area cleric 
+offense:^:backstab kick_dirt 
+vulnerable:^:poison disease 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes wings tail claws fangs 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17070
+keywords:^:gargoyle monk stone fist
+name:^:a stone fist
+desc:^:A strong looking monk glides along looking well at peace with himself.
+longdesc:^:This monk has studied many years to become this good.  They belong to the
+{wStone{bBlade{x army.  
+race:^:gargoyle
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)7
+max_hp:^:2d6+85
+hit:^:(*int)0
+dam:^:1d8+1
+noun:^:smash
+ac:^:4 4 4 4
+affects:^:infrared sneak flying 
+actions:^:npc stay_area cleric 
+offense:^:kick trip 
+vulnerable:^:poison disease 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes wings tail claws fangs 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17071
+keywords:^:shadow haunting gargoyle
+name:^:a haunting shadow
+desc:^:A shadow seems to move across the room, and then disappears.
+longdesc:^:Now you see them, now you don't.  They belong to the {wStone{bBlade{x
+army.  
+race:^:gargoyle
+position:^:stand
+wealth:^:(*int)500
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)9
+max_hp:^:2d6+110
+hit:^:(*int)-1
+dam:^:1d8+2
+noun:^:pierce
+ac:^:2 2 2 2
+affects:^:infrared hide flying 
+actions:^:npc sentinel stay_area cleric 
+offense:^:kick kick_dirt trip 
+vulnerable:^:poison disease 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes wings tail claws fangs 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17072
+keywords:^:creature demon stone samurai
+name:^:a stone samurai
+desc:^:A creature in heavy armor with a demon-like face is meditating here.
+longdesc:^:This samurai is from an esteemed family and seems keen to retain his
+family's honour.  They belong to the {wStone{bBlade{x army.  
+race:^:gargoyle
+position:^:stand
+wealth:^:(*int)1000
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)9
+max_hp:^:2d6+110
+hit:^:(*int)-2
+dam:^:1d8+2
+noun:^:slash
+ac:^:2 2 2 2
+affects:^:infrared flying 
+actions:^:npc sentinel stay_area cleric 
+offense:^:area kick 
+vulnerable:^:poison disease 
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes wings tail claws fangs 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17073
+keywords:^:tokogane daimyo stone blade gargoyle
+name:^:{bTokogane{x, daimyo of the StoneBlades
+desc:^:{bTokogane{x, Daimyo of the StoneBlades, looks down at you with an unhappy look on his face.
+longdesc:^:Tokogane is a large gargoyle who has studied the way of bushido for a
+long time.  He looks quite able to defend himself.  He rules the
+{wStone{bBlade{x Army.  
+race:^:gargoyle
+position:^:stand
+wealth:^:(*int)1000
+size:^:large
+align:^:(*int)-1000
+level:^:(*int)10
+max_hp:^:2d7+121
+hit:^:(*int)-2
+dam:^:2d4+0
+noun:^:slash
+ac:^:1 1 1 1
+affects:^:detect_invis berserk infrared prot_evil prot_good flying 
+actions:^:npc sentinel stay_area cleric 
+offense:^:area dodge kick trip 
+vulnerable:^:poison disease 
+resist:^:
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes wings tail claws fangs 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17074
+keywords:^:sneak thief kirre
+name:^:a sneak thief
+desc:^:A sneaky looking kirre is looking for a pocket to pick.
+longdesc:^:This small kirre is well equiped to steal everything you own.  They wear
+the armband of the {DBlack{YClaw{x Army.  
+race:^:kirre
+position:^:stand
+wealth:^:(*int)1
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)5
+max_hp:^:2d6+60
+hit:^:(*int)-1
+dam:^:1d6+1
+noun:^:slash
+ac:^:5 5 5 5
+affects:^:infrared sneak hide 
+actions:^:npc scavenger stay_area wimpy thief 
+offense:^:backstab kick_dirt 
+vulnerable:^:cold 
+resist:^:lightning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes tail 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17075
+keywords:^:buff kirre black sabre
+name:^:a black sabre
+desc:^:This buff kirre looks ready for a straight combat.
+longdesc:^:This kirre seems to have focused on combat rather than thievery.  They
+wear the armband of the {DBlack{YClaw{x Army.  
+race:^:kirre
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)7
+max_hp:^:2d6+85
+hit:^:(*int)-3
+dam:^:1d8+1
+noun:^:slash
+ac:^:4 4 4 4
+affects:^:infrared 
+actions:^:npc stay_area thief warrior 
+offense:^:bash tail trip 
+vulnerable:^:cold 
+resist:^:lightning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes tail 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17076
+keywords:^:runed fury kirre tattoo runist
+name:^:a runed fury
+desc:^:This kirre is covered in tattoos from from head to toe. They grin at you as you look upon them.
+longdesc:^:This runist kirre might just give you some trouble.  They wear the
+armband of the {DBlack{YClaw{x Army.  
+race:^:kirre
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)7
+max_hp:^:2d6+85
+hit:^:(*int)-1
+dam:^:1d8+1
+noun:^:slash
+ac:^:4 4 4 4
+affects:^:infrared 
+actions:^:npc sentinel stay_area thief 
+offense:^:kick kick_dirt trip 
+vulnerable:^:cold 
+resist:^:lightning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes tail 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17077
+keywords:^:fang assassin cloak kirre
+name:^:a fang assassin
+desc:^:A cloaked kirre hides in the shadows, and then leaps at you, teeth bared!
+longdesc:^:This assassin is looking for their next easy kill.  They wear the armband
+of the {DBlack{YClaw{x Army.  
+race:^:kirre
+position:^:stand
+wealth:^:(*int)200
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)7
+max_hp:^:2d6+85
+hit:^:(*int)0
+dam:^:1d8+1
+noun:^:pierce
+ac:^:4 4 4 4
+affects:^:infrared hide 
+actions:^:npc sentinel stay_area thief 
+offense:^:backstab kick_dirt trip 
+vulnerable:^:cold 
+resist:^:lightning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes tail 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17078
+keywords:^:swear shadow thief dark rogue kirre
+name:^:a dark rogue
+desc:^:You swear you thought you saw something move in the shadows.
+longdesc:^:This kirre is quite adept at hiding in the shadows, better watch your
+purse.  They wear the armband of the {DBlack{YClaw{x Army.  
+race:^:kirre
+position:^:stand
+wealth:^:(*int)1000
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)9
+max_hp:^:2d6+110
+hit:^:(*int)-1
+dam:^:1d8+2
+noun:^:pierce
+ac:^:2 2 2 2
+affects:^:infrared sneak hide 
+actions:^:npc sentinel stay_area thief 
+offense:^:backstab kick_dirt 
+vulnerable:^:cold 
+resist:^:lightning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes tail 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17079
+keywords:^:kirre shadow assassin lotus
+name:^:a lotus assassin
+desc:^:A kirre smiles at you from the corner, and then leaps for your throat.
+longdesc:^:This assassin has been training a long time, and now you're its next
+sparring partner.  They wear the armband of the {DBlack{YClaw{x Army.  
+race:^:kirre
+position:^:stand
+wealth:^:(*int)200
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)9
+max_hp:^:2d6+110
+hit:^:(*int)-1
+dam:^:1d8+2
+noun:^:slash
+ac:^:2 2 2 2
+affects:^:infrared hide 
+actions:^:npc sentinel stay_area thief 
+offense:^:backstab kick_dirt tail trip 
+vulnerable:^:cold 
+resist:^:lightning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes tail 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17080
+keywords:^:kanos dark assassin
+name:^:{DKanos{x the dark assassin
+desc:^:{DKanos{x the dark assassin stands before you, smiling happily.
+longdesc:^:Kanos comes from a line of kirre assassins and plans to prove his worth. 
+He wears the armband of the {DBlack{YClaw{x Army.  
+race:^:kirre
+position:^:stand
+wealth:^:(*int)1000
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)12
+max_hp:^:2d10+150
+hit:^:(*int)1
+dam:^:1d10+3
+noun:^:pierce
+ac:^:0 0 0 0
+affects:^:berserk infrared prot_evil prot_good hide 
+actions:^:npc sentinel stay_area thief 
+offense:^:area backstab disarm kick_dirt trip 
+vulnerable:^:cold 
+resist:^:lightning 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes tail 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17081
+keywords:^:apprentice young marid
+name:^:a young marid
+desc:^:A young marid seems to be gathering supplies for the coming battle.
+longdesc:^:This marid isn't a caster yet, not for lack of trying.  They wear the
+brooch of the {yT{ce{ym{cp{ye{cs{yt{x Army.  
+race:^:marid
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)5
+max_hp:^:2d6+60
+hit:^:(*int)-1
+dam:^:1d6+1
+noun:^:blast
+ac:^:5 5 5 5
+affects:^:water_breathing water_walk 
+actions:^:npc scavenger stay_area wimpy mage 
+offense:^:
+vulnerable:^:lightning 
+resist:^:fire drowning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17082
+keywords:^:master wave marid caster
+name:^:a master of the {Cwaves{x
+desc:^:A marid plays with the water, which seems to follow their command.
+longdesc:^:This marid specializes in water based magics.  They wear the brooch of
+the {yT{ce{ym{cp{ye{cs{yt{x Army.  
+race:^:marid
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)7
+max_hp:^:2d6+85
+hit:^:(*int)-1
+dam:^:1d8+1
+noun:^:smother
+ac:^:4 4 4 4
+affects:^:water_breathing water_walk 
+actions:^:npc stay_area mage 
+offense:^:
+vulnerable:^:lightning 
+resist:^:fire drowning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17083
+keywords:^:marid fire deep
+name:^:a {rfire{x of the deep
+desc:^:A marid in red robes is playing with fire...underwater.
+longdesc:^:This marid caster has specialized in fire based magics.  They wear the
+brooch of the {yT{ce{ym{cp{ye{cs{yt{x Army.  
+race:^:marid
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)7
+max_hp:^:2d6+85
+hit:^:(*int)-1
+dam:^:1d8+1
+noun:^:flame
+ac:^:4 4 4 4
+affects:^:water_breathing water_walk 
+actions:^:npc stay_area mage 
+offense:^:
+vulnerable:^:lightning 
+resist:^:fire drowning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17084
+keywords:^:gale bringer marid caster
+name:^:a {Wgale{x bringer
+desc:^:A marid appears to be flying as if carried by the wind.
+longdesc:^:This marid caster specialized in air based magics.  They wear the brooch
+of the {yT{ce{ym{cp{ye{cs{yt{x Army.  
+race:^:marid
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)7
+max_hp:^:2d6+85
+hit:^:(*int)-1
+dam:^:1d8+1
+noun:^:suction
+ac:^:4 4 4 4
+affects:^:water_breathing flying water_walk 
+actions:^:npc stay_area mage 
+offense:^:
+vulnerable:^:lightning 
+resist:^:fire drowning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17085
+keywords:^:raging befouler marid
+name:^:a raging befouler
+desc:^:This befouler is stomping all over the place trying to get hyped up.
+longdesc:^:Screw magic, this marid goes on the attack!  They wear the brooch of the
+{yT{ce{ym{cp{ye{cs{yt{x Army.  
+race:^:marid
+position:^:stand
+wealth:^:(*int)100
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)9
+max_hp:^:2d6+110
+hit:^:(*int)-2
+dam:^:1d8+2
+noun:^:smash
+ac:^:2 2 2 2
+affects:^:water_breathing haste water_walk 
+actions:^:npc sentinel mage warrior 
+offense:^:bash 
+vulnerable:^:lightning 
+resist:^:fire drowning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17086
+keywords:^:song nymph marid
+name:^:a song nymph
+desc:^:This marid is quite beautiful and sings a lovely melody that makes you sleepy.
+longdesc:^:Thie marid knows how to deal with soldiers.  They wear the brooch of the
+{yT{ce{ym{cp{ye{cs{yt{x Army.  
+race:^:marid
+position:^:stand
+wealth:^:(*int)1000
+size:^:medium
+align:^:(*int)-500
+level:^:(*int)9
+max_hp:^:2d6+110
+hit:^:(*int)-1
+dam:^:1d8+2
+noun:^:magic
+ac:^:2 2 2 2
+affects:^:water_breathing water_walk 
+actions:^:npc sentinel stay_area mage 
+offense:^:
+vulnerable:^:lightning 
+resist:^:fire drowning 
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17087
+keywords:^:dianti queen sea nymph
+name:^:{wDianti{x, queen of the sea nymphs
+desc:^:{wDianti{x, Queen of the sea nymphs, stands before you in all her beauty and glory, and slowly raises a finger towards you.
+longdesc:^:Dianti is very possibly the most beautiful of all the Marids.  Her beauty
+is only matched by her temper.  She is the leader of the
+{yT{ce{ym{cp{ye{cs{yt{x Army.  
+race:^:marid
+position:^:stand
+wealth:^:(*int)5000
+size:^:medium
+align:^:(*int)-1000
+level:^:(*int)12
+max_hp:^:2d10+150
+hit:^:(*int)1
+dam:^:1d10+3
+noun:^:magic
+ac:^:0 0 0 0
+affects:^:water_breathing berserk prot_evil prot_good water_walk 
+actions:^:npc sentinel stay_area mage 
+offense:^:
+vulnerable:^:lightning 
+resist:^:fire drowning 
+immune:^:summon charm 
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
+--- END MOBILE ---
+--- START MOBILE ---
+vnum:^:17088
+keywords:^:custodian bosco school
+name:^:a Bosco school custodian
+desc:^:A custodian stands here looking for a mess to clean.
+longdesc:^:This janitor gets paid pennies to clean up messes.
 race:^:human
-max_hp:^:1d12+47
-damage:^:1d6+0
-noun:^:beating
-position:^:(*int)1
+position:^:stand
+wealth:^:(*int)0
+size:^:medium
+align:^:(*int)0
+level:^:(*int)1
+max_hp:^:2d6+10
+hit:^:(*int)0
+dam:^:1d4+0
+noun:^:divine
+ac:^:9 9 9 9
+affects:^:detect_invis berserk 
+actions:^:npc stay_area 
+offense:^:
+vulnerable:^:
+resist:^:
+immune:^:
+parts:^:head arms legs heart brains guts hands feet fingers ears eyes 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:3503
-keywords:^:innkeeper
-name:^:the Innkeeper
-desc:^:The Innkeeper stands here, cleaning glasses.
-longdesc:^:The Innkeeper now spends most of his days waiting for customers, while the
-nights are spent watching out for goblins.  His inn is no longer the happy
-place that is used to be in days past.
-race:^:human
-max_hp:^:1d12+200
-damage:^:2d8+1
-noun:^:punch
-position:^:(*int)1
+vnum:^:17089
+keywords:^:coke machine
+name:^:a {Rc{Wo{Rk{We{x machine
+desc:^:A large coke machine sits humming quietly in the corner.
+longdesc:^:This old coke machine sells only one thing: coke.
+race:^:doll
+position:^:stand
+wealth:^:(*int)100000
+size:^:medium
+align:^:(*int)0
+level:^:(*int)51
+max_hp:^:50d10+5000
+hit:^:(*int)5
+dam:^:5d8+20
+noun:^:divine
+ac:^:-21 -21 -21 -21
+affects:^:detect_invis infrared 
+actions:^:npc sentinel stay_area train practice no_purge healer skill_train 
+offense:^:
+vulnerable:^:energy 
+resist:^:bash cold poison negative holy mental disease drowning light 
+immune:^:summon charm magic weapon 
+parts:^:head arms legs hands feet eyes 
 --- END MOBILE ---
 --- START MOBILE ---
-vnum:^:3504
-keywords:^:bard
-name:^:the bard
-desc:^:A sullen bard is here, drinking away his problems.
-longdesc:^:You can smell the alcohol on his breath from across the room.  This poor bard
-has been sitting here quite a while, drinking himself into oblivion.
-race:^:human
-max_hp:^:1d12+110
-damage:^:2d6+0
-noun:^:punch
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:3505
-keywords:^:horseman dark
-name:^:the dark horseman
-desc:^:A dark horseman is here, mounted on his black steed.
-longdesc:^:The man is obviously an outlaw, and has no qualms about slashing you into
-little bits.
-race:^:human
-max_hp:^:1d12+110
-damage:^:2d5+2
-noun:^:punch
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:3506
-keywords:^:goblin lieutenant
-name:^:the goblin lieutenant
-desc:^:A goblin lieutenant stands here, attempting to get his men in order.
-longdesc:^:The goblin lieutenant is rather angry, and looking for one of his men to
-beat up upon, but maybe you will do just fine ...
-race:^:goblin
-max_hp:^:1d12+100
-damage:^:1d10+1
-noun:^:punch
-position:^:(*int)1
---- END MOBILE ---
---- START MOBILE ---
-vnum:^:3507
-keywords:^:goblin leader
-name:^:the goblin leader
-desc:^:The goblin leader surveys the room.
-longdesc:^:The leader doesn't look too happy that you have found him here.  He grabs
-for his shortsword and lunges for your neck.
-race:^:goblin
-max_hp:^:1d12+120
-damage:^:1d12+3
-noun:^:punch
-position:^:(*int)1
+vnum:^:17090
+keywords:^:small snail
+name:^:the snail
+desc:^:A snail is trying to get out of your way.
+longdesc:^:It is small and ugly. Looks like an easy kill.
+race:^:school monster
+position:^:stand
+wealth:^:(*int)0
+size:^:tiny
+align:^:(*int)0
+level:^:(*int)0
+max_hp:^:1d1+0
+hit:^:(*int)0
+dam:^:1d1+0
+noun:^:digestion
+ac:^:9 9 9 9
+affects:^:
+actions:^:npc stay_area no_align 
+offense:^:
+vulnerable:^:magic 
+resist:^:
+immune:^:summon charm acid iron 
+parts:^:head arms legs heart brains guts feet ears eyes tail claws 
 --- END MOBILE ---

@@ -141,73 +141,78 @@ class Player(mobile.Mobile):
         #  Presumes an item in your inventory
         peer = self.peer
 
-        temp_loc = armor.wear_loc
-        if temp_loc == _.WEAR_WEAPON:
-            self.wield_weapon(armor)
+        if len(armor.wear_loc) <= 0:
+            self.send("You cannot wear this item.\n\r")
             return
-        #  Check if there's an open slot
-        if self.equipment[temp_loc] is None:
+
+        for w in armor.wear_loc:
+            temp_loc = int(w)
+            if temp_loc == _.WEAR_WEAPON:
+                self.wield_weapon(armor)
+                return
+            #  Check if there's an open slot
+            if self.equipment[temp_loc] is -1:
+                #  Easy, just remove from inventory and equip to that slot
+                self.equipment[temp_loc] = armor
+                self.inventory.remove(armor)
+                #  Eventually we will add messages better tailored to the slot being used
+                peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
+                _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
+                                      self.get_room(), [peer,])
+                return
+            #  For a few items, check for a second open slot as well
+            if temp_loc == _.WEAR_WRIST:
+                if self.equipment[_.WEAR_WRIST2] is None:
+                    #  Easy, just remove from inventory and equip to that slot
+                    self.equipment[_.WEAR_WRIST2] = armor
+                    self.inventory.remove(armor)
+                    #  Eventually we will add messages better tailored to the slot being used
+                    peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
+                    _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
+                                          self.get_room(), [peer,])
+                    return
+            if temp_loc == _.WEAR_FLOAT:
+                if self.equipment[_.WEAR_FLOAT2] is None:
+                    #  Easy, just remove from inventory and equip to that slot
+                    self.equipment[_.WEAR_FLOAT2] = armor
+                    self.inventory.remove(armor)
+                    #  Eventually we will add messages better tailored to the slot being used
+                    peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
+                    _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
+                                          self.get_room(), [peer,])
+                    return
+            if temp_loc == _.WEAR_FINGER:
+                if self.equipment[_.WEAR_FINGER2] is None:
+                    #  Easy, just remove from inventory and equip to that slot
+                    self.equipment[_.WEAR_FINGER2] = armor
+                    self.inventory.remove(armor)
+                    #  Eventually we will add messages better tailored to the slot being used
+                    peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
+                    _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
+                                          self.get_room(), [peer,])
+                    return
+            if temp_loc == _.WEAR_NECK:
+                if self.equipment[_.WEAR_NECK2] is None:
+                    #  Easy, just remove from inventory and equip to that slot
+                    self.equipment[_.WEAR_NECK2] = armor
+                    self.inventory.remove(armor)
+                    #  Eventually we will add messages better tailored to the slot being used
+                    peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
+                    _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
+                                          self.get_room(), [peer,])
+                    return
+            # No luck, so we just remove the item at the given slot and add the new item
             #  Easy, just remove from inventory and equip to that slot
+            self.inventory.append(self.equipment[temp_loc])
+            peer.account.player.send("You stop using %s.\n\r" % self.equipment[temp_loc].get_name())
+            _.send_to_room_except("%s stops using %s.\n\r" % (self.get_name(), self.equipment[temp_loc].get_name()), \
+                                  self.get_room(), [peer,])
             self.equipment[temp_loc] = armor
             self.inventory.remove(armor)
             #  Eventually we will add messages better tailored to the slot being used
             peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
             _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
                                   self.get_room(), [peer,])
-            return
-        #  For a few items, check for a second open slot as well
-        if temp_loc == _.WEAR_WRIST:
-            if self.equipment[_.WEAR_WRIST2] is None:
-                #  Easy, just remove from inventory and equip to that slot
-                self.equipment[_.WEAR_WRIST2] = armor
-                self.inventory.remove(armor)
-                #  Eventually we will add messages better tailored to the slot being used
-                peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
-                _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
-                                      self.get_room(), [peer,])
-                return
-        if temp_loc == _.WEAR_FLOAT:
-            if self.equipment[_.WEAR_FLOAT2] is None:
-                #  Easy, just remove from inventory and equip to that slot
-                self.equipment[_.WEAR_FLOAT2] = armor
-                self.inventory.remove(armor)
-                #  Eventually we will add messages better tailored to the slot being used
-                peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
-                _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
-                                      self.get_room(), [peer,])
-                return
-        if temp_loc == _.WEAR_FINGER:
-            if self.equipment[_.WEAR_FINGER2] is None:
-                #  Easy, just remove from inventory and equip to that slot
-                self.equipment[_.WEAR_FINGER2] = armor
-                self.inventory.remove(armor)
-                #  Eventually we will add messages better tailored to the slot being used
-                peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
-                _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
-                                      self.get_room(), [peer,])
-                return
-        if temp_loc == _.WEAR_NECK:
-            if self.equipment[_.WEAR_NECK2] is None:
-                #  Easy, just remove from inventory and equip to that slot
-                self.equipment[_.WEAR_NECK2] = armor
-                self.inventory.remove(armor)
-                #  Eventually we will add messages better tailored to the slot being used
-                peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
-                _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
-                                      self.get_room(), [peer,])
-                return
-        # No luck, so we just remove the item at the given slot and add the new item
-        #  Easy, just remove from inventory and equip to that slot
-        self.inventory.append(self.equipment[temp_loc])
-        peer.account.player.send("You stop using %s.\n\r" % self.equipment[temp_loc].get_name())
-        _.send_to_room_except("%s stops using %s.\n\r" % (self.get_name(), self.equipment[temp_loc].get_name()), \
-                              self.get_room(), [peer,])
-        self.equipment[temp_loc] = armor
-        self.inventory.remove(armor)
-        #  Eventually we will add messages better tailored to the slot being used
-        peer.account.player.send("You wear %s on your %s.\n\r" % (armor.get_name(), armor.wear_loc_string()))
-        _.send_to_room_except("%s wears %s on their %s.\n\r" % (self.get_name(), armor.get_name(), armor.wear_loc_string()), \
-                              self.get_room(), [peer,])
 
     def add_item(self, item):
         self.inventory.append(item)

@@ -1512,60 +1512,228 @@ exit:^:5:^:3005
 ---  END ROOM  ---
 ---START RESETS---
 mobile:^:3100 3106
+carry:^:3100
+carry:^:3101
+carry:^:3102
 mobile:^:3120 3106
+carry:^:3121
 mobile:^:3123 3109
 mobile:^:3060 3109
+wield:^:3365
+wield:^:3364
+wield:^:3350
+wield:^:3353
+wield:^:3363
 mobile:^:3060 3111
+wield:^:3008
+carry:^:3120
+wield:^:3353
+wield:^:3350
+wield:^:3364
+wield:^:3365
 mobile:^:3124 3113
 mobile:^:3121 3114
 mobile:^:3122 3114
 mobile:^:3124 3115
 mobile:^:3060 3117
+wield:^:3365
+wield:^:3364
+wield:^:3350
+wield:^:3353
 mobile:^:3060 3120
+wield:^:3365
+wield:^:3364
+wield:^:3350
+wield:^:3353
 mobile:^:3144 3120
 mobile:^:3060 3125
+wield:^:3008
+wield:^:3353
+wield:^:3350
+wield:^:3364
+wield:^:3365
 mobile:^:3005 3128
+wield:^:3351
 mobile:^:3165 3130
+wield:^:3349
 mobile:^:3060 3136
+wield:^:3008
+wield:^:3353
+wield:^:3350
+wield:^:3364
+wield:^:3365
 mobile:^:3142 3137
 mobile:^:3143 3138
+wield:^:3124
 mobile:^:3069 3138
+wield:^:3365
+wield:^:3364
+wield:^:3350
 mobile:^:3069 3138
+wield:^:3365
+wield:^:3364
+wield:^:3350
 mobile:^:3069 3138
+wield:^:3365
+wield:^:3364
+wield:^:3350
 mobile:^:3069 3138
+wield:^:3365
+wield:^:3364
+wield:^:3350
 mobile:^:3140 3142
+wield:^:3350
+carry:^:3122
+carry:^:3137
 mobile:^:3141 3142
+wield:^:3350
 mobile:^:3141 3142
+wield:^:3350
 mobile:^:3141 3142
+wield:^:3350
 mobile:^:3141 3142
+wield:^:3350
 mobile:^:3150 3150
+carry:^:3100
+carry:^:3150
+carry:^:1103
+carry:^:3151
+carry:^:3153
+carry:^:3152
+carry:^:3154
 mobile:^:3160 3160
+carry:^:3168
+carry:^:3167
+carry:^:3166
+carry:^:3165
+carry:^:3164
+carry:^:3163
+carry:^:3162
 mobile:^:3161 3160
 mobile:^:3007 3170
 mobile:^:3071 3255
+wield:^:3008
+wield:^:3362
+wield:^:3353
+wield:^:3350
+wield:^:3364
+wield:^:3365
 mobile:^:3071 3255
+wield:^:3008
+wield:^:3353
+wield:^:3350
+wield:^:3364
+wield:^:3365
 mobile:^:3072 3262
+wield:^:3008
+wield:^:3354
+wield:^:3353
+wield:^:3350
+wield:^:3364
+wield:^:3365
 mobile:^:3162 3334
 mobile:^:3013 3352
+carry:^:3018
+carry:^:3017
+carry:^:3016
+carry:^:3015
 mobile:^:3166 3361
+carry:^:2957
+carry:^:2958
+carry:^:2959
+carry:^:2960
+carry:^:2961
 mobile:^:3167 3367
+carry:^:2962
+carry:^:2963
+carry:^:2964
+carry:^:2965
+carry:^:2966
+carry:^:2967
+carry:^:2970
+carry:^:2969
+carry:^:2968
 mobile:^:3168 3368
+carry:^:2984
+carry:^:2985
+carry:^:2986
+carry:^:2987
+carry:^:2988
+carry:^:2989
+carry:^:2990
+carry:^:2991
 mobile:^:3370 3388
 mobile:^:3011 3001
+wield:^:3005
 mobile:^:3061 3006
 mobile:^:3040 3007
+carry:^:3000
+carry:^:3001
+wield:^:3022
 mobile:^:3064 3007
 mobile:^:3164 3008
+carry:^:11696
 mobile:^:3001 3009
+carry:^:3009
+carry:^:3011
+carry:^:3012
+carry:^:3013
+carry:^:3014
+wield:^:3022
 mobile:^:3002 3010
+carry:^:3030
+carry:^:3031
+carry:^:3138
+carry:^:3032
+carry:^:3033
+carry:^:3380
+wield:^:3022
+carry:^:3098
 mobile:^:3003 3011
+carry:^:3020
+carry:^:3021
+carry:^:3022
+carry:^:3023
+carry:^:3024
+carry:^:3025
+carry:^:3026
+carry:^:3027
+carry:^:3028
+carry:^:3029
+wield:^:3022
+carry:^:2992
 mobile:^:3062 3012
 mobile:^:3060 3014
+wield:^:3008
+wield:^:3356
+wield:^:3353
+wield:^:3350
+wield:^:3364
+wield:^:3365
 mobile:^:3062 3016
 mobile:^:3004 3020
+carry:^:3072
+carry:^:3073
+carry:^:3074
+carry:^:3075
+carry:^:3076
+carry:^:3077
+carry:^:3110
+carry:^:3111
+carry:^:3112
+carry:^:3113
+carry:^:3114
+carry:^:3115
+carry:^:3116
+carry:^:3097
+carry:^:3117
+wield:^:3022
 mobile:^:3062 3024
 mobile:^:3062 3025
 mobile:^:3063 3026
+wield:^:3021
+wield:^:3066
+wield:^:3052
 mobile:^:3066 3026
 mobile:^:3008 3031
 mobile:^:3090 3032
@@ -1574,17 +1742,91 @@ mobile:^:3092 3032
 mobile:^:3093 3032
 mobile:^:3094 3032
 mobile:^:3000 3033
+carry:^:3040
+carry:^:3041
+carry:^:3039
+carry:^:3042
+carry:^:3043
+carry:^:3044
+carry:^:3381
+carry:^:3382
+carry:^:3384
 mobile:^:3009 3034
+carry:^:3373
+carry:^:3374
+carry:^:3375
+carry:^:3376
+carry:^:3377
+carry:^:3378
+carry:^:3371
+carry:^:3372
 mobile:^:3010 3035
+carry:^:3060
+carry:^:3061
+carry:^:3062
+carry:^:3063
+carry:^:3064
+carry:^:3065
+carry:^:3066
+carry:^:3067
+carry:^:3068
+carry:^:3069
+carry:^:3070
+carry:^:3071
+carry:^:3052
+carry:^:3053
+carry:^:3054
 mobile:^:3068 3040
+wield:^:3008
+wield:^:3362
+wield:^:3353
+wield:^:3350
+wield:^:3364
+wield:^:3365
 mobile:^:3068 3040
+wield:^:3008
+wield:^:3353
+wield:^:3350
+wield:^:3364
+wield:^:3365
 mobile:^:3067 3041
+wield:^:3008
+wield:^:3354
+wield:^:3353
+wield:^:3350
+wield:^:3364
+wield:^:3365
 mobile:^:3067 3041
+wield:^:3008
+wield:^:3360
+wield:^:3353
+wield:^:3350
+wield:^:3364
+wield:^:3365
 mobile:^:3065 3044
 mobile:^:3046 3048
+carry:^:3003
+carry:^:3004
 mobile:^:3163 3048
+carry:^:3056
 mobile:^:3065 3048
 mobile:^:3006 3049
+carry:^:3050
+carry:^:3051
 mobile:^:3012 3054
 mobile:^:3070 3056
+carry:^:3081
+carry:^:3082
+carry:^:3083
+carry:^:3084
+carry:^:3085
+carry:^:3086
+carry:^:3087
+carry:^:3088
+carry:^:3089
+carry:^:3090
+carry:^:3091
+carry:^:3092
+carry:^:3379
+carry:^:3080
 --- END RESETS ---

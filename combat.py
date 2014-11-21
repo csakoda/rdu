@@ -100,7 +100,7 @@ def do_elemental(hitter, victim, element):
         return
     if random.randint(0,10) > 5:
         return
-    if "fire" in element:
+    if "flaming" in element:
         victim.send("You are burned by " + hitter.get_name() + "'s flames.\n\r")
         hitter.send(victim.get_name() + " is burned by your flames.\n\r")
         _.send_to_room_except(victim.get_name() + "is burned by " + hitter.get_name() + "'s flames.\n\r",hitter.get_room(),[victim.peer, hitter.peer])

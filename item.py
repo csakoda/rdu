@@ -75,40 +75,41 @@ class Item():
             return False
 
     def wear_loc_string(self):
-        if self.wear_loc == _.WEAR_WRIST:
-            return "wrist"
-        elif self.wear_loc == _.WEAR_ARMS:
-            return "arms"
-        elif self.wear_loc == _.WEAR_BODY:
-            return "body"
-        elif self.wear_loc == _.WEAR_FEET:
-            return "feet"
-        elif self.wear_loc == _.WEAR_FINGER:
-            return "finger"
-        elif self.wear_loc == _.WEAR_FLOAT:
-            return "float"
-        elif self.wear_loc == _.WEAR_HAND:
-            return "hand"
-        elif self.wear_loc == _.WEAR_HEAD:
-            return "head"
-        elif self.wear_loc == _.WEAR_HELD:
-            return "held"
-        elif self.wear_loc == _.WEAR_LEGS:
-            return "legs"
-        elif self.wear_loc == _.WEAR_LIGHT:
-            return "light"
-        elif self.wear_loc == _.WEAR_NECK:
-            return "neck"
-        elif self.wear_loc == _.WEAR_SHIELD:
-            return "shield"
-        elif self.wear_loc == _.WEAR_TORSO:
-            return "torso"
-        elif self.wear_loc == _.WEAR_WAIST:
-            return "waist"
-        elif self.wear_loc == _.WEAR_WRIST:
-            return "wrist"
-        else:
-            return "unknown"
+        for w in self.wear_loc:
+            if int(w) == _.WEAR_WRIST:
+                return "wrist"
+            elif int(w) == _.WEAR_ARMS:
+                return "arms"
+            elif int(w) == _.WEAR_BODY:
+                return "body"
+            elif int(w) == _.WEAR_FEET:
+                return "feet"
+            elif int(w) == _.WEAR_FINGER:
+                return "finger"
+            elif int(w) == _.WEAR_FLOAT:
+                return "float"
+            elif int(w) == _.WEAR_HAND:
+                return "hand"
+            elif int(w) == _.WEAR_HEAD:
+                return "head"
+            elif int(w) == _.WEAR_HELD:
+                return "held"
+            elif int(w) == _.WEAR_LEGS:
+                return "legs"
+            elif int(w) == _.WEAR_LIGHT:
+                return "light"
+            elif int(w) == _.WEAR_NECK:
+                return "neck"
+            elif int(w) == _.WEAR_OFFHAND:
+                return "shield"
+            elif int(w) == _.WEAR_TORSO:
+                return "torso"
+            elif int(w) == _.WEAR_WAIST:
+                return "waist"
+            elif int(w) == _.WEAR_WRIST:
+                return "wrist"
+            else:
+                return "unknown"
 
     def weapon_type_string(self):
         if self.weapon_type == _.WEAPON_AXE:
@@ -133,9 +134,12 @@ class Weapon(Item):
     def get_damage(self):
         import random
         damage = 0
-        for i in range(self.stats["dice_num"]):
-            damage += random.randint(1, self.stats["dice_sides"])
-        return damage, self.stats["noun"], self.stats["element"]
+        for i in range(int(self.stats["dice"])):
+            damage += random.randint(1, int(self.stats["sides"]))
+        try:
+            return damage, self.stats["noun"], self.stats["flag"]
+        except KeyError:
+            return damage, self.stats["noun"], "none"
 
 class Armor(Item):
     def __init__(self, vnum, keywords, name, desc, wear_loc):
@@ -151,12 +155,15 @@ def initialize_items():
         if l == "--- START WEAPON ---\n":
             temp_item = Weapon("","","","","")
             continue
-        if l == "--- START ARMOR ---\n":
+        elif l == "--- START ARMOR ---\n":
             temp_item = Armor("","","","","")
             continue
         elif l == "--- END ITEM ---\n":
             _.items.append(temp_item)
             temp_item = None
+            continue
+        elif l[:3] == "---":
+            temp_item = Item("","","","","")
             continue
         try:
             temp_key = l.split(":^:")[0].strip()
@@ -166,10 +173,10 @@ def initialize_items():
             if temp_key == "vnum":
                 temp_item.vnum = temp_value
             elif temp_key == "wear_loc":
-                temp_item.wear_loc = temp_value
+                temp_item.wear_loc = temp_value.split()
             elif temp_key == "keywords":
                 temp_item.keywords = temp_value.split()
             else:
                 temp_item.stats[temp_key] = temp_value
         except IndexError:
-            print("Illegal item. Skipping.")
+            print("Illegal item. Skipping.", l)

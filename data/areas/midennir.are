@@ -510,19 +510,46 @@ exit:^:1:^:3583
 ---  END ROOM  ---
 ---START RESETS---
 mobile:^:3501 3506
+wield:^:3500
+wield:^:3074
 mobile:^:3501 3509
+wield:^:3500
+wield:^:3072
 mobile:^:3501 3512
+wield:^:3500
+wield:^:3045
 mobile:^:3501 3512
+wield:^:3500
+wield:^:3502
+wield:^:3075
 mobile:^:3501 3513
+wield:^:3500
+wield:^:3077
 mobile:^:3500 3521
 mobile:^:3500 3521
 mobile:^:3506 3551
+wield:^:3502
+wield:^:3500
+wield:^:3072
 mobile:^:3501 3556
+wield:^:3500
+wield:^:3076
 mobile:^:3506 3556
+wield:^:3500
+wield:^:3502
+wield:^:3072
 mobile:^:3507 3556
+wield:^:3072
+wield:^:3501
+wield:^:3502
 mobile:^:3502 3575
 mobile:^:3503 3576
 mobile:^:3504 3577
+wield:^:3505
 mobile:^:3505 3583
+wield:^:3503
+wield:^:3022
 mobile:^:3505 3584
+wield:^:3504
+wield:^:3022
 --- END RESETS ---

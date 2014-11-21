@@ -442,27 +442,52 @@ mobile:^:6501 6501
 mobile:^:6501 6502
 mobile:^:6501 6503
 mobile:^:6500 6505
+wield:^:6504
+wield:^:6505
+carry:^:6502
 mobile:^:6500 6505
+wield:^:6504
+wield:^:6505
 mobile:^:6506 6508
 mobile:^:6500 6509
+wield:^:6509
+wield:^:6510
+wield:^:6511
 mobile:^:6500 6509
+wield:^:6512
+wield:^:6509
+wield:^:6505
 mobile:^:6500 6512
+wield:^:6504
 mobile:^:6500 6512
+wield:^:6504
 mobile:^:6505 6515
 mobile:^:6503 6516
+carry:^:6504
+carry:^:6505
+carry:^:6510
+carry:^:6511
+carry:^:6512
+wield:^:6504
 mobile:^:6505 6520
 mobile:^:6514 6521
+wield:^:6509
 mobile:^:6514 6521
+wield:^:6509
 mobile:^:6500 6521
 mobile:^:6500 6521
 mobile:^:6511 6523
 mobile:^:6511 6523
+wield:^:6508
+wield:^:6514
 mobile:^:6511 6523
 mobile:^:6511 6523
 mobile:^:6511 6524
 mobile:^:6502 6524
 mobile:^:6511 6524
+carry:^:6520
 mobile:^:6502 6527
+carry:^:6502
 mobile:^:6512 6528
 mobile:^:6512 6529
 mobile:^:6513 6529
@@ -472,14 +497,32 @@ mobile:^:6515 6531
 mobile:^:6510 6534
 mobile:^:6510 6534
 mobile:^:6509 6534
+wield:^:6506
+carry:^:6519
 mobile:^:6504 6535
+carry:^:3000
+carry:^:3003
+carry:^:3009
+carry:^:3031
+wield:^:6504
 mobile:^:6500 6540
+wield:^:6504
+wield:^:6505
+carry:^:6502
 mobile:^:6500 6540
+wield:^:6504
+wield:^:6505
 mobile:^:6507 6542
+wield:^:6508
 mobile:^:6507 6543
+wield:^:6508
 mobile:^:6507 6543
+wield:^:6508
 mobile:^:6508 6543
+wield:^:6512
+wield:^:6504
 mobile:^:6517 6548
 mobile:^:6517 6549
 mobile:^:6516 6553
+carry:^:6519
 --- END RESETS ---

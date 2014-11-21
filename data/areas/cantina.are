@@ -372,50 +372,86 @@ meets the eye, and you wonder how she got everything down here.
 ---  END ROOM  ---
 ---START RESETS---
 mobile:^:5704 5701
+wield:^:5705
 mobile:^:5702 5702
 mobile:^:5705 5703
+wield:^:5706
 mobile:^:5710 5703
 mobile:^:5712 5703
+carry:^:5720
 mobile:^:5701 5704
+carry:^:5725
+carry:^:5726
+carry:^:5702
+carry:^:5730
+carry:^:5734
 mobile:^:5708 5705
 mobile:^:5709 5705
 mobile:^:5713 5706
+wield:^:5707
 mobile:^:5706 5707
+wield:^:5701
 mobile:^:5711 5708
+carry:^:5719
 mobile:^:5706 5709
+wield:^:5701
 mobile:^:5700 5709
+wield:^:5700
 mobile:^:5704 5710
+wield:^:5705
+wield:^:5711
 mobile:^:5708 5712
 mobile:^:5710 5712
 mobile:^:5712 5712
 mobile:^:5704 5713
+wield:^:5705
 mobile:^:5709 5714
 mobile:^:5708 5715
+wield:^:5708
 mobile:^:5704 5716
+wield:^:5705
 mobile:^:5710 5717
+wield:^:5716
 mobile:^:5712 5717
 mobile:^:5709 5718
+wield:^:5713
 mobile:^:5715 5718
+carry:^:5721
+carry:^:5722
+carry:^:5723
+carry:^:5724
 mobile:^:5708 5720
+wield:^:5712
 mobile:^:5711 5720
 mobile:^:5705 5721
+wield:^:5706
 mobile:^:5709 5722
 mobile:^:5714 5723
 mobile:^:5714 5723
+wield:^:5714
 mobile:^:5714 5723
+carry:^:5704
 mobile:^:5714 5723
 mobile:^:5714 5723
 mobile:^:5706 5724
+wield:^:5701
 mobile:^:5711 5724
 mobile:^:5703 5725
+wield:^:5709
 mobile:^:5710 5726
 mobile:^:5712 5726
 mobile:^:5707 5727
+wield:^:5715
 mobile:^:5708 5728
+wield:^:5712
 mobile:^:5704 5728
+wield:^:5705
 mobile:^:5705 5729
+wield:^:5706
 mobile:^:5708 5732
+wield:^:5708
 mobile:^:5706 5732
+wield:^:5701
 mobile:^:5716 5733
 mobile:^:5717 5734
 mobile:^:5718 5734

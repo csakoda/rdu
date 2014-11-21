@@ -40,7 +40,7 @@ def do_update():
     for a in _.areas:
         a.resetTimer -= 0.25
         if a.resetTimer <= 0:
-            a.resetTimer = 60
+            a.resetTimer = 360
             a.reset()
 
 

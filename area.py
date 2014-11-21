@@ -25,21 +25,34 @@ class Area():
                     if mob.get_room() is self.rooms[i]:
                         _.mobiles.remove(mob)
                         del(mob)
+        last_mob = None
         for i in range(len(self.resets)):
-            mob_data = self.resets[i].split(':^:')[1].strip('\n').split(' ')
-            mob_vnum = mob_data[0]
-            mob_room = mob_data[1]
-            #print(mob_vnum,mob_room)
-            available_mobs = [x for x in _.master_mobile_list if x.vnum == mob_vnum]
-            if len(available_mobs) <= 0:
-                print("ERROR: Invalid mob created during reset.", mob_vnum)
-            elif len(available_mobs) > 1:
-                print("ERROR: Reset attempted to create duplicate mob.")
-            else:
-                new_mob = copy.deepcopy(available_mobs[0])
-                new_mob.stats["room"] = mob_room
-                _.mobiles.append(new_mob)
-
+            r_type = self.resets[i].split(':^:')[0]
+            if r_type == "mobile":
+                mob_data = self.resets[i].split(':^:')[1].strip('\n').split(' ')
+                mob_vnum = mob_data[0]
+                mob_room = mob_data[1]
+                #print(mob_vnum,mob_room)
+                available_mobs = [x for x in _.master_mobile_list if x.vnum == mob_vnum]
+                if len(available_mobs) <= 0:
+                    print("ERROR: Invalid mob created during reset.", mob_vnum)
+                elif len(available_mobs) > 1:
+                    print("ERROR: Reset attempted to create duplicate mob.")
+                else:
+                    new_mob = copy.deepcopy(available_mobs[0])
+                    new_mob.stats["room"] = mob_room
+                    _.mobiles.append(new_mob)
+                    last_mob = new_mob
+            elif r_type == "carry" or r_type == "wield":
+                obj_vnum = self.resets[i].split(':^:')[1].strip('\n')
+                available_objects = [x for x in _.items if x.vnum == obj_vnum]
+                if len(available_objects) <= 0:
+                    print("ERROR: Invalid object created during reset.", obj_vnum)
+                elif len(available_objects) > 1:
+                    print("ERROR: Reset attempted to create duplicate mob.")
+                else:
+                    new_obj = copy.deepcopy(available_objects[0])
+                    last_mob.add_inventory(new_obj)
 
 def initialize_area():
     import copy

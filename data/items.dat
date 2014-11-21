@@ -1,40 +1,6026 @@
+--- START CONTAINER ---
+vnum:^:5700
+keywords:^:timbits shield box
+name:^:a box of Timbits
+desc:^:This shield won't protect you from a sugar craving.
+material:^:cardboard
+level:^:(*int)5
+weight:^:(*int)1
+worth:^:(*int)2000
+wear_loc:^:8 
+dex:^:(*int)1
+--- END ITEM ---
 --- START ARMOR ---
-vnum:^:1
-keywords:^:woven leather bracelet
-wear_loc:^:(*int)11
-name:^:a woven leather bracelet
-desc:^:A woven leather bracelet lies here.
-weapon_type:^:None
+vnum:^:5701
+keywords:^:shopping cart
+name:^:a toy shopping cart
+desc:^:A toy shopping cart really hurts when it slams into you!
+material:^:plastic
+armor_class:^:1 3 2 0 0
+level:^:(*int)5
+weight:^:(*int)2
+worth:^:(*int)1200
+wear_loc:^:13 
+dam:^:(*int)1
+--- END ITEM ---
+--- START THROWING ---
+vnum:^:5702
+keywords:^:french crueller timbit
+name:^:a french crueller timbit
+desc:^:A glazed french crueller is dreaming of life in Paris.
+material:^:cream
+level:^:(*int)10
+weight:^:(*int)1
+worth:^:(*int)1000
+wear_loc:^:13 
+--- END ITEM ---
+--- START PILL ---
+vnum:^:5703
+keywords:^:crunchy timbit
+name:^:a crunchy timbit
+desc:^:A crunchy coated timbit could be bad for your teeth.
+material:^:food
+level:^:(*int)5
+weight:^:(*int)1
+worth:^:(*int)1000
+wear_loc:^:13 
+--- END ITEM ---
+--- START CONTAINER ---
+vnum:^:5704
+keywords:^:bag crunchy carrots
+name:^:a bag of crunchy carrots
+desc:^:A bag filled with fresh crunchy carrots.
+material:^:plastic
+level:^:(*int)5
+weight:^:(*int)1
+worth:^:(*int)0
+wear_loc:^:
 --- END ITEM ---
 --- START WEAPON ---
-vnum:^:2
-keywords:^:gigantic war axe
-wear_loc:^:(*int)15
-name:^:a gigantic war axe
-desc:^:A gigantic war axe lies here.
-weapon_type:^:1
-dice_num:^:(*int)8
-dice_sides:^:(*int)5
+vnum:^:5705
+keywords:^:pocketbook purse
+name:^:a leather pocketbook
+desc:^:A leather pocketbook is filled with coins.
+material:^:leather
+weapon_type:^:whip
+dice:^:2
+sides:^:4
+noun:^:none
+flag:^:none 
+level:^:(*int)10
+weight:^:(*int)1
+worth:^:(*int)600
+wear_loc:^:15 
+dam:^:(*int)2
+hit:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:5706
+keywords:^:baby bottle
+name:^:a baby bottle
+desc:^:A baby's bottle is half-full of milk.
+material:^:plastic
+weapon_type:^:mace
+dice:^:2
+sides:^:2
+noun:^:none
+flag:^:none 
+level:^:(*int)5
+weight:^:(*int)1
+worth:^:(*int)600
+wear_loc:^:15 
+dam:^:(*int)1
+hit:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:5707
+keywords:^:cleaver axe
+name:^:a blood spattered cleaver
+desc:^:A sharp object on the counter top glistens wetly.
+material:^:metal
+weapon_type:^:axe
+dice:^:2
+sides:^:4
+noun:^:none
+flag:^:none 
+level:^:(*int)12
+weight:^:(*int)1
+worth:^:(*int)600
+wear_loc:^:15 
+dam:^:(*int)1
+hit:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:5708
+keywords:^:coupon book flail
+name:^:a coupon book
+desc:^:Pages have already been torn out of this well-used booklet.
+material:^:paper
+weapon_type:^:flail
+dice:^:2
+sides:^:4
+noun:^:none
+flag:^:none 
+level:^:(*int)7
+weight:^:(*int)1
+worth:^:(*int)600
+wear_loc:^:15 
+dam:^:(*int)2
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:5709
+keywords:^:wooden cane
+name:^:an old wooden cane
+desc:^:An intricately carved cane made from bamboo rests here.
+material:^:bamboo
+weapon_type:^:polearm
+dice:^:2
+sides:^:3
+noun:^:none
+flag:^:none 
+level:^:(*int)8
+weight:^:(*int)1
+worth:^:(*int)600
+wear_loc:^:15 
+dam:^:(*int)1
+--- END ITEM ---
+--- START FOUNTAIN ---
+vnum:^:5710
+keywords:^:watering hole
+name:^:a watering hole
+desc:^:A well is here with cool clear water for everyone.
+material:^:earth
+level:^:(*int)0
+weight:^:(*int)50000
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:5711
+keywords:^:apron
+name:^:a raggedy apron
+desc:^:A raggedy apron covered in flour has been discarded here.
+material:^:cloth
+armor_class:^:4 5 4 0 0
+level:^:(*int)12
+weight:^:(*int)1
+worth:^:(*int)200
+wear_loc:^:10 
+int:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:5712
+keywords:^:pajamas
+name:^:comfy pajamas
+desc:^:A pair of pink pajamas looks so comfortable!
+material:^:cloth
+armor_class:^:1 1 1 0 0
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)200
+wear_loc:^:6 
+dex:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:5713
+keywords:^:necktie tie neck
+name:^:a paisley necktie
+desc:^:A necktie is here ready to choke its owner.
+material:^:cloth
+armor_class:^:5 4 5 0 0
+level:^:(*int)12
+weight:^:(*int)1
+worth:^:(*int)200
+wear_loc:^:7 
+wis:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:5714
+keywords:^:bunny slippers
+name:^:a pair of bunny slippers
+desc:^:A pink pair of bunny slippers seems to be missing its owner.
+material:^:energy
+armor_class:^:4 3 4 0 0
+level:^:(*int)8
+weight:^:(*int)0
+worth:^:(*int)200
+wear_loc:^:2 
+mv:^:(*int)10
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:5715
+keywords:^:friendship bracelet
+name:^:a friendship bracelet
+desc:^:A circlet of woven multi-coloured fibers looks for a new friend.
+material:^:hemp
+armor_class:^:1 2 1 0 0
+level:^:(*int)7
+weight:^:(*int)0
+worth:^:(*int)200
+wear_loc:^:11 
+con:^:(*int)1
+wis:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:5716
+keywords:^:diamond promise ring
+name:^:a diamond promise ring
+desc:^:An echo of a long forgotten promise has been discarded.
+material:^:diamond
+armor_class:^:3 2 3 0 0
+level:^:(*int)7
+weight:^:(*int)0
+worth:^:(*int)200
+wear_loc:^:3 
+con:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:5717
+keywords:^:rolling pin rollingpin wooden
+name:^:a rolling pin
+desc:^:A long wooden rolling pin covered in flour looks for some dough to roll out.
+material:^:wood
+armor_class:^:1 2 1 0 0
+level:^:(*int)7
+weight:^:(*int)0
+worth:^:(*int)200
+wear_loc:^:13 
+dam:^:(*int)1
+--- END ITEM ---
+--- START PILL ---
+vnum:^:5718
+keywords:^:carrots
+name:^:crunchy carrots
+desc:^:A bag of crunchy carrots is good for you, and not just your eye-sight!
+material:^:food
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)200
+wear_loc:^:
+--- END ITEM ---
+--- START POTION ---
+vnum:^:5719
+keywords:^:gallon orange juice oj
+name:^:a gallon of orange juice
+desc:^:A plastic jug sits here holding a bright orange liquid.
+material:^:jelly
+level:^:(*int)5
+weight:^:(*int)0
+worth:^:(*int)2500
+wear_loc:^:
+--- END ITEM ---
+--- START POTION ---
+vnum:^:5720
+keywords:^:gallon milk
+name:^:a gallon of milk
+desc:^:A plastic jug sits here holding a white, frothy liquid.
+material:^:jelly
+level:^:(*int)5
+weight:^:(*int)0
+worth:^:(*int)2500
+wear_loc:^:
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:5721
+keywords:^:tankard beer
+name:^:a tankard of beer
+desc:^:A foamy tankard of chilled beer calls out to you.
+material:^:jelly
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)200
+wear_loc:^:
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:5722
+keywords:^:jug lemonade
+name:^:a jug of lemonade
+desc:^:A jug of lemonade can quenche your thirst for hours.
+material:^:snake
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)200
+wear_loc:^:
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:5723
+keywords:^:hotdog hot dog
+name:^:a delicious hot dog
+desc:^:A delicious hot dog with all the fixin's is just waiting to be eaten.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)200
+wear_loc:^:
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:5724
+keywords:^:hamburger
+name:^:a delicious hamburger
+desc:^:A delicious hamburger with all the fixin's is just waiting to be eaten.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)200
+wear_loc:^:
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:5725
+keywords:^:apple streudel
+name:^:apple streudel
+desc:^:A delicious slice of freshly baked apple streudel has just come out of the oven.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)200
+wear_loc:^:
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:5726
+keywords:^:lemon chiffon pie
+name:^:a piece of lemon chiffon pie
+desc:^:A delicious piece of lemon chiffon pie is waiting to be eaten.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)200
+wear_loc:^:
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:5727
+keywords:^:plain timbit
+name:^:a plain timbit
+desc:^:A plain timbit looks very boring to eat.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)100
+wear_loc:^:13 
+--- END ITEM ---
+--- START PILL ---
+vnum:^:5729
+keywords:^:coconut timbit
+name:^:a coconut coated timbit
+desc:^:A coconut coated timbit from far off places would like to suffuse your senses.
+material:^:food
+level:^:(*int)5
+weight:^:(*int)1
+worth:^:(*int)1000
+wear_loc:^:13 
+--- END ITEM ---
+--- START THROWING ---
+vnum:^:5730
+keywords:^:chocolate timbit
+name:^:a chocolate timbit
+desc:^:A chocolate timbit is looking for a glass of milk.
+material:^:cream
+level:^:(*int)10
+weight:^:(*int)0
+worth:^:(*int)1000
+wear_loc:^:13 
+--- END ITEM ---
+--- START PORTAL ---
+vnum:^:5732
+keywords:^:tear reality
+name:^:a green leaf
+desc:^:A green leaf is lying here on the ground.
+material:^:energy
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START PORTAL ---
+vnum:^:5733
+keywords:^:banyan
+name:^:a hole in the tree trunk
+desc:^:A dark hole in the tree seems to lead somewhere.
+material:^:energy
+level:^:(*int)0
+weight:^:(*int)20000
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START THROWING ---
+vnum:^:5734
+keywords:^:jelly timbit
+name:^:a jelly timbit
+desc:^:A timbit with red jelly all over it is really sweet and sticky.
+material:^:jelly
+level:^:(*int)10
+weight:^:(*int)1
+worth:^:(*int)1000
+wear_loc:^:13 
+--- END ITEM ---
+--- START KEY ---
+vnum:^:6502
+keywords:^:key green
+name:^:a deep green key
+desc:^:A deep green key is on the floor.
+material:^:oldstyle
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:6504
+keywords:^:dwarven hammer
+name:^:a hammer
+desc:^:There is a dwarven hammer laying here.
+material:^:oldstyle
+weapon_type:^:mace
+dice:^:2
+sides:^:7
+noun:^:pound
+flag:^:none 
+level:^:(*int)17
+weight:^:(*int)30
+worth:^:(*int)880
+wear_loc:^:15 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:6505
+keywords:^:dwarven plate
+name:^:dwarven plate mail
+desc:^:There is dwarven plate mail laying here.
+material:^:oldstyle
+armor_class:^:7 7 7 0 0
+level:^:(*int)20
+weight:^:(*int)40
+worth:^:(*int)2900
+wear_loc:^:9 
+--- END ITEM ---
+--- START STAFF ---
+vnum:^:6506
+keywords:^:stick
+name:^:long, black stick
+desc:^:There is a long, black stick lying here.
+material:^:oldstyle
+level:^:(*int)11
+weight:^:(*int)10
+worth:^:(*int)4800
+wear_loc:^:13 
+--- END ITEM ---
+--- START LIGHT ---
+vnum:^:6507
+keywords:^:stick
+name:^:long, black stick
+desc:^:There is a long, black stick here.
+material:^:oldstyle
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:13 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:6508
+keywords:^:club
+name:^:dwarven club
+desc:^:There is a dwarven club laying here.
+material:^:oldstyle
+weapon_type:^:mace
+dice:^:2
+sides:^:4
+noun:^:pound
+flag:^:none 
+level:^:(*int)10
+weight:^:(*int)10
+worth:^:(*int)510
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:6509
+keywords:^:two-handed dwarven axe
+name:^:a two-handed dwarven axe
+desc:^:A two-handed Dwarven axe is here.
+material:^:oldstyle
+weapon_type:^:axe
+dice:^:2
+sides:^:7
+noun:^:cleave
+flag:^:twohanded 
+level:^:(*int)17
+weight:^:(*int)50
+worth:^:(*int)4100
+wear_loc:^:15 
+hit:^:(*int)2
+str:^:(*int)2
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:6510
+keywords:^:helmet
+name:^:a dwarven helmet
+desc:^:A dwarven helmet is here.
+material:^:oldstyle
+armor_class:^:7 7 7 0 0
+level:^:(*int)20
+weight:^:(*int)40
+worth:^:(*int)1450
+wear_loc:^:5 
+--- END ITEM ---
+--- START GEM ---
+vnum:^:6511
+keywords:^:ring golden dwarven
+name:^:a dwarven golden ring
+desc:^:A pretty golden ring is here.
+material:^:oldstyle
+level:^:(*int)7
+weight:^:(*int)10
+worth:^:(*int)460
+wear_loc:^:3 
+dam:^:(*int)1
+hit:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:6512
+keywords:^:gloves
+name:^:dwarven gloves
+desc:^:Thick dwarven gloves lay here.
+material:^:oldstyle
+armor_class:^:5 5 5 0 0
+level:^:(*int)13
+weight:^:(*int)20
+worth:^:(*int)2000
+wear_loc:^:4 
+dex:^:(*int)1
+str:^:(*int)1
+--- END ITEM ---
+--- START FURNITURE ---
+vnum:^:6513
+keywords:^:note
+name:^:a note
+desc:^:A crumpled note is here.
+material:^:oldstyle
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:
+read:^:note letter letters:^:It seems to be a hot love letter from the Queen.  Unfortunately,<br>it's not suitable for transmission across a public data network.<br>
+--- END ITEM ---
+--- START KEY ---
+vnum:^:6514
+keywords:^:castle key
+name:^:a castle key
+desc:^:There is a key to Strangelove Castle here.
+material:^:oldstyle
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:
+--- END ITEM ---
+--- START KEY ---
+vnum:^:6516
+keywords:^:key mine
+name:^:a mine key
+desc:^:There is a key to the mines here.
+material:^:oldstyle
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:
+--- END ITEM ---
+--- START TRASH ---
+vnum:^:6517
+keywords:^:coal
+name:^:a chunk of coal
+desc:^:There is a chunk of coal here.
+material:^:oldstyle
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:13 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:6518
+keywords:^:pick
+name:^:a mining pick
+desc:^:There is a mining pick here.
+material:^:oldstyle
+weapon_type:^:mace
+dice:^:1
+sides:^:5
+noun:^:pierce
+flag:^:none 
+level:^:(*int)3
+weight:^:(*int)10
+worth:^:(*int)240
+wear_loc:^:15 
+--- END ITEM ---
+--- START PILL ---
+vnum:^:6519
+keywords:^:pills
+name:^:a box of birth control pills
+desc:^:There is a box of birth control pills here.
+material:^:oldstyle
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)300
+wear_loc:^:
+read:^:birth control pills pill:^:They are in a circular container, and there are numbers corresponding<br>to the day that they are to be taken.  You can tell they haven't been<br>used for a while.<br>
+--- END ITEM ---
+--- START MAP ---
+vnum:^:6520
+keywords:^:map castle strangelove
+name:^:a map of Castle Strangelove
+desc:^:A rolled up map is here.
+material:^:oldstyle
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)500
+wear_loc:^:
+read:^:map castle strangelove:^:.<br>* * * Castle Strangelove * * *       __________<br> = = ==================== = =        \ Queen's \<br>      			              \ Bedroom \<br>                                       \_________\<br>                                                *<br>                               __________    ____\_____<br>     North  Up                 \  Top of \    \ Waiting \<br>        \   |                   \ Stairs  \----\  Room   \<br>          \ |                    \_________\    \_________\<br>  West ---- + ---- East             |<br>            | \                _____|____<br>            |   \              \         \<br>          Down  South           \ Stairs  \    [] - You need the Castle Key<br>                                 \_________\        to get beyond this point.<br>                                    |               The Castle Key can be<br>                               _____|____           found on the Grinning<br>                               \         \          Dwarves in the Barracks.<br>                                \ Stairs  \<br>                                 \_________\    * - You need the Deep Green<br>                                    |               Key to get beyond this<br>                __________     _____|____           point.  This key can be<br>                \ Door to \    \ Inside  \          found on the Wraith in<br>                 \ Castle  \-[]-\ Castle  \         the wine cellar or on one<br>                  \_________\    \_________\        of the Dwarven Guards on<br>                           \                        the Dark path.<br>                         ____\_____<br>                         \ Path to \<br>                          \ Castle  \<br>                           \_________\<br>                                    \<br>                   __________     ____\_____<br>                   \ Door to \    \ Path to \<br>                    \ Kingdom \----\ Castle  \<br>                     \_________\    \_________\<br>                              \<br>                           To Dwarven<br>                             Kingdom<br>
+--- END ITEM ---
+--- START TRASH ---
+vnum:^:6521
+keywords:^:bank note
+name:^:a bank note
+desc:^:There is a bank note on the ground.
+material:^:oldstyle
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:13 
+--- END ITEM ---
+--- START WAND ---
+vnum:^:3900
+keywords:^:whispertread spellup wand
+name:^:{DWhispertread's {CMagical {YSPELL-UP WAND{x
+desc:^:The {Cmagical{x spell-up wand has been left here.
+material:^:wood
+level:^:(*int)54
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:13 
+--- END ITEM ---
+--- START PORTAL ---
+vnum:^:3901
+keywords:^:shimmering portal
+name:^:a shimmering portal
+desc:^:A {Ddark{x shimmering portal
+material:^:quartz
+level:^:(*int)1
+weight:^:(*int)1
+worth:^:(*int)0
+wear_loc:^:13 
+--- END ITEM ---
+--- START SCROLL ---
+vnum:^:3902
+keywords:^:whispertreads spell-up scroll
+name:^:{DWhispertread's {CMagical {YSPELL-UP SCROLL{x
+desc:^:A magical scroll belonging to {CWhispertread {xlies here.
+material:^:parchment
+level:^:(*int)1
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:13 
+--- END ITEM ---
+--- START TREASURE ---
+vnum:^:4000
+keywords:^:ring yellow green
+name:^:a yellow and green ring
+desc:^:A ring, with yellow and green ornamentation. It looks very old.
+material:^:copper
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:3 
+str:^:(*int)-2
+read:^:ring:^:It feels heavy.<br>
+--- END ITEM ---
+--- START TRASH ---
+vnum:^:4001
+keywords:^:corpse
+name:^:a corpse
+desc:^:A halfway decayed corpse of a cartographer.
+material:^:flesh
+level:^:(*int)0
+weight:^:(*int)1000
+worth:^:(*int)0
+wear_loc:^:
+read:^:corpse:^:Ew.  This must have been the mapper that was lost in Moria.  His rotted hand<br>still clutches a partially digested map...<br>
+--- END ITEM ---
+--- START MONEY ---
+vnum:^:4002
+keywords:^:coins
+name:^:some coins
+desc:^:A small pile of coins.
+material:^:silver
+level:^:(*int)0
+weight:^:(*int)5000
+worth:^:(*int)0
+wear_loc:^:
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:4003
+keywords:^:dagger rusty
+name:^:a rusty dagger
+desc:^:A worn and rusty dagger is here.
+material:^:iron
+weapon_type:^:dagger
+dice:^:1
+sides:^:5
+noun:^:stab
+flag:^:none 
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)165
+wear_loc:^:15 
+hit:^:(*int)-1
+read:^:dagger:^:It's old and rusted, but it still has a good edge.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:4004
+keywords:^:bullwhip whip
+name:^:a bullwhip
+desc:^:A coiled length of leather is here...looks like a nasty whip!
+material:^:leather
+weapon_type:^:whip
+dice:^:1
+sides:^:4
+noun:^:whip
+flag:^:none 
+level:^:(*int)3
+weight:^:(*int)30
+worth:^:(*int)240
+wear_loc:^:15 
+hit:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:4005
+keywords:^:club tree huge
+name:^:a huge club
+desc:^:An uprooted tree leans against the wall.
+material:^:wood
+weapon_type:^:mace
+dice:^:2
+sides:^:6
+noun:^:crush
+flag:^:twohanded 
+level:^:(*int)14
+weight:^:(*int)250
+worth:^:(*int)780
+wear_loc:^:15 
+hit:^:(*int)-2
+read:^:club tree:^:This is the biggest club you have ever seen!  The giant didn't even bother to<br>trim the roots off the end.<br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:4006
+keywords:^:furs smelly
+name:^:some smelly furs
+desc:^:A heap of smelly furs sit here.
+material:^:fur
+armor_class:^:5 6 5 1 3
+level:^:(*int)8
+weight:^:(*int)100
+worth:^:(*int)510
+wear_loc:^:1 
+dex:^:(*int)-1
+read:^:furs:^:They're heavy and smelly and would probably slow you down...but they do look<br>like good armor.<br>
+--- END ITEM ---
+--- START POTION ---
+vnum:^:4050
+keywords:^:potion purple
+name:^:a purple potion
+desc:^:A purple potion is here.
+material:^:glass
+level:^:(*int)11
+weight:^:(*int)10
+worth:^:(*int)720
+wear_loc:^:13 
+read:^:potion purple:^:It looks rather strange!<br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:4051
+keywords:^:helmet metal
+name:^:a metal helmet
+desc:^:A metal helmet is here.
+material:^:iron
+armor_class:^:4 4 3 2 1
+level:^:(*int)5
+weight:^:(*int)40
+worth:^:(*int)650
+wear_loc:^:5 
+saves:^:(*int)-1
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:4052
+keywords:^:mushroom
+name:^:a mushroom
+desc:^:A small mushroom is here.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:
+read:^:mushroom:^:Let's put it this way - I wouldn't eat it !<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:4053
+keywords:^:dirk
+name:^:a thieves dirk
+desc:^:A beautifully crafted dirk is lying here.
+material:^:steel
+weapon_type:^:dagger
+dice:^:2
+sides:^:3
+noun:^:stab
+flag:^:none 
+level:^:(*int)8
+weight:^:(*int)20
+worth:^:(*int)590
+wear_loc:^:15 
+dam:^:(*int)1
+hit:^:(*int)1
+read:^:dirk:^:It's a medium sized, beautifully crafted dirk made from grey alloy.<br>Its blade is double-edged and very thin ... this looks like a good<br>thieves weapon.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:4054
+keywords:^:axe war
+name:^:a war axe
+desc:^:A razor-sharp war axe rests on the ground.
+material:^:steel
+weapon_type:^:axe
+dice:^:2
+sides:^:5
 noun:^:chop
-element:^:fire
+flag:^:none 
+level:^:(*int)12
+weight:^:(*int)70
+worth:^:(*int)930
+wear_loc:^:15 
+dam:^:(*int)1
+read:^:axe:^:It has an edge sharp enough to cut a passing thought. A good find, this.<br>
 --- END ITEM ---
 --- START WEAPON ---
-vnum:^:3
-keywords:^:axe desolation
-wear_loc:^:(*int)15
-name:^:the axe of desolation
-desc:^:The axe of desolation lies here.
-weapon_type:^:1
-dice_num:^:(*int)5
-dice_sides:^:(*int)8
-noun:^:slice
-element:^:demon
+vnum:^:4055
+keywords:^:sword broad
+name:^:a broad sword
+desc:^:A well-polished broadsword sits here.
+material:^:steel
+weapon_type:^:sword
+dice:^:1
+sides:^:5
+noun:^:chop
+flag:^:none 
+level:^:(*int)6
+weight:^:(*int)80
+worth:^:(*int)550
+wear_loc:^:15 
+read:^:sword:^:It's much heavier than a long sword, but not as well balanced.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:4056
+keywords:^:flail two two-headed
+name:^:a two-headed flail
+desc:^:A flail with two heavy, spiked heads is here.
+material:^:iron
+weapon_type:^:flail
+dice:^:1
+sides:^:4
+noun:^:smash
+flag:^:none 
+level:^:(*int)3
+weight:^:(*int)70
+worth:^:(*int)290
+wear_loc:^:15 
+dam:^:(*int)2
+ac:^:(*int)1
+read:^:flail:^:It's a stout wooden rod with two spiked balls attached, each weighing over 2<br>pounds.  It's a little worn for wear, but looks most painful.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:4057
+keywords:^:mace heavy
+name:^:a heavy iron mace
+desc:^:A large iron mace with a wicked head rests on the ground.
+material:^:iron
+weapon_type:^:mace
+dice:^:1
+sides:^:5
+noun:^:pound
+flag:^:none 
+level:^:(*int)6
+weight:^:(*int)100
+worth:^:(*int)390
+wear_loc:^:15 
+dam:^:(*int)1
+read:^:mace:^:A metal shaft mounted with an iron head, shaped into armor-shattering form.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:4058
+keywords:^:falchion sword
+name:^:a falchion
+desc:^:A curved sword with a heavy tip sits here.
+material:^:iron
+weapon_type:^:sword
+dice:^:1
+sides:^:5
+noun:^:chop
+flag:^:none 
+level:^:(*int)5
+weight:^:(*int)80
+worth:^:(*int)490
+wear_loc:^:15 
+read:^:falchion:^:It's curved like a scimitar, only with no recurved blade and a tip designed<br>for piercing as well as slashing.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:4059
+keywords:^:voulge polearm
+name:^:a voulge
+desc:^:A long polearm with a curved blade is here.
+material:^:iron
+weapon_type:^:polearm
+dice:^:2
+sides:^:4
+noun:^:slash
+flag:^:twohanded 
+level:^:(*int)10
+weight:^:(*int)120
+worth:^:(*int)520
+wear_loc:^:15 
+ac:^:(*int)-1
+read:^:voulge:^:It looks a lot like a staff with a pruning knife tied to the end, but it's<br>quite effective.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:4100
+keywords:^:blade black demon
+name:^:the black demon blade
+desc:^:An evil black demon blade is here.
+material:^:adamantite
+weapon_type:^:sword
+dice:^:2
+sides:^:3
+noun:^:cleave
+flag:^:vampiric twohanded 
+level:^:(*int)11
+weight:^:(*int)80
+worth:^:(*int)940
+wear_loc:^:15 
+read:^:blade:^:You'll become as evil as the weapon, if you use it!<br>
 --- END ITEM ---
 --- START ARMOR ---
-vnum:^:4
-keywords:^:oath vengeance
-wear_loc:^:(*int)7
-name:^:Oath of Vengeance
-desc:^:An Oath of Vengeance lies here.
-weapon_type:^:None
+vnum:^:4101
+keywords:^:gloves
+name:^:swordsman's gloves
+desc:^:Some gloves are here.  They look like the right equipment for fighting.
+material:^:leather
+armor_class:^:1 3 3 1 1
+level:^:(*int)7
+weight:^:(*int)10
+worth:^:(*int)730
+wear_loc:^:4 
+dam:^:(*int)1
+hit:^:(*int)1
+--- END ITEM ---
+--- START SCROLL ---
+vnum:^:4102
+keywords:^:scroll ysafg
+name:^:a scroll which reads "ysafg"
+desc:^:A scroll which reads "ysafg", it looks very fragile and quite old.
+material:^:parchment
+level:^:(*int)7
+weight:^:(*int)10
+worth:^:(*int)840
+wear_loc:^:13 
+read:^:scroll:^:It looks informative.<br>
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:4103
+keywords:^:slime mold
+name:^:a green slime mold
+desc:^:A green slime mold is here. It smells REAL bad.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:
+read:^:slime mold:^:It wasn't meant to be food, - Certainly not for humans.<br>
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:4104
+keywords:^:slime mold
+name:^:a green slime mold
+desc:^:A green slime mold is here. It smells REAL bad.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:
+read:^:slime mold:^:It wasn't meant to be food, - Certainly not for humans.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:4105
+keywords:^:staff iron iron-shod
+name:^:an iron-shod staff
+desc:^:A long staff capped with iron leans against a wall.
+material:^:iron
+weapon_type:^:staff
+dice:^:2
+sides:^:4
+noun:^:pound
+flag:^:twohanded 
+level:^:(*int)10
+weight:^:(*int)60
+worth:^:(*int)630
+wear_loc:^:15 
+ac:^:(*int)-2
+read:^:staff:^:It's a superb weapon for warrior or mage.<br>
+--- END ITEM ---
+--- START POTION ---
+vnum:^:4150
+keywords:^:black potion
+name:^:a black potion
+desc:^:A thick black potion is here.
+material:^:glass
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)320
+wear_loc:^:13 
+read:^:potion black:^:It looks healthy.<br>
+--- END ITEM ---
+--- START STAFF ---
+vnum:^:4151
+keywords:^:staff oak
+name:^:a heavy oak staff
+desc:^:A ancient heavy oak staff is here.
+material:^:wood
+level:^:(*int)13
+weight:^:(*int)50
+worth:^:(*int)5400
+wear_loc:^:13 
+mp:^:(*int)-20
+read:^:runes:^:The runes says : Funthark.<br>
+read:^:staff oak:^:You see it has some sort of runes on it.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:4152
+keywords:^:dagger light silver
+name:^:a light silver dagger
+desc:^:A light silver dagger is here.
+material:^:silver
+weapon_type:^:dagger
+dice:^:1
+sides:^:7
+noun:^:stab
+flag:^:none 
+level:^:(*int)7
+weight:^:(*int)20
+worth:^:(*int)660
+wear_loc:^:15 
+ac:^:(*int)-1
+hit:^:(*int)1
+read:^:dagger light silver:^:It looks like an excellent weapon for thieves.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:4153
+keywords:^:star morning morningstar
+name:^:a morning star
+desc:^:A heavy, spiked morning star is here.
+material:^:iron
+weapon_type:^:mace
+dice:^:2
+sides:^:3
+noun:^:smash
+flag:^:none 
+level:^:(*int)9
+weight:^:(*int)120
+worth:^:(*int)270
+wear_loc:^:15 
+dam:^:(*int)1
+dex:^:(*int)-1
+read:^:star morning:^:It's a huge length of wood studded with iron spikes and bands. You wouldn't<br>want to meet this in a dark alley...<br>
+--- END ITEM ---
+--- START MAP ---
+vnum:^:4154
+keywords:^:map moria second
+name:^:a map of the second level of Moria
+desc:^:A rolled up map is here.
+material:^:paper
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)100
+wear_loc:^:
+read:^:map moria second:^:.<br>    * * * MORIA - Map 2 * * *<br>     = = =============== = =<br><br>Maze--Maze<br> |     |    (Map 1)<br> |    Maze--Tunnel*<br> |<br>Maze--Maze--Maze--Maze<br>              |<br>     Large--Large<br>     Cave   Cave<br>      |       |<br>     Large--Large--Tunnel--End of<br>     Cave    Cave    |     Tunnel<br>                   *Hole<br>                  (Map 3)<br>
+--- END ITEM ---
+--- START MAP ---
+vnum:^:4155
+keywords:^:map moria third
+name:^:a map of the third level of Moria
+desc:^:A rolled up map is here.
+material:^:paper
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)200
+wear_loc:^:
+read:^:map moria third:^:.<br>                                                   (Map 1*)<br>                             Long                     |<br>        Tunnel----Tunnel----Tunnel--Tunnel--Tunnel--Tunnel<br>          |                   |<br>          |                  Gold--Gold<br>          |                  Cave  Cave<br>          |                   |      |<br>          |                  Gold--Gold---Passage<br>          |                  Cave  Cave      |<br>          |                   |           Passage--Tunnel--Tunnel--Tunnel<br>          |          Dark*---Gold            |<br>          |         Passage  Cave            |     Secret<br>          |                               Passage  Chamber<br>          |                      Hole        |       |<br>          |                        |      Passage  Secret<br>        Large   Large   Large    Small       |     Chamber--Cave--Cave<br>        Tunnel--Tunnel--Tunnel--Passage      |                |      |<br>          |                        |      Passage-----------Cave--Cave<br>          |                       Long<br>          |                      Tunnel<br>         Wet    Small  Small       |<br>        Tunnel--Maze---Maze   Inscription<br>          |       |      |         |<br>         Wet    Small--Small-----Small<br>        Tunnel  Maze   Maze      Maze<br>          |       |                |<br>          |      Wet    Wet      End of<br>        Water    Maze---Maze-----Tunnel<br>          |       |      |<br>        Water---Water  End of<br>                       Maze*<br>                      (Map 2)<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3500
+keywords:^:sword short
+name:^:a goblin's short sword
+desc:^:A rusted sword lies on the ground.
+material:^:iron
+weapon_type:^:sword
+dice:^:1
+sides:^:6
+noun:^:stab
+flag:^:none 
+level:^:(*int)5
+weight:^:(*int)40
+worth:^:(*int)460
+wear_loc:^:15 
+hit:^:(*int)-1
+read:^:sword:^:It looks heavier than your average short sword, but it could use some oiling.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3501
+keywords:^:spear long
+name:^:a long spear
+desc:^:A blackened spear with an evil-looking blade lies here.
+material:^:iron
+weapon_type:^:polearm
+dice:^:1
+sides:^:6
+noun:^:thrust
+flag:^:twohanded 
+level:^:(*int)6
+weight:^:(*int)80
+worth:^:(*int)100
+wear_loc:^:15 
+ac:^:(*int)2
+read:^:spear:^:This used to be a boar spear, but it has been used for more dangerous game.<br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3502
+keywords:^:helmet horned black
+name:^:a black horned helmet
+desc:^:A helmet with sharp black horns sits here.
+material:^:iron
+armor_class:^:3 5 4 0 1
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)490
+wear_loc:^:5 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3503
+keywords:^:cloak stained
+name:^:a stained travelling cloak
+desc:^:A worn and stained cloak is crumpled up on the floor.
+material:^:cloth
+armor_class:^:2 3 4 0 1
+level:^:(*int)3
+weight:^:(*int)40
+worth:^:(*int)310
+wear_loc:^:7 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3504
+keywords:^:bracer leather enchanted
+name:^:an enchanted leather bracer
+desc:^:A leather bracer with mystic symbols sits here.
+material:^:leather
+armor_class:^:2 4 4 2 0
+level:^:(*int)7
+weight:^:(*int)10
+worth:^:(*int)690
+wear_loc:^:11 
+hit:^:(*int)1
+read:^:bracer:^:This bracer is covered with runes of protection and luck in combat.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3505
+keywords:^:knife dagger
+name:^:a rune-covered knife
+desc:^:A wide-bladed knife sits undisturbed on the floor.
+material:^:mithril
+weapon_type:^:dagger
+dice:^:1
+sides:^:5
+noun:^:stab
+flag:^:none 
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)420
+wear_loc:^:15 
+hit:^:(*int)1
+read:^:knife dagger:^:It's very sharp, you suspect this knife is more effective than many swords.<br>It appears to be of elvish origins, and is made of finely crafted mithril,<br>with a stylized ivory hilt.<br>
+--- END ITEM ---
+--- START TRASH ---
+vnum:^:3584
+keywords:^:sign high embassy lands palankcaren help
+name:^:sign
+desc:^:A sign pointing you to the HELP Guild stands here.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)500
+worth:^:(*int)0
+wear_loc:^:-1 
+read:^:sign:^:To get to the {RHigh Embassay from the Lands of Palankcaren{x follow this<br>path north to Stoneridge.  The next sign is 3 north, 2 east,<br>and 2 north, at the gates of the city.<br>
+--- END ITEM ---
+--- START POTION ---
+vnum:^:2950
+keywords:^:potion fly flying
+name:^:a potion of flying
+desc:^:A potion of flying is here.
+material:^:glass
+level:^:(*int)3
+weight:^:(*int)10
+worth:^:(*int)1250
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:2951
+keywords:^:white off potion
+name:^:an off white potion
+desc:^:An off white potion lies here.
+material:^:oldstyle
+level:^:(*int)11
+weight:^:(*int)10
+worth:^:(*int)820
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:2952
+keywords:^:vial psychedelic ink
+name:^:a vial of psychedelic ink
+desc:^:A vial of multicolored ink.
+material:^:cream
+level:^:(*int)1
+weight:^:(*int)1
+worth:^:(*int)500
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:2953
+keywords:^:vial black ink
+name:^:a vial of black ink
+desc:^:A vial of black writing ink sits here.
+material:^:cream
+level:^:(*int)25
+weight:^:(*int)1
+worth:^:(*int)3000
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:2954
+keywords:^:potion yellow
+name:^:a yellow potion of see invisible
+desc:^:A small yellow potion has carelessly been left here.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)220
+wear_loc:^:13 
+read:^:potion yellow:^:The potion has a small label 'Detect The Invisible'. <br>
+--- END ITEM ---
+--- START POTION ---
+vnum:^:2955
+keywords:^:incredible potion strength
+name:^:an incredible potion of strength
+desc:^:An incredible potion of strength has been dropped here.
+material:^:glass
+level:^:(*int)20
+weight:^:(*int)10
+worth:^:(*int)3000
+wear_loc:^:13 
+read:^:incredible:^:Poua! It smell awfull. Yon don't want really drink it ?<br>
+--- END ITEM ---
+--- START PILL ---
+vnum:^:2956
+keywords:^:flame broiled elfkabob
+name:^:a flame broiled elfkabob
+desc:^:A flame broiled elfkabob is here, giving off a juicy, almost intoxicating smell.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)2500
+wear_loc:^:
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2957
+keywords:^:wooden practice sword bokuto
+name:^:a wooden bokuto
+desc:^:A slightly curved wooden practice sword is here. It's not a serious weapon.
+material:^:wood
+weapon_type:^:katana
+dice:^:1
+sides:^:12
+noun:^:smash
+flag:^:twohanded 
+level:^:(*int)8
+weight:^:(*int)50
+worth:^:(*int)5000
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2958
+keywords:^:plain iron katana
+name:^:a plain iron katana
+desc:^:An iron katana is here. It doesn't look very impressive for its price.
+material:^:iron
+weapon_type:^:katana
+dice:^:2
+sides:^:10
+noun:^:slash
+flag:^:twohanded 
+level:^:(*int)15
+weight:^:(*int)40
+worth:^:(*int)150000
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2959
+keywords:^:folded steel katana
+name:^:a folded steel katana
+desc:^:A katana of folded steel is here. It looks quite dangerous!
+material:^:steel
+weapon_type:^:katana
+dice:^:4
+sides:^:6
+noun:^:cleave
+flag:^:twohanded 
+level:^:(*int)24
+weight:^:(*int)40
+worth:^:(*int)250000
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2960
+keywords:^:spirit east katana
+name:^:a katana called 'spirit of the east'
+desc:^:A finely made glowing katana is here, whispering about spirits.
+material:^:steel
+weapon_type:^:katana
+dice:^:3
+sides:^:10
+noun:^:cleave
+flag:^:twohanded 
+level:^:(*int)30
+weight:^:(*int)40
+worth:^:(*int)400000
+wear_loc:^:15 
+dam:^:(*int)3
+hp:^:(*int)20
+hit:^:(*int)3
+read:^:spirit east katana:^:The spirit of the east is the finest katana imported to Midgaard, but<br>for a true Samurai, it is just the beginning. From now on, you will<br>need to gather the items and craft your own katanas, along 3 possible<br>paths.<br> <br>If you wish to perfect a status related or physical damage katana,<br>the next step in your journey is to craft a 'katana tiger mauler'.<br>You will require a spirit of the east, combine it with 10 tiger<br>jewels, 30 shandalar diamonds, and the hide from a nearly extinct<br>tiger. Level required: 36<br> <br>If you wish the perfect an elementally powered katana, the next<br>step in your journey is to craft a 'snowfall katana'.<br>You will require a spirit of the east, combine it with 10 blue<br>ice rings, 30 shandalar diamonds, and the spirit of winter.<br>Level required: 35<br> <br>May the code of Bushido guide you!<br>
+--- END ITEM ---
+--- START CLOTHING ---
+vnum:^:2961
+keywords:^:silk headband yakuza emblem key
+name:^:a yakuza emblem
+desc:^:A silk headband with the symbol of the ninja underworld, the Yakuza, is here.
+material:^:silk
+level:^:(*int)0
+weight:^:(*int)5
+worth:^:(*int)500000
+wear_loc:^:5 
+dex:^:(*int)1
+hit:^:(*int)2
+--- END ITEM ---
+--- START CHARM ---
+vnum:^:2962
+keywords:^:heart seeking needle
+name:^:a heart-seeking needle
+desc:^:A thin iron needle is here, used frequently by torturers.
+material:^:iron
+level:^:(*int)16
+weight:^:(*int)2
+worth:^:(*int)900
+wear_loc:^:
+--- END ITEM ---
+--- START CHARM ---
+vnum:^:2963
+keywords:^:venomous blow powder
+name:^:a waft of venomous blowing powder
+desc:^:A thin twist of paper containing a highly poisonous powder is here.
+material:^:powder
+level:^:(*int)16
+weight:^:(*int)2
+worth:^:(*int)900
+wear_loc:^:
+--- END ITEM ---
+--- START CHARM ---
+vnum:^:2964
+keywords:^:sea salt crystal
+name:^:a crystal made out of sea salt
+desc:^:A crystal which came from the sea is here.
+material:^:salt
+level:^:(*int)16
+weight:^:(*int)2
+worth:^:(*int)900
+wear_loc:^:
+--- END ITEM ---
+--- START CHARM ---
+vnum:^:2965
+keywords:^:snow ice flurry
+name:^:a flurry of icy snowflakes
+desc:^:A jar containing pure ice crystals and snow is here.
+material:^:ice
+level:^:(*int)16
+weight:^:(*int)2
+worth:^:(*int)900
+wear_loc:^:
+--- END ITEM ---
+--- START CHARM ---
+vnum:^:2966
+keywords:^:flaming cinder
+name:^:a handful of flaming cinders
+desc:^:A handful of still-burning cinders is here.
+material:^:wood
+level:^:(*int)16
+weight:^:(*int)2
+worth:^:(*int)900
+wear_loc:^:
+--- END ITEM ---
+--- START CHARM ---
+vnum:^:2967
+keywords:^:eyeful lye acid
+name:^:an eyeful of corrosive lye
+desc:^:A pinch of highly corrosive lye is here.
+material:^:acid
+level:^:(*int)16
+weight:^:(*int)2
+worth:^:(*int)900
+wear_loc:^:
+--- END ITEM ---
+--- START CHARM ---
+vnum:^:2968
+keywords:^:three point star shuriken
+name:^:a three-point shuriken
+desc:^:A ninja throwing star called a shuriken is here, with three points.
+material:^:steel
+level:^:(*int)20
+weight:^:(*int)1
+worth:^:(*int)300
+wear_loc:^:
+--- END ITEM ---
+--- START CHARM ---
+vnum:^:2969
+keywords:^:five point star shuriken
+name:^:a five-point shuriken
+desc:^:A ninja throwing star called a shuriken is here, with five points.
+material:^:steel
+level:^:(*int)30
+weight:^:(*int)1
+worth:^:(*int)600
+wear_loc:^:
+--- END ITEM ---
+--- START CHARM ---
+vnum:^:2970
+keywords:^:seven point star shuriken
+name:^:a seven-point shuriken
+desc:^:A ninja throwing star calling a shuriken is here, with seven points.
+material:^:steel
+level:^:(*int)40
+weight:^:(*int)1
+worth:^:(*int)1200
+wear_loc:^:
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2971
+keywords:^:snowfall katana
+name:^:a {cfrost-tinged{x {WSnowfall{x katana
+desc:^:A slightly curved katana, covered in frost, lies here.
+material:^:ice
+weapon_type:^:katana
+dice:^:6
+sides:^:5
+noun:^:chop
+flag:^:frost twohanded 
+level:^:(*int)35
+weight:^:(*int)50
+worth:^:(*int)5000
+wear_loc:^:15 
+dam:^:(*int)2
+str:^:(*int)-1
+read:^:snowfall katana:^:Your katana is tinted by frost now, but you can develope it with the<br>power of flames or lightning as well to follow the elemental path.<br> <br>Lightning: You can craft a 'sky fang katana' by using rare items.<br>-the fang of a hurricane wyvern<br>-one piece of charged magnetite<br>-30 shandalar diamonds<br>-this katana<br>Required level: 41<br> <br>Fire: You can craft a 'fire tongue homura katana' as follows:<br>-a dancing tongue of fire<br>-10 fire opals<br>-30 shandalar diamonds<br>-this katana<br>Required level: 40<br> <br>And if you are patient, you can create the strongest elemental katana:<br>Final: You can craft 'shiva edge katana as follows:<br>-mastery of ice<br>-50 shadalar diamonds<br>-this katana<br>Required level: 51<br> <br>May your blade never falter!<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2972
+keywords:^:katana tiger mauler
+name:^:a {ytawny{x handled {YTiger Mauler{x
+desc:^:A curved katana lies here, with a tiger skin handle.
+material:^:steel
+weapon_type:^:katana
+dice:^:5
+sides:^:6
+noun:^:slaughter
+flag:^:twohanded 
+level:^:(*int)36
+weight:^:(*int)60
+worth:^:(*int)5000
+wear_loc:^:15 
+dam:^:(*int)3
+hp:^:(*int)20
+str:^:(*int)2
+hit:^:(*int)3
+dex:^:(*int)2
+read:^:katana tiger mauler:^:Your fine katana is but the first step along the path to creating<br>a truly masterful blade. You can choose to develop it along two paths<br>from here:<br> <br>PHYSICAL:<br>By enhancing the construction of your katana, you can create a<br>'hamato steel katana'. This requires:<br>-3 bars of rare hamato steel<br>-8 chunks of coal<br>-1 mithril hammer<br>-this katana<br>Required level: 41<br> <br>STATUS:<br>You can work towards a katana that will strongly boost your stats<br>while lowering those of others by creating 'spirit taker katana'.<br>This requires:<br>-a black soul leech<br>-6 servant souls<br>-30 shandalar diamonds<br>-this katana<br>Required level: 42<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2973
+keywords:^:fire tongue homura katana
+name:^:a {Rfire-tongue{y homura{x katana
+desc:^:A long katana surrounded by flames is here.
+material:^:fire
+weapon_type:^:katana
+dice:^:6
+sides:^:6
+noun:^:flame
+flag:^:flaming twohanded 
+level:^:(*int)40
+weight:^:(*int)60
+worth:^:(*int)10000
+wear_loc:^:15 
+dam:^:(*int)3
+hp:^:(*int)-20
+hit:^:(*int)1
+read:^:fire tongue homura katana:^:This katana burns with fire, but it could be further enhanced.<br>The true master of fire will wield the 'hellfire' katana and<br>strike with much fury. To complete this enhancement, you will<br>need:<br> <br>-3 hellfire cores<br>-30 shandalar diamonds<br>-this katana<br>Required level: 46<br> <br>May your blade burn bright!<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2974
+keywords:^:sky fang katana
+name:^:a {Ycrackling {CSky Fang{x katana
+desc:^:A katana surrounded by electricity is here.
+material:^:lightning
+weapon_type:^:katana
+dice:^:6
+sides:^:6
+noun:^:shbite
+flag:^:twohanded shocking 
+level:^:(*int)41
+weight:^:(*int)50
+worth:^:(*int)10000
+wear_loc:^:15 
+dam:^:(*int)3
+dex:^:(*int)-2
+mp:^:(*int)10
+hit:^:(*int)2
+read:^:sky fang katana:^:This katana crackles with electricity, but it could be further<br>enhanced. The true master of the sky will wield a katana called<br>the 'raiden striker katana'. To complete this enhancement, you<br>will need:<br> <br>-3 archs of raiden's lightning<br>-30 shandalar diamonds<br>-this katana<br> <br>May your blade shine brightly!<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2975
+keywords:^:hamato steel katana
+name:^:a katana of the finest {WHamato Steel{x
+desc:^:A katana of the legendary Hamato steel is here.
+material:^:steel
+weapon_type:^:katana
+dice:^:15
+sides:^:2
+noun:^:cleave
+flag:^:sharp twohanded 
+level:^:(*int)41
+weight:^:(*int)30
+worth:^:(*int)10000
+wear_loc:^:15 
+dam:^:(*int)1
+hit:^:(*int)3
+read:^:hamato steel katana:^:With substantially stronger steel, this blade is already very strong.<br>However, a larger more vicious katana could still be crafted if you blended<br>the hamato steel with some rare darksteel. To do this, you will need to melt<br>down a darksteel blade to form 'darksteel zanbato katana'. You will require:<br>-3 dancing tongues of fire<br>-a darksteel ninja to<br>-2 bloody guillotine blades<br>-this katana<br>Required level: 45<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2976
+keywords:^:spirit taker katana
+name:^:a {Dblack{x katana, the {WSpirit-Taker{x
+desc:^:A black katana is here, glowing with a malevolent aura.
+material:^:spirit
+weapon_type:^:katana
+dice:^:6
+sides:^:6
+noun:^:drain
+flag:^:vampiric vorpal twohanded 
+level:^:(*int)42
+weight:^:(*int)60
+worth:^:(*int)10000
+wear_loc:^:15 
+dam:^:(*int)4
+hp:^:(*int)-20
+con:^:(*int)-2
+hit:^:(*int)2
+read:^:spirit taker katana:^:The spirit taker could take on a more powerful form if you could use it to absorb<br>the spirit of a powerful demon. Slaying a servant of the celestial emperor should be<br>enough for you to create the 'katana onikiri demon killer', the most powerful status<br>oriented katana. You will need:<br> <br>Proof of your deed; an oni osode<br>3 soul spheres<br>50 shandalar diamonds<br>this katana<br>Level required: 51<br> <br>May demons fear your wrath!<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2977
+keywords:^:katana onikiri demon killer
+name:^:the {DOnikiri:{x {RDemon Killer{x
+desc:^:A long katana possessed by demons is here.
+material:^:demon
+weapon_type:^:katana
+dice:^:7
+sides:^:6
+noun:^:magic
+flag:^:twohanded demonic 
+level:^:(*int)49
+weight:^:(*int)70
+worth:^:(*int)20000
+wear_loc:^:15 
+dex:^:(*int)2
+wis:^:(*int)2
+str:^:(*int)2
+hp:^:(*int)30
+con:^:(*int)2
+int:^:(*int)2
+read:^:katana onikiri demon killer:^:The onikiri retains its ability to drink the souls of others. If you need to<br>reforge the onikiri to get a fresh one and reset all its flags and properties,<br>you can simply recraft it using the soul sphere possessed by Stygis.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2978
+keywords:^:hellfire katana
+name:^:a katana glowing {Wwhite hot{x with {RHellfire{x
+desc:^:A katana flaming so bright it is hard to look at.
+material:^:fire
+weapon_type:^:katana
+dice:^:5
+sides:^:8
+noun:^:flbite
+flag:^:flaming twohanded 
+level:^:(*int)46
+weight:^:(*int)60
+worth:^:(*int)20000
+wear_loc:^:15 
+mp:^:(*int)40
+int:^:(*int)2
+str:^:(*int)-2
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2979
+keywords:^:raiden striker katana
+name:^:a {ylightning{x katana, {BRaiden Striker{x
+desc:^:A katana made from a lightning bolt shaped into a weapon.
+material:^:lightning
+weapon_type:^:katana
+dice:^:5
+sides:^:8
+noun:^:shbite
+flag:^:twohanded shocking 
+level:^:(*int)47
+weight:^:(*int)60
+worth:^:(*int)20000
+wear_loc:^:15 
+dam:^:(*int)3
+dex:^:(*int)2
+mp:^:(*int)40
+hit:^:(*int)3
+str:^:(*int)-1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2980
+keywords:^:shiva edge katana
+name:^:the {Warctic spike, {BShiva's Edge{x
+desc:^:A long katana made of ice from the deepest arctic is here.
+material:^:ice
+weapon_type:^:katana
+dice:^:7
+sides:^:6
+noun:^:frbite
+flag:^:frost twohanded 
+level:^:(*int)51
+weight:^:(*int)70
+worth:^:(*int)50000
+wear_loc:^:15 
+saves:^:(*int)-3
+hit:^:(*int)3
+str:^:(*int)-2
+dam:^:(*int)5
+hp:^:(*int)-30
+ac:^:(*int)-20
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2981
+keywords:^:darksteel zanbato katana
+name:^:a giant {Ddarksteel{g Zanbato{x
+desc:^:A thick bladed kanata, called a Zanbato is here.
+material:^:darksteel
+weapon_type:^:katana
+dice:^:6
+sides:^:7
+noun:^:slash
+flag:^:vampiric twohanded 
+level:^:(*int)45
+weight:^:(*int)80
+worth:^:(*int)20000
+wear_loc:^:15 
+dam:^:(*int)3
+hp:^:(*int)25
+mp:^:(*int)-30
+maxstr:^:(*int)1
+hit:^:(*int)2
+read:^:darksteel zanbato katana:^:Though mighty indeed, there is one final step that can be taken in<br>mastering the blade of physical strength. Using only the most rare of<br>methods, you can reforge your katana one last time using adamantite, and<br>sharpen it to an edge so perfect it is capable of slicing through the fabric of<br>space itself...<br> <br>The 'adamantite nodachi katana' will require:<br>-a diamond whetstone<br>-an adamantite dragon shield<br>-50 shandalar diamonds<br>-this katana<br>Be warned that the first two items appear very rarely and it may be some time<br>before you can track them down. Keep your eyes open, and the Worldsplitter <br>may yet be yours!<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2982
+keywords:^:adamantite nodachi katana worldsplitter
+name:^:an {CAdamantite {GNodachi, {yWorldsplitter{x
+desc:^:A katana sharp enough to cut reality is here.
+material:^:adamantite
+weapon_type:^:katana
+dice:^:10
+sides:^:4
+noun:^:slice
+flag:^:vorpal twohanded 
+level:^:(*int)51
+weight:^:(*int)90
+worth:^:(*int)50000
+wear_loc:^:15 
+dam:^:(*int)5
+dex:^:(*int)-3
+saves:^:(*int)3
+hit:^:(*int)3
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2983
+keywords:^:snipers yokimbo cloth
+name:^:a {RSniper's {CYokimbo{x
+desc:^:A long strap of special cloth is here, used as a whip and marked with runes.
+material:^:cloth
+weapon_type:^:exotic
+dice:^:6
+sides:^:6
+noun:^:whip
+flag:^:phasing 
+level:^:(*int)50
+weight:^:(*int)20
+worth:^:(*int)10000
+wear_loc:^:15 
+magdam:^:(*int)4
+hit:^:(*int)16
+int:^:(*int)-3
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2984
+keywords:^:darksteel ninja to
+name:^:a {Ddarksteel{x ninja-to
+desc:^:A sharp blade called a ninja-to, favoured by ninjas, is here.
+material:^:darksteel
+weapon_type:^:exotic
+dice:^:6
+sides:^:6
+noun:^:slice
+flag:^:vampiric vorpal 
+level:^:(*int)48
+weight:^:(*int)40
+worth:^:(*int)100000
+wear_loc:^:15 
+ac:^:(*int)-25
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2985
+keywords:^:bloodstone ninja to
+name:^:a {rbloodstone{x crosshilt ninja-to
+desc:^:A straight blade favoured by ninjas is here, with a large red stone in the handle.
+material:^:steel
+weapon_type:^:exotic
+dice:^:5
+sides:^:7
+noun:^:slash
+flag:^:vorpal souldrain 
+level:^:(*int)46
+weight:^:(*int)40
+worth:^:(*int)100000
+wear_loc:^:15 
+hp:^:(*int)20
+con:^:(*int)2
+str:^:(*int)2
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2986
+keywords:^:ptah golden claw
+name:^:a {ygolden claw{x of {WPtah{x
+desc:^:A three pronged claw made of Ptah gold is here.
+material:^:gold
+weapon_type:^:exotic
+dice:^:2
+sides:^:18
+noun:^:claw
+flag:^:shocking 
+level:^:(*int)40
+weight:^:(*int)30
+worth:^:(*int)130000
+wear_loc:^:15 
+mp:^:(*int)40
+wis:^:(*int)3
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2987
+keywords:^:mithril spiked chain
+name:^:a mithril spiked chain
+desc:^:A long mithril chain, embedded with razor sharp spikes is here.
+material:^:mithril
+weapon_type:^:exotic
+dice:^:4
+sides:^:7
+noun:^:whip
+flag:^:sharp 
+level:^:(*int)35
+weight:^:(*int)40
+worth:^:(*int)100000
+wear_loc:^:15 
+dex:^:(*int)1
+hit:^:(*int)2
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2988
+keywords:^:manriki gusari weighted chain
+name:^:a manriki gusari
+desc:^:A long weighted chain called a manriki gusari is here.
+material:^:iron
+weapon_type:^:exotic
+dice:^:2
+sides:^:13
+noun:^:smash
+flag:^:dull 
+level:^:(*int)30
+weight:^:(*int)50
+worth:^:(*int)100000
+wear_loc:^:15 
+dam:^:(*int)3
+str:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2989
+keywords:^:phantom wakizashi
+name:^:a phantom wakizashi
+desc:^:A short curved wakizashi is here, possessed by a spirit.
+material:^:steel
+weapon_type:^:exotic
+dice:^:5
+sides:^:4
+noun:^:slice
+flag:^:unholy 
+level:^:(*int)25
+weight:^:(*int)30
+worth:^:(*int)100000
+wear_loc:^:15 
+dam:^:(*int)2
+mp:^:(*int)-30
+hit:^:(*int)2
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2990
+keywords:^:dark oak nunchaku
+name:^:a pair of dark oak nunchaku
+desc:^:Two short rods of dark oak connected by a chain rest here.
+material:^:wood
+weapon_type:^:exotic
+dice:^:3
+sides:^:6
+noun:^:entangle
+flag:^:corrosive 
+level:^:(*int)20
+weight:^:(*int)40
+worth:^:(*int)100000
+wear_loc:^:15 
+dex:^:(*int)1
+ac:^:(*int)-10
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:2991
+keywords:^:razor edge tanto knife
+name:^:a razor sharp tanto
+desc:^:A curved knife called a tanto is here, favoured by ninjas.
+material:^:wood
+weapon_type:^:exotic
+dice:^:2
+sides:^:7
+noun:^:slash
+flag:^:vorpal 
+level:^:(*int)15
+weight:^:(*int)20
+worth:^:(*int)50000
+wear_loc:^:15 
+dam:^:(*int)1
+--- END ITEM ---
+--- START AMMUNITION ---
+vnum:^:2992
+keywords:^:a quiver of plain wooden arrows
+name:^:a quiver of plain wooden arrows
+desc:^:A quiver of plain wooden arrows lies here.
+material:^:wood
+level:^:(*int)5
+weight:^:(*int)200
+worth:^:(*int)600
+wear_loc:^:13 
+hit:^:(*int)1
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3000
+keywords:^:barrel beer
+name:^:a barrel of beer
+desc:^:A beer barrel has been left here.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)160
+worth:^:(*int)75
+wear_loc:^:
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3001
+keywords:^:bottle beer
+name:^:a bottle of beer
+desc:^:A beer bottle has been left here.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)5
+wear_loc:^:
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3002
+keywords:^:bottle ale
+name:^:a bottle of ale
+desc:^:A dark bottle of ale has been left here.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)20
+worth:^:(*int)6
+wear_loc:^:
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3003
+keywords:^:bottle firebreather
+name:^:a bottle of firebreather
+desc:^:A bottle of firebreather has been left here.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)25
+wear_loc:^:
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3004
+keywords:^:bottle local
+name:^:a bottle of local specialty
+desc:^:A dark bottle has been left here.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)11
+wear_loc:^:
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3005
+keywords:^:tetragon sabre
+name:^:Tetragon's Sabre
+desc:^:Tetragon's Sabre lies here still humming from the last battle.
+material:^:adamantite
+weapon_type:^:sword
+dice:^:5
+sides:^:7
+noun:^:cleave
+flag:^:vorpal twohanded 
+level:^:(*int)42
+weight:^:(*int)450
+worth:^:(*int)5600
+wear_loc:^:15 
+read:^:scimitar blade:^:It is quite heavy.  The blade is made of some metal that you can't even <br>spell.  The edge of the blade looks as if it could cut through anything <br>or anyone. <br>
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:3006
+keywords:^:stone
+name:^:A Clan Stone
+desc:^:Somebody left their Clan Stone here.
+material:^:adamite
+level:^:(*int)0
+weight:^:(*int)20
+worth:^:(*int)0
+wear_loc:^:
+--- END ITEM ---
+--- START FURNITURE ---
+vnum:^:3007
+keywords:^:Temple altar
+name:^:Temple Altar
+desc:^:An altar is here, draped in white cloth, and candles.
+material:^:
+level:^:(*int)0
+weight:^:(*int)100
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3008
+keywords:^:Red Sash
+name:^:red sash
+desc:^:A red sash that belongs to a city guard is here, in the mud.
+material:^:cloth
+armor_class:^:1 1 1 1 0
+level:^:(*int)0
+weight:^:(*int)100
+worth:^:(*int)0
+wear_loc:^:1 
+mv:^:(*int)10
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:3009
+keywords:^:potpie pot pie
+name:^:a big pot pie
+desc:^:A big pot pie has been left here.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)20
+worth:^:(*int)22
+wear_loc:^:
+--- END ITEM ---
+--- START CONTAINER ---
+vnum:^:3010
+keywords:^:pit
+name:^:the donation pit
+desc:^:A pit for sacrifices is in front of the altar.
+material:^:
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:-1 
+read:^:pit:^:This is where you put money and items to help Doz expand this shrine and <br>convert more people to the belief of Bosco, lord of the gods. <br>
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:3011
+keywords:^:bread
+name:^:a bread
+desc:^:A loaf of bread is here. It doesn't look too stale.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)9
+wear_loc:^:
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:3012
+keywords:^:cinnamon roll
+name:^:a cinnamon roll
+desc:^:A piping hot cinnamon roll is here. It looks delicious!
+material:^:food
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)16
+wear_loc:^:
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:3013
+keywords:^:cookies
+name:^:a batch of Sara's cookies
+desc:^:A plate of chocolate chip cookies is here.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)11
+wear_loc:^:
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:3014
+keywords:^:danish blueberry
+name:^:a blueberry danish
+desc:^:A scrumptious blueberry danish is here.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)5
+wear_loc:^:
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3015
+keywords:^:bottle blue dragon breather
+name:^:bottle of blue dragon breather
+desc:^:A blue dragon breather is here, evaporating in the sun.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)100
+worth:^:(*int)10
+wear_loc:^:
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3016
+keywords:^:red dragon breather
+name:^:red dragon breather
+desc:^:A bottle of red dragon breather is evaporating in the sun.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)100
+worth:^:(*int)10
+wear_loc:^:
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3017
+keywords:^:white dragon breather
+name:^:white dragon breather
+desc:^:A bottle of white dragon breather is evaporating in the sun.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)100
+worth:^:(*int)10
+wear_loc:^:
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3018
+keywords:^:black dragon firebreather
+name:^:black dragon fire breather
+desc:^:A bottle of black dragon firebreather is here evaporating in the sun.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)100
+worth:^:(*int)10
+wear_loc:^:
+--- END ITEM ---
+--- START TRASH ---
+vnum:^:3019
+keywords:^:Free Object
+name:^:Free Object
+desc:^:Free Object
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3020
+keywords:^:dagger
+name:^:a dagger
+desc:^:A dagger with a long thin blade is here.
+material:^:steel
+weapon_type:^:dagger
+dice:^:1
+sides:^:4
+noun:^:stab
+flag:^:none 
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)157
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3021
+keywords:^:sword small
+name:^:a small sword
+desc:^:A small sword lies here.
+material:^:steel
+weapon_type:^:sword
+dice:^:1
+sides:^:4
+noun:^:slice
+flag:^:none 
+level:^:(*int)0
+weight:^:(*int)30
+worth:^:(*int)250
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3022
+keywords:^:sword long
+name:^:a long sword
+desc:^:A long sword has been left here.
+material:^:steel
+weapon_type:^:sword
+dice:^:2
+sides:^:3
+noun:^:slash
+flag:^:none 
+level:^:(*int)7
+weight:^:(*int)50
+worth:^:(*int)610
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3023
+keywords:^:club
+name:^:a club
+desc:^:A stout wooden club is here.
+material:^:wood
+weapon_type:^:mace
+dice:^:1
+sides:^:6
+noun:^:pound
+flag:^:none 
+level:^:(*int)3
+weight:^:(*int)30
+worth:^:(*int)220
+wear_loc:^:15 
+hit:^:(*int)-1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3024
+keywords:^:mace heavy
+name:^:a mace
+desc:^:A heavy iron mace is here.
+material:^:iron
+weapon_type:^:mace
+dice:^:1
+sides:^:5
+noun:^:pound
+flag:^:none 
+level:^:(*int)6
+weight:^:(*int)100
+worth:^:(*int)390
+wear_loc:^:15 
+dam:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3025
+keywords:^:axe hand
+name:^:a hand axe
+desc:^:A small hand axe lies forgotten on the floor.
+material:^:iron
+weapon_type:^:axe
+dice:^:1
+sides:^:4
+noun:^:chop
+flag:^:none 
+level:^:(*int)1
+weight:^:(*int)50
+worth:^:(*int)310
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3026
+keywords:^:axe battle
+name:^:a battle axe
+desc:^:A large steel axe rests on the ground.
+material:^:steel
+weapon_type:^:axe
+dice:^:1
+sides:^:6
+noun:^:chop
+flag:^:twohanded 
+level:^:(*int)5
+weight:^:(*int)90
+worth:^:(*int)650
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3027
+keywords:^:spear
+name:^:a spear
+desc:^:A long spear leans against the wall.
+material:^:steel
+weapon_type:^:staff
+dice:^:1
+sides:^:5
+noun:^:pierce
+flag:^:none 
+level:^:(*int)4
+weight:^:(*int)50
+worth:^:(*int)84
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3028
+keywords:^:staff
+name:^:a wooden staff
+desc:^:A stout wooden staff lies on the floor.
+material:^:wood
+weapon_type:^:staff
+dice:^:1
+sides:^:8
+noun:^:pound
+flag:^:twohanded 
+level:^:(*int)9
+weight:^:(*int)40
+worth:^:(*int)580
+wear_loc:^:15 
+ac:^:(*int)-2
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3029
+keywords:^:flail
+name:^:a flail
+desc:^:A small iron flail is here.
+material:^:iron
+weapon_type:^:flail
+dice:^:1
+sides:^:4
+noun:^:pound
+flag:^:none 
+level:^:(*int)1
+weight:^:(*int)50
+worth:^:(*int)77
+wear_loc:^:15 
+ac:^:(*int)1
+--- END ITEM ---
+--- START LIGHT ---
+vnum:^:3030
+keywords:^:torch
+name:^:a torch
+desc:^:A large torch.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)30
+worth:^:(*int)4
+wear_loc:^:
+--- END ITEM ---
+--- START LIGHT ---
+vnum:^:3031
+keywords:^:lantern
+name:^:a hooded brass lantern
+desc:^:A hooded brass lantern has been left here.
+material:^:brass
+level:^:(*int)0
+weight:^:(*int)40
+worth:^:(*int)75
+wear_loc:^:
+read:^:letters:^:They say, "Use 'hold lantern' to activate." <br>
+read:^:lantern:^:It is a large and robust but somewhat battered oil lantern made from brass, <br>equipped with a handle to make it handy and a hood to protect its flame. <br>Some letters have been scratched on its bottom. <br>
+--- END ITEM ---
+--- START CONTAINER ---
+vnum:^:3032
+keywords:^:bag
+name:^:a bag
+desc:^:A small bag.
+material:^:leather
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)9
+wear_loc:^:
+--- END ITEM ---
+--- START CONTAINER ---
+vnum:^:3033
+keywords:^:box
+name:^:a box
+desc:^:A small box.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)30
+wear_loc:^:
+--- END ITEM ---
+--- START TRASH ---
+vnum:^:3034
+keywords:^:Free Object
+name:^:Free Object
+desc:^:Free Object
+material:^:stone
+level:^:(*int)0
+weight:^:(*int)1000
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START SCROLL ---
+vnum:^:3039
+keywords:^:scroll cancellation
+name:^:a scroll of cancellation
+desc:^:A rolled vellum scroll is here.
+material:^:vellum
+level:^:(*int)9
+weight:^:(*int)10
+worth:^:(*int)1190
+wear_loc:^:13 
+read:^:scroll:^:Use this scroll to remove magical curses. <br>
+--- END ITEM ---
+--- START SCROLL ---
+vnum:^:3040
+keywords:^:scroll identify
+name:^:a scroll of identify
+desc:^:A scroll has carelessly been left here.
+material:^:vellum
+level:^:(*int)7
+weight:^:(*int)10
+worth:^:(*int)890
+wear_loc:^:13 
+read:^:scroll identify:^:The scroll has a magic formula drawn upon it: <br>	  ??? <br>	 ?   ? <br>		 ? <br>		? <br>		? <br>		* <br>
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3041
+keywords:^:potion yellow
+name:^:a yellow potion of see invisible
+desc:^:A small yellow potion has carelessly been left here.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)220
+wear_loc:^:13 
+read:^:potion yellow:^:The potion has a small label 'Detect The Invisible'. <br>
+--- END ITEM ---
+--- START SCROLL ---
+vnum:^:3042
+keywords:^:scroll recall
+name:^:a scroll of recall
+desc:^:A scroll has carelessly been left here.
+material:^:vellum
+level:^:(*int)17
+weight:^:(*int)20
+worth:^:(*int)2900
+wear_loc:^:13 
+read:^:scroll:^:The scroll has written a formula of 'Word of Recall' upon it. <br>
+--- END ITEM ---
+--- START TREASURE ---
+vnum:^:3043
+keywords:^:ring protection
+name:^:a ring of protection
+desc:^:an enchanted ring of protection sits on the floor.
+material:^:silver
+level:^:(*int)8
+weight:^:(*int)10
+worth:^:(*int)640
+wear_loc:^:3 
+saves:^:(*int)-1
+ac:^:(*int)-2
+read:^:ring:^:It's a silver ring set with a gleaming moonstone. <br>
+--- END ITEM ---
+--- START WAND ---
+vnum:^:3044
+keywords:^:wand magic missile missiles
+name:^:a wand of magic missiles
+desc:^:a wooden stick lies on the ground.
+material:^:wood
+level:^:(*int)2
+weight:^:(*int)10
+worth:^:(*int)320
+wear_loc:^:13 
+read:^:wand:^:It has a little note that says 'point this end at target'. <br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3045
+keywords:^:jacket scale mail
+name:^:a scale mail jacket
+desc:^:A scale mail jacket is lying on the ground.
+material:^:steel
+armor_class:^:3 4 4 0 2
+level:^:(*int)5
+weight:^:(*int)160
+worth:^:(*int)850
+wear_loc:^:9 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3046
+keywords:^:bronze breast plate
+name:^:a bronze breast plate
+desc:^:A bronze breast plate is lying on the ground.
+material:^:bronze
+armor_class:^:6 5 7 0 5
+level:^:(*int)15
+weight:^:(*int)200
+worth:^:(*int)2100
+wear_loc:^:9 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3047
+keywords:^:bronze breast plate
+name:^:a special bronze breast plate
+desc:^:A special bronze breast plate is lying on the ground.
+material:^:bronze
+armor_class:^:6 5 7 0 5
+level:^:(*int)15
+weight:^:(*int)200
+worth:^:(*int)2100
+wear_loc:^:9 
+--- END ITEM ---
+--- START BOAT ---
+vnum:^:3050
+keywords:^:raft
+name:^:a raft
+desc:^:A raft has been left here.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)750
+worth:^:(*int)400
+wear_loc:^:
+read:^:raft:^:The raft looks very primitive. <br>
+--- END ITEM ---
+--- START BOAT ---
+vnum:^:3051
+keywords:^:canoe
+name:^:a canoe
+desc:^:A canoe has been left here.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)320
+worth:^:(*int)900
+wear_loc:^:
+read:^:canoe:^:The canoe is fairly light. <br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3052
+keywords:^:bracer strong leather
+name:^:a leather bracer
+desc:^:A strong leather bracer is here.
+material:^:leather
+armor_class:^:0 2 2 0 0
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)112
+wear_loc:^:11 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3053
+keywords:^:belt leather
+name:^:a leather belt
+desc:^:A soft leather belt is here.
+material:^:leather
+armor_class:^:1 2 2 0 0
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)136
+wear_loc:^:10 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3054
+keywords:^:girdle leather
+name:^:a leather girdle
+desc:^:A wide leather girdle is here.
+material:^:leather
+armor_class:^:1 3 3 0 1
+level:^:(*int)0
+weight:^:(*int)20
+worth:^:(*int)220
+wear_loc:^:10 
+--- END ITEM ---
+--- START TRASH ---
+vnum:^:3055
+keywords:^:christmas tree
+name:^:a Christmas Tree
+desc:^:A beautiful {GC{Rh{Gr{Ri{Gs{Rt{Gm{Ra{Gs{x tree stands here.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)10000
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3056
+keywords:^:promise darkness
+name:^:a promise of {DDarkness{x
+desc:^:A promise of dark things to come looms here. Look closely.
+material:^:darkness
+weapon_type:^:flail
+dice:^:2
+sides:^:5
+noun:^:drain
+flag:^:vampiric 
+level:^:(*int)10
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:15 
+dex:^:(*int)1
+hit:^:(*int)2
+read:^:promise:^:This powerful flail is not merely a weapon, it truly is a sign<br>of dark things to come. Inscribed on the weapon in detail are the<br>methods needed to craft a 'dark vile orb'<br> <br>Which is a vastly powerful artifact... it requires many rare<br>components including:<br>an icy manipulator orb to form the basic structure<br>shattered fragments from the 4 cursed gems of hell<br>bound together over a 12 step process each requiring<br>a single shard of darkness.<br> <br>Crafters beware!<br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3060
+keywords:^:jerkin leather
+name:^:a leather jerkin
+desc:^:A leather jerkin is lying on the ground.
+material:^:leather
+armor_class:^:1 2 2 0 0
+level:^:(*int)0
+weight:^:(*int)50
+worth:^:(*int)270
+wear_loc:^:9 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3061
+keywords:^:cap leather
+name:^:a leather cap
+desc:^:A leather cap is lying on the ground.
+material:^:leather
+armor_class:^:1 2 2 0 0
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)136
+wear_loc:^:5 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3062
+keywords:^:pants leather
+name:^:a pair of leather pants
+desc:^:A pair of leather pants is lying on the ground.
+material:^:leather
+armor_class:^:1 2 2 0 0
+level:^:(*int)0
+weight:^:(*int)50
+worth:^:(*int)136
+wear_loc:^:6 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3063
+keywords:^:boots leather
+name:^:a pair of leather boots
+desc:^:A pair of leather boots lies here.
+material:^:leather
+armor_class:^:1 2 2 0 0
+level:^:(*int)0
+weight:^:(*int)30
+worth:^:(*int)136
+wear_loc:^:2 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3064
+keywords:^:gloves leather
+name:^:a pair of leather gloves
+desc:^:A pair of leather gloves is lying on the ground.
+material:^:leather
+armor_class:^:1 2 2 0 0
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)136
+wear_loc:^:4 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3065
+keywords:^:sleeves leather
+name:^:a pair of leather sleeves
+desc:^:A pair of leather sleeves is lying on the ground.
+material:^:leather
+armor_class:^:1 2 2 0 0
+level:^:(*int)0
+weight:^:(*int)30
+worth:^:(*int)136
+wear_loc:^:0 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3066
+keywords:^:jerkin hard leather
+name:^:a hard leather jerkin
+desc:^:A hard leather jerkin is lying on the ground.
+material:^:leather
+armor_class:^:1 3 3 0 1
+level:^:(*int)0
+weight:^:(*int)80
+worth:^:(*int)430
+wear_loc:^:9 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3067
+keywords:^:cap hard leather
+name:^:a hard leather cap
+desc:^:A hard leather cap is lying on the ground.
+material:^:leather
+armor_class:^:1 3 3 0 0
+level:^:(*int)0
+weight:^:(*int)20
+worth:^:(*int)220
+wear_loc:^:5 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3068
+keywords:^:pants hard leather
+name:^:a pair of hard leather pants
+desc:^:A pair of hard leather pants is lying on the ground.
+material:^:leather
+armor_class:^:1 3 3 0 1
+level:^:(*int)0
+weight:^:(*int)70
+worth:^:(*int)220
+wear_loc:^:6 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3069
+keywords:^:boots hard leather
+name:^:a pair of hard leather boots
+desc:^:A pair of hard leather boots lies here.
+material:^:leather
+armor_class:^:1 3 3 0 1
+level:^:(*int)0
+weight:^:(*int)40
+worth:^:(*int)220
+wear_loc:^:2 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3070
+keywords:^:gloves hard leather
+name:^:a pair of hard leather gloves
+desc:^:A pair of hard leather gloves is lying on the ground.
+material:^:leather
+armor_class:^:1 3 3 0 1
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)220
+wear_loc:^:4 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3071
+keywords:^:sleeves hard leather
+name:^:a pair of hard leather sleeves
+desc:^:A pair of hard leather sleeves is lying on the ground.
+material:^:leather
+armor_class:^:1 3 3 0 1
+level:^:(*int)0
+weight:^:(*int)40
+worth:^:(*int)220
+wear_loc:^:0 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3072
+keywords:^:jerkin scale mail
+name:^:a scale mail jerkin
+desc:^:A scale mail jerkin is lying on the ground.
+material:^:steel
+armor_class:^:3 4 4 0 2
+level:^:(*int)5
+weight:^:(*int)140
+worth:^:(*int)850
+wear_loc:^:9 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3073
+keywords:^:coif scale mail
+name:^:a scale mail coif
+desc:^:A scale mail coif is lying on the ground.
+material:^:steel
+armor_class:^:3 4 4 0 1
+level:^:(*int)5
+weight:^:(*int)40
+worth:^:(*int)420
+wear_loc:^:5 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3074
+keywords:^:skirt scale mail
+name:^:a long scale mail skirt
+desc:^:A long scale mail skirt is lying on the ground.
+material:^:steel
+armor_class:^:3 4 4 0 2
+level:^:(*int)5
+weight:^:(*int)80
+worth:^:(*int)420
+wear_loc:^:6 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3075
+keywords:^:boots reinforced
+name:^:a pair of reinforced boots
+desc:^:A pair of reinforced boots lies here.
+material:^:leather
+armor_class:^:3 4 4 0 2
+level:^:(*int)5
+weight:^:(*int)40
+worth:^:(*int)420
+wear_loc:^:2 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3076
+keywords:^:gloves reinforced
+name:^:a pair of reinforced gloves
+desc:^:A pair of reinforced gloves is lying on the ground.
+material:^:leather
+armor_class:^:3 4 4 0 2
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)420
+wear_loc:^:4 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3077
+keywords:^:sleeves scale mail
+name:^:a pair of scale mail sleeves
+desc:^:A pair of scale mail sleeves is lying on the ground.
+material:^:steel
+armor_class:^:3 4 4 0 2
+level:^:(*int)5
+weight:^:(*int)60
+worth:^:(*int)420
+wear_loc:^:0 
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:3078
+keywords:^:defeathered chicken
+name:^:a defeathered chicken
+desc:^:A defeathered chicken is here on the floor.
+material:^:oldstyle
+level:^:(*int)0
+weight:^:(*int)50
+worth:^:(*int)10
+wear_loc:^:
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3079
+keywords:^:potion fly flying
+name:^:a potion of flying
+desc:^:A potion of flying is here.
+material:^:glass
+level:^:(*int)3
+weight:^:(*int)10
+worth:^:(*int)1250
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3080
+keywords:^:potion heal healing
+name:^:a potion of healing
+desc:^:A potion of healing is here.
+material:^:glass
+level:^:(*int)11
+weight:^:(*int)10
+worth:^:(*int)4000
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3081
+keywords:^:potion sanct sanctuary
+name:^:a potion of sanctuary
+desc:^:A potion of sanctuary is here.
+material:^:glass
+level:^:(*int)11
+weight:^:(*int)10
+worth:^:(*int)4000
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3082
+keywords:^:potion divine
+name:^:a potion of divine protection
+desc:^:A potion of divine protection is here.
+material:^:crystal
+level:^:(*int)16
+weight:^:(*int)10
+worth:^:(*int)9000
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3083
+keywords:^:potion cure light
+name:^:a potion of cure light wounds
+desc:^:A potion of cure light wounds is here.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)750
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3084
+keywords:^:potion cure serious
+name:^:a potion of cure serious wounds
+desc:^:A potion of cure serious wounds is here.
+material:^:glass
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)1100
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3085
+keywords:^:potion cure critical critic
+name:^:a potion of cure critical wounds
+desc:^:A potion of cure critical wounds is here.
+material:^:glass
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)1950
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3086
+keywords:^:potion antidote bottle
+name:^:a bottle of antidote
+desc:^:A bottle of antidote is here.
+material:^:clay
+level:^:(*int)8
+weight:^:(*int)10
+worth:^:(*int)2750
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3087
+keywords:^:potion cure blindness
+name:^:a potion of cure blindness
+desc:^:A potion of cure blindness is here.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)1150
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3088
+keywords:^:vial holy water
+name:^:a vial of holy water
+desc:^:A vial of holy water is here.
+material:^:crystal
+level:^:(*int)10
+weight:^:(*int)10
+worth:^:(*int)3600
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3089
+keywords:^:potion armor
+name:^:a potion of armor
+desc:^:A potion of armor is here.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)1000
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3090
+keywords:^:potion negation
+name:^:a potion of negation
+desc:^:A potion of negation is here.
+material:^:glass
+level:^:(*int)9
+weight:^:(*int)10
+worth:^:(*int)4150
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3091
+keywords:^:potion fly flying
+name:^:a potion of flying
+desc:^:A potion of flying is here.
+material:^:glass
+level:^:(*int)3
+weight:^:(*int)10
+worth:^:(*int)1250
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3092
+keywords:^:potion true sight
+name:^:a potion of true sight
+desc:^:A potion of true sight is here.
+material:^:glass
+level:^:(*int)4
+weight:^:(*int)10
+worth:^:(*int)1450
+wear_loc:^:13 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3097
+keywords:^:shield small metal
+name:^:a small metal shield
+desc:^:A small metal shield is lying on the ground.
+material:^:steel
+armor_class:^:4 4 4 1 2
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)750
+wear_loc:^:8 
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3098
+keywords:^:lemonade skin buffalo
+name:^:a buffalo skin of lemonade
+desc:^:A bloated dead buffalo is on the floor.
+material:^:leather
+level:^:(*int)0
+weight:^:(*int)40
+worth:^:(*int)50
+wear_loc:^:
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3100
+keywords:^:tea cup
+name:^:a cup of tea
+desc:^:A cup has been set here.
+material:^:china
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)8
+wear_loc:^:
+read:^:cup:^:It is a small simple cup. <br>
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3101
+keywords:^:coffee cup
+name:^:a cup of coffee
+desc:^:A cup has been set here.
+material:^:china
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)6
+wear_loc:^:
+read:^:cup:^:It is a small simple cup. <br>
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3102
+keywords:^:water cup
+name:^:a cup of water
+desc:^:A cup has been set here.
+material:^:clay
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)1
+wear_loc:^:
+read:^:cup:^:It is a large simple cup. <br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3105
+keywords:^:bracer bronze
+name:^:a bronze bracer
+desc:^:A bronze bracer is lying on the ground.
+material:^:bronze
+armor_class:^:3 6 6 0 3
+level:^:(*int)10
+weight:^:(*int)30
+worth:^:(*int)760
+wear_loc:^:11 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3106
+keywords:^:bracer iron
+name:^:an iron bracer
+desc:^:An iron bracer is lying on the ground.
+material:^:iron
+armor_class:^:3 7 7 0 3
+level:^:(*int)15
+weight:^:(*int)40
+worth:^:(*int)1020
+wear_loc:^:11 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3110
+keywords:^:shirt chain mail
+name:^:a chain mail shirt
+desc:^:A chain mail shirt is lying on the ground.
+material:^:steel
+armor_class:^:5 4 5 0 3
+level:^:(*int)10
+weight:^:(*int)180
+worth:^:(*int)1320
+wear_loc:^:9 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3111
+keywords:^:coif chain mail
+name:^:a chain mail coif
+desc:^:A chain mail coif is lying on the ground.
+material:^:steel
+armor_class:^:5 4 5 0 2
+level:^:(*int)10
+weight:^:(*int)50
+worth:^:(*int)660
+wear_loc:^:5 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3112
+keywords:^:skirt chain mail
+name:^:a long chain mail skirt
+desc:^:A long chain mail skirt is lying on the ground.
+material:^:steel
+armor_class:^:5 4 5 0 3
+level:^:(*int)10
+weight:^:(*int)100
+worth:^:(*int)660
+wear_loc:^:6 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3113
+keywords:^:boots ironbound
+name:^:a pair of iron-bound boots
+desc:^:A pair of iron-bound boots lies here.
+material:^:iron
+armor_class:^:5 4 5 0 3
+level:^:(*int)10
+weight:^:(*int)60
+worth:^:(*int)660
+wear_loc:^:2 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3114
+keywords:^:gauntlets chain mail
+name:^:a pair of chain mail gauntlets
+desc:^:A pair of chain mail gauntlets is lying on the ground.
+material:^:steel
+armor_class:^:5 4 5 0 3
+level:^:(*int)10
+weight:^:(*int)40
+worth:^:(*int)660
+wear_loc:^:4 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3115
+keywords:^:sleeves chain mail
+name:^:a pair of chain mail sleeves
+desc:^:A pair of chain mail sleeves is lying on the ground.
+material:^:steel
+armor_class:^:5 4 5 0 3
+level:^:(*int)10
+weight:^:(*int)80
+worth:^:(*int)660
+wear_loc:^:0 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3116
+keywords:^:shield large metal
+name:^:a large metal shield
+desc:^:A large metal shield is lying on the ground.
+material:^:steel
+armor_class:^:5 5 5 2 4
+level:^:(*int)10
+weight:^:(*int)100
+worth:^:(*int)1190
+wear_loc:^:8 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3117
+keywords:^:shield small wooden
+name:^:a small wooden shield
+desc:^:A small wooden shield is lying on the ground.
+material:^:wood
+armor_class:^:4 3 2 1 1
+level:^:(*int)3
+weight:^:(*int)20
+worth:^:(*int)510
+wear_loc:^:8 
+--- END ITEM ---
+--- START KEY ---
+vnum:^:3120
+keywords:^:key iron
+name:^:a key
+desc:^:An iron key has been left here.
+material:^:iron
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:
+read:^:key iron:^:The iron key is not special. <br>
+--- END ITEM ---
+--- START KEY ---
+vnum:^:3121
+keywords:^:key rusty
+name:^:a key
+desc:^:A rusty key has been left here.
+material:^:iron
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:
+read:^:key rusty:^:The key is a fairly large rusty key.  You notice some fresh dirt on it. <br>
+--- END ITEM ---
+--- START KEY ---
+vnum:^:3122
+keywords:^:key wooden
+name:^:a key
+desc:^:A wooden key has been left here.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:
+read:^:key wooden:^:The wooden key is not special. <br>
+--- END ITEM ---
+--- START KEY ---
+vnum:^:3123
+keywords:^:key brass
+name:^:a key
+desc:^:A brass key has been left here.
+material:^:brass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:
+read:^:key brass:^:The brass key is small and looks like it fits a very complicated lock. <br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3124
+keywords:^:sword long
+name:^:a long sword
+desc:^:A long sword has been left here.
+material:^:steel
+weapon_type:^:sword
+dice:^:2
+sides:^:10
+noun:^:slash
+flag:^:sharp 
+level:^:(*int)26
+weight:^:(*int)50
+worth:^:(*int)2000
+wear_loc:^:15 
+--- END ITEM ---
+--- START TRASH ---
+vnum:^:3129
+keywords:^:hand cuffs
+name:^:a pair of hand cuffs
+desc:^:A pair of hand cuffs has been left here.
+material:^:iron
+level:^:(*int)0
+weight:^:(*int)40
+worth:^:(*int)0
+wear_loc:^:13 
+--- END ITEM ---
+--- START CONTAINER ---
+vnum:^:3130
+keywords:^:desk drawer
+name:^:the desk
+desc:^:A desk is set against the western wall.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:-1 
+read:^:drawer:^:You notice a keyhole in the drawer. <br>
+read:^:desk:^:The desk looks very sparse, there is a drawer on the left side. <br>
+--- END ITEM ---
+--- START CONTAINER ---
+vnum:^:3131
+keywords:^:safe
+name:^:the safe
+desc:^:A safe is placed in a dark corner of the room.
+material:^:iron
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:-1 
+read:^:safe:^:The safe is very heavy. <br>
+--- END ITEM ---
+--- START MONEY ---
+vnum:^:3132
+keywords:^:silver coins
+name:^:the silver coins
+desc:^:A lot of silver is here.
+material:^:silver
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:
+read:^:silver:^:Looks like at least a thousand coins. <br>
+--- END ITEM ---
+--- START KEY ---
+vnum:^:3133
+keywords:^:city key
+name:^:the City Key
+desc:^:The very big City Key is lying here.
+material:^:gold
+level:^:(*int)0
+weight:^:(*int)250
+worth:^:(*int)100
+wear_loc:^:
+read:^:city key:^:It is probably the biggest key you have seen in your life. It is made from <br>polished gold and has various patterns on it along with the Midgaard Coat of <br>Arms. <br>
+--- END ITEM ---
+--- START FURNITURE ---
+vnum:^:3134
+keywords:^:bench
+name:^:the Bench
+desc:^:A white-painted wooden bench is standing here.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:-1 
+read:^:bench:^:It is a quite heavy but very comfortable bench.  It is placed with its front <br>towards the river so you can sit and watch the river and the houses on the <br>other side. <br>
+--- END ITEM ---
+--- START FOUNTAIN ---
+vnum:^:3135
+keywords:^:fountain water
+name:^:a fountain
+desc:^:A white marble fountain gushes forth here.
+material:^:
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:-1 
+read:^:fountain:^:It is very nice.  Made from fine white marble. <br>
+--- END ITEM ---
+--- START MONEY ---
+vnum:^:3136
+keywords:^:coins
+name:^:a small pile of coins
+desc:^:A small pile of coins lies here.
+material:^:silver
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:
+--- END ITEM ---
+--- START KEY ---
+vnum:^:3137
+keywords:^:key steel
+name:^:a steel key
+desc:^:A large steel key has been left here.
+material:^:steel
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:
+read:^:key steel:^:A key of this size must fit a very strong lock. <br>
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3138
+keywords:^:skin water buffalo
+name:^:a buffalo water skin
+desc:^:A bloated dead buffalo is on the floor.
+material:^:leather
+level:^:(*int)0
+weight:^:(*int)40
+worth:^:(*int)24
+wear_loc:^:
+--- END ITEM ---
+--- START TRASH ---
+vnum:^:3139
+keywords:^:venari hatred dragons set spikes metal pole
+name:^:Free Vnum
+desc:^:Free Vnum
+material:^:steel
+level:^:(*int)50
+weight:^:(*int)50
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3140
+keywords:^:dagger bosco
+name:^:a Bosco dagger
+desc:^:An expensive dagger is on the floor.
+material:^:oldstyle
+weapon_type:^:dagger
+dice:^:7
+sides:^:6
+noun:^:stab
+flag:^:flaming frost 
+level:^:(*int)50
+weight:^:(*int)20
+worth:^:(*int)450
+wear_loc:^:15 
+dam:^:(*int)5
+--- END ITEM ---
+--- START PILL ---
+vnum:^:3141
+keywords:^:clear pill
+name:^:a clear pill
+desc:^:A cute clear pill has the letter 'S' stamped on it.
+material:^:glass
+level:^:(*int)20
+weight:^:(*int)0
+worth:^:(*int)2500
+wear_loc:^:
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3149
+keywords:^:taco bell wrapper
+name:^:{wa {RTaco Bell {Bwrapper{x
+desc:^:Someone has left a {RTaco Bell {Bwrapper {xhere, turn it in for the {cjackpot{x!
+material:^:paper
+weapon_type:^:exotic
+dice:^:5
+sides:^:8
+noun:^:bite
+flag:^:flaming 
+level:^:(*int)42
+weight:^:(*int)50
+worth:^:(*int)9000
+wear_loc:^:15 
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3150
+keywords:^:coffee cup cinnamon
+name:^:a cup of cinnamon coffee
+desc:^:A piping hot cup of cinnamon coffee is here.
+material:^:china
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)12
+wear_loc:^:
+read:^:coffee:^:It's a nice flavorful blend, just right for late-night mudding sessions. <br>
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:3151
+keywords:^:soup bowl
+name:^:a bowl of chicken noodle soup
+desc:^:A nice hot bowl of chicken noodle soup is here.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)20
+worth:^:(*int)10
+wear_loc:^:
+read:^:soup:^:This looks like just the thing for a cold! <br>
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:3152
+keywords:^:bowl beef stew
+name:^:a bowl of beef stew
+desc:^:A bowl of nice thick beef stew, with lots of vegetables, steams here.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)30
+worth:^:(*int)14
+wear_loc:^:
+read:^:stew bowl:^:This is Valan's special stew, guaranteed to keep hunger pangs away for many <br>hours.  Care for a bite? <br>
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:3153
+keywords:^:biscuit
+name:^:a biscuit
+desc:^:A yummy biscuit, covered with butter, is here.
+material:^:food
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)5
+wear_loc:^:
+read:^:biscuit:^:A nice, soft biscuit with just enough butter.  Better buy two. <br>
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3154
+keywords:^:Maudite Beer
+name:^:Maudite 8% Beer
+desc:^:A beer bottle is here, with a ship sailing into the sunset.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)20
+worth:^:(*int)20
+wear_loc:^:
+read:^:beer bottle:^:It's a fine tasteing 8% beer, with the ottawa famous symbol of a viking<br>ship sailing up into the sunset.  With red devils face laughing at them.<br>
+--- END ITEM ---
+--- START KEY ---
+vnum:^:3161
+keywords:^:key white
+name:^:a white key
+desc:^:A white key has been left here.
+material:^:ivory
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:13 
+--- END ITEM ---
+--- START MAP ---
+vnum:^:3162
+keywords:^:map midgaard
+name:^:a map of the city of Midgaard
+desc:^:A rolled up map is here.
+material:^:paper
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)500
+wear_loc:^:
+read:^:map midgaard:^:. <br>								* * * Midgaard * * * <br>								 = = ========== = = <br>  <br>												 Rainbow Bridge (Asgard and Valhalla) <br>												/ <br>			 North            Temple Altar   Mud School <--- ** NEWBIES ** <br>				|   /Up        (Healer, Pit)      |           ** GO HERE ** <br>				| /                  |       /Entrance to <br>	  West---+---East             |     /  Mud School <br>			 / |                 Temple of       | <br>	 Down/   |                  Bosco         Arena <br>			 South               (Recall) <br>											| <br>											|   /In the Air   /Defunct Reception <br>											| /             / <br>		 Northern            Temple Square---Boar's Head       Northern <br>		 Midgaard              (Fountain)         Inn          Midgaard <br>	  (Wary Way) Magic           |                          (Wary Way) <br>			  |     Shop   Bakery   |    Grocer    Weaponsmith     | <br>			  |       |      |      |       |           |          | <br>To    <---West---Main-Street---Market----Main-Street-+--------East--->Cross <br>Shire,    Gate            |    Square    |                    Gate    Roads <br>Forest of  |           Armoury   |     Jeweler                  | <br>Haon-Dor   |                     |                           Wall Road <br>			 Wall                   |                              | <br>			 Road  Leather  Map     |    Grebe's  Pet   Apothecary | <br>			  |     Shop    Shop    |    Tavern   Shop  (Potions)  | <br>			  |      |       |    Common   |       |       |       | <br>			 Wall---Poor-Alley----Square---Dark-Alley------+----Wall Road <br>			 Road    |       |      |              |       |       | <br>			  | The Temple  Grubby  |            Levee   Warehouse | <br>			  |     of       Inn    |            (Boats)           | <br>			  | Concentration      Dump            |               | <br>			  |                     |              |               |<br>			 Wall  Mob      Sewers/ |              |             Wall <br>			 Road--Factory          |              |             Road <br>			  |                   South         Midgaard           |         To the <br>			Bridge                Bridge         River---------> Bridge <--> Sands <br>			  |                     |                              |           of <br>		  Southern              Southern                       Southern     Sorrow <br>		  Midgaard              Midgaard                       Midgaard <br>
+--- END ITEM ---
+--- START MAP ---
+vnum:^:3163
+keywords:^:map terra
+name:^:a map of Terra
+desc:^:A rolled up map is here.
+material:^:paper
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)1500
+wear_loc:^:
+read:^:map terra:^:. <br>								 * * * Northern Terra  * * * <br>								  = = ================== = = <br>  <br>																	Moria <br>									  Olympus          New    |    Dwarven--Mines <br>Mage            Elven Valley    |     Ofcol--Ofcol   +----Kingdom <br>Tower                       \   |       |            |       |    \Catacombs <br>  |    Dragon Tower          Plains-----+            |   Day-Care <br>  |   /                         |       |            |             Void---Old <br>Shadow                      Northern  Stones of      |   Nirvana\    |   Thalos <br>Grove---Galaxy              Midgaard   G'harne       |            \Holy <br>  |                             |                    |     Smurf   Grove <br>	\  Arachnos    Shire  Asgard | In the Air         |    Village    | <br>	  \   |          |         \ | /                  |       |       |    Check <br>		Forest Of-----+-------Midgaard---------------Cross---Eastern Road---Point <br>		Haon Dor              / | | | \              Roads             | <br>	  /     |     Mob Factory  | | |  Machine            \        Gnome Village <br>  Old    Troll               /  | |  Dreams               \ <br> Marsh    Den           Sewer   |  \            Ruins of---Dwarf---Frigid Waste <br>										  |    \Midgaard   Thalos    Forest         | <br>		 Redferne's---Chain---Southern    River                |  \      Keep of <br>		 Residence            Midgaard         \       Wyvern--+  Drow   Mahn-tor <br>			  |                  / | \          Sands of Tower  |  City <br>			Clouds      Gang Land  | Graveyard  Sorrow          | <br>		  (Harpies)               |      \           \       Elemental <br>									 Miden'nir   Church   Mega-City  Canyon <br>									 (Goblins)  Catacombs    One <br>  <br>This map shows just about all the major areas on REDEMPTIONS.  This map is <br>NOT drawn to scale, some of the directions were changed to make everything <br>fit.  This map shows the GENERAL location of an area with respect to the <br>other areas. Type "areas" for a complete list with suggested levels and the <br>authors. <br>
+--- END ITEM ---
+--- START MAP ---
+vnum:^:3164
+keywords:^:map southern midgaard
+name:^:a map of southern Midgaard
+desc:^:A rolled up map is here.
+material:^:paper
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)1000
+wear_loc:^:
+read:^:map southern midgaard:^:. <br>								 * * * SOUTHERN Midgaard * * * <br>								  = = =================== = = <br>  <br> West                          South            Valan's                  East <br>Bridge                         Bridge            Diner                   Bridge <br>  |                              |                 |                       | <br>Northwest                        |              Austral                Northeast <br>Concourse---Promenade--------Promenade----------Square-----------------Concourse <br>	 |           |                |                 |                       | <br>	 |           |                |                 |          Fountain     | <br>	 |           |                |              Emerald           |        | <br>Concourse     Park              Park-----Park     Ave----Penny--Penny--Concourse <br>	 |         Road            Entrance   Cafe      |     Lane   Lane       | <br>	 |           |                |              Emerald                    | <br>	 |           |                |                Ave                      | <br>	 |           |                |                 |                       | <br>	 |  Guard  Park     Park     The      Park   Emerald   Town             | <br>	 |   HQ----Road---Entrance---Park---Entrance---Ave-----Hall             | <br>	 |           |                                  |                       | <br>	 |         Park              Emerald---------Emerald--------------Gang  | <br>	 |         Road                Ave             Ave                |  |  | <br>	 |           |                  |                                 |  |  | <br>	 |         Park----------------Road----------Park            Elm--Land  | <br>	 |         Road             /Crossing        Road           Street      | <br>	 |                     Chain    |              |              |         | <br>Concourse                /         |            Park----Elm-----Elm----Concourse <br>	 |       (Redferne's, Harpies)  |            Road   Street  Street      | <br>	 |                              |              |              |         | <br>	 |                Emerald--Emerald            Park        Graveyard     | <br>	 |                  Ave      Ave             Road    (Church Catacombs) | <br>	 |                   |                         |                        | <br>	 |                Emerald                    Park                       | <br>	 |                  Ave                      Road                       | <br>	 |                   |                         |                        | <br>Concourse-----------Concourse------Inside-----Concourse----------------Concourse <br>											South Gate <br>												 | <br>											Miden'Nir <br>											(Goblins) <br> <br>
+--- END ITEM ---
+--- START MAP ---
+vnum:^:3165
+keywords:^:map dwarven kingdom dwarf
+name:^:a map of the Dwarven Kingdom
+desc:^:A rolled up map is here.
+material:^:paper
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)750
+wear_loc:^:
+read:^:map dwarven kingdom dwarf:^:. <br>								 * * * The Dwarven Kingdom * * * <br>								  = = ===================== = = <br>  <br>						  Dwarven <br>						  Hospital <br>							  |                                              *Path to <br>			North of---Path by---Path by---Barracks     Guard--Door to----Castle <br>			 Shops     Hospital  Barracks  Entrance     House  Kingdom  Strangelove <br>Granite     |                              |                   | <br>Head's---Path North                      First               Narrow <br>Bakery    of Shop                       Barracks              Path <br>				|                              |                   | <br>			Hide and    Turn               Back of     Bend in--Narrow <br>		  Tooth Shop--in Road             Barracks     Path     Path <br>							  |                    \         | <br>						  Path to               Dwarven   Narrow <br>						  Village              Catacombs   Path <br>							  |                              | <br>				 Store  *Inside    Entrance     Top of   Dark   *Mine <br>				 Room---Entrance--To Mountain--Mountain--Path--Entrance <br>					 \                             |                 \ <br>					Wine                        Middle of          Dwarven <br>				  Cellar                       Mountain            Mines <br>						\                            | <br>					 Dwarven                    Base of <br>					Catacombs    Moria          Mountain           North <br>										|               |           Up\   | <br>										|            Path to            \ | <br>									 Plains--Hills--Dwarven      West----+----East <br>										|            Kingdom              | \ <br>										|               |                 |   \Down <br>				  Midgaard <----Cross          Dwarven            South <br>									 Roads          Drop-off <br>														(Day-Care) <br>  <br>*key required <br>
+--- END ITEM ---
+--- START MAP ---
+vnum:^:3166
+keywords:^:map moria first
+name:^:a map of the first level of Moria
+desc:^:A rolled up map is here.
+material:^:paper
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)1500
+wear_loc:^:
+read:^:map moria first:^:* * * MORIA - Map 1 * * *                                           To Mahn-Tor <br> = = =============== = =                                                 | <br>Talk about a mess!                                                   Foothills <br>																								 | <br>This is as far as our courageous, noble, brave           Light Cave    Valley <br>and apparently quite deceased cartographers                   |           | <br>could get.  Perhaps more maps could be found             Smelly Tunnel  Cave <br>in the depths of Moria itself.                                |           | <br>																  Cave---Many Tunnels---Tunnel <br>																	 |         |           | <br>			West End--Large Cave--East End           Cave      Tunnel      *Hole <br>				|          |                            |         |        (Map 2) <br>				|        Tunnel---------Tunnel--------Tunnel----Tunnel <br>				|                                       | <br> *Hole----Damp----Damp  Tunnel--Tunnel--Tunnel    Tunnel <br>(Map 3)  Tunnel  Tunnel   |               |         | <br>						 |      |            (*Map 3)  The Cave <br>						 |      |                         | <br>						 |    Tunnel--Light--Maze      End of <br>						 |            Cave    |        The Path <br>						 |                  Light         | <br>						 |                  Cave      The Hills--> Dwarven Kingdom <br>						 |                    |           | <br>					  Tunnel----Tunnel-----Light     The Plains <br>												  Cave          | <br>																 The Lane <br>																	 | <br>												  Midgaard <--Cross--> Eastern Road <br>																  Roads <br>																	 | <br>															  Dwarf Forest <br>
+--- END ITEM ---
+--- START MAP ---
+vnum:^:3167
+keywords:^:map new thalos
+name:^:a map of New Thalos 
+desc:^:A rolled up map is here.
+material:^:paper
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)2500
+wear_loc:^:
+read:^:map new thalos:^:. <br>			  * * * **************** New Thalos ***************** * * * <br>						 "Not Thalos or Old Thalos but New Thalos" <br>				= = =============================================== = = <br> <br>											  Plains <br>												 | <br>Northwest--West Casbah-------------North-----------------Casbah--------Northeast <br>  Tower     |                       Gate                    |            Tower <br>			 Alley                      |                      |              | <br>				|    Guard            Sultan's                  |  Library----Kali <br>			 Alley  House              Walk                    |             Row <br>						 |                 |      Dancing         |              | <br>	  Sultan's----Grand----Palace--Sultan's--Daemon          |   Dance-----Kali <br>		Palace    Entrance   Gate     Walk      Inn           |   Hall      Row <br>						 |                 |                      | <br>					  Guard               |         Bowyer--Guildsman's--Mason's <br>					  House               |         Guild       Row      Guild <br> High                                |                      | <br>Priest                               |         Weaver--Guildsman's--Craftsman <br>Chamber  Altar                    Sultan's     Guild       Row        Guild <br>  |        |                        Walk                    | <br>Inside--Inside--Donation             |         Tanner--Guildsman's--Museum <br>Temple  Temple    Room               |         Guild       Row      of the <br>  |        |                         |                      |       Greater <br>Cleric     |                         |                 Guildsman's---Gods <br>Guild     /                          |                     Row <br>		  /                            |                      | <br>	  Temple             Ahkeem's  Sultan's  Vera's     Guildsman's         Mage <br>	  Gates                Stuff     Walk   Veggies         Row             Tower <br>		 |     Alley--Alley    |       |       |              |                | <br>	  Temple    |           Market--Market--Market           | Witch's  Magic | <br>	  Square  Alley   Bank--Square  Square  Square--Butchery |  Brew    Shop  | <br>		 |       |             |       |       |              |    |      |    | <br>West--West---West---West---Market--Center--Market---East--East--East--East--East <br>Gate  Main   Main   Main   Square  Square  Square   Main  Main  Main  Main  Gate <br>  |    |       |             |       |       |              |    | <br>  |  Repair  Alley  Store--Market--Market--Market--Abdul's  | Mercenary--Thieves <br>  |   Shop     |           Square  Square  Sqaure   Armor   |   Guild     Guild <br>  |          Alley--Alley    |       |       |             Alley <br>Warrior's                  Bread   Medina  Igor's  Leather  |           Smuggler <br>  Guild                    Stand     |    Weapons   Shop---Alley--Alley---Inn <br>											  Medina                        / <br>		Warehouse    Shipwright        |     Forge  Stables      /    Cass's  Dump <br>		 |     |          |          Common    |       |        |       |      | <br>		 +-----West Ishtar Drive-----Square----+---East Ishtar Drive----+------+ <br>								|            | <br>						  Boat Ramp        | <br>								|          South <br>===================Ishtar River====Bridge======================> To Dragon Sea <br>												 | <br>											  South <br>											  Gate <br>
+--- END ITEM ---
+--- START MAP ---
+vnum:^:3168
+keywords:^:map olympus
+name:^:a map of Olympus
+desc:^:A rolled up map is here.
+material:^:paper
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)2000
+wear_loc:^:
+read:^:map olympus:^:. <br>										 *****OLYMPUS***** <br>										 ================= <br>  <br>											  Bedroom <br>												  | <br>											  Northern <br>												 Hall <br>								Western       |         Eastern <br>				  Bedroom----Hall----Second Floor----Hall----Bedroom <br>										  /     | <br>								 Stairway  Southern <br>									  |       Hall                    North <br>								Throne Room   |                        |  /Up <br>									  |      Bedroom                    |/ <br>									  |                          West---+---East <br>						Kitchen    |     Stable                     /| <br>							|       |       |                  Down/  | <br>		  Guest     Western  Castle  Eastern   Guest           South <br>		 Quarters----Wing----Entry----Wing----Quarters <br>							|       |       | <br>						Storage   Z|    Storage <br>						 Room     e|S    Room   Smithy <br>									 u|t             | <br>									 s+--Ares Street-+--Weapon <br>						  Mystery  |              |   Shop <br>						  Shop-----+           Armoury <br>									  | <br>						 Residence-+-Residence <br>									  | <br>							Bakery--+ <br>									  | <br>							  **Entrance** <br>									 / <br>							 Mountain <br>
+--- END ITEM ---
+--- START SHEATH ---
+vnum:^:3169
+keywords:^:no name
+name:^:(no short description)
+desc:^:
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START JUKEBOX ---
+vnum:^:3200
+keywords:^:A bard
+name:^:A bard
+desc:^:A bard is here, reading poetry, and singing music for your entertainment.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START CONTAINER ---
+vnum:^:3237
+keywords:^:pit
+name:^:the donation pit
+desc:^:A pit for sacrifices is in front of the altar.
+material:^:
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:3238
+keywords:^:skin water buffalo
+name:^:a buffalo water skin
+desc:^:A bloated dead buffalo is on the floor.
+material:^:leather
+level:^:(*int)0
+weight:^:(*int)40
+worth:^:(*int)3
+wear_loc:^:
+--- END ITEM ---
+--- START SCROLL ---
+vnum:^:3240
+keywords:^:scroll identify
+name:^:a scroll of identify
+desc:^:A scroll has carelessly been left here.
+material:^:vellum
+level:^:(*int)7
+weight:^:(*int)10
+worth:^:(*int)890
+wear_loc:^:13 
+read:^:scroll identify:^:The scroll has a magic formula drawn upon it: <br>	  ??? <br>	 ?   ? <br>		 ? <br>		? <br>		? <br>		* <br>
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3241
+keywords:^:potion yellow
+name:^:a yellow potion of see invisible
+desc:^:A small yellow potion has carelessly been left here.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)220
+wear_loc:^:13 
+read:^:potion yellow:^:The potion has a small label 'Detect The Invisible'. <br>
+--- END ITEM ---
+--- START SCROLL ---
+vnum:^:3242
+keywords:^:scroll recall
+name:^:a scroll of recall
+desc:^:A scroll has carelessly been left here.
+material:^:vellum
+level:^:(*int)17
+weight:^:(*int)20
+worth:^:(*int)2900
+wear_loc:^:13 
+read:^:scroll:^:The scroll has written a formula of 'Word of Recall' upon it. <br>
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3280
+keywords:^:potion heal healing
+name:^:a potion of healing
+desc:^:A potion of healing is here.
+material:^:glass
+level:^:(*int)11
+weight:^:(*int)10
+worth:^:(*int)800
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3281
+keywords:^:potion sanct sanctuary
+name:^:a potion of sanctuary
+desc:^:A potion of sanctuary is here.
+material:^:glass
+level:^:(*int)11
+weight:^:(*int)10
+worth:^:(*int)800
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3282
+keywords:^:potion divine
+name:^:a potion of divine protection
+desc:^:A potion of divine protection is here.
+material:^:crystal
+level:^:(*int)16
+weight:^:(*int)10
+worth:^:(*int)1800
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3283
+keywords:^:potion cure light
+name:^:a potion of cure light wounds
+desc:^:A potion of cure light wounds is here.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)150
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3284
+keywords:^:potion cure serious
+name:^:a potion of cure serious wounds
+desc:^:A potion of cure serious wounds is here.
+material:^:glass
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)220
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3285
+keywords:^:potion cure critical critic
+name:^:a potion of cure critical wounds
+desc:^:A potion of cure critical wounds is here.
+material:^:glass
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)390
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3286
+keywords:^:potion antidote bottle
+name:^:a bottle of antidote
+desc:^:A bottle of antidote is here.
+material:^:clay
+level:^:(*int)8
+weight:^:(*int)10
+worth:^:(*int)550
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3287
+keywords:^:potion cure blindness
+name:^:a potion of cure blindness
+desc:^:A potion of cure blindness is here.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)230
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3288
+keywords:^:vial holy water
+name:^:a vial of holy water
+desc:^:A vial of holy water is here.
+material:^:crystal
+level:^:(*int)10
+weight:^:(*int)10
+worth:^:(*int)720
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3289
+keywords:^:potion armor
+name:^:a potion of armor
+desc:^:A potion of armor is here.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)200
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3290
+keywords:^:potion negation
+name:^:a potion of negation
+desc:^:A potion of negation is here.
+material:^:glass
+level:^:(*int)9
+weight:^:(*int)10
+worth:^:(*int)830
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3291
+keywords:^:potion fly flying
+name:^:a potion of flying
+desc:^:A potion of flying is here.
+material:^:glass
+level:^:(*int)3
+weight:^:(*int)10
+worth:^:(*int)250
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3292
+keywords:^:potion true sight
+name:^:a potion of true sight
+desc:^:A potion of true sight is here.
+material:^:glass
+level:^:(*int)4
+weight:^:(*int)10
+worth:^:(*int)290
+wear_loc:^:13 
+saves:^:(*int)0
+--- END ITEM ---
+--- START FURNITURE ---
+vnum:^:3293
+keywords:^:statue selina
+name:^:a statue of selina
+desc:^:A statue of Selina stands in the center of the room.
+material:^:stone
+level:^:(*int)1
+weight:^:(*int)500
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3349
+keywords:^:long sword
+name:^:a glowing long sword
+desc:^:A glowing long sword is here.
+material:^:steel
+weapon_type:^:sword
+dice:^:4
+sides:^:6
+noun:^:slash
+flag:^:none 
+level:^:(*int)29
+weight:^:(*int)50
+worth:^:(*int)3100
+wear_loc:^:15 
+dam:^:(*int)2
+hit:^:(*int)2
+read:^:long sword:^:It looks exceptionally sharp and well-balanced. Maybe you should keep it. <br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3350
+keywords:^:sword standard merc
+name:^:a standard issue sword
+desc:^:You see a standard issue sword here.
+material:^:steel
+weapon_type:^:sword
+dice:^:2
+sides:^:7
+noun:^:slash
+flag:^:none 
+level:^:(*int)16
+weight:^:(*int)50
+worth:^:(*int)1280
+wear_loc:^:15 
+dam:^:(*int)1
+hit:^:(*int)1
+read:^:sword:^:You see a sword of great craftsmanship.  Imprinted on the side is: <br>Merc Industries <br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3351
+keywords:^:dagger standard merc
+name:^:a standard issue dagger
+desc:^:You see a standard issue dagger here.
+material:^:steel
+weapon_type:^:dagger
+dice:^:1
+sides:^:7
+noun:^:pierce
+flag:^:none 
+level:^:(*int)8
+weight:^:(*int)20
+worth:^:(*int)590
+wear_loc:^:15 
+dam:^:(*int)1
+hit:^:(*int)1
+read:^:dagger:^:You see a dagger of great craftsmanship.  Imprinted on the side is: <br>Merc Industries <br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3352
+keywords:^:mace standard merc
+name:^:a standard issue mace
+desc:^:You see a standard issue mace here.
+material:^:iron
+weapon_type:^:mace
+dice:^:1
+sides:^:5
+noun:^:pound
+flag:^:none 
+level:^:(*int)7
+weight:^:(*int)100
+worth:^:(*int)620
+wear_loc:^:15 
+dam:^:(*int)2
+hit:^:(*int)1
+read:^:mace:^:You see a mace of great craftsmanship.  Imprinted on the side is: <br>Merc Industries <br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3353
+keywords:^:vest standard merc
+name:^:a standard issue vest
+desc:^:You see a standard issue vest here.
+material:^:leather
+armor_class:^:4 4 3 1 1
+level:^:(*int)5
+weight:^:(*int)50
+worth:^:(*int)900
+wear_loc:^:9 
+read:^:vest:^:You see a vest of great craftsmanship.  Stamped on the side is: <br>Merc Industries <br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3354
+keywords:^:shield standard merc
+name:^:a standard issue shield
+desc:^:You see a standard issue shield here.
+material:^:steel
+armor_class:^:4 4 4 2 2
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)810
+wear_loc:^:8 
+read:^:shield:^:You see a shield of great craftsmanship.  Imprinted on the side is: <br>Merc Industries <br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3355
+keywords:^:cloak standard merc
+name:^:a standard issue cloak
+desc:^:You see a standard issue cloak here.
+material:^:cloth
+armor_class:^:3 5 4 1 1
+level:^:(*int)5
+weight:^:(*int)40
+worth:^:(*int)510
+wear_loc:^:7 
+read:^:cloak:^:You see a cloak of great craftsmanship.  Imprinted on the side is: <br>Merc Industries <br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3356
+keywords:^:helmet standard merc
+name:^:a standard issue helmet
+desc:^:You see a standard issue helmet here.
+material:^:leather
+armor_class:^:4 4 3 1 1
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)450
+wear_loc:^:5 
+read:^:helmet:^:You see a helmet of great craftsmanship.  Imprinted on the side is: <br>Merc Industries <br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3357
+keywords:^:leggings standard merc
+name:^:a pair of standard issue leggings
+desc:^:You see a pair of standard issue leggings here.
+material:^:leather
+armor_class:^:4 4 3 1 1
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)450
+wear_loc:^:6 
+read:^:leggings:^:You see leggings of great craftsmanship.  Imprinted on the side is: <br>Merc Industries <br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3358
+keywords:^:boots standard merc
+name:^:a pair of standard issue boots
+desc:^:You see a pair of standard issue boots here.
+material:^:leather
+armor_class:^:4 4 3 1 1
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)450
+wear_loc:^:2 
+read:^:boots:^:You see boots of great craftsmanship.  Imprinted on the side is: <br>Merc Industries <br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3359
+keywords:^:gloves standard merc
+name:^:a pair of standard issue gloves
+desc:^:You see a pair of standard issue gloves here.
+material:^:leather
+armor_class:^:4 4 3 1 1
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)450
+wear_loc:^:4 
+read:^:gloves:^:You see gloves of great craftsmanship.  Imprinted on the side is: <br>Merc Industries <br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3360
+keywords:^:sleeves standard merc
+name:^:a pair of standard issue sleeves
+desc:^:You see a pair of standard issue sleeves here.
+material:^:leather
+armor_class:^:4 4 3 1 1
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)450
+wear_loc:^:0 
+read:^:sleeves:^:You see sleeves of great craftsmanship.  Imprinted on the side is: <br>Merc Industries <br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3361
+keywords:^:cape standard merc
+name:^:a standard issue cape
+desc:^:You see a standard issue cape here.
+material:^:cloth
+armor_class:^:3 4 3 1 1
+level:^:(*int)3
+weight:^:(*int)20
+worth:^:(*int)380
+wear_loc:^:1 
+read:^:cape:^:You see a cape of great craftsmanship.  Imprinted on the side is: <br>Merc Industries <br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3362
+keywords:^:belt standard merc
+name:^:a standard issue belt
+desc:^:You see a standard issue belt here.
+material:^:bronze
+armor_class:^:4 4 3 1 1
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)450
+wear_loc:^:10 
+read:^:belt standard merc:^:You see a bronze belt of great craftsmanship.  Imprinted on the side is: <br>Merc Industries <br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:3363
+keywords:^:bracer standard merc
+name:^:a standard issue bracer
+desc:^:You see a standard issue bracer here.
+material:^:bronze
+armor_class:^:2 4 4 1 0
+level:^:(*int)3
+weight:^:(*int)10
+worth:^:(*int)390
+wear_loc:^:11 
+read:^:bracer:^:You see a bracer of great craftsmanship.  Imprinted on the side is: <br>Merc Industries <br>
+--- END ITEM ---
+--- START TREASURE ---
+vnum:^:3364
+keywords:^:ring signet
+name:^:a red sash guard signet ring
+desc:^:You see a ring with a strange symbol on the floor.
+material:^:copper
+level:^:(*int)16
+weight:^:(*int)10
+worth:^:(*int)1280
+wear_loc:^:3 
+saves:^:(*int)-1
+ac:^:(*int)-4
+--- END ITEM ---
+--- START LIGHT ---
+vnum:^:3365
+keywords:^:banner war merc
+name:^:a war banner
+desc:^:A war banner is on the floor here.
+material:^:cloth
+level:^:(*int)8
+weight:^:(*int)10
+worth:^:(*int)640
+wear_loc:^:
+saves:^:(*int)-1
+ac:^:(*int)-2
+read:^:banner:^:This is the official Merc war banner to see you through the darkest realm! <br>
+--- END ITEM ---
+--- START TRASH ---
+vnum:^:3366
+keywords:^:Free Object
+name:^:Free Object
+desc:^:Free Vnum
+material:^:
+level:^:(*int)0
+weight:^:(*int)100
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START TRASH ---
+vnum:^:3367
+keywords:^:Free Vnum
+name:^:Free Vnum
+desc:^:Free Vnum
+material:^:
+level:^:(*int)0
+weight:^:(*int)100
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:3368
+keywords:^:vengeance kenshi tetragon sabre
+name:^:the Vengeance of {mKenshi{x
+desc:^:The {DVengeance of {mKenshi{x has been dropped here.
+material:^:adamantite
+weapon_type:^:sword
+dice:^:5
+sides:^:7
+noun:^:cleave
+flag:^:vorpal twohanded 
+level:^:(*int)42
+weight:^:(*int)450
+worth:^:(*int)5600
+wear_loc:^:15 
+read:^:scimitar:^:It is quite heavy.  The blade is made of some metal that you can't even<br>spell.  The edge of the blade looks as if it could cut through anything or<br>anyone.  <br>
+--- END ITEM ---
+--- START TREASURE ---
+vnum:^:3371
+keywords:^:ring diamond wedding
+name:^:a diamond wedding ring
+desc:^:Vanya's diamond wedding ring has been left here.
+material:^:diamond
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)2800
+wear_loc:^:3 
+saves:^:(*int)-2
+read:^:ring diamond wedding:^:A slender gold band set with a marquise-cut four carat blue-white solitaire. <br>Inscribed on the inside of the band is: 'Your loving husband, House'. <br>
+--- END ITEM ---
+--- START TREASURE ---
+vnum:^:3372
+keywords:^:band gold wedding
+name:^:a gold wedding band
+desc:^:House's gold wedding band has been left here.
+material:^:gold
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)2800
+wear_loc:^:3 
+saves:^:(*int)-2
+read:^:band gold wedding:^:A wide, plain circle of gold inscribed: 'Your loving wife, Vanya'. <br>
+--- END ITEM ---
+--- START GEM ---
+vnum:^:3373
+keywords:^:pearl
+name:^:a small pearl
+desc:^:A small but well-formed pearl lies here.
+material:^:pearl
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)1000
+wear_loc:^:13 
+--- END ITEM ---
+--- START GEM ---
+vnum:^:3374
+keywords:^:garnet gem
+name:^:a garnet
+desc:^:A garnet catches your eye.
+material:^:gem
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)500
+wear_loc:^:13 
+--- END ITEM ---
+--- START GEM ---
+vnum:^:3375
+keywords:^:emerald gem
+name:^:an emerald
+desc:^:A deep green emerald winks at you.
+material:^:gem
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)5000
+wear_loc:^:13 
+--- END ITEM ---
+--- START GEM ---
+vnum:^:3376
+keywords:^:ruby gem
+name:^:a ruby
+desc:^:A beautiful, if small, ruby is here.
+material:^:gem
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)6000
+wear_loc:^:13 
+--- END ITEM ---
+--- START GEM ---
+vnum:^:3377
+keywords:^:diamond gem
+name:^:a diamond
+desc:^:A diamond catches and reflects the lighting.
+material:^:gem
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)10000
+wear_loc:^:
+--- END ITEM ---
+--- START GEM ---
+vnum:^:3378
+keywords:^:opal
+name:^:an opal
+desc:^:A lustrous opal reminds you of far-off places.
+material:^:gem
+level:^:(*int)0
+weight:^:(*int)1
+worth:^:(*int)2000
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3379
+keywords:^:potion immobility
+name:^:a potion of immobility
+desc:^:A potion of immobility is here.
+material:^:glass
+level:^:(*int)11
+weight:^:(*int)10
+worth:^:(*int)4200
+wear_loc:^:13 
+--- END ITEM ---
+--- START THROWING ---
+vnum:^:3380
+keywords:^:dart
+name:^:a strange dart
+desc:^:You see a little dart here.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)510
+wear_loc:^:13 
+--- END ITEM ---
+--- START WAND ---
+vnum:^:3381
+keywords:^:figurine blank_fig
+name:^:a blank figurine
+desc:^:A blank figurine is here, waiting for a soul.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)100
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3382
+keywords:^:vial potion empty _unused_
+name:^:an empty potion vial
+desc:^:An empty potion vial is here.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)100
+wear_loc:^:13 
+--- END ITEM ---
+--- START SCROLL ---
+vnum:^:3384
+keywords:^:blank scroll _unused_
+name:^:a blank scroll
+desc:^:A blank scroll is here.
+material:^:paper
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)100
+wear_loc:^:13 
+--- END ITEM ---
+--- START KEY ---
+vnum:^:3385
+keywords:^:kenshi outpost key
+name:^:{mKenshi{x Outpost key
+desc:^:The key to {mKenshi{x Clan Outpost is on the floor.
+material:^:iron
+level:^:(*int)0
+weight:^:(*int)100
+worth:^:(*int)0
+wear_loc:^:7 
+--- END ITEM ---
+--- START FOUNTAIN ---
+vnum:^:3386
+keywords:^:gargoyle spouting statue pond fountain
+name:^:the spouting statue of a gargoyle
+desc:^:A carved statue of a gargoyle spouts water into the pond beneath it.
+material:^:ivory
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3387
+keywords:^:white off potion
+name:^:an off white potion
+desc:^:An off white potion lies here.
+material:^:oldstyle
+level:^:(*int)11
+weight:^:(*int)10
+worth:^:(*int)820
+wear_loc:^:13 
+--- END ITEM ---
+--- START FURNITURE ---
+vnum:^:3388
+keywords:^:red velvet kenshi couch
+name:^:the {RRed{x Velvet Kenshi Couch
+desc:^:A {RRed{x velvet Kenshi couch sits here.
+material:^:fur
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:-1 
+read:^:couch:^:This couch has been donated by Bazranth.<br>
+--- END ITEM ---
+--- START TRASH ---
+vnum:^:3389
+keywords:^:sign high embassy lands palankcaren help
+name:^:a sign
+desc:^:A sign pointing you to the HELP Guild stands here.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)500
+worth:^:(*int)0
+wear_loc:^:-1 
+read:^:sign:^:To get to the {RHigh Embassy from the Lands of Palankcaren{x go 2 <br>south to the Market Square the follow the signs.<br>
+--- END ITEM ---
+--- START TRASH ---
+vnum:^:3390
+keywords:^:sign high embassy lands palankcaren help
+name:^:sign
+desc:^:A sign pointing you to the HELP Guild stands here.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)500
+worth:^:(*int)0
+wear_loc:^:-1 
+read:^:sign:^:To get to the {RHigh Embassy fom the Lands of Palankcaren{x go 10<br>east from here to the next sign.<br>
+--- END ITEM ---
+--- START FURNITURE ---
+vnum:^:3391
+keywords:^:red velvet bench stone
+name:^:a long stone bench with a {rred{x velvet cushion
+desc:^:A stone bench with a {rred{x velvet cushion has been placed against one of the temple walls.
+material:^:stone
+level:^:(*int)0
+weight:^:(*int)0
+worth:^:(*int)0
+wear_loc:^:-1 
+read:^:bench:^:This velvet covered bench has been donated by HELP for the enjoyment of the<br>Midgaard population.<br>
+--- END ITEM ---
+--- START KEY ---
+vnum:^:3392
+keywords:^:kenshi outpost key
+name:^:{mKenshi {xOutpost key
+desc:^:The key to {mKenshi{x Clan Outpost is on the floor.
+material:^:iron
+level:^:(*int)0
+weight:^:(*int)100
+worth:^:(*int)0
+wear_loc:^:13 
+--- END ITEM ---
+--- START THROWING ---
+vnum:^:3393
+keywords:^:pewter sack
+name:^:a pewter sack
+desc:^:A small bag made of metal is gathering dust here.
+material:^:pewter
+level:^:(*int)30
+weight:^:(*int)20
+worth:^:(*int)3500
+wear_loc:^:13 
+--- END ITEM ---
+--- START THROWING ---
+vnum:^:3394
+keywords:^:malevolus evil dart
+name:^:the Malevolus
+desc:^:An evil-looking dart sits here.
+material:^:mithril
+level:^:(*int)45
+weight:^:(*int)1
+worth:^:(*int)4000
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3395
+keywords:^:potion yellow
+name:^:a yellow potion of see invisible
+desc:^:A small yellow potion has carelessly been left here.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)220
+wear_loc:^:13 
+read:^:potion yellow:^:The potion has a small label 'Detect The Invisible'. <br>
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3396
+keywords:^:vial psychedelic ink
+name:^:a vial of psychedelic ink
+desc:^:A vial of multicolored ink.
+material:^:cream
+level:^:(*int)1
+weight:^:(*int)1
+worth:^:(*int)500
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3397
+keywords:^:white off potion
+name:^:an off white potion
+desc:^:An off white potion lies here.
+material:^:glass
+level:^:(*int)11
+weight:^:(*int)10
+worth:^:(*int)820
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:3398
+keywords:^:potion immobility
+name:^:a potion of immobility
+desc:^:A potion of immobility is here.
+material:^:glass
+level:^:(*int)11
+weight:^:(*int)10
+worth:^:(*int)4200
+wear_loc:^:13 
+--- END ITEM ---
+--- START CONTAINER ---
+vnum:^:3399
+keywords:^:tent
+name:^:a sturdy canvas tent
+desc:^:A sturdy canvas tent is here.
+material:^:canvas
+level:^:(*int)1
+weight:^:(*int)25
+worth:^:(*int)150
+wear_loc:^:
+--- END ITEM ---
+--- START PILL ---
+vnum:^:17000
+keywords:^:pill anderyn death
+name:^:{gAnderyn's{x pill of {Ddeath{x
+desc:^:This tiny pill bears a warning on one side.
+material:^:food
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:
+read:^:pill:^:This tiny venomous green gelcap bears a warning on one side- {rDANGER:{x<br>Accidental poisoning may occur from consumption of this product.  On the<br>other side it reads- This pill made by Anderyn, Inc.  <br>
+--- END ITEM ---
+--- START FURNITURE ---
+vnum:^:17001
+keywords:^:desk oak
+name:^:a sturdy oak desk
+desc:^:A beautiful carved oak desk sits here, polished to a fine gleam.
+material:^:wood
+level:^:(*int)1
+weight:^:(*int)1000
+worth:^:(*int)1
+wear_loc:^:-1 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17002
+keywords:^:book guide newbie redemption bosco
+name:^:Bosco's Guide to {RRedemption{x
+desc:^:A well crafted book sits here collecting dust.
+material:^:paper
+armor_class:^:0 0 0 0 0
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)100
+wear_loc:^:13 
+con:^:(*int)1
+int:^:(*int)1
+read:^:guide:^:This book when worn adds 1 Con and 1 Wis.  In addition, you can read the<br>different pages to learn important information about Redemption.  To read<br>the approptriate page, simply type look page[Number].  <br> <br>Page1 = Ability Scores<br>Page2 = Secondary Stats<br>Page3 = Setting up Prompt and Options<br>Page4 = Training and Practicing<br>Page5 = Lowbie Leveling Areas<br>Page6 = Important Directions<br>Page7 = General Information<br>Page8 = Combat Commands<br>Page9 = Useful Web Links<br>Page_10 = Newbie Gear<br>
+read:^:book:^:This book when worn adds 1 Con and 1 Wis.  In addition, you can read the<br>different pages to learn important information about Redemption.  To read<br>the approptriate page, simply type look page[Number].  <br> <br>Page1 = Ability Scores<br>Page2 = Secondary Stats<br>Page3 = Setting up Prompt and Options<br>Page4 = Training and Practicing<br>Page5 = Lowbie Leveling Areas<br>Page6 = Important Directions<br>Page7 = General Information<br>Page8 = Combat Commands<br>Page9 = Useful Web Links<br>Page_10 = Newbie Gear<br><br>
+read:^:page1:^:Ability Scores<br>Strength determines how much weight you can carry, increases your chance<br>of hitting slightly, and gives a large boost to your damage.<br> <br>Dexterity determines how many items you can carry, increases your armor<br>class, and the success of many combat skills.<br> <br>Constitution determines how many hit points you get when you level up,<br>and reduces the damage you take from magic.<br> <br>Intelligence determines how fast your skills improve, and the success<br>of many spells.<br> <br>Wisdom determines how many practices you get when you level up, and the<br>damage of many spells.<br> <br>Make sure that you maximize your Con, Int, and Wis when you are about to<br>level, and maximize your Str and Dex when fighting.<br>
+read:^:page2:^:Secondary Stats<br> <br>Armor class shields you from physical attacks by causing them to miss.<br> <br>Hitroll defines your chance of hitting or missing your foes. Spells<br>and equipment can increase it.<br> <br>Damage roll increases the damage you do with your physical attacks,<br>but not on a one to one ratio.<br> <br>Saving throws lower the success of enemy magic. The lower your saving<br>throws, the better.<br> <br>Age can affect the experience you recieve if you are a race other than<br>human. You need 2x the hours of your current level to recieve full exp.<br>Use gear or just time spent on Redemption to nullify any penalty.<br> <br>Alignment reflects what direction your character is going. If you<br>kill good mobs, your character will go more evil. If you kill evil<br>mobs, your character will become more good. This can affect some reclasses.<br>In addition, if you kill a mob of your same alignment, you will get less<br>experience than if you had killed one of the opposite alignment.<br>
+read:^:page3:^:Character Setup<br> <br>One thing you should do, is set up your prompt. This is a good start:<br>{C{Cprompt <%hhp %mm %vmv %Xtnl %ggp %ssp>{x{x<br>Feel free to color code each one or add new parts. For more help type<br>{RHelp Prompt{x and for color help type {RHelp Color.{x<br> <br>To turn on Color Mode, simply type {RColor.{x<br> <br>Also set your wimpy. Wimpy allows your character to auto flee if his<br>HP reaches the set amount. This is very useful in both leveling and<br>Player Killing (PK). To turn on wimpy type {RWimpy{x. Wimpy can also be<br>set to different amounts (up to 50% your current max hp). It is a<br>good idea to reset your wimpy whenever you acheive a new level.<br>
+read:^:page4:^:Training and Practicing In order to train or practice, you must first<br>find a Trainer.  Within the Academy, you can find a Trainer at the Entrance<br>as well as in the Guilds.  In Midgaard, the directions to the Temple of<br>Consentration is from recall: 3 south 2 west south.  To train, type Train<br>and whatever you want to train.  To practice, type Practice and whatever you<br>wish to increase.  You can also find other training spots in various cities.<br>Explore around or ask an experienced player for directions.<br> <br>*Note that if you are playing a clanner, your trains are best spent in HP*<br>
+read:^:page5:^:Lowbie Leveling Areas<br> <br>All Directions are from Recall on Terra<br> <br>Bluetspur lvl 1-10 - 2s, 5w, 4n, 7w<br>Bosco's Military Academy lvl 1-10 - u<br>Cantina lvl 5-15 - 2s, 6e, 3n, 3e<br>Dwarven Day Care lvl 1-5 - 2s, 6e, 3n, 2e, 2s<br>Elemental Canyon lvl 5-30 - 2s, 6e, 4s, 2e, s, 2e, d, s<br>Gangland lvl 5-15 - all s, e, s, 2e, s, e<br>Gnome Village lvl 5-15 - 2s, 8e, s<br>Graveyard lvl 5-10 - 7s, e, k sexton, w, n, 2e, 2s, w, unlock s, open s, s<br>Holy Grove lvl 5-20 - 2s, 8e, n<br>Miden'nir lvl 5-15 - 2s, 3w, d, e, s, u, 2s<br>Mob Factory lvl 5-15 - 2s, 3w, 3s, e<br>Newbie Zone lvl 1-10 - n, w<br>Pixie Forest lvl 1-10 - 2s, 7e, n<br> <br>Although these are not the only areas, they are a good mix and most can be<br>tackled by lowbie players.<br>To get a list of all areas, type Area.<br> <br>To find directions to other areas, check out Tzigane's map page. The url is on<br>page9.<br>
+read:^:page6:^:Midgaard Healer - n<br>Questmaster - s, e, u<br>Selina's Warp Statue - s, w<br>Armory - 2s, w, s<br>Weaponsmith - 2s, 2e, n<br>General Store - 2s, e, n<br>Bakery - 2s, w, n<br>Wizard's Shop - 2s, 2w, n<br>Jeweler - 2s, e, s<br>Eastern Shop - 2s, 2w, s<br>Trainer - 3s, 2w, s<br>Map Shop - 3s, w, n<br>Potion Shop - 3s, 2e, n<br>Boat Shop - 3s, e, s<br>Bridge to Dominia - 2s, 33e, 8n, e<br>Craft Workshop - 2s, 3w, 2n, e, n<br>Bank - 2w, 3w, 2n, 2e, s<br>
+read:^:page7:^:General Information<br> <br>More of your character information will become available as you level up<br>to level 25. Also at level 25 you will gain a new equipment slot called<br>"Orbit" which allows you to wear a second "Float" item.<br> <br>When you die to a player or a mob, you cannot attack anything for 3<br>minutes. Players also cannot attack you for that same stretch, but<br>aggie mobs will still attack.<br>
+read:^:page8:^:Combat Commands<br> <br>Kill <Target> - Begins combat with your intended foe.<br>Flee - Allows you to flee from combat. May not work the first time.<br>Consider <Target> - Allows you to see how tough your opponent is compaired<br>to your level.<br> <br>The skills Dodge, Parry, and Shield Block are important to have if you<br>plan to engage in melee combat. These skills help you avoid blows from<br>your foes.<br> <br>Bash and Trip are similar skills for stopping your foes from fleeing,<br>however they work best against different targets, so it can be useful to<br>have both. Dirt kick is handy for blinding your foes, and Disarm deprives<br>your target from their weapon. Also make sure you have as many attacks as<br>you can through skills and the haste spell.<br> <br>Other skills such as Kick and Backstab can also help weaken your foes.<br>
+read:^:page9:^:Useful Web Links<br> <br>These links are useful for looking up equipment as well as finding maps<br>and other information. These pages may or may not still be active:<br> <br>www.redemptionmud.com - The Redemption Home Page<br>www3.sympatico.ca/carrotqueen - Tzigane's Map Page<br>www.ncf.carleton.ca/%7Ebi699/pkill.html - Starcrossed's Guide to Pkilling<br>seeker.8k.com - Seeker's Web Page<br>www.kenshi.8k.com - Kenshi's Web Page<br>www.geocities.com/redemptionhelp - {RH{rELP{x Guild's Web Page<br>http://acaykath.awardspace.com - Treasure Hunter's Web Page<br>
+read:^:page_10:^:Newbie Gear<br>The set of gear recieved in the Academy is a special Newbie Gear<br>that can be worn till level 10. The full set within the school<br>will maximize your leveling stats and with spells will maximize<br>your combat stats as well. Until you reach level 10, wear the gear<br>provided in the tutorial, as it is better than any gear you will<br>find elsewhere.<br> <br>The list of gear you should have at the end of the tutorial is:<br>Everburning Torch - Light<br>Plain Bronze Ring (2) - Finger<br>a Simple Silver Chain (2) - Neck<br>Elven Crafted Gloves - Hands<br>a Squire Helm - Head <br>Deerskin Boots - Feet <br>Light Chain Sleeves - Arms <br>Uniform Pants - Legs <br>Blue and White Sash - Waist <br>Bosco's Cadet Uniform - Body <br>Dwarven Bracers (2) - Wrist <br>One of the Weaponsmiths Weapons - Wielded <br>Bosco's Guide to Redemption - Held<br>In addition there are 3 items that are class specific for each class.<br>They are:<br>Warrior - Suit of Elven Chain, Dwarven Bronze Shield, and a Trusty Warhorse<br>Thief - a Black Hooded Cloak, Set of Thieves Tools, and a Sneaky Weasel<br>Mage - Wizard Robes, Wizards Tome, and a Sparrow Familiar<br>Cleric - a Holy Robe, a Holy Robe, and a Lost Soul<br>There are other items around redemption, and its your job to learn what they do.<br>
+--- END ITEM ---
+--- START TREASURE ---
+vnum:^:17003
+keywords:^:glimpse light key quest glass reflection
+name:^:a Glimpse of {WLight{x
+desc:^:A strange reflection shines off the glass, causing the light to appear solid.
+material:^:glass
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)100
+wear_loc:^:13 
+--- END ITEM ---
+--- START KEY ---
+vnum:^:17004
+keywords:^:key armory
+name:^:a simple gold key
+desc:^:A key labeled "Armory" lies here collecting dust.
+material:^:gold
+level:^:(*int)1
+weight:^:(*int)2
+worth:^:(*int)1
+wear_loc:^:13 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17005
+keywords:^:simple dagger blade weapon
+name:^:a simple blade
+desc:^:This small blade appears to have been left behind.
+material:^:steel
+weapon_type:^:dagger
+dice:^:2
+sides:^:2
+noun:^:stab
+flag:^:none 
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)40
+wear_loc:^:15 newbie 
+dam:^:(*int)1
+wis:^:(*int)1
+read:^:dagger:^:This dagger adds 1 to Int and 1 to Damage roll.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17006
+keywords:^:chipped battleaxe axe weapon
+name:^:a chipped battleaxe
+desc:^:A long forgotten axe lies on the floor collecting dust.
+material:^:steel
+weapon_type:^:axe
+dice:^:2
+sides:^:2
+noun:^:slash
+flag:^:none 
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)40
+wear_loc:^:15 newbie 
+dam:^:(*int)1
+wis:^:(*int)1
+read:^:axe:^:This axe adds 1 to Int and 1 to Damage roll.<br>
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17007
+keywords:^:basic war flail weapon
+name:^:a basic war flail
+desc:^:A basic flail lies here.
+material:^:steel
+weapon_type:^:flail
+dice:^:2
+sides:^:2
+noun:^:pound
+flag:^:none 
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)40
+wear_loc:^:15 newbie 
+dam:^:(*int)1
+wis:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17008
+keywords:^:studded mace weapon
+name:^:a studded mace
+desc:^:An old studded mace lies here.
+material:^:steel
+weapon_type:^:mace
+dice:^:2
+sides:^:2
+noun:^:smite
+flag:^:none 
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)40
+wear_loc:^:15 newbie 
+dam:^:(*int)1
+wis:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17009
+keywords:^:rusty pike weapon polearm
+name:^:a rusty pike
+desc:^:A long pike with a rusty head has been left here.
+material:^:steel
+weapon_type:^:polearm
+dice:^:2
+sides:^:2
+noun:^:slice
+flag:^:none 
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)40
+wear_loc:^:15 newbie 
+dam:^:(*int)1
+wis:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17010
+keywords:^:training staff spear weapon
+name:^:a training staff
+desc:^:A much abused training staff lies here.
+material:^:wood
+weapon_type:^:staff
+dice:^:2
+sides:^:2
+noun:^:blast
+flag:^:none 
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)40
+wear_loc:^:15 newbie 
+dam:^:(*int)1
+wis:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17011
+keywords:^:heavy longsword sword weapon
+name:^:a heavy longsword
+desc:^:A heavy blade has been left here.
+material:^:steel
+weapon_type:^:sword
+dice:^:2
+sides:^:2
+noun:^:slash
+flag:^:none 
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)40
+wear_loc:^:15 newbie 
+dam:^:(*int)1
+wis:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17012
+keywords:^:leather bullwhip whip weapon
+name:^:a leather bullwhip
+desc:^:A coiled up whip lies here, ready for punishing.
+material:^:leather
+weapon_type:^:whip
+dice:^:2
+sides:^:2
+noun:^:slap
+flag:^:none 
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)40
+wear_loc:^:15 newbie 
+dam:^:(*int)1
+wis:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17013
+keywords:^:brass knuckles exotic weapon
+name:^:brass knuckles
+desc:^:A shiny set of brass knuckles lies here.
+material:^:brass
+weapon_type:^:exotic
+dice:^:2
+sides:^:2
+noun:^:crush
+flag:^:none 
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)40
+wear_loc:^:15 newbie 
+dam:^:(*int)1
+wis:^:(*int)1
+sex:^:(*int)-1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17014
+keywords:^:serindel lance spear enlightenment anderyn
+name:^:{rSerindel{x, the lance of {Wenlightenment{x
+desc:^:The beautiful spear of {GA{gnd{Ge{gry{Gn{x, {rSerindel{x, has been carelessly left here.
+material:^:Holy
+weapon_type:^:staff
+dice:^:20
+sides:^:2
+noun:^:smite
+flag:^:sharp vorpal phasing flaming
+level:^:(*int)54
+weight:^:(*int)100
+worth:^:(*int)0
+wear_loc:^:15 
+dex:^:(*int)6
+mp:^:(*int)1000
+hit:^:(*int)15
+str:^:(*int)2
+dam:^:(*int)15
+con:^:(*int)9
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17015
+keywords:^:bosco cadet uniform
+name:^:a {BB{Wo{Bs{Wc{Bo{x cadet uniform
+desc:^:A folded up uniform belonging to a cadet lies here.
+material:^:cloth
+armor_class:^:5 5 5 5 0
+level:^:(*int)1
+weight:^:(*int)20
+worth:^:(*int)25
+wear_loc:^:1 newbie 
+con:^:(*int)2
+--- END ITEM ---
+--- START CONTAINER ---
+vnum:^:17016
+keywords:^:supply chest box container
+name:^:a supply chest
+desc:^:A supply chest labeled "New Recruits" lies here waiting to be opened.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)200
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START FOOD ---
+vnum:^:17017
+keywords:^:military ration food
+name:^:some military rations
+desc:^:These rations look like they've survived many years here.
+material:^:cream
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)5
+wear_loc:^:13 
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:17018
+keywords:^:large canteen water
+name:^:a large canteen
+desc:^:A round canteen lies here.
+material:^:leather
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)50
+wear_loc:^:13 
+--- END ITEM ---
+--- START LIGHT ---
+vnum:^:17019
+keywords:^:everburning torch light
+name:^:an {rev{Re{Yr{Wbur{Yn{Ri{rng{x torch
+desc:^:A lit torch lies on the ground, causing no scorch marks.
+material:^:wood
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)10
+wear_loc:^:13 newbie 
+age:^:(*int)4
+wis:^:(*int)1
+int:^:(*int)1
+--- END ITEM ---
+--- START FURNITURE ---
+vnum:^:17020
+keywords:^:shrine altar bench
+name:^:a small altar
+desc:^:A simple marble altar resonates with the prayers of many cadets.
+material:^:marble
+level:^:(*int)0
+weight:^:(*int)200
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START BOAT ---
+vnum:^:17021
+keywords:^:raft sturdy boat
+name:^:a sturdy raft
+desc:^:A sturdy looking raft lies here waiting to be claimed.
+material:^:wood
+level:^:(*int)0
+weight:^:(*int)100
+worth:^:(*int)50
+wear_loc:^:
+--- END ITEM ---
+--- START PILL ---
+vnum:^:17022
+keywords:^:deer jerky pill
+name:^:deer jerky
+desc:^:Some tasty looking deer jerky has been left here.
+material:^:meat
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:13 
+--- END ITEM ---
+--- START WARP_STONE ---
+vnum:^:17023
+keywords:^:pearl pretty beautiful
+name:^:a pretty {Wpearl{x
+desc:^:A beautiful pearl has been left here.
+material:^:pearl
+level:^:(*int)1
+weight:^:(*int)5
+worth:^:(*int)1000
+wear_loc:^:13 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17024
+keywords:^:sparrow float familiar
+name:^:a sparrow familiar
+desc:^:A little sparrow tweets happily as you look at it.
+material:^:feather
+armor_class:^:0 0 0 0 0
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)25
+wear_loc:^:12 newbie 
+wis:^:(*int)1
+--- END ITEM ---
+--- START JEWELRY ---
+vnum:^:17025
+keywords:^:plain bronze ring little
+name:^:a plain {ybronze{x ring
+desc:^:A little bronze ring lies here, abandoned by the cadet that once used it.
+material:^:bronze
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)10
+wear_loc:^:3 newbie 
+wis:^:(*int)1
+--- END ITEM ---
+--- START JEWELRY ---
+vnum:^:17026
+keywords:^:simple silver chain necklace little
+name:^:a simple {wsilver{x chain
+desc:^:A little silver chain lies here, abandoned by the cadet that once used it.
+material:^:silver
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)10
+wear_loc:^:7 newbie 
+int:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17027
+keywords:^:elven crafted gloves pair
+name:^:a pair of {gelven{x crafted gloves
+desc:^:A pair of gloves lies here, discarded by its previous owner.
+material:^:leather
+armor_class:^:5 5 5 5 0
+level:^:(*int)1
+weight:^:(*int)20
+worth:^:(*int)10
+wear_loc:^:4 newbie 
+con:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17028
+keywords:^:squire helmet hat helm
+name:^:a {Ws{Dq{Wu{Di{Wr{De{x helmet
+desc:^:The helm of a squire has been left here to collect dust.
+material:^:iron
+armor_class:^:5 5 5 5 0
+level:^:(*int)2
+weight:^:(*int)30
+worth:^:(*int)10
+wear_loc:^:5 newbie 
+wis:^:(*int)1
+int:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17029
+keywords:^:deerskin boots feet pair crafted
+name:^:a pair of {rdeerskin{x boots
+desc:^:A pair of well crafted boots sit in the dirt.
+material:^:leather
+armor_class:^:5 5 5 5 0
+level:^:(*int)1
+weight:^:(*int)20
+worth:^:(*int)10
+wear_loc:^:2 newbie 
+con:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17030
+keywords:^:light chain sleeves outdated
+name:^:a pair of light {wchain{x sleeves
+desc:^:Someone has discarded their outdated sleeves here.
+material:^:iron
+armor_class:^:5 5 5 5 0
+level:^:(*int)1
+weight:^:(*int)50
+worth:^:(*int)10
+wear_loc:^:0 newbie 
+con:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17031
+keywords:^:pair uniform pants well pressed
+name:^:a pair of {Bu{Wn{Bi{Wf{Bo{Wr{Bm{x pants
+desc:^:A pair of well pressed pants are folded neatly on the ground.
+material:^:cloth
+armor_class:^:5 5 5 5 0
+level:^:(*int)2
+weight:^:(*int)20
+worth:^:(*int)10
+wear_loc:^:6 newbie 
+int:^:(*int)1
+wis:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17032
+keywords:^:black yellow sash belt uniform
+name:^:a {Dblack{x and {Yyellow{x sash
+desc:^:A sash that seems to belong to a uniform is lying on the ground.
+material:^:cloth
+armor_class:^:5 5 5 5 0
+level:^:(*int)2
+weight:^:(*int)20
+worth:^:(*int)10
+wear_loc:^:10 newbie 
+wis:^:(*int)1
+int:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17033
+keywords:^:dwarven crafted bracer bronze
+name:^:{ydwarven{x crafted bracer
+desc:^:A bronze bracer has been left in a puddle and is slowly turning green.
+material:^:bronze
+armor_class:^:5 5 5 5 0
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)10
+wear_loc:^:11 newbie 
+con:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17034
+keywords:^:wizard robe red armor
+name:^:{Rred{x wizard robes
+desc:^:A set of red robes has been left here for a newbie to recover.
+material:^:magic
+armor_class:^:5 5 5 5 0
+level:^:(*int)3
+weight:^:(*int)50
+worth:^:(*int)25
+wear_loc:^:9 newbie 
+wis:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17035
+keywords:^:wizard tome shield old dusty
+name:^:a {Rwizard{x tome
+desc:^:An old, dusty wizard's tome lies here awaiting a new reader.
+material:^:paper
+armor_class:^:5 5 5 5 0
+level:^:(*int)3
+weight:^:(*int)30
+worth:^:(*int)25
+wear_loc:^:8 newbie 
+wis:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17036
+keywords:^:elven chain suit torso
+name:^:a suit of {gelven {wchain{x
+desc:^:A beautiful suit of elven chain sits here.
+material:^:mithril
+armor_class:^:5 5 5 5 0
+level:^:(*int)3
+weight:^:(*int)50
+worth:^:(*int)25
+wear_loc:^:9 newbie 
+int:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17037
+keywords:^:dwarven bronze shield
+name:^:a dwarven {ybronze{x shield
+desc:^:A beautiful bronze shield with the crest of the dwarves has been left here.
+material:^:bronze
+armor_class:^:5 5 5 5 0
+level:^:(*int)3
+weight:^:(*int)30
+worth:^:(*int)25
+wear_loc:^:8 newbie 
+int:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17038
+keywords:^:horse warhorse trusty float
+name:^:a trusty warhorse
+desc:^:A beautiful warhorse stands around, munching on some oats.
+material:^:flesh
+armor_class:^:0 0 0 0 0
+level:^:(*int)3
+weight:^:(*int)10
+worth:^:(*int)25
+wear_loc:^:12 newbie 
+int:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17039
+keywords:^:black hooded cloak torso newbie
+name:^:a {Dblack{x hooded cloak
+desc:^:A shady looking cloak has been ditched here.
+material:^:cloth
+armor_class:^:5 5 5 5 0
+level:^:(*int)3
+weight:^:(*int)50
+worth:^:(*int)25
+wear_loc:^:9 newbie 
+wis:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17040
+keywords:^:thieves tool shield leather kit
+name:^:a set of {Dthieves{x tools
+desc:^:A rolled up leather kit seems to have been discarded.
+material:^:leather
+armor_class:^:5 5 5 5 0
+level:^:(*int)3
+weight:^:(*int)30
+worth:^:(*int)25
+wear_loc:^:8 newbie 
+wis:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17041
+keywords:^:sneaky weasel thief pet
+name:^:a sneaky little weasel
+desc:^:Someone's pet weasel is looking for a new owner.
+material:^:weasel
+armor_class:^:0 0 0 0 0
+level:^:(*int)3
+weight:^:(*int)10
+worth:^:(*int)25
+wear_loc:^:12 newbie 
+wis:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17042
+keywords:^:holy robe blessed torso
+name:^:a {Wh{Yo{Wl{Yy{x robe
+desc:^:A blessed robe has been left behind.
+material:^:cloth
+armor_class:^:5 5 5 5 0
+level:^:(*int)3
+weight:^:(*int)50
+worth:^:(*int)25
+wear_loc:^:9 newbie 
+int:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17043
+keywords:^:holy book shield blessed
+name:^:a {Wh{Yo{Wl{Yy{x book
+desc:^:A holy book belonging to a long lost religion has been left here.
+material:^:paper
+armor_class:^:5 5 5 5 0
+level:^:(*int)3
+weight:^:(*int)30
+worth:^:(*int)25
+wear_loc:^:8 newbie 
+int:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17044
+keywords:^:lost soul ball light float
+name:^:a lost soul
+desc:^:A little ball of light is flittering around looking for a cleric to serve.
+material:^:energy
+armor_class:^:0 0 0 0 0
+level:^:(*int)3
+weight:^:(*int)10
+worth:^:(*int)25
+wear_loc:^:12 newbie 
+int:^:(*int)1
+--- END ITEM ---
+--- START PILL ---
+vnum:^:17045
+keywords:^:caffeine pill
+name:^:a caffeine pill
+desc:^:A little pill with the letter "C" on it sits humming on the floor.
+material:^:medicine
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)5
+wear_loc:^:newbie 
+--- END ITEM ---
+--- START PILL ---
+vnum:^:17046
+keywords:^:granite pill
+name:^:a granite pill
+desc:^:Don't take this pill for granite.
+material:^:stone
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)5
+wear_loc:^:newbie 
+--- END ITEM ---
+--- START FOUNTAIN ---
+vnum:^:17047
+keywords:^:fountain due credit stone water
+name:^:the fountain of due credit
+desc:^:A beautiful stone fountain with the credits for the creation of the academy.
+material:^:stone
+level:^:(*int)1
+weight:^:(*int)1000
+worth:^:(*int)0
+wear_loc:^:-1 
+read:^:fountain:^:The Bosco Military Academy was built by {GA{gn{Gd{ge{Gr{gy{Gn{x.<br>With the oversight of {WAngelique.{x<br>Implemented by {BC{Ya{Bu{Yt{Bh{Yo{Bn.{x<br>Special Thanks to {DCicada, {CMikoto, {BAvacar, {MElisa, {gLeonnyn, {RStryder,<br>{YCauthon{x, and anyone else that helped with the creation of the Academy.<br>
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17048
+keywords:^:legend leveling tool
+name:^:the leveling tool
+desc:^:A legendary piece of leveling equipment that seems to have been toned.
+material:^:energy
+armor_class:^:0 0 0 0 0
+level:^:(*int)7
+weight:^:(*int)20
+worth:^:(*int)5000
+wear_loc:^:13 
+dex:^:(*int)-2
+wis:^:(*int)1
+str:^:(*int)-2
+con:^:(*int)1
+int:^:(*int)1
+age:^:(*int)5
+--- END ITEM ---
+--- START WAND ---
+vnum:^:17049
+keywords:^:wand magic missile wooden
+name:^:a wooden wand of magic missile
+desc:^:A sturdy wand lies here humming with great power.
+material:^:wood
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)100
+wear_loc:^:13 newbie 
+--- END ITEM ---
+--- START WAND ---
+vnum:^:17050
+keywords:^:wand cure light wounds wooden
+name:^:a wooden wand of cure light wounds
+desc:^:A well crafted wood wand lies here humming with holy energy.
+material:^:wood
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)100
+wear_loc:^:13 newbie 
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:17051
+keywords:^:spot tea drink cup
+name:^:a spot of tea
+desc:^:A simple tea cup sits here steaming with hot english tea.
+material:^:tea
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)10
+wear_loc:^:13 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17052
+keywords:^:iron studded mace
+name:^:an iron-studded mace
+desc:^:A sturdy iron mace lies here, discarded from battle.
+material:^:iron
+weapon_type:^:mace
+dice:^:1
+sides:^:6
+noun:^:smash
+flag:^:none 
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)100
+wear_loc:^:15 
+wis:^:(*int)1
+hit:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17053
+keywords:^:military issue chainmail
+name:^:military issue chainmail
+desc:^:A heavy set of chainmail has been discarded here.
+material:^:iron
+armor_class:^:3 4 5 0 0
+level:^:(*int)5
+weight:^:(*int)100
+worth:^:(*int)500
+wear_loc:^:9 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17054
+keywords:^:military issue shield
+name:^:a military issue shield
+desc:^:Someone discarded a sturdy looking shield here.
+material:^:wood
+armor_class:^:3 3 3 0 0
+level:^:(*int)5
+weight:^:(*int)40
+worth:^:(*int)100
+wear_loc:^:8 
+dex:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17055
+keywords:^:bosco military uniform
+name:^:a {BB{Wo{Bs{Wc{Bo{x military uniform
+desc:^:A neatly folded military uniform has been left here.
+material:^:cloth
+armor_class:^:4 4 4 4 0
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)100
+wear_loc:^:1 
+con:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17056
+keywords:^:elven longbow wood
+name:^:an elven longbow
+desc:^:A beautiful wooden longbow lies here, gleaming in the light.
+material:^:wood
+weapon_type:^:ranged
+dice:^:1
+sides:^:6
+noun:^:pierce
+flag:^:twohanded 
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)100
+wear_loc:^:15 
+--- END ITEM ---
+--- START AMMUNITION ---
+vnum:^:17057
+keywords:^:quiver wooden arrow
+name:^:a quiver of wooden arrows
+desc:^:A discarded quiver of arrows has been left here.
+material:^:wood
+level:^:(*int)5
+weight:^:(*int)200
+worth:^:(*int)100
+wear_loc:^:13 
+hit:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17058
+keywords:^:elven thinblade sword
+name:^:an elven thinblade
+desc:^:A thin steel sword has been left carelessly on the floor.
+material:^:steel
+weapon_type:^:sword
+dice:^:1
+sides:^:6
+noun:^:slash
+flag:^:none 
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)100
+wear_loc:^:15 
+hit:^:(*int)1
+wis:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17059
+keywords:^:dwarven waraxe axe bronze
+name:^:a dwarven waraxe
+desc:^:A well crafted bronze axe has been left here.
+material:^:bronze
+weapon_type:^:axe
+dice:^:1
+sides:^:6
+noun:^:slash
+flag:^:none 
+level:^:(*int)5
+weight:^:(*int)50
+worth:^:(*int)100
+wear_loc:^:15 
+hit:^:(*int)1
+wis:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17060
+keywords:^:bronze helm dwarven
+name:^:a bronze helmet
+desc:^:A dwarven crafted helmet lies in the dust.
+material:^:bronze
+armor_class:^:4 4 4 0 0
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)100
+wear_loc:^:5 
+dex:^:(*int)1
+--- END ITEM ---
+--- START POTION ---
+vnum:^:17061
+keywords:^:grey potion
+name:^:a grey potion
+desc:^:A murky grey potion swirls with inner magic.
+material:^:stone
+level:^:(*int)5
+weight:^:(*int)5
+worth:^:(*int)1000
+wear_loc:^:
+--- END ITEM ---
+--- START THROWING ---
+vnum:^:17062
+keywords:^:large carved boulder
+name:^:a carved boulder
+desc:^:A large boulder, carved for throwing lies here.
+material:^:stone
+level:^:(*int)5
+weight:^:(*int)100
+worth:^:(*int)100
+wear_loc:^:13 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:17063
+keywords:^:healer sample potion
+name:^:a healer sample potion
+desc:^:A potion with the word "sample" on it has been discarded here.
+material:^:holy
+level:^:(*int)1
+weight:^:(*int)5
+worth:^:(*int)0
+wear_loc:^:newbie 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17064
+keywords:^:beast claw wicked exotic
+name:^:a set of beast claws
+desc:^:A wicked set of beast claws have been discarded here.
+material:^:bone
+armor_class:^:1 1 1 0 0
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)100
+wear_loc:^:4 
+dam:^:(*int)1
+--- END ITEM ---
+--- START LIGHT ---
+vnum:^:17065
+keywords:^:sturdy lantern
+name:^:a sturdy lantern
+desc:^:A sturdy lantern has been left here.
+material:^:glass
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)50
+wear_loc:^:
+--- END ITEM ---
+--- START SCROLL ---
+vnum:^:17066
+keywords:^:scroll blur
+name:^:a scroll of blur
+desc:^:A scroll with a blurry quality has been left here.
+material:^:paper
+level:^:(*int)5
+weight:^:(*int)5
+worth:^:(*int)100
+wear_loc:^:13 
+--- END ITEM ---
+--- START WAND ---
+vnum:^:17067
+keywords:^:wand scorched burning hand
+name:^:a wand of burning death
+desc:^:A scorched wand has been left here.
+material:^:wood
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)100
+wear_loc:^:13 
+--- END ITEM ---
+--- START WAND ---
+vnum:^:17068
+keywords:^:ridged wand healing cure serious
+name:^:a wand of cure serious
+desc:^:A ridged wand of healing has been left here.
+material:^:wood
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)100
+wear_loc:^:13 
+--- END ITEM ---
+--- START STAFF ---
+vnum:^:17069
+keywords:^:pink staff light
+name:^:a {Mpink{x staff of {Wlight{x
+desc:^:A long pink staff lies here collecting dust.
+material:^:wood
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)500
+wear_loc:^:13 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17070
+keywords:^:selina uniform tabbard
+name:^:{RS{We{Rl{Wi{Rn{Wa{R's{x uniform
+desc:^:A folded up uniform has been carefully left here.
+material:^:cloth
+armor_class:^:4 4 4 4 0
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)500
+wear_loc:^:1 
+int:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17071
+keywords:^:troll chain mail rusty
+name:^:troll chainmail
+desc:^:A rusty set of chainmail lies here.
+material:^:iron
+armor_class:^:3 4 5 0 0
+level:^:(*int)5
+weight:^:(*int)100
+worth:^:(*int)500
+wear_loc:^:9 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17072
+keywords:^:spiked wooden shield
+name:^:a spiked wooded shield
+desc:^:A spiked wooden shield has been ditched here.
+material:^:wood
+armor_class:^:3 3 3 0 0
+level:^:(*int)0
+weight:^:(*int)30
+worth:^:(*int)200
+wear_loc:^:8 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17073
+keywords:^:wicked curved dagger
+name:^:a wicked curved dagger
+desc:^:A wicked curved dagger has been stuck in the dirt.
+material:^:rust
+weapon_type:^:dagger
+dice:^:1
+sides:^:6
+noun:^:pierce
+flag:^:poison 
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)0
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17074
+keywords:^:black tipped pike
+name:^:a black tipped pike
+desc:^:A long black tipped pike has been discarded here.
+material:^:iron
+weapon_type:^:staff
+dice:^:1
+sides:^:6
+noun:^:pierce
+flag:^:twohanded 
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)300
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17075
+keywords:^:bone short bow
+name:^:a bone shortbow
+desc:^:A shortbow made of bone has been discarded here.
+material:^:wood
+weapon_type:^:ranged
+dice:^:1
+sides:^:6
+noun:^:pierce
+flag:^:twohanded 
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)300
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17076
+keywords:^:double edge axe
+name:^:a double-edge axe
+desc:^:A large double-edge axe lies here waiting for some combat.
+material:^:steel
+weapon_type:^:axe
+dice:^:1
+sides:^:5
+noun:^:slash
+flag:^:vorpal 
+level:^:(*int)5
+weight:^:(*int)50
+worth:^:(*int)300
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17077
+keywords:^:cruel spiked flail
+name:^:a cruel spiked flail
+desc:^:A large spiked flail lies here.
+material:^:iron
+weapon_type:^:flail
+dice:^:1
+sides:^:6
+noun:^:smash
+flag:^:dull 
+level:^:(*int)5
+weight:^:(*int)50
+worth:^:(*int)500
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17078
+keywords:^:long barbed whip
+name:^:a long barbed whip
+desc:^:A cruel barbed whip is coiled up in the dirt.
+material:^:leather
+weapon_type:^:whip
+dice:^:1
+sides:^:6
+noun:^:sting
+flag:^:vampiric 
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)500
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17079
+keywords:^:black glaive
+name:^:a black glaive
+desc:^:A black glaive has been stuck into the ground.
+material:^:steel
+weapon_type:^:polearm
+dice:^:1
+sides:^:6
+noun:^:claw
+flag:^:sharp 
+level:^:(*int)5
+weight:^:(*int)50
+worth:^:(*int)1000
+wear_loc:^:15 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17080
+keywords:^:tregnar half plate
+name:^:{gTregnar's{x half-plate
+desc:^:A dusty set of half-plate has been discarded here.
+material:^:steel
+armor_class:^:4 4 4 0 0
+level:^:(*int)10
+weight:^:(*int)150
+worth:^:(*int)2000
+wear_loc:^:9 
+con:^:(*int)1
+--- END ITEM ---
+--- START JEWELRY ---
+vnum:^:17081
+keywords:^:blood hive collar
+name:^:a {rBlood{wHive{x collar
+desc:^:A collar belonging to a bloodhive troop lies here.
+material:^:flesh
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)200
+wear_loc:^:7 
+dam:^:(*int)1
+--- END ITEM ---
+--- START POTION ---
+vnum:^:17082
+keywords:^:squall nectar white pod
+name:^:some squall nectar
+desc:^:A small pod of white liquid lies discarded here.
+material:^:skin
+level:^:(*int)3
+weight:^:(*int)10
+worth:^:(*int)2000
+wear_loc:^:13 
+--- END ITEM ---
+--- START CONTAINER ---
+vnum:^:17083
+keywords:^:sliver sack container
+name:^:a sliver sack
+desc:^:A sack made of sliver web has been left here.
+material:^:web
+level:^:(*int)1
+weight:^:(*int)50
+worth:^:(*int)500
+wear_loc:^:13 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17084
+keywords:^:plated leggings
+name:^:plated leggings
+desc:^:A set of plated leggings lies here collecting rust.
+material:^:steel
+armor_class:^:3 3 3 0 0
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)500
+wear_loc:^:6 
+str:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17085
+keywords:^:sliver shield
+name:^:a sliver shield
+desc:^:A shield made from a hard shell is here collecting dust.
+material:^:shell
+armor_class:^:3 3 3 0 0
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)500
+wear_loc:^:8 
+str:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17086
+keywords:^:fine leather belt
+name:^:a fine leather belt
+desc:^:A fine leather belt has been left here.
+material:^:leather
+armor_class:^:3 3 3 0 0
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)500
+wear_loc:^:10 
+hit:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17087
+keywords:^:dragon scale bracer dragonskin
+name:^:a dragonskin bracer
+desc:^:A bracer made of dragonskin has been left here.
+material:^:snakeskin
+armor_class:^:1 1 1 1 0
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)1000
+wear_loc:^:11 
+str:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17088
+keywords:^:sliver egg sack
+name:^:a sliver egg sack
+desc:^:A sack full of small sliver eggs has been abandoned by its previous owner.
+material:^:shell
+armor_class:^:0 0 0 0 0
+level:^:(*int)5
+weight:^:(*int)100
+worth:^:(*int)1000
+wear_loc:^:12 
+hp:^:(*int)10
+--- END ITEM ---
+--- START LIGHT ---
+vnum:^:17089
+keywords:^:strivia burning rage light
+name:^:{rStrivia's {yburning {Rrage{x
+desc:^:The manifestation of Strivia's rage burns brightly before your eyes.
+material:^:wood
+level:^:(*int)10
+weight:^:(*int)30
+worth:^:(*int)2500
+wear_loc:^:
+dam:^:(*int)1
+--- END ITEM ---
+--- START POTION ---
+vnum:^:17090
+keywords:^:sliver blood vial
+name:^:a vial of sliver blood
+desc:^:A small vial containing sliver blood lies here.
+material:^:blood
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)1000
+wear_loc:^:
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17091
+keywords:^:monk robe white
+name:^:monk robes
+desc:^:A set of white monk robes has been left here.
+material:^:cloth
+armor_class:^:0 0 0 0 0
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)200
+wear_loc:^:1 
+wis:^:(*int)1
+--- END ITEM ---
+--- START CLOTHING ---
+vnum:^:17092
+keywords:^:blue white belt stoneblade
+name:^:belt of the {wStone{bBlades{x
+desc:^:A blue and white belt is lying in the dirt here.
+material:^:cloth
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)300
+wear_loc:^:10 
+str:^:(*int)1
+--- END ITEM ---
+--- START WAND ---
+vnum:^:17093
+keywords:^:straw broom
+name:^:a straw broom
+desc:^:A straw broom with writing all over it has been left here.
+material:^:wood
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)1000
+wear_loc:^:13 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17094
+keywords:^:board spirit
+name:^:a spirit board
+desc:^:A board with characters written on it has been discarded here.
+material:^:wood
+armor_class:^:0 0 0 0 0
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)200
+wear_loc:^:5 
+mp:^:(*int)5
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17095
+keywords:^:wicked war naganata
+name:^:a wicked naganata
+desc:^:A long naganata has been dropped here.
+material:^:iron
+weapon_type:^:polearm
+dice:^:1
+sides:^:6
+noun:^:slash
+flag:^:infected 
+level:^:(*int)5
+weight:^:(*int)50
+worth:^:(*int)200
+wear_loc:^:15 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17096
+keywords:^:wooden war sandles
+name:^:war sandals
+desc:^:A pair of wooden sandals has been neatly left here.
+material:^:wood
+armor_class:^:1 1 1 1 0
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)100
+wear_loc:^:2 
+dam:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17097
+keywords:^:black bladed sharp katar
+name:^:a sharp katar
+desc:^:A black bladed katar has been dropped here.
+material:^:steel
+weapon_type:^:exotic
+dice:^:1
+sides:^:5
+noun:^:claw
+flag:^:sharp 
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)500
+wear_loc:^:15 
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17098
+keywords:^:stone katana
+name:^:a stone katana
+desc:^:This finely made katana seems to have been crafted into stone, even though it is still metal.
+material:^:steel
+weapon_type:^:katana
+dice:^:2
+sides:^:3
+noun:^:slash
+flag:^:twohanded 
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)5000
+wear_loc:^:15 
+dam:^:(*int)1
+hit:^:(*int)1
+--- END ITEM ---
+--- START JEWELRY ---
+vnum:^:17099
+keywords:^:tokogane signet ring gold
+name:^:{bTokogane's {ysignet ring{x
+desc:^:A gold ring bearing the signet of Tokogane's family has been left here.
+material:^:gold
+level:^:(*int)10
+weight:^:(*int)10
+worth:^:(*int)5000
+wear_loc:^:3 
+dam:^:(*int)1
+int:^:(*int)1
+--- END ITEM ---
+--- START PILL ---
+vnum:^:17100
+keywords:^:gargoyle tear drop stone pill
+name:^:a gargoyle's tear
+desc:^:A piece of stone in the shape of a teardrop has fallen to the ground.
+material:^:stone
+level:^:(*int)3
+weight:^:(*int)10
+worth:^:(*int)2000
+wear_loc:^:
+--- END ITEM ---
+--- START CLOTHING ---
+vnum:^:17101
+keywords:^:blackclaw armband
+name:^:a {DBlack{YClaw{x armband
+desc:^:An armband with the {DBlack{YClaw{x symbol lies discarded in the dirt.
+material:^:cloth
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)300
+wear_loc:^:0 
+dex:^:(*int)1
+--- END ITEM ---
+--- START WEAPON ---
+vnum:^:17102
+keywords:^:black kris poison
+name:^:a black kris
+desc:^:A small kris is coated with a black liquid.
+material:^:steel
+weapon_type:^:dagger
+dice:^:1
+sides:^:5
+noun:^:pierce
+flag:^:dragonslaying 
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)100
+wear_loc:^:15 
+hit:^:(*int)1
+--- END ITEM ---
+--- START JEWELRY ---
+vnum:^:17103
+keywords:^:shiny necklace trinket
+name:^:a shiny trinket
+desc:^:A pretty shiny necklace that seems to serve little purpose lies here.
+material:^:gold
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)1000
+wear_loc:^:7 
+hp:^:(*int)5
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17104
+keywords:^:iron studded bracer
+name:^:an iron-studded bracer
+desc:^:A leather bracer with iron studs looks ready to take a beating.
+material:^:leather
+armor_class:^:2 2 2 2 0
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)200
+wear_loc:^:11 
+hit:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17105
+keywords:^:portable paint set
+name:^:a {Bp{Ra{Yi{Gn{Mt{x set
+desc:^:A portable paint set looks ready to go.
+material:^:paint
+armor_class:^:2 2 2 2 0
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)1000
+wear_loc:^:4 
+wis:^:(*int)1
+--- END ITEM ---
+--- START LIGHT ---
+vnum:^:17106
+keywords:^:glowing fang
+name:^:a glowing fang
+desc:^:A glowing fang seems to be floating in midair.
+material:^:bone
+level:^:(*int)5
+weight:^:(*int)0
+worth:^:(*int)5
+wear_loc:^:13 
+dex:^:(*int)1
+--- END ITEM ---
+--- START JEWELRY ---
+vnum:^:17107
+keywords:^:sapphire ring
+name:^:an elegant {bsapphire{x ring
+desc:^:A beautiful sapphire ring has been left here for the taking.
+material:^:sapphire
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)1000
+wear_loc:^:3 
+wis:^:(*int)1
+--- END ITEM ---
+--- START CLOTHING ---
+vnum:^:17108
+keywords:^:tight leather pant
+name:^:tight leather pants
+desc:^:A pair of tight fitting leather pants have been shead here.
+material:^:leather
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)100
+wear_loc:^:6 
+dex:^:(*int)1
+--- END ITEM ---
+--- START JEWELRY ---
+vnum:^:17109
+keywords:^:kanos shroud darkness black aura
+name:^:{DKanos's shroud of darkness{x
+desc:^:A black aura seems to be radiating around here.
+material:^:darkness
+level:^:(*int)10
+weight:^:(*int)10
+worth:^:(*int)5000
+wear_loc:^:12 
+dam:^:(*int)1
+dex:^:(*int)1
+wis:^:(*int)1
+--- END ITEM ---
+--- START PILL ---
+vnum:^:17110
+keywords:^:black lotus blossum
+name:^:a black lotus
+desc:^:A black lotus blossom has been left here.
+material:^:plant
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)2000
+wear_loc:^:
+--- END ITEM ---
+--- START JEWELRY ---
+vnum:^:17111
+keywords:^:tempest brooch
+name:^:a {yT{ce{ym{cp{ye{cs{yt{x brooch
+desc:^:The brooch of Tempest lies here.
+material:^:coral
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)1000
+wear_loc:^:7 
+dex:^:(*int)1
+wis:^:(*int)1
+--- END ITEM ---
+--- START LIGHT ---
+vnum:^:17112
+keywords:^:glowing conch shell
+name:^:a {yglowing{x conch shell
+desc:^:A glowing conch shell lies in the dirt.
+material:^:shell
+level:^:(*int)5
+weight:^:(*int)20
+worth:^:(*int)100
+wear_loc:^:
+mp:^:(*int)10
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17113
+keywords:^:coral plates
+name:^:coral plates
+desc:^:A set of coral plates have been left here.
+material:^:coral
+armor_class:^:3 3 3 3 0
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)400
+wear_loc:^:0 
+wis:^:(*int)1
+--- END ITEM ---
+--- START WAND ---
+vnum:^:17114
+keywords:^:rod wave coral
+name:^:a rod of {Cwaves{x
+desc:^:A rod made from coral seems to have wave carvings on it and is tipped with crystal.
+material:^:coral
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)1000
+wear_loc:^:13 
+--- END ITEM ---
+--- START WAND ---
+vnum:^:17115
+keywords:^:rod flame stone
+name:^:a rod of {rflames{x
+desc:^:A rod made of stone, tipped with crystal, and with flame carvings on it has been left here.
+material:^:stone
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)1000
+wear_loc:^:13 
+--- END ITEM ---
+--- START WAND ---
+vnum:^:17116
+keywords:^:rod air bone
+name:^:a rod of {Wair{x
+desc:^:A rod made from bone, tipped with crystal, and with lighting carvings has been left here.
+material:^:bone
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)1000
+wear_loc:^:13 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17117
+keywords:^:boot stomping
+name:^:boots of stomping
+desc:^:These boots were made for stomping, and thats just what they'll do.
+material:^:leather
+armor_class:^:1 1 1 1 0
+level:^:(*int)5
+weight:^:(*int)30
+worth:^:(*int)1000
+wear_loc:^:2 
+str:^:(*int)1
+--- END ITEM ---
+--- START CLOTHING ---
+vnum:^:17118
+keywords:^:lacey silk glove
+name:^:silky lacey gloves
+desc:^:A pair of beautiful silk lacey gloves has been discarded here.
+material:^:silk
+level:^:(*int)5
+weight:^:(*int)10
+worth:^:(*int)1000
+wear_loc:^:4 
+dex:^:(*int)1
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17119
+keywords:^:dianti crown emerald
+name:^:{wDianti's {Gemerald {ycrown{x
+desc:^:A beautiful crown once belonging to queen Dianti lies here.
+material:^:emerald
+armor_class:^:4 4 4 4 0
+level:^:(*int)10
+weight:^:(*int)20
+worth:^:(*int)5000
+wear_loc:^:5 
+int:^:(*int)1
+wis:^:(*int)1
+--- END ITEM ---
+--- START PILL ---
+vnum:^:17120
+keywords:^:large chunk coral piece
+name:^:a piece of coral
+desc:^:A large chunk of coral rests here.
+material:^:coral
+level:^:(*int)3
+weight:^:(*int)10
+worth:^:(*int)1000
+wear_loc:^:
+--- END ITEM ---
+--- START DRINK ---
+vnum:^:17121
+keywords:^:coke bottle drink coca-cola cola
+name:^:a bottle of {Rc{Wo{Rk{We{x
+desc:^:A clear bottle with a red and white lable lies here filled with a fizy brown liquid.
+material:^:glass
+level:^:(*int)1
+weight:^:(*int)10
+worth:^:(*int)100
+wear_loc:^:13 
+--- END ITEM ---
+--- START FURNITURE ---
+vnum:^:17122
+keywords:^:comfy big couch
+name:^:a BIG comfy couch
+desc:^:This large comfy couch looks like it was stolen from somewhere.
+material:^:wood
+level:^:(*int)1
+weight:^:(*int)5000
+worth:^:(*int)0
+wear_loc:^:-1 
+--- END ITEM ---
+--- START POTION ---
+vnum:^:17123
+keywords:^:bottle clear potion shiny healing
+name:^:a shiny potion of healing
+desc:^:A clear bottle with a red cross on it sits here collecting dust.
+material:^:glass
+level:^:(*int)0
+weight:^:(*int)10
+worth:^:(*int)100
+wear_loc:^:newbie 
+--- END ITEM ---
+--- START WAND ---
+vnum:^:17124
+keywords:^:long rod gentle controlling
+name:^:rod of controlling
+desc:^:This long rod has a gentle appearance to it.
+material:^:wood
+level:^:(*int)10
+weight:^:(*int)20
+worth:^:(*int)1000
+wear_loc:^:13 
+--- END ITEM ---
+--- START ARMOR ---
+vnum:^:17125
+keywords:^:magical tattoo poison dragon
+name:^:a magical tattoo of a {gpoison{x dragon{x
+desc:^:It's only a temporary tattoo.
+material:^:wood
+armor_class:^:20 20 20 20 0
+level:^:(*int)54
+weight:^:(*int)10
+worth:^:(*int)1
+wear_loc:^:7 
+dam:^:(*int)30
+hp:^:(*int)1000
+hit:^:(*int)30
+age:^:(*int)500
 --- END ITEM ---

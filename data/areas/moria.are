@@ -1001,68 +1001,133 @@ exit:^:5:^:4171
 ---  END ROOM  ---
 ---START RESETS---
 mobile:^:4102 4103
+carry:^:4103
 mobile:^:4103 4103
+wield:^:4053
+wield:^:3068
+wield:^:3066
+wield:^:3069
 mobile:^:4105 4108
 mobile:^:4102 4111
+carry:^:4103
 mobile:^:4102 4111
+carry:^:4104
 mobile:^:4106 4113
+wield:^:4105
+wield:^:4101
 mobile:^:4100 4114
+carry:^:4102
+carry:^:4155
+wield:^:3351
 mobile:^:4107 4119
+wield:^:3023
+carry:^:4104
 mobile:^:4101 4122
+wield:^:4100
 mobile:^:4104 4124
+wield:^:4057
+carry:^:4104
 mobile:^:4156 4151
+wield:^:4105
 mobile:^:4159 4153
 mobile:^:4150 4155
 mobile:^:4152 4155
 mobile:^:4151 4157
 mobile:^:4154 4157
 mobile:^:4155 4158
+wield:^:4152
 mobile:^:4151 4159
 mobile:^:4152 4159
 mobile:^:4160 4160
+wield:^:3045
+wield:^:4055
+carry:^:4150
 mobile:^:4160 4161
+wield:^:3110
+wield:^:3026
 mobile:^:4158 4162
 mobile:^:4153 4164
 mobile:^:4154 4164
 mobile:^:4157 4167
+wield:^:3351
 mobile:^:4157 4167
+wield:^:4151
+wield:^:3351
 mobile:^:4159 4168
 mobile:^:4158 4169
 mobile:^:4150 4170
 mobile:^:4153 4170
 mobile:^:4003 4013
+wield:^:3021
+wield:^:3117
 mobile:^:4003 4013
+wield:^:3023
 mobile:^:4001 4015
 mobile:^:4004 4015
+wield:^:3029
 mobile:^:4002 4017
 mobile:^:4002 4020
 mobile:^:4003 4021
+wield:^:4003
 mobile:^:4003 4021
+wield:^:3023
 mobile:^:4005 4022
+wield:^:4000
+wield:^:3022
+wield:^:3114
 mobile:^:4002 4023
 mobile:^:4001 4025
 mobile:^:4003 4027
+wield:^:3021
 mobile:^:4003 4027
+wield:^:3025
+wield:^:3117
 mobile:^:4004 4028
+wield:^:4004
 mobile:^:4004 4028
 mobile:^:4000 4030
+carry:^:4001
+carry:^:4154
 mobile:^:4057 4042
 mobile:^:4058 4044
+wield:^:4005
+wield:^:4006
 mobile:^:4051 4050
+wield:^:4056
+wield:^:3077
 mobile:^:4054 4052
 mobile:^:4054 4053
 mobile:^:4051 4055
+wield:^:4057
+wield:^:3074
 mobile:^:4052 4056
+wield:^:3023
 mobile:^:4056 4057
+wield:^:3026
 mobile:^:4053 4058
 mobile:^:4052 4059
+wield:^:3028
 mobile:^:4054 4060
 mobile:^:4050 4062
+wield:^:4051
+wield:^:4054
+wield:^:3116
 mobile:^:4055 4064
+wield:^:4058
+carry:^:4050
 mobile:^:4052 4065
+wield:^:3025
 mobile:^:4056 4067
+wield:^:4004
+wield:^:3097
 mobile:^:4053 4068
 mobile:^:4051 4070
+wield:^:3027
+wield:^:3072
 mobile:^:4055 4071
+wield:^:4059
+carry:^:4050
 mobile:^:4051 4073
+wield:^:4055
+wield:^:3072
 --- END RESETS ---

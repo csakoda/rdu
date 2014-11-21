@@ -82,6 +82,9 @@ class Mobile():
         self.fighting = None
         self.peer = None
 
+    def add_inventory(self, item):
+        self.inventory.append(item)
+
     def get_position(self):
         return self.stats["position"]
 
@@ -92,15 +95,15 @@ class Mobile():
         self.stats["position"] = position
 
     def get_damage(self):
-        dmg = self.stats["damage"]
+        dmg = 0
         #Damage string is in the form 5d6+3
 
         #TODO: Add code to check if MOB is wielding a weapon
 
-        modifier = int(dmg.split('+')[1])
-        dice = int(dmg.split('+')[0].split('d')[0])
-        sides = int(dmg.split('+')[0].split('d')[1])
-        dmg = modifier
+        modifier = self.stats["dam"]
+        dice = self.stats["damdice"]
+        sides = self.stats["damsides"]
+        dmg += modifier
         for i in range(dice):
             dmg += random.randint(0, sides)
         return (dmg, self.stats["noun"], "none")
@@ -162,6 +165,10 @@ class Mobile():
         self.remove_from_combat()
         self.send("You have been KILLED!!\n\r", False)
         _.send_to_room_except("%s is DEAD!!\n\r" % self.get_name(), self.get_room(), [self.peer,])
+        if villain.has_peer():
+            for obj in self.inventory:
+                villain.send("You get " + obj.get_name() + "!\n\r")
+                villain.add_inventory(obj)
         if villain.has_peer() and self.has_peer():
             _.send_to_all("%s suffers defeat at the hands of %s.\n\r" % (self.get_name(), villain.get_name()))
         if self.has_peer():
@@ -287,6 +294,8 @@ def initialize_mobiles():
             temp_mobile = Mobile()
             continue
         elif l == "--- END MOBILE ---\n":
+            if temp_mobile.vnum == '5700':
+                print(temp_mobile.stats)
             _.master_mobile_list.append(temp_mobile)
             temp_mobile = None
             continue
@@ -307,6 +316,19 @@ def initialize_mobiles():
                     m += random.randint(0, sides)
                 temp_mobile.stats["max_hp"] = m
                 #print (m)
+            elif temp_key == "dam":
+                t = temp_value.split("+")
+                temp_mobile.stats["dam"] = int(t[1])
+                temp_mobile.stats["damdice"] = int(t[0].split('d')[0])
+                temp_mobile.stats["damsides"] = int(t[0].split('d')[1])
+            elif temp_key == "ac":
+                t = temp_value.split()
+                ac = []
+                for a in t:
+                    ac.append(int(a))
+                temp_mobile.stats["ac"] = ac
+            elif temp_key in ["affects","actions","offense","vulnerable","resist","immune","parts"]:
+                temp_mobile.stats[temp_key] = temp_value.split()
             elif temp_key == "keywords":
                 temp_mobile.keywords = temp_value.split()
             else:

@@ -43,7 +43,7 @@ def start_game():
     #  Initialize combat loop
     update.UpdateLoop().start()
 
-    for r in _.rooms:  # -Debug-
-        temp_item = item.Item("", "", "", "", "")
-        temp_item = copy.deepcopy(random.choice(_.items))
-        r.add_item(temp_item)
+#    for r in _.rooms:  # -Debug-
+#        temp_item = item.Item("", "", "", "", "")
+#        temp_item = copy.deepcopy(random.choice(_.items))
+#        r.add_item(temp_item)
