@@ -151,7 +151,7 @@ class Player(mobile.Mobile):
                 self.wield_weapon(armor)
                 return
             #  Check if there's an open slot
-            if self.equipment[temp_loc] is -1:
+            if self.equipment[temp_loc] is None:
                 #  Easy, just remove from inventory and equip to that slot
                 self.equipment[temp_loc] = armor
                 self.inventory.remove(armor)
