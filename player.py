@@ -24,6 +24,7 @@ class Player(mobile.Mobile):
         self.lag = 0
         self.stats["color"] = 0
         self.stats["prompt"] = "{c<%%hhp %%mm %%vmv>{x"
+        self.stats["wealth"] = 100
         self.equipment = {
             _.WEAR_ARMS: None,
             _.WEAR_BODY: None,
@@ -46,6 +47,9 @@ class Player(mobile.Mobile):
             _.WEAR_LIGHT: None,
             _.WEAR_WEAPON: None
         }
+
+    def get_wealth(self):
+        return self.stats["wealth"]
 
     def get_damage(self):
         import random
@@ -113,6 +117,9 @@ class Player(mobile.Mobile):
             except KeyError:
                 continue
         return damroll
+
+    def change_wealth(self, amount):
+        self.stats["wealth"] += amount
 
     def wield_weapon(self, weapon):  # -Rework- for brevity
         peer = self.peer

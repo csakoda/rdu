@@ -4,8 +4,6 @@ __author__ = 'ohell_000'
 import globals as _
 import random
 import skills
-
-
 def get_damage_string(damage, magical):
      if not magical:
         if damage < 1:
@@ -95,7 +93,7 @@ def get_damage_string(damage, magical):
             return "", "inflicts UNSPEAKABLE damage to", "!!"
 
 
-def do_elemental(hitter, victim, element):
+def do_flag(hitter, victim, element):
     if not victim:
         return
     if random.randint(0,10) > 5:
@@ -158,7 +156,7 @@ def do_one_hit(mob):
         victim.peer.nervous_count = _.NERVOUS_TIMER
     temp_damage, temp_noun, element = mob.get_damage()
     do_damage(mob, victim, temp_damage, temp_noun, False)
-    do_elemental(mob, mob.fighting, element)
+    do_flag(mob, mob.fighting, element)
 
 
 def do_one_round(mob):

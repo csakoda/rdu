@@ -135,6 +135,7 @@ def do_score(peer, args):
                                                         temp_player.get_stat("wis"), temp_player.get_max_stat("wis"))
     buf += "Dex: %2s of %2s\n\r" % (temp_player.get_stat("dex"), temp_player.get_max_stat("dex"))
     buf += "Hitroll: %s Damroll: %s\n\r" % (temp_player.get_hitroll(), temp_player.get_damroll())
+    buf += "Gold: " + str(int(temp_player.get_wealth() / 100)) + " Silver: " + str(temp_player.get_wealth() % 100) + "\n\r"
 
     peer.account.player.send(buf)
 

@@ -5,6 +5,17 @@ import globals as _
 import random
 import re
 
+part_list = {"heart": "'s heart is torn from their chest.",
+"arm": "'s arm is sliced from their dead body.",
+"head": "'s severed head plops on the ground.",
+"tail": "'s tail twitches as it is severed.",
+"guts": " spills their guts all over the floor.",
+"brains": "'s head is shattered, and their brains splash all over you.",
+"leg": "'s leg is sliced from their dead body.",
+"wing": "",
+"eye": "",
+"hands": "'s hands are lopped off at the wrist; there's blood everywhere."}
+
 def get_mobile_in_room(target, room):
     #check the number of the mob they are trying to target (if applicable) -> like, 2.bunnicula
     rx = re.compile("[0-9]+")
@@ -161,14 +172,28 @@ class Mobile():
     def damage(self, amount):
         self.stats["hp"] -= amount
 
+    def get_parts_string(self, part):
+
+        try:
+            return part_list[part]
+        except KeyError:
+            print("ERROR, missing value for key: ", part)
+            return " hits the ground ... DEAD."
+
     def handle_death(self, villain):
         self.remove_from_combat()
         self.send("You have been KILLED!!\n\r", False)
         _.send_to_room_except("%s is DEAD!!\n\r" % self.get_name(), self.get_room(), [self.peer,])
         if villain.has_peer():
             for obj in self.inventory:
-                villain.send("You get " + obj.get_name() + "!\n\r")
+                villain.send("You get " + obj.get_name() + " from the corpse of " + self.get_name(villain) + "\n\r")
                 villain.add_inventory(obj)
+                print(self.stats)
+                coins = int(self.stats["wealth"])
+                villain.change_wealth(coins)
+                villain.send("You get " + str(coins % 100) + " silver coins and " + str(int(coins / 100)) + " gold coins from the corpse of " + self.get_name(villain) + "\n\r")
+                part = self.stats["parts"][random.randint(0,len(self.stats["parts"]) - 1)]
+                villain.send(self.get_name(villain) + self.get_parts_string(part))
         if villain.has_peer() and self.has_peer():
             _.send_to_all("%s suffers defeat at the hands of %s.\n\r" % (self.get_name(), villain.get_name()))
         if self.has_peer():
@@ -304,7 +329,7 @@ def initialize_mobiles():
             temp_value = l.split(":^:")[1].strip()
             if "(*int)" in temp_value:
                 temp_value = int(temp_value[6:])
-            elif temp_key == "vnum":
+            if temp_key == "vnum":
                 temp_mobile.vnum = temp_value
             elif temp_key == "max_hp":
                 #text stores as 5d6+200 or something similar: this code handles that
@@ -315,6 +340,7 @@ def initialize_mobiles():
                 for i in range(0, dice):
                     m += random.randint(0, sides)
                 temp_mobile.stats["max_hp"] = m
+                temp_mobile.stats["hp"] = m
                 #print (m)
             elif temp_key == "dam":
                 t = temp_value.split("+")
