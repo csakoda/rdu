@@ -1,9 +1,15 @@
-rdu
-===
+# Redemption Unlimited
 
-README.md's are awesome
+## What is this?
+A pure python reimplementation of the classic Redemption MUD
 
-and
-* easy
- * to 
-  * use
+## Usage
+
+```
+python rdu.py some args
+```
+
+## How to play
+
+* Type
+ * Type faster
